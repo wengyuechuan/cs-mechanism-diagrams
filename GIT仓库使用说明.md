@@ -1,6 +1,6 @@
 # Git 仓库使用说明
 
-本目录是独立 Git 仓库，日常命令均在仓库根目录执行。当前只建立本地版本历史，未设置远程地址、未推送。项目入口见 [README.md](README.md)。
+本目录是独立 Git 仓库，日常命令均在仓库根目录执行。远程 `origin` 已连接到 [wengyuechuan/cs-mechanism-diagrams](https://github.com/wengyuechuan/cs-mechanism-diagrams)。项目入口见 [README.md](README.md)。
 
 ## 版本控制范围
 
@@ -52,9 +52,8 @@ python -m venv .venv
 
 ## 远程仓库
 
-尚未创建 GitHub/Gitee 仓库或向外发送文件。223 张论文参考的逐图再分发核验尚未完成，记录见 [第三方素材说明](THIRD_PARTY_NOTICES.md) 与 `metadata/rights_review.json`；先补齐许可或排除未核验图像，再推送核验过的发布内容。初始提交已包含参考图，只在新提交中删除不能清除历史中的图片。设置远程时应创建空仓库，避免与本地历史发生无关冲突：
+远程仓库地址为 `https://github.com/wengyuechuan/cs-mechanism-diagrams.git`，分支为 `main`。223 张论文参考的逐图再分发核验尚未完成，记录见 [第三方素材说明](THIRD_PARTY_NOTICES.md) 与 `metadata/rights_review.json`。初始提交已包含参考图，只在新提交中删除不能清除历史中的图片。后续更新可在本仓库提交后推送：
 
 ```powershell
-git remote add origin <远程仓库地址>
 git push -u origin main
 ```

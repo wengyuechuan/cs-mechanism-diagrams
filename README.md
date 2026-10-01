@@ -180,6 +180,6 @@ python tools/package_style_skill.py
 - **论文参考：** `paper_reference` PNG、PDF 裁剪 SVG 及其他论文素材保留原作者/出版商权利，排除在本项目 MIT 范围外。
 - **核验记录：** [metadata/rights_review.json](metadata/rights_review.json) 标记当前逐图状态；[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 说明覆盖路径与核验方法。
 
-**公开 GitHub 发布前，需补齐相应图片的再分发许可、署名及修改说明，或从发布内容中排除未核验图片。** 已进入提交历史的素材，仅在后续提交删除或加入 `.gitignore` 不会从历史中消失；发布前也应核对所推送的历史内容。当前尚未创建远程仓库或推送。
+**公开 GitHub 发布前，需补齐相应图片的再分发许可、署名及修改说明，或从发布内容中排除未核验图片。** 已进入提交历史的素材，仅在后续提交删除或加入 `.gitignore` 不会从历史中消失；发布前也应核对所推送的历史内容。公开托管不会改变原素材的许可，逐图状态以核验索引为准。
 
 参考原图时应重新定义自己的算法、标签与素材；出处完整不等于已获得任意使用许可。
