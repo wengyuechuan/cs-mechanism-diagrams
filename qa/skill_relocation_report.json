@@ -1,0 +1,15 @@
+{
+  "extracted_location": "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\qa\\relocation_test\\cs-mechanism-imagegen",
+  "validation": {
+    "images": 271,
+    "topics": 12,
+    "layout_styles": 11,
+    "visual_styles": 6,
+    "kinds": {
+      "paper_reference": 223,
+      "original_blueprint": 48
+    },
+    "errors": []
+  },
+  "purpose": "Verify relative-path assets after unpacking outside original skill directory"
+}

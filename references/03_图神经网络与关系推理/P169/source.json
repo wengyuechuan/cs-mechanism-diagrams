@@ -1,0 +1,20 @@
+{
+  "title": "AutoGFM: Automated Graph Foundation Model with Adaptive Architecture Customization",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/chen25bp.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/chen25bp/chen25bp.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P169",
+  "category": "03_图神经网络与关系推理",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 21,
+  "pdf_first_page_excerpt": "AutoGFM: Automated Graph Foundation Model\nwith Adaptive Architecture Customization\nHaibo Chen 1 Xin Wang 1 Zeyang Zhang 1 Haoyang Li 1 Ling Feng 1 Wenwu Zhu 1\nAbstract\nGraph foundation models (GFMs) aim to share\ngraph knowledge across diverse domains and\ntasks to boost graph machine learning. However,\nexisting GFMs rely on hand-designed and fixed\ngraph neural network (GNN) architectures, failing\nto utilize optimal architectures w.r.t. specific do-\nmains and tasks, inevitably leading to suboptimal\nperformance in diverse graph domains and tasks.\nIn this paper, we explore graph neural architectur",
+  "local_pdf": "references/03_图神经网络与关系推理/P169/paper.pdf",
+  "sha256": "afced291f642bbbdadcea7c813bf8a3090b9011eeb93010b90833f6c1cff7d10",
+  "bytes": 714063,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

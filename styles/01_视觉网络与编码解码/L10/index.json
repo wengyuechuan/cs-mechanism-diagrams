@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P143_F3_p04",
+    "title": "From Easy to Hard: Progressive Active Learning Framework for Infrared Small Target Detection with Single Point Supervision",
+    "category": "01_视觉网络与编码解码",
+    "layout_style": "L10",
+    "visual_style": "V04",
+    "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Yu_From_Easy_to_Hard_Progressive_Active_Learning_Framework_for_Infrared_ICCV_2025_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yu_From_Easy_to_Hard_Progressive_Active_Learning_Framework_for_Infrared_ICCV_2025_paper.pdf",
+    "figure_number": "3",
+    "pdf_page": 4,
+    "caption": "Figure 3. Schematic representation of progressive active learning.",
+    "crop_note": "机制图形裁剪；图注见元数据",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": "v2-2025-expansion",
+    "topic": "01",
+    "kind": "paper_reference",
+    "year": 2025,
+    "venue": "ICCV",
+    "image": "references/01_视觉网络与编码解码/P143/figures/P143_F3_p04.png",
+    "description": "机制示意与总体框架",
+    "source_kind": "official_proceedings",
+    "copy_note": "官方会议公开论文版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "82f30cf41a7ec15814027653ad1cf62916432478acc81c823b5793552cf88534"
+  }
+]

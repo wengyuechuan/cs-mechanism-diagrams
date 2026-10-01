@@ -1,0 +1,24 @@
+# Local source papers and regenerated full-page previews.
+/references/**/*.pdf
+/references/**/figures/page_*.png
+
+# Dependencies, HTTP caches and temporary outputs.
+/tools/vendor/
+/tools/cache/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+
+# Archives and duplicate extraction/verification directories.
+/*.zip
+/qa/relocation_test/
+/qa/git_clone_test/
+
+# Generated scratch output from examples.
+/agent-skill/cs-mechanism-imagegen/output/

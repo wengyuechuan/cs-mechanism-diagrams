@@ -1,0 +1,20 @@
+{
+  "title": "Learning Counterfactually Decoupled Attention for Open-World Model Attribution",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zheng_Learning_Counterfactually_Decoupled_Attention_for_Open-World_Model_Attribution_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zheng_Learning_Counterfactually_Decoupled_Attention_for_Open-World_Model_Attribution_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P155",
+  "category": "02_Transformer与注意力",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Learning Counterfactually Decoupled Attention for Open-World\nModel Attribution\nYu Zheng* Boyang Gong* Fanye Kong\nYueqi Duan\nBingyao Yu\nWenzhao Zheng\nLei Chen†\nJiwen Lu\nJie Zhou\nTsinghua University, China\n{yu-zheng, duanyueqi, yuby, leichenthu, lujiwen, jzhou}@tsinghua.edu.cn;\nwenzhao.zheng@outlook.com; boyanggong429@gmail.com; kongfy23@mails.tsinghua.edu.cn\nAbstract\nIn this paper, we propose a Counterfactually Decoupled At-\ntention Learning (CDAL) method for open-world model at-\ntribution. Existing methods rely on handcrafted design of\nregion partitioning or feature space, which could be con-\n",
+  "local_pdf": "references/02_Transformer与注意力/P155/paper.pdf",
+  "sha256": "b54448c893e4a92aad9ab9f72ded1a9ff7b29c059122bfe8cf2b8a412ae9f6d5",
+  "bytes": 4677330,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

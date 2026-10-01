@@ -1,0 +1,20 @@
+{
+  "title": "Bridging Diffusion Models and 3D Representations: A 3D Consistent Super-Resolution Framework",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Bridging_Diffusion_Models_and_3D_Representations_A_3D_Consistent_Super-Resolution_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_Bridging_Diffusion_Models_and_3D_Representations_A_3D_Consistent_Super-Resolution_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P140",
+  "category": "04_生成模型与扩散机制",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Bridging Diffusion Models and 3D Representations:\nA 3D Consistent Super-Resolution Framework\nYi-Ting Chen1\nTing-Hsuan Liao1\nPengsheng Guo2\nAlexander Schwing3\nJia-Bin Huang1\n1University of Maryland, College Park\n2 Carnegie Mellon University\n3 University of Illinois Urbana-Champaign\n(a) LR novel view\n(b) 3DSR trained on LR images\n(c) 3DSR trained with 3DSR (ours)\nFigure 1. Qualitative comparison on the LLFF dataset with a downsampling factor of ×8 and upsampling of ×4. We train 3DGS using\ndifferent super-resolved (SR) images and render novel views. The results demonstrate that our method yields ",
+  "local_pdf": "references/04_生成模型与扩散机制/P140/paper.pdf",
+  "sha256": "9a6126dd36ebec50965d5684fcf290f6b1f2d4e0b3bf426dcf37dc2c3f625787",
+  "bytes": 3751209,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

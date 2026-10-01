@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P115_F2_p04",
+    "title": "TenGraph: A Tensor-Based Graph Query Engine",
+    "category": "10_计算机系统与数据流程",
+    "layout_style": "L11",
+    "visual_style": "V01",
+    "source_url": "https://www.vldb.org/pvldb/vol17/p4571-li.pdf",
+    "pdf_url": "https://vldb.org/pvldb/vol17/p4571-li.pdf",
+    "figure_number": "2",
+    "pdf_page": 4,
+    "caption": "Figure 2: System Overview of TenGraph.",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "10",
+    "kind": "paper_reference",
+    "year": 2024,
+    "venue": "PVLDB",
+    "image": "references/03_图神经网络与关系推理/P115/figures/P115_F2_p04.png",
+    "description": "图结构与消息传递",
+    "source_kind": "official_journal",
+    "copy_note": "原论文集/出版商公开版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "ed966740326fa998e7909c77ab7b2a2de7b43f849964fc4a1b23eb626e1edaf0"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "title": "T ransli C o: A Contrastive Learning Framework to Address the Script Barrier in Multilingual Pretrained Language Models",
+  "venue": "ACL",
+  "year": 2024,
+  "source_url": "https://aclanthology.org/2024.acl-long.136/",
+  "pdf_url": "https://aclanthology.org/2024.acl-long.136.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P077",
+  "category": "08_训练策略与自监督",
+  "pages": 24,
+  "pdf_first_page_excerpt": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 2476–2499\nAugust 11-16, 2024 ©2024 Association for Computational Linguistics\nTRANSLICO: A Contrastive Learning Framework to Address the Script\nBarrier in Multilingual Pretrained Language Models\nYihong Liu*, Chunlan Ma*, Haotian Ye*, and Hinrich Schütze\nCenter for Information and Language Processing, LMU Munich\nMunich Center for Machine Learning (MCML)\n{yihong, chunlan, yehao}@cis.lmu.de\nAbstract\nThe world’s more than 7000 languages are writ-\nten in at least 293 scripts.1 Due t",
+  "local_pdf": "references/08_训练策略与自监督/P077/paper.pdf",
+  "sha256": "c8f76b2af7161a0d588fb0b1b4864b3d21ca47438926304ce961547c9167e277",
+  "bytes": 4523076,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

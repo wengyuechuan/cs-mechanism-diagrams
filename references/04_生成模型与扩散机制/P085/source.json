@@ -1,0 +1,20 @@
+{
+  "title": "Variational Estimators of the Degree-corrected Latent Block Model for Bipartite Networks",
+  "venue": "JMLR",
+  "year": 2024,
+  "source_url": "https://jmlr.org/papers/volume25/23-0984/23-0984.html",
+  "pdf_url": "https://jmlr.org/papers/volume25/23-0984/23-0984.pdf",
+  "source_kind": "official_journal",
+  "id": "P085",
+  "category": "03_图神经网络与关系推理",
+  "pages": 42,
+  "pdf_first_page_excerpt": "Journal of Machine Learning Research 25 (2024) 1-42\nSubmitted 7/23; Revised 4/24; Published 5/24\nVariational Estimators of the Degree-corrected Latent Block\nModel for Bipartite Networks\nYunpeng Zhao\nYunpeng.Zhao@colostate.edu\nDepartment of Statistics\nColorado State University\nFort Collins, CO 80523, USA\nNing Hao\nnhao@math.arizona.edu\nDepartment of Mathematics\nUniversity of Arizona\nTucson, AZ 85721, USA\nJi Zhu\njizhu@umich.edu\nDepartment of Statistics\nUniversity of Michigan\nAnn Arbor, MI 48109, USA\nEditor: Xiaotong Shen\nAbstract\nBipartite graphs are ubiquitous across various scientiﬁc and engine",
+  "local_pdf": "references/04_生成模型与扩散机制/P085/paper.pdf",
+  "sha256": "aa4dc0d9231a71c2f37ab9c8aa32544728d541daffc2bd18ea4febd1a2fb3205",
+  "bytes": 618659,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Scene Graph Contrastive Learning for Embodied Navigation",
+  "venue": "ICCV",
+  "year": 2023,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Singh_Scene_Graph_Contrastive_Learning_for_Embodied_Navigation_ICCV_2023_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Singh_Scene_Graph_Contrastive_Learning_for_Embodied_Navigation_ICCV_2023_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P022",
+  "category": "03_图神经网络与关系推理",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Scene Graph Contrastive Learning for Embodied Navigation\nKunal Pratap Singh\nJordi Salvador\nLuca Weihs\nAniruddha Kembhavi\nAllen Institute for AI\n{kunals, jordis, lucaw, anik}@allenai.org\nEp1\nEp2\nt = 0\nt = 1\nt = 2\nt = 0\nt = 1\nt = 2\nb0\ng0\nb0\ng0\nt = 2\nKitchen\nAgent\nCounter\nCoffee Maker\nSink\nSoap Bottle\nGarbage Can\nFloor\nSees\nOn\nContains\nEmbedding\nSpace\nFigure 1: Scene Graph Contrastive (SGC) Learning. We propose to use scene graphs as an auxiliary supervisory signal for\nembodied agents. We iteratively build a scene graph based on the agent’s observations. The agent, the current room, and the\nobjec",
+  "local_pdf": "references/03_图神经网络与关系推理/P022/paper.pdf",
+  "sha256": "77977401b7eaa4e974b5264a94d4bdba8fffd8190ee2f3c0ab6ca7c78844b0a3",
+  "bytes": 3786016,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

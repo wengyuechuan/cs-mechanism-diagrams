@@ -1,0 +1,20 @@
+{
+  "title": "SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Xie_SeqGrowGraph_Learning_Lane_Topology_as_a_Chain_of_Graph_Expansions_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Xie_SeqGrowGraph_Learning_Lane_Topology_as_a_Chain_of_Graph_Expansions_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P145",
+  "category": "03_图神经网络与关系推理",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 10,
+  "pdf_first_page_excerpt": "SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions\nMengwei Xie1,\nShuang Zeng1, 2,\nXinyuan Chang1,\nXinran Liu1,\nZheng Pan1,\nMu Xu1,\nXing Wei2†\n1Amap, Alibaba Group\n2Xi’an Jiaotong University\n{xiemengwei.xmw, changxinyuan.cxy, tom.lxr, panzheng.pan, xumu.xm}@alibaba-inc.com,\nzengshuang@stu.xjtu.edu.cn, weixing@mail.xjtu.edu.cn\nAbstract\nAccurate lane topology is essential for autonomous driv-\ning, yet traditional methods struggle to model the com-\nplex, non-linear structures—such as loops and bidirectional\nlanes—prevalent in real-world road structure. We present\nSeqGrowGraph, a n",
+  "local_pdf": "references/03_图神经网络与关系推理/P145/paper.pdf",
+  "sha256": "6d80f57a7de9a826ea9d848d81632db321e4f710f67c2693920f03b28d8cd4cd",
+  "bytes": 5079664,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

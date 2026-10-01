@@ -1,0 +1,19 @@
+{
+  "title": "LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale",
+  "venue": "CVPR",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_LiveCC_Learning_Video_LLM_with_Streaming_Speech_Transcription_at_Scale_CVPR_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_LiveCC_Learning_Video_LLM_with_Streaming_Speech_Transcription_at_Scale_CVPR_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P129",
+  "download_status": "ok",
+  "category": "10_计算机系统与数据流程",
+  "pages": 13,
+  "pdf_first_page_excerpt": "Live\n: Learning Video LLM with Streaming Speech Transcription at Scale\nJoya Chen1∗\nZiyun Zeng1∗\nYiqi Lin1∗\nWei Li2\nZejun Ma2\nMike Zheng Shou1B\n1Show Lab, National University of Singapore\n2Bytedance\nTime\n2s\n1s\n3s\n4s\n5s\nCould you comment on this match in real time?\nTime\n125s\n124s\n126s\n127s\n128s\nThe French have the ball.\nThey're trailing by\ntwo. They're looking to get the\nlead. Here’s the pass.\nHe is going to shot.\nDouble team defense by French.\nThey're going to have to get it up. Here’s\nCurry. He's got to get a shot up.\nCurry. Step back.\nThree-pointer. Got it! Curry!\nAs a Video LLM trained with ",
+  "local_pdf": "references/10_计算机系统与数据流程/P129/paper.pdf",
+  "sha256": "6e4f4792fc3d915038177ce34a79b601ae4048d009c7c42303bd84441d626d69",
+  "bytes": 5250522,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

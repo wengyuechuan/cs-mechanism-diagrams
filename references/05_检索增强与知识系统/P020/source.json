@@ -1,0 +1,19 @@
+{
+  "title": "Learning Spatial-context-aware Global Visual Feature Representation for Instance Image Retrieval",
+  "venue": "ICCV",
+  "year": 2023,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_Learning_Spatial-context-aware_Global_Visual_Feature_Representation_for_Instance_Image_Retrieval_ICCV_2023_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Learning_Spatial-context-aware_Global_Visual_Feature_Representation_for_Instance_Image_Retrieval_ICCV_2023_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P020",
+  "category": "05_检索增强与知识系统",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Learning Spatial-context-aware Global Visual Feature Representation\nfor Instance Image Retrieval\nZhongyan Zhang1, Lei Wang1, Luping Zhou2, Piotr Koniusz3,4\nUniversity of Wollongong1, University of Sydney2, Data61rCSIRO3, Australian National University4\nzhongyan@uow.edu.au, leiw@uow.edu.au, luping.zhou@sydney.edu.au, peter.koniusz@data61.csiro.au\nAbstract\nIn instance image retrieval, considering local spatial in-\nformation within an image has proven effective to boost re-\ntrieval performance, as demonstrated by local visual de-\nscriptor based geometric verification. Nevertheless, it will\nbe hig",
+  "local_pdf": "references/05_检索增强与知识系统/P020/paper.pdf",
+  "sha256": "55af2f7adb21e39585987d8e75d624dcad05e6f05bed0c1c26f570aca48bf6ac",
+  "bytes": 3663811,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

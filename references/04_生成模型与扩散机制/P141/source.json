@@ -1,0 +1,20 @@
+{
+  "title": "MotionStreamer: Streaming Motion Generation via Diffusion-based Autoregressive Model in Causal Latent Space",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Xiao_MotionStreamer_Streaming_Motion_Generation_via_Diffusion-based_Autoregressive_Model_in_Causal_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Xiao_MotionStreamer_Streaming_Motion_Generation_via_Diffusion-based_Autoregressive_Model_in_Causal_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P141",
+  "category": "04_生成模型与扩散机制",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "MotionStreamer: Streaming Motion Generation via Diffusion-based\nAutoregressive Model in Causal Latent Space\nLixing Xiao1\nShunlin Lu2\nHuaijin Pi3\nKe Fan4\nLiang Pan3\nYueer Zhou1\nZiyong Feng5\nXiaowei Zhou1\nSida Peng1†\nJingbo Wang6\n1Zhejiang University\n2The Chinese University of Hong Kong (Shenzhen)\n3The University of Hong Kong\n4Shanghai Jiao Tong University\n5DeepGlint\n6Shanghai AI Laboratory\nlixingxiao0@gmail.com, pengsida@zju.edu.cn\nA man is performing\na cartwheel.\nHe walks \nforward excitedly.\n\u0003\u0007\u0001\u0011\u0010\u0013\u0004\u0012\u0011\u0001\u0006\u000e\u0014\r\u0001\u0004\r\u0006\u0001\n\t\u0013\f\u000f\u0011\u0001\u0013\u000f\u0001\u0010\u0013\b\u0005\n\u000b\u0015\u0002\nHe squats down\nand jumps up quickly.\n\u0003\u0007\n\u0003\u0007\n\u0003\u0007\n\u0003\u0007\n\u0003\u0007\n\u0003\u0007\n\u0003\u0007\n\u0003\nHe ex",
+  "local_pdf": "references/04_生成模型与扩散机制/P141/paper.pdf",
+  "sha256": "7ef34d47900e4ecd2d30cf70488edf617d27ed099b0cf6f4b4ee91014d23e193",
+  "bytes": 1347055,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

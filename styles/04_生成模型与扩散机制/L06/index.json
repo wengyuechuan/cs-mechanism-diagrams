@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P014_F2_p04",
+    "title": "SNED: Superposition Network Architecture Search for Efficient Video Diffusion Model",
+    "category": "04_生成模型与扩散机制",
+    "layout_style": "L06",
+    "visual_style": "V03",
+    "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_SNED_Superposition_Network_Architecture_Search_for_Efficient_Video_Diffusion_Model_CVPR_2024_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Li_SNED_Superposition_Network_Architecture_Search_for_Efficient_Video_Diffusion_Model_CVPR_2024_paper.pdf",
+    "figure_number": "2",
+    "pdf_page": 4,
+    "caption": "Figure 2. Dynamic cost scheme for SNED framework.",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "04",
+    "kind": "paper_reference",
+    "year": 2024,
+    "venue": "CVPR",
+    "image": "references/04_生成模型与扩散机制/P014/figures/P014_F2_p04.png",
+    "description": "机制示意与总体框架",
+    "source_kind": "official_proceedings",
+    "copy_note": "原论文集/出版商公开版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "b767107338724524dc6fdc63cc76520768c2f237df1ace1a93a9ae427f564afc"
+  }
+]

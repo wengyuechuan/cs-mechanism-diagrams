@@ -1,0 +1,19 @@
+{
+  "title": "Learning Compatible Multi-Prize Subnetworks for Asymmetric Retrieval",
+  "venue": "CVPR",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Sun_Learning_Compatible_Multi-Prize_Subnetworks_for_Asymmetric_Retrieval_CVPR_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Sun_Learning_Compatible_Multi-Prize_Subnetworks_for_Asymmetric_Retrieval_CVPR_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P124",
+  "download_status": "ok",
+  "category": "05_检索增强与知识系统",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Learning Compatible Multi-Prize Subnetworks for Asymmetric Retrieval\nYushuai Sun1*, Zikun Zhou2*†, Dongmei Jiang2, Yaowei Wang2,\nJun Yu1, Guangming Lu1, and Wenjie Pei1,2†\n1Harbin Institute of Technology, Shenzhen\n2Pengcheng Laboratory\nAbstract\nAsymmetric retrieval is a typical scenario in real-world\nretrieval systems, where compatible models of varying\ncapacities are deployed on platforms with different re-\nsource conﬁgurations.\nExisting methods generally train\npre-deﬁned networks or subnetworks with capacities specif-\nically designed for pre-determined platforms, using com-\npatible learning.",
+  "local_pdf": "references/05_检索增强与知识系统/P124/paper.pdf",
+  "sha256": "d2663b05d74b548d2c705410a11ce59d9ca22b77a226bd095dc5cf2b7f4ab4b1",
+  "bytes": 10338004,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

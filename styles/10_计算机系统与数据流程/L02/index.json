@@ -1,0 +1,19 @@
+[
+  {
+    "id": "T34",
+    "title": "Distributed worker and storage architecture",
+    "category": "10_计算机系统与数据流程",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "description": "分发、并行执行和共享存储，适合分布式计算系统架构。",
+    "topic": "10",
+    "kind": "original_blueprint",
+    "year": 2026,
+    "venue": "原创结构蓝图",
+    "image": "templates/10_计算机系统与数据流程/T34_distributed_workers.png",
+    "rights": "MIT; original generic structure, not an exact paper reproduction",
+    "source_url": null,
+    "keywords": "替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。",
+    "image_sha256": "210fd4e1fdfe0cfdd9f283dca7056a73f2e74e6154fb2af86d480a612de1da92"
+  }
+]

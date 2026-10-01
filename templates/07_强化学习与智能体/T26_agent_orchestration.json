@@ -1,0 +1,128 @@
+{
+  "id": "T26",
+  "category": "07_强化学习与智能体",
+  "slug": "agent_orchestration",
+  "title": "Coordinator and specialist agents",
+  "description": "中心分派、多路协作与结果汇合，适合 LLM 多智能体方法图。",
+  "nodes": [
+    {
+      "id": "task",
+      "label": "Problem",
+      "x": 65,
+      "y": 330,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "coord",
+      "label": "Coordinator",
+      "x": 340,
+      "y": 330,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "w1",
+      "label": "Research agent",
+      "x": 665,
+      "y": 160,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "w2",
+      "label": "Coding agent",
+      "x": 665,
+      "y": 330,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "w3",
+      "label": "Verifier agent",
+      "x": 665,
+      "y": 500,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "merge",
+      "label": "Synthesize + verify",
+      "x": 1050,
+      "y": 330,
+      "w": 205,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "task",
+      "target": "coord",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "coord",
+      "target": "w1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "coord",
+      "target": "w2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "coord",
+      "target": "w3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "w1",
+      "target": "merge",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "w2",
+      "target": "merge",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "w3",
+      "target": "merge",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

@@ -1,0 +1,19 @@
+{
+  "title": "PairingNet: A Learning-based Pair-searching and -matching Network for Image Fragments",
+  "venue": "ECCV",
+  "year": 2024,
+  "source_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7655_ECCV_2024_paper.php",
+  "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07655.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P040",
+  "category": "05_检索增强与知识系统",
+  "pages": 17,
+  "pdf_first_page_excerpt": "PairingNet: A Learning-based Pair-searching and\n-matching Network for Image Fragments\nRixin Zhou1 , Ding Xia2 , Yi Zhang3 , Honglin Pang1 , Xi Yang1,*,†, ‡ ,\nand Chuntao Li4,*, ‡\n1 School of Artificial Intelligence, Jilin University\n2 The University of Tokyo\n3 National University of Defense Technology, College of Electrionic Engineering\n4 School of Archaeology, Jilin University\n{zhourx22}@mails.jlu.edu.cn {lct33}@jlu.edu.cn\n{dingxia1995,panghlwork,earthyangxi}@gmail.com {2356711993}@qq.com\nAbstract. In this paper, we propose a learning-based image fragment\npair-searching and -matching approach",
+  "local_pdf": "references/05_检索增强与知识系统/P040/paper.pdf",
+  "sha256": "4b5f0642cc99d4478c5227c96b607c7a8968748d7c394c1d3d3b47e7fcb92c06",
+  "bytes": 11924180,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "T15",
+  "category": "04_生成模型与扩散机制",
+  "slug": "gan_adversarial",
+  "title": "Adversarial generator-discriminator loop",
+  "description": "真假样本合流及训练反馈放在下方，适合 GAN 与对抗机制。",
+  "nodes": [
+    {
+      "id": "noise",
+      "label": "Noise z",
+      "x": 85,
+      "y": 190,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "gen",
+      "label": "Generator G",
+      "x": 390,
+      "y": 190,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "fake",
+      "label": "Generated sample",
+      "x": 710,
+      "y": 190,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "real",
+      "label": "Real sample",
+      "x": 710,
+      "y": 440,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "disc",
+      "label": "Discriminator D",
+      "x": 1030,
+      "y": 320,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "loss",
+      "label": "Adversarial objective",
+      "x": 400,
+      "y": 480,
+      "w": 230,
+      "h": 68,
+      "kind": "loss",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "noise",
+      "target": "gen",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "gen",
+      "target": "fake",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "fake",
+      "target": "disc",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "real",
+      "target": "disc",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "disc",
+      "target": "loss",
+      "label": "training feedback",
+      "style": "dashed",
+      "via": [
+        [
+          1190,
+          580
+        ],
+        [
+          515,
+          580
+        ]
+      ]
+    },
+    {
+      "source": "loss",
+      "target": "gen",
+      "label": "update G",
+      "style": "dashed",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

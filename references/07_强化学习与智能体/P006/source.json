@@ -1,0 +1,19 @@
+{
+  "title": "Towards Learning a Generalist Model for Embodied Navigation",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Towards_Learning_a_Generalist_Model_for_Embodied_Navigation_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zheng_Towards_Learning_a_Generalist_Model_for_Embodied_Navigation_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P006",
+  "category": "07_强化学习与智能体",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Towards Learning a Generalist Model for Embodied Navigation\nDuo Zheng1,2*\nShijia Huang1*\nLin Zhao3†\nYiwu Zhong1\nLiwei Wang1‡\n1The Chinese University of Hong Kong\n2Shanghai AI Laboratory\n3Centre for Perceptual and Interactive Intelligence\n{dzheng23, sjhuang, lwwang}@cse.cuhk.edu.hk\nAbstract\nBuilding a generalist agent that can interact with the\nworld is the intriguing target of AI systems, thus spurring\nthe research for embodied navigation, where an agent is\nrequired to navigate according to instructions or respond\nto queries. Despite the major progress attained, previous\nworks primarily focus ",
+  "local_pdf": "references/07_强化学习与智能体/P006/paper.pdf",
+  "sha256": "b67582a2bcd70981971746abb0468e2e759622012c268c290be30d1cb3f6dbb2",
+  "bytes": 3687689,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

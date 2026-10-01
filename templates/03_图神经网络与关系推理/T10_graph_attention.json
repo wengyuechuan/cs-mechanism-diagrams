@@ -1,0 +1,162 @@
+{
+  "id": "T10",
+  "category": "03_图神经网络与关系推理",
+  "slug": "graph_attention",
+  "title": "Graph attention and multi-head aggregation",
+  "description": "权重标在真实图边上；右侧展示多头聚合，不使用统计热图。",
+  "nodes": [
+    {
+      "id": "v",
+      "label": "v",
+      "x": 360,
+      "y": 345,
+      "w": 66,
+      "h": 66,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "u1",
+      "label": "u1",
+      "x": 140,
+      "y": 210,
+      "w": 62,
+      "h": 62,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "u2",
+      "label": "u2",
+      "x": 140,
+      "y": 480,
+      "w": 62,
+      "h": 62,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "u3",
+      "label": "u3",
+      "x": 490,
+      "y": 205,
+      "w": 62,
+      "h": 62,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "h1",
+      "label": "Attention head 1",
+      "x": 715,
+      "y": 200,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "h2",
+      "label": "Attention head 2",
+      "x": 715,
+      "y": 365,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "h3",
+      "label": "Attention head H",
+      "x": 715,
+      "y": 525,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "cat",
+      "label": "Concat / average\nNode output",
+      "x": 1045,
+      "y": 365,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "u1",
+      "target": "v",
+      "label": "alpha_v1",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "u2",
+      "target": "v",
+      "label": "alpha_v2",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "u3",
+      "target": "v",
+      "label": "alpha_v3",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "v",
+      "target": "h1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "v",
+      "target": "h2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "v",
+      "target": "h3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "h1",
+      "target": "cat",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "h2",
+      "target": "cat",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "h3",
+      "target": "cat",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 723
+}

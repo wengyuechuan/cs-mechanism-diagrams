@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Graph-based retrieval and evidence path">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T18 / Graph-based retrieval and evidence path</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 235,319.0 L 315,319.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 485,319.0 L 580,320.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 790,320.0 L 850,319.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 505,524.0 L 677.5,524.0 L 677.5,319.0 L 850,319.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 1020,319.0 L 1100,319.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="65" y="285" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="150.0" y="324.0" text-anchor="middle" font-size="16" font-weight="600">Corpus</text>
+<rect x="315" y="285" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="400.0" y="314.0" text-anchor="middle" font-size="16" font-weight="600">Entity + relation</text>
+<text x="400.0" y="334.0" text-anchor="middle" font-size="16" font-weight="400">extraction</text>
+<rect x="580" y="255" width="210" height="130" rx="10" fill="#FFF1D7" stroke="#AE8C4C"/>
+<line x1="625" y1="290" x2="685" y2="277" stroke="#AE8C4C" stroke-width="1.5"/>
+<line x1="685" y1="277" x2="745" y2="299" stroke="#AE8C4C" stroke-width="1.5"/>
+<line x1="625" y1="290" x2="655" y2="338" stroke="#AE8C4C" stroke-width="1.5"/>
+<line x1="685" y1="277" x2="655" y2="338" stroke="#AE8C4C" stroke-width="1.5"/>
+<line x1="685" y1="277" x2="725" y2="342" stroke="#AE8C4C" stroke-width="1.5"/>
+<line x1="745" y1="299" x2="725" y2="342" stroke="#AE8C4C" stroke-width="1.5"/>
+<line x1="655" y1="338" x2="725" y2="342" stroke="#AE8C4C" stroke-width="1.5"/>
+<circle cx="625" cy="290" r="8" fill="white" stroke="#AE8C4C" stroke-width="2"/>
+<circle cx="685" cy="277" r="8" fill="white" stroke="#AE8C4C" stroke-width="2"/>
+<circle cx="745" cy="299" r="8" fill="white" stroke="#AE8C4C" stroke-width="2"/>
+<circle cx="655" cy="338" r="8" fill="white" stroke="#AE8C4C" stroke-width="2"/>
+<circle cx="725" cy="342" r="8" fill="white" stroke="#AE8C4C" stroke-width="2"/>
+<text x="685.0" y="366.0" text-anchor="middle" font-size="16" font-weight="600">Knowledge graph</text>
+<rect x="335" y="490" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="420.0" y="529.0" text-anchor="middle" font-size="16" font-weight="600">Question</text>
+<rect x="850" y="285" width="170" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="935.0" y="324.0" text-anchor="middle" font-size="16" font-weight="600">Subgraph retrieval</text>
+<rect x="1100" y="285" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1185.0" y="314.0" text-anchor="middle" font-size="16" font-weight="600">Evidence-grounded</text>
+<text x="1185.0" y="334.0" text-anchor="middle" font-size="16" font-weight="400">answer</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

@@ -1,0 +1,19 @@
+{
+  "title": "EI-CLIP: Entity-Aware Interventional Contrastive Learning for E-Commerce Cross-Modal Retrieval",
+  "venue": "CVPR",
+  "year": 2022,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Ma_EI-CLIP_Entity-Aware_Interventional_Contrastive_Learning_for_E-Commerce_Cross-Modal_Retrieval_CVPR_2022_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Ma_EI-CLIP_Entity-Aware_Interventional_Contrastive_Learning_for_E-Commerce_Cross-Modal_Retrieval_CVPR_2022_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P032",
+  "category": "05_检索增强与知识系统",
+  "pages": 11,
+  "pdf_first_page_excerpt": "EI-CLIP: Entity-aware Interventional Contrastive Learning for\nE-commerce Cross-modal Retrieval\nHaoyu Ma1 *, Handong Zhao2 †, Zhe Lin2, Ajinkya Kale2, Zhangyang Wang3,\nTong Yu 2, Jiuxiang Gu 2, Sunav Choudhary 2, Xiaohui Xie 1\n1University of California, Irvine, 2Adobe Research, 3University of Texas at Austin\n{haoyum3,xhx}@uci.edu, {hazhao,zlin,akale,tyu,jigu,schoudha}@adobe.com, atlaswang@utexas.edu\nAbstract\nCross language-image modality retrieval in E-commerce\nis a fundamental problem for product search, recommenda-\ntion, and marketing services. Extensive efforts have been\nmade to conquer the ",
+  "local_pdf": "references/05_检索增强与知识系统/P032/paper.pdf",
+  "sha256": "b35802d74f2c0765f687fa843c78f4e83121152b92e35754b44db05681406065",
+  "bytes": 6564804,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

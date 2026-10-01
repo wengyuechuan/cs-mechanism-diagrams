@@ -1,0 +1,19 @@
+{
+  "title": "Limits of Transformer Language Models on Learning to Compose Algorithms",
+  "venue": "NeurIPS",
+  "year": 2024,
+  "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/0e797d5139ad94fc2dc2080c09119f29-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/0e797d5139ad94fc2dc2080c09119f29-Paper-Conference.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P058",
+  "category": "02_Transformer与注意力",
+  "pages": 44,
+  "pdf_first_page_excerpt": "Limits of Transformer Language Models\non Learning to Compose Algorithms\nJonathan Thomm1,2∗\njthomm@ethz.ch\nGiacomo Camposampiero1,2\ngiacomo.camposampiero1@ibm.com\nAleksandar Terzic1,2\naleksandar.terzic1@ibm.com\nMichael Hersche1\nmichael.hersche@ibm.com\nBernhard Schölkopf2,3\nbs@tuebingen.mpg.de\nAbbas Rahimi1\nabr@zurich.ibm.com\n1IBM Research – Zurich, 2ETH Zurich, 3MPI Tübingen\nAbstract\nWe analyze the capabilities of Transformer language models in learning com-\npositional discrete tasks. To this end, we evaluate training LLaMA models and\nprompting GPT-4 and Gemini on four tasks demanding to learn ",
+  "local_pdf": "references/02_Transformer与注意力/P058/paper.pdf",
+  "sha256": "36ce72e32e7e228b9782ef379d043cde473b190d8d2d820d59ba8d80546ab1fe",
+  "bytes": 1114847,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

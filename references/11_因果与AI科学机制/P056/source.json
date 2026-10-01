@@ -1,0 +1,19 @@
+{
+  "title": "Goal Reduction with Loop-Removal Accelerates RL and Models Human Brain Activity in Goal-Directed Learning",
+  "venue": "NeurIPS",
+  "year": 2024,
+  "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/05b2ea5d57ed04c1dc105658e87b137e-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/05b2ea5d57ed04c1dc105658e87b137e-Paper-Conference.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P056",
+  "category": "11_因果与AI科学机制",
+  "pages": 24,
+  "pdf_first_page_excerpt": "Goal Reduction with Loop-Removal Accelerates RL\nand Models Human Brain Activity in Goal-Directed\nLearning\nHuzi Cheng\nDepartment of Psychological and Brain Sciences\nIndiana University Bloomington\nhzcheng15@gmail.com\nJoshua W. Brown\nDepartment of Psychological and Brain Sciences\nIndiana University Bloomington\njwmbrown@iu.edu\nAbstract\nGoal-directed planning presents a challenge for classical RL algorithms due to the\nvastness of the combinatorial state and goal spaces, while humans and animals\nadapt to complex environments, especially with diverse, non-stationary objectives,\noften employing interm",
+  "local_pdf": "references/11_因果与AI科学机制/P056/paper.pdf",
+  "sha256": "f7de209a3eddc77b99b6abaf6482f983bed181cae757cb7d801403102dd9daa1",
+  "bytes": 1961083,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

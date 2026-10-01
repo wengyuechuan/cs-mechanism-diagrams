@@ -1,0 +1,20 @@
+{
+  "title": "Harnessing Text-to-Image Diffusion Models for Point Cloud Self-Supervised Learning",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Harnessing_Text-to-Image_Diffusion_Models_for_Point_Cloud_Self-Supervised_Learning_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_Harnessing_Text-to-Image_Diffusion_Models_for_Point_Cloud_Self-Supervised_Learning_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P150",
+  "category": "04_生成模型与扩散机制",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Harnessing Text-to-Image Diffusion Models for Point Cloud\nSelf-Supervised Learning\nYiyang Chen1\nShanshan Zhao2† Lunhao Duan2\nChangxing Ding1,3† Dacheng Tao4\n1South China University of Technology\n2Alibaba International Digital Commerce Group\n3Pazhou Lab\n4Nanyang Technological University\n{eeyiyangchen, sshan.zhao00, dacheng.tao}@gmail.com, lhduan@whu.edu.cn, chxding@scut.edu.cn\nAbstract\nDiffusion-based models, widely used in text-to-image gen-\neration, have proven effective in 2D representation learn-\ning.\nRecently, this framework has been extended to 3D\nself-supervised learning by constructing ",
+  "local_pdf": "references/04_生成模型与扩散机制/P150/paper.pdf",
+  "sha256": "0f5005c6f7fb07612e07f2fc1bb7763f052d348fd3f5f3b9d68128798dfdb697",
+  "bytes": 8022972,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

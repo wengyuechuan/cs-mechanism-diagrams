@@ -1,0 +1,20 @@
+{
+  "title": "SVQNet: Sparse Voxel-Adjacent Query Network for 4D Spatio-Temporal LiDAR Semantic Segmentation",
+  "venue": "ICCV",
+  "year": 2023,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Chen_SVQNet_Sparse_Voxel-Adjacent_Query_Network_for_4D_Spatio-Temporal_LiDAR_Semantic_ICCV_2023_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_SVQNet_Sparse_Voxel-Adjacent_Query_Network_for_4D_Spatio-Temporal_LiDAR_Semantic_ICCV_2023_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P025",
+  "category": "09_三维视觉与神经渲染",
+  "pages": 10,
+  "pdf_first_page_excerpt": "SVQNet: Sparse Voxel-Adjacent Query Network\nfor 4D Spatio-Temporal LiDAR Semantic Segmentation\nXuechao Chen1*\nShuangjie Xu2 * Xiaoyi Zou3\nTongyi Cao3\nDit-Yan Yeung2 †\nLu Fang1 †\n1Tsinghua University\n2Hong Kong University of Science and Technology\n3Deeproute.ai\nAbstract\nLiDAR-based semantic perception tasks are critical yet\nchallenging for autonomous driving. Due to the motion of\nobjects and static/dynamic occlusion, temporal information\nplays an essential role in reinforcing perception by enhanc-\ning and completing single-frame knowledge. Previous ap-\nproaches either directly stack historical ",
+  "local_pdf": "references/10_计算机系统与数据流程/P025/paper.pdf",
+  "sha256": "7b850ee328befc2af03df93b927ca106d65340b06d6395e490588356a0d31361",
+  "bytes": 1793064,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

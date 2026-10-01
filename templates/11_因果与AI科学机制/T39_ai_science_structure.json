@@ -1,0 +1,97 @@
+{
+  "id": "T39",
+  "category": "11_因果与AI科学机制",
+  "slug": "ai_science_structure",
+  "title": "Representation-to-structure mechanism",
+  "description": "多类型表示到结构生成的通用 AI 科学框架；不是 AlphaFold 的精确复刻。",
+  "nodes": [
+    {
+      "id": "seq",
+      "label": "Sequence / entity inputs",
+      "x": 70,
+      "y": 190,
+      "w": 230,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "pair",
+      "label": "Pairwise representation",
+      "x": 70,
+      "y": 450,
+      "w": 230,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "trunk",
+      "label": "Representation trunk\nInteraction updates",
+      "x": 420,
+      "y": 320,
+      "w": 245,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "gen",
+      "label": "Structure generation\nDenoising / refinement",
+      "x": 780,
+      "y": 320,
+      "w": 245,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "struct",
+      "label": "Predicted structure",
+      "x": 1080,
+      "y": 320,
+      "w": 205,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "seq",
+      "target": "trunk",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "pair",
+      "target": "trunk",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "trunk",
+      "target": "gen",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "gen",
+      "target": "struct",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

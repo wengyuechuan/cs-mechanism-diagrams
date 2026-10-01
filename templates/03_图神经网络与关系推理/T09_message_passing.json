@@ -1,0 +1,122 @@
+{
+  "id": "T09",
+  "category": "03_图神经网络与关系推理",
+  "slug": "message_passing",
+  "title": "Neighborhood message passing",
+  "description": "节点—边结构突出邻居消息汇聚和目标节点更新。",
+  "nodes": [
+    {
+      "id": "v",
+      "label": "v",
+      "x": 350,
+      "y": 345,
+      "w": 62,
+      "h": 62,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "u1",
+      "label": "u1",
+      "x": 130,
+      "y": 220,
+      "w": 60,
+      "h": 60,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "u2",
+      "label": "u2",
+      "x": 130,
+      "y": 470,
+      "w": 60,
+      "h": 60,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "u3",
+      "label": "u3",
+      "x": 480,
+      "y": 190,
+      "w": 60,
+      "h": 60,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "agg",
+      "label": "Aggregate neighbors\nSUM / MEAN",
+      "x": 685,
+      "y": 330,
+      "w": 210,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "upd",
+      "label": "Update node feature\nh_v^(l+1)",
+      "x": 1035,
+      "y": 330,
+      "w": 205,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "u1",
+      "target": "v",
+      "label": "m_1v",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "u2",
+      "target": "v",
+      "label": "m_2v",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "u3",
+      "target": "v",
+      "label": "m_3v",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "v",
+      "target": "agg",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "agg",
+      "target": "upd",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [
+    {
+      "title": "Local graph neighborhood",
+      "x": 80,
+      "y": 145,
+      "w": 525,
+      "h": 455
+    }
+  ],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

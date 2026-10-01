@@ -1,0 +1,822 @@
+[
+  {
+    "number": 1,
+    "id": "P001_F2_p03",
+    "title": "A Unified Framework for Microscopy Defocus Deblur with Multi-Pyramid Transformer and Contrastive Learning"
+  },
+  {
+    "number": 2,
+    "id": "P002_F1_p03",
+    "title": "Learning Structure-from-Motion with Graph Attention Networks"
+  },
+  {
+    "number": 3,
+    "id": "P002_F2_p04",
+    "title": "Learning Structure-from-Motion with Graph Attention Networks"
+  },
+  {
+    "number": 4,
+    "id": "P002_F3_p04",
+    "title": "Learning Structure-from-Motion with Graph Attention Networks"
+  },
+  {
+    "number": 5,
+    "id": "P002_F4_p05",
+    "title": "Learning Structure-from-Motion with Graph Attention Networks"
+  },
+  {
+    "number": 6,
+    "id": "P002_F5_p05",
+    "title": "Learning Structure-from-Motion with Graph Attention Networks"
+  },
+  {
+    "number": 7,
+    "id": "P004_F5_p08",
+    "title": "Looking Similar Sounding Different: Leveraging Counterfactual Cross-Modal Pairs for Audiovisual Representation Learning"
+  },
+  {
+    "number": 8,
+    "id": "P005_F2_p04",
+    "title": "Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models"
+  },
+  {
+    "number": 9,
+    "id": "P006_F2_p03",
+    "title": "Towards Learning a Generalist Model for Embodied Navigation"
+  },
+  {
+    "number": 10,
+    "id": "P007_F2_p03",
+    "title": "Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anomaly Synthesis and A Self-Supervised Learning Network"
+  },
+  {
+    "number": 11,
+    "id": "P007_F3_p04",
+    "title": "Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anomaly Synthesis and A Self-Supervised Learning Network"
+  },
+  {
+    "number": 12,
+    "id": "P008_F1_p01",
+    "title": "VoCo: A Simple-yet-Effective Volume Contrastive Learning Framework for 3D Medical Image Analysis"
+  },
+  {
+    "number": 13,
+    "id": "P008_F2_p02",
+    "title": "VoCo: A Simple-yet-Effective Volume Contrastive Learning Framework for 3D Medical Image Analysis"
+  },
+  {
+    "number": 14,
+    "id": "P008_F3_p04",
+    "title": "VoCo: A Simple-yet-Effective Volume Contrastive Learning Framework for 3D Medical Image Analysis"
+  },
+  {
+    "number": 15,
+    "id": "P009_F2_p04",
+    "title": "Querying as Prompt: Parameter-Efficient Learning for Multimodal Language Model"
+  },
+  {
+    "number": 16,
+    "id": "P010_F1_p03",
+    "title": "Clustering for Protein Representation Learning"
+  },
+  {
+    "number": 17,
+    "id": "P010_F2_p04",
+    "title": "Clustering for Protein Representation Learning"
+  },
+  {
+    "number": 18,
+    "id": "P011_F1_p03",
+    "title": "Convolutional Prompting meets Language Models for Continual Learning"
+  },
+  {
+    "number": 19,
+    "id": "P012_F1_p04",
+    "title": "OmniVec2 - A Novel Transformer based Network for Large Scale Multimodal and Multitask Learning"
+  },
+  {
+    "number": 20,
+    "id": "P013_F1_p02",
+    "title": "LLM4SGG: Large Language Models for Weakly Supervised Scene Graph Generation"
+  },
+  {
+    "number": 21,
+    "id": "P013_F2_p05",
+    "title": "LLM4SGG: Large Language Models for Weakly Supervised Scene Graph Generation"
+  },
+  {
+    "number": 22,
+    "id": "P014_F1_p04",
+    "title": "SNED: Superposition Network Architecture Search for Efficient Video Diffusion Model"
+  },
+  {
+    "number": 23,
+    "id": "P014_F2_p04",
+    "title": "SNED: Superposition Network Architecture Search for Efficient Video Diffusion Model"
+  },
+  {
+    "number": 24,
+    "id": "P015_F2_p02",
+    "title": "Leveraging Predicate and Triplet Learning for Scene Graph Generation"
+  },
+  {
+    "number": 25,
+    "id": "P015_F3_p03",
+    "title": "Leveraging Predicate and Triplet Learning for Scene Graph Generation"
+  },
+  {
+    "number": 26,
+    "id": "P017_F2_p03",
+    "title": "GameFormer: Game-theoretic Modeling and Learning of Transformer-based Interactive Prediction and Planning for Autonomous Driving"
+  },
+  {
+    "number": 27,
+    "id": "P017_F3_p04",
+    "title": "GameFormer: Game-theoretic Modeling and Learning of Transformer-based Interactive Prediction and Planning for Autonomous Driving"
+  },
+  {
+    "number": 28,
+    "id": "P019_F4_p05",
+    "title": "Text-Conditioned Sampling Framework for Text-to-Image Generation with Masked Generative Models"
+  },
+  {
+    "number": 29,
+    "id": "P020_F1_p03",
+    "title": "Learning Spatial-context-aware Global Visual Feature Representation for Instance Image Retrieval"
+  },
+  {
+    "number": 30,
+    "id": "P021_F2_p04",
+    "title": "Preventing Zero-Shot Transfer Degradation in Continual Learning of Vision-Language Models"
+  },
+  {
+    "number": 31,
+    "id": "P022_F2_p03",
+    "title": "Scene Graph Contrastive Learning for Embodied Navigation"
+  },
+  {
+    "number": 32,
+    "id": "P022_F3_p04",
+    "title": "Scene Graph Contrastive Learning for Embodied Navigation"
+  },
+  {
+    "number": 33,
+    "id": "P023_F2_p04",
+    "title": "Multiple Instance Learning Framework with Masked Hard Instance Mining for Whole Slide Image Classification"
+  },
+  {
+    "number": 34,
+    "id": "P023_F3_p05",
+    "title": "Multiple Instance Learning Framework with Masked Hard Instance Mining for Whole Slide Image Classification"
+  },
+  {
+    "number": 35,
+    "id": "P024_F1_p03",
+    "title": "CO-Net: Learning Multiple Point Cloud Tasks at Once with A Cohesive Network"
+  },
+  {
+    "number": 36,
+    "id": "P024_F2_p05",
+    "title": "CO-Net: Learning Multiple Point Cloud Tasks at Once with A Cohesive Network"
+  },
+  {
+    "number": 37,
+    "id": "P026_F2_p03",
+    "title": "A Dynamic Dual-Processing Object Detection Framework Inspired by the Brain's Recognition Mechanism"
+  },
+  {
+    "number": 38,
+    "id": "P026_F3_p04",
+    "title": "A Dynamic Dual-Processing Object Detection Framework Inspired by the Brain's Recognition Mechanism"
+  },
+  {
+    "number": 39,
+    "id": "P026_F4_p05",
+    "title": "A Dynamic Dual-Processing Object Detection Framework Inspired by the Brain's Recognition Mechanism"
+  },
+  {
+    "number": 40,
+    "id": "P027_F1_p03",
+    "title": "Hierarchical Visual Categories Modeling: A Joint Representation Learning and Density Estimation Framework for Out-of-Distribution Detection"
+  },
+  {
+    "number": 41,
+    "id": "P029_F1_p03",
+    "title": "Dual Cross-Attention Learning for Fine-Grained Visual Categorization and Object Re-Identification"
+  },
+  {
+    "number": 42,
+    "id": "P030_F1_p03",
+    "title": "OrphicX: A Causality-Inspired Latent Variable Model for Interpreting Graph Neural Networks"
+  },
+  {
+    "number": 43,
+    "id": "P030_F2_p03",
+    "title": "OrphicX: A Causality-Inspired Latent Variable Model for Interpreting Graph Neural Networks"
+  },
+  {
+    "number": 44,
+    "id": "P031_F2_p05",
+    "title": "DO-GAN: A Double Oracle Framework for Generative Adversarial Networks"
+  },
+  {
+    "number": 45,
+    "id": "P033_F1_p03",
+    "title": "Learning To Prompt for Open-Vocabulary Object Detection With Vision-Language Model"
+  },
+  {
+    "number": 46,
+    "id": "P033_F2_p05",
+    "title": "Learning To Prompt for Open-Vocabulary Object Detection With Vision-Language Model"
+  },
+  {
+    "number": 47,
+    "id": "P034_F4_p06",
+    "title": "Habitat-Web: Learning Embodied Object-Search Strategies From Human Demonstrations at Scale"
+  },
+  {
+    "number": 48,
+    "id": "P036_F2_p04",
+    "title": "Disentangled3D: Learning a 3D Generative Model With Disentangled Geometry and Appearance From Monocular Images"
+  },
+  {
+    "number": 49,
+    "id": "P037_F2_p06",
+    "title": "Towards Multi-modal Transformers in Federated Learning"
+  },
+  {
+    "number": 50,
+    "id": "P037_F3_p07",
+    "title": "Towards Multi-modal Transformers in Federated Learning"
+  },
+  {
+    "number": 51,
+    "id": "P038_F2_p05",
+    "title": "Equi-GSPR: Equivariant SE(3) Graph Network Model for Sparse Point Cloud Registration"
+  },
+  {
+    "number": 52,
+    "id": "P039_F2_p03",
+    "title": "VFusion3D: Learning Scalable 3D Generative Models from Video Diffusion Models"
+  },
+  {
+    "number": 53,
+    "id": "P040_F2_p04",
+    "title": "PairingNet: A Learning-based Pair-searching and -matching Network for Image Fragments"
+  },
+  {
+    "number": 54,
+    "id": "P041_F2_p06",
+    "title": "UniCode : Learning a Unified Codebook for Multimodal Large Language Models"
+  },
+  {
+    "number": 55,
+    "id": "P041_F3_p07",
+    "title": "UniCode : Learning a Unified Codebook for Multimodal Large Language Models"
+  },
+  {
+    "number": 56,
+    "id": "P042_F3_p05",
+    "title": "Enhancing Diffusion Models with Text-Encoder Reinforcement Learning"
+  },
+  {
+    "number": 57,
+    "id": "P043_F1_p02",
+    "title": "Data-to-Model Distillation: Data-Efficient Learning Framework"
+  },
+  {
+    "number": 58,
+    "id": "P043_F2_p05",
+    "title": "Data-to-Model Distillation: Data-Efficient Learning Framework"
+  },
+  {
+    "number": 59,
+    "id": "P044_F2_p05",
+    "title": "OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving"
+  },
+  {
+    "number": 60,
+    "id": "P044_F3_p07",
+    "title": "OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving"
+  },
+  {
+    "number": 61,
+    "id": "P045_F2_p04",
+    "title": "Resilience of Entropy Model in Distributed Neural Networks"
+  },
+  {
+    "number": 62,
+    "id": "P050_F1_p02",
+    "title": "ReMAP: Neural Model Reprogramming with Network Inversion and Retrieval-Augmented Mapping for Adaptive Motion Forecasting"
+  },
+  {
+    "number": 63,
+    "id": "P051_F1_p04",
+    "title": "Few-Shot Adversarial Prompt Learning on Vision-Language Models"
+  },
+  {
+    "number": 64,
+    "id": "P053_F2_p03",
+    "title": "Connecting Joint-Embedding Predictive Architecture with Contrastive Self-supervised Learning"
+  },
+  {
+    "number": 65,
+    "id": "P054_F2_p03",
+    "title": "LinNet: Linear Network for Efficient Point Cloud Representation Learning"
+  },
+  {
+    "number": 66,
+    "id": "P054_F4_p05",
+    "title": "LinNet: Linear Network for Efficient Point Cloud Representation Learning"
+  },
+  {
+    "number": 67,
+    "id": "P055_F1_p05",
+    "title": "HyperPrism: An Adaptive Non-linear Aggregation Framework for Distributed Machine Learning over Non-IID Data and Time-varying Communication Links"
+  },
+  {
+    "number": 68,
+    "id": "P056_F1_p04",
+    "title": "Goal Reduction with Loop-Removal Accelerates RL and Models Human Brain Activity in Goal-Directed Learning"
+  },
+  {
+    "number": 69,
+    "id": "P057_F1_p03",
+    "title": "You Only Cache Once: Decoder-Decoder Architectures for Language Models"
+  },
+  {
+    "number": 70,
+    "id": "P058_F2_p04",
+    "title": "Limits of Transformer Language Models on Learning to Compose Algorithms"
+  },
+  {
+    "number": 71,
+    "id": "P060_F1_p03",
+    "title": "Enhancing Size Generalization in Graph Neural Networks through Disentangled Representation Learning"
+  },
+  {
+    "number": 72,
+    "id": "P060_F2_p03",
+    "title": "Enhancing Size Generalization in Graph Neural Networks through Disentangled Representation Learning"
+  },
+  {
+    "number": 73,
+    "id": "P063_F3_p04",
+    "title": "FuRL: Visual-Language Models as Fuzzy Rewards for Reinforcement Learning"
+  },
+  {
+    "number": 74,
+    "id": "P063_F5_p06",
+    "title": "FuRL: Visual-Language Models as Fuzzy Rewards for Reinforcement Learning"
+  },
+  {
+    "number": 75,
+    "id": "P065_F6_p16",
+    "title": "Offline Transition Modeling via Contrastive Energy Learning"
+  },
+  {
+    "number": 76,
+    "id": "P066_F1_p04",
+    "title": "EvGGS: A Collaborative Learning Framework for Event-based Generalizable Gaussian Splatting"
+  },
+  {
+    "number": 77,
+    "id": "P066_F6_p12",
+    "title": "EvGGS: A Collaborative Learning Framework for Event-based Generalizable Gaussian Splatting"
+  },
+  {
+    "number": 78,
+    "id": "P066_F7_p13",
+    "title": "EvGGS: A Collaborative Learning Framework for Event-based Generalizable Gaussian Splatting"
+  },
+  {
+    "number": 79,
+    "id": "P068_F2_p06",
+    "title": "Doubly Robust Causal Effect Estimation under Networked Interference via Targeted Learning"
+  },
+  {
+    "number": 80,
+    "id": "P069_F1_p04",
+    "title": "Evolving Subnetwork Training for Large Language Models"
+  },
+  {
+    "number": 81,
+    "id": "P070_F3_p04",
+    "title": "HGAP: Boosting Permutation Invariant and Permutation Equivariant in Multi-Agent Reinforcement Learning via Graph Attention Network"
+  },
+  {
+    "number": 82,
+    "id": "P071_F1_p01",
+    "title": "SAPT : A Shared Attention Framework for Parameter-Efficient Continual Learning of Large Language Models"
+  },
+  {
+    "number": 83,
+    "id": "P071_F2_p03",
+    "title": "SAPT : A Shared Attention Framework for Parameter-Efficient Continual Learning of Large Language Models"
+  },
+  {
+    "number": 84,
+    "id": "P072_F1_p03",
+    "title": "A Unified Temporal Knowledge Graph Reasoning Model Towards Interpolation and Extrapolation"
+  },
+  {
+    "number": 85,
+    "id": "P074_F1_p03",
+    "title": "Leveraging Large Language Models for Learning Complex Legal Concepts through Storytelling"
+  },
+  {
+    "number": 86,
+    "id": "P075_F2_p02",
+    "title": "Tuning Large Multimodal Models for Videos using Reinforcement Learning from AI Feedback"
+  },
+  {
+    "number": 87,
+    "id": "P076_F1_p05",
+    "title": "Language Model Adaption for Reinforcement Learning with Natural Language Action Space"
+  },
+  {
+    "number": 88,
+    "id": "P077_F1_p01",
+    "title": "T ransli C o: A Contrastive Learning Framework to Address the Script Barrier in Multilingual Pretrained Language Models"
+  },
+  {
+    "number": 89,
+    "id": "P077_F2_p04",
+    "title": "T ransli C o: A Contrastive Learning Framework to Address the Script Barrier in Multilingual Pretrained Language Models"
+  },
+  {
+    "number": 90,
+    "id": "P078_F1_p01",
+    "title": "S tream V oice: Streamable Context-Aware Language Modeling for Real-time Zero-Shot Voice Conversion"
+  },
+  {
+    "number": 91,
+    "id": "P078_F2_p04",
+    "title": "S tream V oice: Streamable Context-Aware Language Modeling for Real-time Zero-Shot Voice Conversion"
+  },
+  {
+    "number": 92,
+    "id": "P078_F3_p04",
+    "title": "S tream V oice: Streamable Context-Aware Language Modeling for Real-time Zero-Shot Voice Conversion"
+  },
+  {
+    "number": 93,
+    "id": "P078_F4_p04",
+    "title": "S tream V oice: Streamable Context-Aware Language Modeling for Real-time Zero-Shot Voice Conversion"
+  },
+  {
+    "number": 94,
+    "id": "P079_F1_p03",
+    "title": "Causal-Guided Active Learning for Debiasing Large Language Models"
+  },
+  {
+    "number": 95,
+    "id": "P089_F3_p08",
+    "title": "A Kernel Test for Causal Association via Noise Contrastive Backdoor Adjustment"
+  },
+  {
+    "number": 96,
+    "id": "P090_F1_p12",
+    "title": "Classification of Data Generated by Gaussian Mixture Models Using Deep ReLU Networks"
+  },
+  {
+    "number": 97,
+    "id": "P090_F2_p13",
+    "title": "Classification of Data Generated by Gaussian Mixture Models Using Deep ReLU Networks"
+  },
+  {
+    "number": 98,
+    "id": "P090_F3_p14",
+    "title": "Classification of Data Generated by Gaussian Mixture Models Using Deep ReLU Networks"
+  },
+  {
+    "number": 99,
+    "id": "P091_F1_p03",
+    "title": "Attention Is All You Need"
+  },
+  {
+    "number": 100,
+    "id": "P092_F3_p04",
+    "title": "Deep Residual Learning for Image Recognition"
+  },
+  {
+    "number": 101,
+    "id": "P093_F2_p02",
+    "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows"
+  },
+  {
+    "number": 102,
+    "id": "P093_F3_p04",
+    "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows"
+  },
+  {
+    "number": 103,
+    "id": "P093_F4_p05",
+    "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows"
+  },
+  {
+    "number": 104,
+    "id": "P094_F1_p01",
+    "title": "Masked Autoencoders Are Scalable Vision Learners"
+  },
+  {
+    "number": 105,
+    "id": "P095_F4_p05",
+    "title": "Segment Anything"
+  },
+  {
+    "number": 106,
+    "id": "P096_F3_p04",
+    "title": "Adding Conditional Control to Text-to-Image Diffusion Models"
+  },
+  {
+    "number": 107,
+    "id": "P097_F3_p04",
+    "title": "High-Resolution Image Synthesis with Latent Diffusion Models"
+  },
+  {
+    "number": 108,
+    "id": "P098_F1_p03",
+    "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+  },
+  {
+    "number": 109,
+    "id": "P099_F1_p04",
+    "title": "Graph Attention Networks"
+  },
+  {
+    "number": 110,
+    "id": "P100_F1_p04",
+    "title": "Semi-Supervised Classification with Graph Convolutional Networks"
+  },
+  {
+    "number": 111,
+    "id": "P102_F3_p04",
+    "title": "Instant Neural Graphics Primitives with a Multiresolution Hash Encoding"
+  },
+  {
+    "number": 112,
+    "id": "P104_F2_p03a",
+    "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3"
+  },
+  {
+    "number": 113,
+    "id": "P104_F2_p03b",
+    "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3"
+  },
+  {
+    "number": 114,
+    "id": "P105_F3_p04",
+    "title": "Highly accurate protein structure prediction with AlphaFold"
+  },
+  {
+    "number": 115,
+    "id": "P106_F1_p02",
+    "title": "Spatially embedded recurrent neural networks reveal widespread links between structural and functional neuroscience findings"
+  },
+  {
+    "number": 116,
+    "id": "P107_F1_p02",
+    "title": "Augmenting large language models with chemistry tools"
+  },
+  {
+    "number": 117,
+    "id": "P108_F1_p03",
+    "title": "Deep learning of causal structures in high dimensions under data limitations"
+  },
+  {
+    "number": 118,
+    "id": "P108_F2_p03",
+    "title": "Deep learning of causal structures in high dimensions under data limitations"
+  },
+  {
+    "number": 119,
+    "id": "P109_F1_p02",
+    "title": "What large language models know and what people think they know"
+  },
+  {
+    "number": 120,
+    "id": "P110_F2_p03",
+    "title": "nsDB: Architecting the Next Generation Database by Integrating Neural and Symbolic Systems (Vision)"
+  },
+  {
+    "number": 121,
+    "id": "P110_F5_p05",
+    "title": "nsDB: Architecting the Next Generation Database by Integrating Neural and Symbolic Systems (Vision)"
+  },
+  {
+    "number": 122,
+    "id": "P111_F4_p04",
+    "title": "DecLog: Decentralized Logging in Non-Volatile Memory for Time Series Database Systems"
+  },
+  {
+    "number": 123,
+    "id": "P111_F7_p07",
+    "title": "DecLog: Decentralized Logging in Non-Volatile Memory for Time Series Database Systems"
+  },
+  {
+    "number": 124,
+    "id": "P112_F2_p04",
+    "title": "FedGTA: Topology-aware Averaging for Federated Graph Learning"
+  },
+  {
+    "number": 125,
+    "id": "P113_F3_p04",
+    "title": "GastCoCo: Graph Storage and Coroutine-Based Prefetch Co-Design for Dynamic Graph Processing"
+  },
+  {
+    "number": 126,
+    "id": "P114_F2_p02",
+    "title": "ELEET: Efficient Learned Query Execution over Text and Tables"
+  },
+  {
+    "number": 127,
+    "id": "P114_F3_p05",
+    "title": "ELEET: Efficient Learned Query Execution over Text and Tables"
+  },
+  {
+    "number": 128,
+    "id": "P115_F2_p04",
+    "title": "TenGraph: A Tensor-Based Graph Query Engine"
+  },
+  {
+    "number": 129,
+    "id": "P115_F3_p04",
+    "title": "TenGraph: A Tensor-Based Graph Query Engine"
+  },
+  {
+    "number": 130,
+    "id": "P115_F10_p09",
+    "title": "TenGraph: A Tensor-Based Graph Query Engine"
+  },
+  {
+    "number": 131,
+    "id": "P116_F1_p03",
+    "title": "Tianshou: A Highly Modularized Deep Reinforcement Learning Library"
+  },
+  {
+    "number": 132,
+    "id": "P116_F2_p03",
+    "title": "Tianshou: A Highly Modularized Deep Reinforcement Learning Library"
+  },
+  {
+    "number": 133,
+    "id": "P117_F1_p12",
+    "title": "Domain-Adversarial Training of Neural Networks"
+  },
+  {
+    "number": 134,
+    "id": "P118_F1_p04",
+    "title": "Neural Autoregressive Distribution Estimation"
+  },
+  {
+    "number": 135,
+    "id": "P118_F2_p11",
+    "title": "Neural Autoregressive Distribution Estimation"
+  },
+  {
+    "number": 136,
+    "id": "P118_F3_p14",
+    "title": "Neural Autoregressive Distribution Estimation"
+  },
+  {
+    "number": 137,
+    "id": "P119_F3_p04",
+    "title": "Deep Learning for 3D Point Clouds: A Survey"
+  },
+  {
+    "number": 138,
+    "id": "P119_F4_p05",
+    "title": "Deep Learning for 3D Point Clouds: A Survey"
+  },
+  {
+    "number": 139,
+    "id": "P119_F5_p06",
+    "title": "Deep Learning for 3D Point Clouds: A Survey"
+  },
+  {
+    "number": 140,
+    "id": "P119_F11_p16",
+    "title": "Deep Learning for 3D Point Clouds: A Survey"
+  },
+  {
+    "number": 141,
+    "id": "P119_F12_p17",
+    "title": "Deep Learning for 3D Point Clouds: A Survey"
+  },
+  {
+    "number": 142,
+    "id": "P120_F8_p06",
+    "title": "Deep Learning for Generic Object Detection: A Survey"
+  },
+  {
+    "number": 143,
+    "id": "P120_F12_p11",
+    "title": "Deep Learning for Generic Object Detection: A Survey"
+  },
+  {
+    "number": 144,
+    "id": "P120_F13_p12",
+    "title": "Deep Learning for Generic Object Detection: A Survey"
+  },
+  {
+    "number": 145,
+    "id": "P120_F14_p13",
+    "title": "Deep Learning for Generic Object Detection: A Survey"
+  },
+  {
+    "number": 146,
+    "id": "P120_F17_p18",
+    "title": "Deep Learning for Generic Object Detection: A Survey"
+  },
+  {
+    "number": 147,
+    "id": "P121_F2_p03",
+    "title": "Spectral State Space Model for Rotation-Invariant Visual Representation Learning"
+  },
+  {
+    "number": 148,
+    "id": "P121_F3_p05",
+    "title": "Spectral State Space Model for Rotation-Invariant Visual Representation Learning"
+  },
+  {
+    "number": 149,
+    "id": "P122_F2_p03",
+    "title": "VasTSD: Learning 3D Vascular Tree-state Space Diffusion Model for Angiography Synthesis"
+  },
+  {
+    "number": 150,
+    "id": "P122_F3_p05",
+    "title": "VasTSD: Learning 3D Vascular Tree-state Space Diffusion Model for Angiography Synthesis"
+  },
+  {
+    "number": 151,
+    "id": "P123_F1_p01",
+    "title": "DKDM: Data-Free Knowledge Distillation for Diffusion Models with Any Architecture"
+  },
+  {
+    "number": 152,
+    "id": "P123_F2_p03",
+    "title": "DKDM: Data-Free Knowledge Distillation for Diffusion Models with Any Architecture"
+  },
+  {
+    "number": 153,
+    "id": "P124_F1_p01",
+    "title": "Learning Compatible Multi-Prize Subnetworks for Asymmetric Retrieval"
+  },
+  {
+    "number": 154,
+    "id": "P124_F3_p04",
+    "title": "Learning Compatible Multi-Prize Subnetworks for Asymmetric Retrieval"
+  },
+  {
+    "number": 155,
+    "id": "P127_F1_p01",
+    "title": "Stealthy Backdoor Attack in Self-Supervised Learning Vision Encoders for Large Vision Language Models"
+  },
+  {
+    "number": 156,
+    "id": "P127_F3_p04",
+    "title": "Stealthy Backdoor Attack in Self-Supervised Learning Vision Encoders for Large Vision Language Models"
+  },
+  {
+    "number": 157,
+    "id": "P128_F4_p05",
+    "title": "Masked Scene Modeling: Narrowing the Gap Between Supervised and Self-Supervised Learning in 3D Scene Understanding"
+  },
+  {
+    "number": 158,
+    "id": "P128_F5_p05",
+    "title": "Masked Scene Modeling: Narrowing the Gap Between Supervised and Self-Supervised Learning in 3D Scene Understanding"
+  },
+  {
+    "number": 159,
+    "id": "P129_F2_p03",
+    "title": "LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale"
+  },
+  {
+    "number": 160,
+    "id": "P129_F3_p03",
+    "title": "LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale"
+  },
+  {
+    "number": 161,
+    "id": "P130_F1_p01",
+    "title": "Brain-Inspired Spiking Neural Networks for Energy-Efficient Object Detection"
+  },
+  {
+    "number": 162,
+    "id": "P130_F3_p05",
+    "title": "Brain-Inspired Spiking Neural Networks for Energy-Efficient Object Detection"
+  },
+  {
+    "number": 163,
+    "id": "P130_F4_p06",
+    "title": "Brain-Inspired Spiking Neural Networks for Energy-Efficient Object Detection"
+  },
+  {
+    "number": 164,
+    "id": "P132_F1_p04",
+    "title": "Enhancing Online Continual Learning with Plug-and-Play State Space Model and Class-Conditional Mixture of Discretization"
+  }
+]

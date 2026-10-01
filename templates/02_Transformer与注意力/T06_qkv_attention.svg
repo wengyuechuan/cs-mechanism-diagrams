@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Q-K-V attention mechanism">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T06 / Q-K-V attention mechanism</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 235,369.0 L 277.5,369.0 L 277.5,219.0 L 320,219.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 235,369.0 L 320,369.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 235,369.0 L 277.5,369.0 L 277.5,519.0 L 320,519.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 490,219.0 L 565.0,219.0 L 565.0,284.0 L 640,284.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 490,369.0 L 565.0,369.0 L 565.0,284.0 L 640,284.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 845,284.0 L 877.5,284.0 L 877.5,369.0 L 910,369.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="868.0" y="305.5" width="19" height="19" rx="3" fill="white"/>
+<text x="877.5" y="319.5" text-anchor="middle" font-size="12" fill="#516173">A</text>
+<path d="M 490,519.0 L 700.0,519.0 L 700.0,369.0 L 910,369.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="585.5" y="498.0" width="19" height="19" rx="3" fill="white"/>
+<text x="595.0" y="512.0" text-anchor="middle" font-size="12" fill="#516173">V</text>
+<path d="M 1080,369.0 L 1130,369.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="65" y="335" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="150.0" y="364.0" text-anchor="middle" font-size="16" font-weight="600">Input tokens X</text>
+<text x="150.0" y="384.0" text-anchor="middle" font-size="16" font-weight="400">B x T x D</text>
+<rect x="320" y="185" width="170" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="405.0" y="224.0" text-anchor="middle" font-size="16" font-weight="600">Query projection Q</text>
+<rect x="320" y="335" width="170" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="405.0" y="374.0" text-anchor="middle" font-size="16" font-weight="600">Key projection K</text>
+<rect x="320" y="485" width="170" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="405.0" y="524.0" text-anchor="middle" font-size="16" font-weight="600">Value projection V</text>
+<rect x="640" y="250" width="205" height="68" rx="8" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="742.5" y="279.0" text-anchor="middle" font-size="16" font-weight="600">QK^T / sqrt(d)</text>
+<text x="742.5" y="299.0" text-anchor="middle" font-size="16" font-weight="400">softmax over keys</text>
+<rect x="910" y="335" width="170" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="995.0" y="364.0" text-anchor="middle" font-size="16" font-weight="600">Weighted values</text>
+<text x="995.0" y="384.0" text-anchor="middle" font-size="16" font-weight="400">A V</text>
+<rect x="1130" y="335" width="150" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1205.0" y="374.0" text-anchor="middle" font-size="16" font-weight="600">Output projection</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

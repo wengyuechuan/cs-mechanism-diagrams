@@ -1,0 +1,19 @@
+{
+  "title": "LinNet: Linear Network for Efficient Point Cloud Representation Learning",
+  "venue": "NeurIPS",
+  "year": 2024,
+  "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/4bfcebedf7a2967c410b64670f27f904-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/4bfcebedf7a2967c410b64670f27f904-Paper-Conference.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P054",
+  "category": "09_三维视觉与神经渲染",
+  "pages": 21,
+  "pdf_first_page_excerpt": "LinNet: Linear Network for Efficient Point Cloud\nRepresentation Learning\nHao Deng1, 2\nKunlei Jing3,4∗\nShengmei Cheng1, 2\nCheng Liu1, 2\nJiawei Ru1, 2\nJiang Bo1, 2\nLin Wang1, 2∗\n1State-Province Joint Engineering and Research Center of Advanced Networking and Intelligent\nInformation Services, School of Information Science and Technology, Northwest University\n2Shaanxi Key Laboratory of Higher Education Institution of\nGenerative Artificial Intelligence and Mixed Reality\n3School of Software Engineering, Xi’an Jiaotong University\n4Department of Computing, The Hong Kong Polytechnic University\ndenghao@",
+  "local_pdf": "references/09_三维视觉与神经渲染/P054/paper.pdf",
+  "sha256": "0e19b3d4c7a1c83e4f3305739c03050e0ad3ff5162a5c2595a2e96c1d35d59aa",
+  "bytes": 3628538,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

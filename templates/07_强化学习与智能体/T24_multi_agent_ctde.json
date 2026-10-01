@@ -1,0 +1,168 @@
+{
+  "id": "T24",
+  "category": "07_强化学习与智能体",
+  "slug": "multi_agent_ctde",
+  "title": "Multi-agent centralized training",
+  "description": "多智能体并行结构；集中模块是训练时使用的可选结构，按 CTDE 方法修改。",
+  "nodes": [
+    {
+      "id": "env",
+      "label": "Shared environment",
+      "x": 70,
+      "y": 330,
+      "w": 220,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "a1",
+      "label": "Agent 1\nLocal policy",
+      "x": 450,
+      "y": 160,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "a2",
+      "label": "Agent 2\nLocal policy",
+      "x": 450,
+      "y": 330,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "a3",
+      "label": "Agent N\nLocal policy",
+      "x": 450,
+      "y": 500,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "central",
+      "label": "Central critic / mixer\nTraining only",
+      "x": 860,
+      "y": 330,
+      "w": 270,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "loss",
+      "label": "Joint objective",
+      "x": 890,
+      "y": 560,
+      "w": 215,
+      "h": 68,
+      "kind": "loss",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "env",
+      "target": "a1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "env",
+      "target": "a2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "env",
+      "target": "a3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "a1",
+      "target": "central",
+      "label": "trajectory",
+      "style": "dashed",
+      "via": []
+    },
+    {
+      "source": "a2",
+      "target": "central",
+      "label": "trajectory",
+      "style": "dashed",
+      "via": []
+    },
+    {
+      "source": "a3",
+      "target": "central",
+      "label": "trajectory",
+      "style": "dashed",
+      "via": []
+    },
+    {
+      "source": "central",
+      "target": "loss",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "a1",
+      "target": "env",
+      "label": "action",
+      "style": "solid",
+      "via": [
+        [
+          430,
+          125
+        ],
+        [
+          50,
+          125
+        ],
+        [
+          50,
+          365
+        ]
+      ]
+    },
+    {
+      "source": "a3",
+      "target": "env",
+      "label": "action",
+      "style": "solid",
+      "via": [
+        [
+          430,
+          600
+        ],
+        [
+          50,
+          600
+        ],
+        [
+          50,
+          365
+        ]
+      ]
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 758
+}

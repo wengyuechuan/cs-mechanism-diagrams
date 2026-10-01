@@ -1,0 +1,20 @@
+{
+  "title": "Quamba2: A Robust and Scalable Post-training Quantization Framework for Selective State Space Models",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/chiang25a.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/chiang25a/chiang25a.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P168",
+  "category": "02_Transformer与注意力",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 17,
+  "pdf_first_page_excerpt": "Quamba2: A Robust and Scalable Post-training Quantization Framework for\nSelective State Space Models\nHung-Yueh Chiang 1 Chi-Chih Chang 2 Natalia Frumkin 1\nKai-Chiang Wu 3 Mohamed S. Abdelfattah 2 Diana Marculescu 1\nAbstract\nDespite State Space Models (SSMs) are emerg-\ning as an efficient alternative to Transformers, de-\npolying SSMs on both cloud and edge devices is\nchallenging due to the limited resources. Model\nquantization reduces model size and leverages\nhardware acceleration, and recent efforts on SSM\nquantization have focused on optimizing a par-\nticular model or bit-width. However, dist",
+  "local_pdf": "references/02_Transformer与注意力/P168/paper.pdf",
+  "sha256": "35e16dbe1c8074956f94129133bbceea5ea348d923d126823aa66f6b10139a5e",
+  "bytes": 6626256,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

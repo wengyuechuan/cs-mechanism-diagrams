@@ -1,0 +1,19 @@
+{
+  "title": "Querying as Prompt: Parameter-Efficient Learning for Multimodal Language Model",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Liang_Querying_as_Prompt_Parameter-Efficient_Learning_for_Multimodal_Language_Model_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Liang_Querying_as_Prompt_Parameter-Efficient_Learning_for_Multimodal_Language_Model_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P009",
+  "category": "06_多模态与跨模态融合",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Querying as Prompt: Parameter-Efficient Learning for\nMultimodal Language Model\nTian Liang1, Jing Huang1, Ming Kong1,2, Luyuan Chen3, Qiang Zhu1*\n1 Zhejiang University\n2 Hikvision Research Institute\n3 Beijing Information Science and Technology University\n1{liangtian2022,huangjin9,zjukongming,zhuq}@zju.edu.cn\n3chenly@bistu.edu.cn\nAbstract\nRecent advancements in language models pre-trained on\nlarge-scale corpora have significantly propelled develop-\nments in the NLP domain and advanced progress in mul-\ntimodal tasks.\nIn this paper, we propose a Parameter-\nEfficient multimodal language model learn",
+  "local_pdf": "references/06_多模态与跨模态融合/P009/paper.pdf",
+  "sha256": "9519417f7c730db6866053d9b408a6a845ce92dbce915d329ad83705866b677e",
+  "bytes": 1854779,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

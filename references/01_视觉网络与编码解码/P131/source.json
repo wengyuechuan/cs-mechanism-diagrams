@@ -1,0 +1,19 @@
+{
+  "title": "Beyond Clean Training Data: A Versatile and Model-Agnostic Framework for Out-of-Distribution Detection with Contaminated Training Data",
+  "venue": "CVPR",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Beyond_Clean_Training_Data_A_Versatile_and_Model-Agnostic_Framework_for_CVPR_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Beyond_Clean_Training_Data_A_Versatile_and_Model-Agnostic_Framework_for_CVPR_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P131",
+  "download_status": "ok",
+  "category": "01_视觉网络与编码解码",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Beyond Clean Training Data: A Versatile and Model-Agnostic Framework for\nOut-of-Distribution Detection with Contaminated Training Data\nYuchuan Li\nQueen’s University\nJae-Mo Kang\nKyungpook National University\nIl-Min Kim*\nQueen’s University\nAbstract\nIn real-world AI applications, training datasets are often\ncontaminated, containing a mix of in-distribution (ID) and\nout-of-distribution (OOD) samples without labels. This con-\ntamination poses a significant challenge for developing and\ntraining OOD detection models, as nearly all existing meth-\nods assume access to a clean training dataset of only I",
+  "local_pdf": "references/01_视觉网络与编码解码/P131/paper.pdf",
+  "sha256": "dcc49790a7cc5c6be3efa8968f76cef70b458914e2c6abb8a72d4d24d4f336ac",
+  "bytes": 1397424,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

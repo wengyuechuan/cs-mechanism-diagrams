@@ -1,0 +1,151 @@
+{
+  "id": "T25",
+  "category": "07_强化学习与智能体",
+  "slug": "tool_agent_loop",
+  "title": "Tool-using agent loop",
+  "description": "规划、执行、观测和记忆构成闭环，最后输出与工具交互分开。",
+  "nodes": [
+    {
+      "id": "task",
+      "label": "Task + context",
+      "x": 75,
+      "y": 310,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "plan",
+      "label": "Planner",
+      "x": 365,
+      "y": 180,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "act",
+      "label": "Tool executor",
+      "x": 705,
+      "y": 180,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "tools",
+      "label": "External tools",
+      "x": 1040,
+      "y": 180,
+      "w": 170,
+      "h": 68,
+      "kind": "neutral",
+      "shape": "database"
+    },
+    {
+      "id": "obs",
+      "label": "Observation",
+      "x": 705,
+      "y": 465,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "mem",
+      "label": "Working memory",
+      "x": 365,
+      "y": 465,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "database"
+    },
+    {
+      "id": "answer",
+      "label": "Final answer",
+      "x": 1040,
+      "y": 465,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "task",
+      "target": "plan",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "plan",
+      "target": "act",
+      "label": "tool call",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "act",
+      "target": "tools",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "tools",
+      "target": "obs",
+      "label": "tool result",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "obs",
+      "target": "mem",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "mem",
+      "target": "plan",
+      "label": "updated context",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "plan",
+      "target": "answer",
+      "label": "finish",
+      "style": "dashed",
+      "via": [
+        [
+          600,
+          115
+        ],
+        [
+          1250,
+          115
+        ],
+        [
+          1250,
+          500
+        ]
+      ]
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

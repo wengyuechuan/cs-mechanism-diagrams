@@ -1,0 +1,21 @@
+{
+  "title": "Provable Benefits of Unsupervised Pre-training and Transfer Learning via Single-Index Models",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/jones-mccormick25a.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/jones-mccormick25a/jones-mccormick25a.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P165",
+  "category": "08_训练策略与自监督",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 27,
+  "pdf_first_page_excerpt": "Provable Benefits of Unsupervised Pre-training and Transfer Learning via\nSingle-Index Models\nTaj Jones-McCormick * 1 Aukosh Jagannath * 1 2 Subhabrata Sen * 3\nAbstract\nUnsupervised pre-training and transfer learning\nare commonly used techniques to initialize train-\ning algorithms for neural networks, particularly\nin settings with limited labeled data. In this paper,\nwe study the effects of unsupervised pre-training\nand transfer learning on the sample complexity\nof high-dimensional supervised learning. Specifi-\ncally, we consider the problem of training a single-\nlayer neural network via online",
+  "local_pdf": "references/10_计算机系统与数据流程/P165/paper.pdf",
+  "sha256": "9bb50feea5fad1f3919b8c2a526a48a22e776c2de68aed5815c83b483d4dc8f9",
+  "bytes": 4180406,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Few-Shot Adversarial Prompt Learning on Vision-Language Models",
+  "venue": "NeurIPS",
+  "year": 2024,
+  "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/05aedcaf4bc6e78a5e22b4cf9114c5e8-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/05aedcaf4bc6e78a5e22b4cf9114c5e8-Paper-Conference.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P051",
+  "category": "06_多模态与跨模态融合",
+  "pages": 35,
+  "pdf_first_page_excerpt": "Few-Shot Adversarial Prompt Learning on\nVision-Language Models\nYiwei Zhou\nSchool of Automation\nBeijing Institute of Technology\nzhouyiwei@bit.edu.cn\nXiaobo Xia\nSydney AI Centre\nUniversity of Sydney\nxiaoboxia.uni@gmail.com\nZhiwei Lin∗\nSchool of Automation\nBeijing Institute of Technology\nlinzhiwei@bit.edu.cn\nBo Han\nDepartment of Computer Science\nHong Kong Baptist University\nbhanml@comp.hkbu.edu.hk\nTongliang Liu∗\nSydney AI Centre\nUniversity of Sydney\ntongliang.liu@sydney.edu.au\nAbstract\nThe vulnerability of deep neural networks to imperceptible adversarial perturbations\nhas attracted widespread at",
+  "local_pdf": "references/06_多模态与跨模态融合/P051/paper.pdf",
+  "sha256": "ce0c1936923c86687d147f9be1e49c8619be5cf5e4f28f2aa667cb069a6d35ce",
+  "bytes": 11360343,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do We Really Need Prompt Learning?",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zanella_On_the_Test-Time_Zero-Shot_Generalization_of_Vision-Language_Models_Do_We_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zanella_On_the_Test-Time_Zero-Shot_Generalization_of_Vision-Language_Models_Do_We_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P016",
+  "category": "06_多模态与跨模态融合",
+  "pages": 11,
+  "pdf_first_page_excerpt": "On the test-time zero-shot generalization of vision-language models:\nDo we really need prompt learning?\nMaxime Zanella*\nUCLouvain\nUMons\nIsmail Ben Ayed\n´ETS Montr´eal\ncode:\nhttps://github.com/MaxZanella/MTA\nAbstract\nThe development of large vision-language models, no-\ntably CLIP, has catalyzed research into effective adaptation\ntechniques, with a particular focus on soft prompt tuning.\nConjointly, test-time augmentation, which utilizes multiple\naugmented views of a single image to enhance zero-shot\ngeneralization, is emerging as a significant area of inter-\nest. This has predominantly directed",
+  "local_pdf": "references/06_多模态与跨模态融合/P016/paper.pdf",
+  "sha256": "9dd195c3f3dd5c54e6dcfb6bad634c8a7068bcc3982a387274a4a93dbdd8e5aa",
+  "bytes": 693902,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

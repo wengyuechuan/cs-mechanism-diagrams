@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Token-level cross-modal interactions">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T48 / Token-level cross-modal interactions</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 240,275.0 L 370,254.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 235,494.0 L 370,494.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 540,254.0 L 650,252.5" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 540,494.0 L 650,492.5" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 831,252.5 L 893.0,252.5 L 893.0,369.0 L 955,369.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 831,492.5 L 893.0,492.5 L 893.0,369.0 L 955,369.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 664.5,285 L 664.5,460" fill="none" stroke="#647284" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<path d="M 702.5,285 L 702.5,460" fill="none" stroke="#647284" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<path d="M 740.5,285 L 740.5,460" fill="none" stroke="#647284" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<path d="M 778.5,285 L 778.5,460" fill="none" stroke="#647284" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<path d="M 816.5,285 L 816.5,460" fill="none" stroke="#647284" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<polygon points="65,237 82,220 240,220 223,237" fill="#E4F0E8" stroke="#63836B"/>
+<polygon points="223,237 240,220 240,313 223,330" fill="#E4F0E8" stroke="#63836B" opacity="0.7"/>
+<rect x="65" y="237" width="158" height="93" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="152.5" y="280.0" text-anchor="middle" font-size="16" font-weight="600">Visual tokens</text>
+<rect x="65" y="460" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="150.0" y="499.0" text-anchor="middle" font-size="16" font-weight="600">Language tokens</text>
+<rect x="370" y="220" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="455.0" y="259.0" text-anchor="middle" font-size="16" font-weight="600">Visual backbone</text>
+<rect x="370" y="460" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="455.0" y="499.0" text-anchor="middle" font-size="16" font-weight="600">Language backbone</text>
+<rect x="955" y="335" width="250" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="1080.0" y="374.0" text-anchor="middle" font-size="16" font-weight="600">Shared fusion tokens</text>
+<rect x="650" y="220" width="29" height="65" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="664.5" y="257.5" text-anchor="middle" font-size="16" font-weight="600">1</text>
+<rect x="650" y="460" width="29" height="65" rx="8" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="664.5" y="497.5" text-anchor="middle" font-size="16" font-weight="600">1</text>
+<rect x="688" y="220" width="29" height="65" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="702.5" y="257.5" text-anchor="middle" font-size="16" font-weight="600">2</text>
+<rect x="688" y="460" width="29" height="65" rx="8" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="702.5" y="497.5" text-anchor="middle" font-size="16" font-weight="600">2</text>
+<rect x="726" y="220" width="29" height="65" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="740.5" y="257.5" text-anchor="middle" font-size="16" font-weight="600">3</text>
+<rect x="726" y="460" width="29" height="65" rx="8" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="740.5" y="497.5" text-anchor="middle" font-size="16" font-weight="600">3</text>
+<rect x="764" y="220" width="29" height="65" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="778.5" y="257.5" text-anchor="middle" font-size="16" font-weight="600">4</text>
+<rect x="764" y="460" width="29" height="65" rx="8" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="778.5" y="497.5" text-anchor="middle" font-size="16" font-weight="600">4</text>
+<rect x="802" y="220" width="29" height="65" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="816.5" y="257.5" text-anchor="middle" font-size="16" font-weight="600">5</text>
+<rect x="802" y="460" width="29" height="65" rx="8" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="816.5" y="497.5" text-anchor="middle" font-size="16" font-weight="600">5</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

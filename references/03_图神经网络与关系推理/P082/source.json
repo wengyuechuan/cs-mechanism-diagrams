@@ -1,0 +1,20 @@
+{
+  "title": "A Novel Cartography-Based Curriculum Learning Method Applied on R o NLI : The First R omanian Natural Language Inference Corpus",
+  "venue": "ACL",
+  "year": 2024,
+  "source_url": "https://aclanthology.org/2024.acl-long.15/",
+  "pdf_url": "https://aclanthology.org/2024.acl-long.15.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P082",
+  "category": "08_训练策略与自监督",
+  "pages": 18,
+  "pdf_first_page_excerpt": "A Novel Cartography-Based Curriculum Learning Method Applied on\nRoNLI: The First Romanian Natural Language Inference Corpus\nEduard Poesina\nUniversity of Bucharest\nBucharest, Romania\neduardgabriel.poe@gmail.com\nCornelia Caragea\nUniversity of Illinois Chicago\nChicago, IL, USA\ncornelia@uic.edu\nRadu Tudor Ionescu∗\nUniversity of Bucharest\nBucharest, Romania\nraducu.ionescu@gmail.com\nAbstract\nNatural language inference (NLI), the task of\nrecognizing the entailment relationship in sen-\ntence pairs, is an actively studied topic serving\nas a proxy for natural language understanding.\nDespite the relevanc",
+  "local_pdf": "references/03_图神经网络与关系推理/P082/paper.pdf",
+  "sha256": "227223c4eafc860e107cb4d820a62e7f77b0b6a3b3481b8411a54d9fd3f26c19",
+  "bytes": 1310921,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

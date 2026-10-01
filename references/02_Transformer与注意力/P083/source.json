@@ -1,0 +1,19 @@
+{
+  "title": "Tensor-train methods for sequential state and parameter learning in state-space models",
+  "venue": "JMLR",
+  "year": 2024,
+  "source_url": "https://jmlr.org/papers/volume25/23-0743/23-0743.html",
+  "pdf_url": "https://jmlr.org/papers/volume25/23-0743/23-0743.pdf",
+  "source_kind": "official_journal",
+  "id": "P083",
+  "category": "02_Transformer与注意力",
+  "pages": 51,
+  "pdf_first_page_excerpt": "Journal of Machine Learning Research 25 (2024) 1-51\nSubmitted 6/23; Revised 7/24; Published\nTensor-train methods for sequential state and parameter\nlearning in state-space models\nYiran Zhao\nyiran.zhao@sydney.edu.au\nTiangang Cui\ntiangang.cui@sydney.edu.au\nSchool of Mathematics and Statistics\nUniversity of Sydney\nNew South Wales 2006, Australia\nEditor: Ryan Adams\nAbstract\nWe consider sequential state and parameter learning in state-space models with intractable\nstate transition and observation processes. By exploiting low-rank tensor train (TT) de-\ncompositions, we propose new sequential learnin",
+  "local_pdf": "references/02_Transformer与注意力/P083/paper.pdf",
+  "sha256": "c547b9af2e407c7a0d28bf49ca594fed65d9794d4f37ca605edebd91f9755e35",
+  "bytes": 1222969,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

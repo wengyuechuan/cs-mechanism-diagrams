@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Neural radiance field rendering">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T31 / Neural radiance field rendering</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 235,344.0 L 330,344.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 545,344.0 L 630,344.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 800,344.0 L 895,344.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 1007.5,378 L 1007.5,510" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="65" y="310" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="150.0" y="349.0" text-anchor="middle" font-size="16" font-weight="600">Camera ray</text>
+<rect x="330" y="310" width="215" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="437.5" y="339.0" text-anchor="middle" font-size="16" font-weight="600">Sample 3D positions</text>
+<text x="437.5" y="359.0" text-anchor="middle" font-size="16" font-weight="400">(x,y,z), direction</text>
+<rect x="630" y="310" width="170" height="68" rx="8" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="715.0" y="349.0" text-anchor="middle" font-size="16" font-weight="600">Position encoding</text>
+<rect x="895" y="310" width="225" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="1007.5" y="339.0" text-anchor="middle" font-size="16" font-weight="600">Radiance field MLP</text>
+<text x="1007.5" y="359.0" text-anchor="middle" font-size="16" font-weight="400">color + density</text>
+<rect x="895" y="510" width="225" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1007.5" y="539.0" text-anchor="middle" font-size="16" font-weight="600">Volume rendering</text>
+<text x="1007.5" y="559.0" text-anchor="middle" font-size="16" font-weight="400">Pixel color</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

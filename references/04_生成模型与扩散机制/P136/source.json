@@ -1,0 +1,20 @@
+{
+  "title": "LoRAverse: A Submodular Framework to Retrieve Diverse Adapters for Diffusion Models",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Sonmezer_LoRAverse_A_Submodular_Framework_to_Retrieve_Diverse_Adapters_for_Diffusion_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Sonmezer_LoRAverse_A_Submodular_Framework_to_Retrieve_Diverse_Adapters_for_Diffusion_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P136",
+  "category": "04_生成模型与扩散机制",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 10,
+  "pdf_first_page_excerpt": "LoRAverse: A Submodular Framework to Retrieve Diverse Adapters for\nDiffusion Models\nMert Sonmezer∗\nMiddle East Technical University\nmert.sonmezer@metu.edu.tr\nMatthew Zheng\nVirginia Tech\nmatthewz03@vt.edu\nPinar Yanardag\nVirginia Tech\npinary@vt.edu\nAn origami ﬂower\nA full moon rising above a mountain at night\nOurs\nSD v1.5\nOurs\nSD v1.5\nA modern racecar\nA cup\nFigure 1. Diverse Adapter Selection. LoRAverse enhances image diversity by employing a submodular algorithm to select a diverse\nand representative set of LoRA adapters. This approach begins by clustering the adapters based on their semantic m",
+  "local_pdf": "references/04_生成模型与扩散机制/P136/paper.pdf",
+  "sha256": "554b5d60a48acab4ccc7fac9de436176ceb1dfcef8329bd97f0c7103155c4d8b",
+  "bytes": 22848115,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

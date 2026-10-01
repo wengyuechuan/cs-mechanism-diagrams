@@ -1,0 +1,19 @@
+{
+  "title": "Deep learning of causal structures in high dimensions under data limitations",
+  "venue": "Nature Machine Intelligence",
+  "year": 2023,
+  "source_url": "https://www.nature.com/articles/s42256-023-00744-z",
+  "pdf_url": "https://www.nature.com/articles/s42256-023-00744-z.pdf",
+  "source_kind": "official_open_access_journal",
+  "id": "P108",
+  "category": "11_因果与AI科学机制",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Nature Machine Intelligence | Volume 5 | November 2023 | 1306–1316\n1306\nnature machine intelligence\nArticle\nhttps://doi.org/10.1038/s42256-023-00744-z\nDeep learning of causal structures in high \ndimensions under data limitations\nKai Lagemann \n  1 \n, Christian Lagemann2, Bernd Taschler \n  1,3 & \nSach Mukherjee \n  1,4 \nCausal learning is a key challenge in scientific artificial intelligence as it \nallows researchers to go beyond purely correlative or predictive analyses \ntowards learning underlying cause-and-effect relationships, which are \nimportant for scientific understanding as well as for a",
+  "local_pdf": "references/11_因果与AI科学机制/P108/paper.pdf",
+  "sha256": "78f870a38231b253e05a2ef3bd50ae3302b34099f358d17e73df154f5a3f0b25",
+  "bytes": 1850477,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

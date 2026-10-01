@@ -1,0 +1,19 @@
+{
+  "title": "SymDPO: Boosting In-Context Learning of Large Multimodal Models with Symbol Demonstration Direct Preference Optimization",
+  "venue": "CVPR",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jia_SymDPO_Boosting_In-Context_Learning_of_Large_Multimodal_Models_with_Symbol_CVPR_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Jia_SymDPO_Boosting_In-Context_Learning_of_Large_Multimodal_Models_with_Symbol_CVPR_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P125",
+  "download_status": "ok",
+  "category": "06_多模态与跨模态融合",
+  "pages": 11,
+  "pdf_first_page_excerpt": "SymDPO: Boosting In-Context Learning of Large Multimodal Models with\nSymbol Demonstration Direct Preference Optimization\nHongrui Jia1,†\nChaoya Jiang1,†\nHaiyang Xu2,∗\nWei Ye1,∗\nMengfan Dong1\nMing Yan2\nJi Zhang2\nFei Huang2\nShikun Zhang1\n1 National Engineering Research Center for Software Engineering, Peking University\n2 Alibaba Group\n{jiahongrui, jiangchaoya, wye, zhangsk}@pku.edu.cn,\n{shuofeng.xhy, fei.huang}@alibaba-inc.com\nAbstract\nAs language models continue to scale, Large Language\nModels (LLMs) have exhibited emerging capabilities in In-\nContext Learning (ICL), enabling them to solve langu",
+  "local_pdf": "references/06_多模态与跨模态融合/P125/paper.pdf",
+  "sha256": "b8db4c2f385f8936b95ad650e50c855d28d1f5f37103af8a3da5b3e356ec1e56",
+  "bytes": 2817389,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

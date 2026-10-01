@@ -1,0 +1,19 @@
+{
+  "title": "Dependency Transformer Grammars: Integrating Dependency Structures into Transformer Language Models",
+  "venue": "ACL",
+  "year": 2024,
+  "source_url": "https://aclanthology.org/2024.acl-long.84/",
+  "pdf_url": "https://aclanthology.org/2024.acl-long.84.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P081",
+  "category": "02_Transformer与注意力",
+  "pages": 14,
+  "pdf_first_page_excerpt": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 1543–1556\nAugust 11-16, 2024 ©2024 Association for Computational Linguistics\nDependency Transformer Grammars: Integrating Dependency Structures\ninto Transformer Language Models\nYida Zhao, Chao Lou, Kewei Tu*\nSchool of Information Science and Technology, ShanghaiTech University\nShanghai Engineering Research Center of Intelligent Vision and Imaging\n{zhaoyd2023,louchao,tukw}@shanghaitech.edu.cn\nAbstract\nSyntactic Transformer language models aim to\nachieve better generalization th",
+  "local_pdf": "references/02_Transformer与注意力/P081/paper.pdf",
+  "sha256": "5b36734ac6f3f364df7ad130e63fb55fe309a62fae24f66b2a8c74707dc1fe00",
+  "bytes": 452532,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

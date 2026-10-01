@@ -1,0 +1,19 @@
+{
+  "title": "Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anomaly Synthesis and A Self-Supervised Learning Network",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_Towards_Scalable_3D_Anomaly_Detection_and_Localization_A_Benchmark_via_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Towards_Scalable_3D_Anomaly_Detection_and_Localization_A_Benchmark_via_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P007",
+  "category": "08_训练策略与自监督",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D\nAnomaly Synthesis and A Self-Supervised Learning Network\nWenqiao Li1\nXiaohao Xu2*\nYao Gu1∗\nBozhong Zheng1\nShenghua Gao1†\nYingna Wu1†\n1ShanghaiTech University\n2University of Michigan, Ann Arbor\n{liwq2022}@shanghaitech.edu.cn\nAbstract\nRecently, 3D anomaly detection, a crucial problem in-\nvolving fine-grained geometry discrimination, is getting\nmore attention.\nHowever, the lack of abundant real 3D\nanomaly data limits the scalability of current models. To\nenable scalable anomaly data collection, we propose a 3D\nanomaly synt",
+  "local_pdf": "references/08_训练策略与自监督/P007/paper.pdf",
+  "sha256": "a2963b809c54494c71b415a627ff76759890637bd0e7d68d2dc4225b383332e4",
+  "bytes": 1973552,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Preventing Zero-Shot Transfer Degradation in Continual Learning of Vision-Language Models",
+  "venue": "ICCV",
+  "year": 2023,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zheng_Preventing_Zero-Shot_Transfer_Degradation_in_Continual_Learning_of_Vision-Language_Models_ICCV_2023_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Zheng_Preventing_Zero-Shot_Transfer_Degradation_in_Continual_Learning_of_Vision-Language_Models_ICCV_2023_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P021",
+  "category": "06_多模态与跨模态融合",
+  "pages": 12,
+  "pdf_first_page_excerpt": "Preventing Zero-Shot Transfer Degradation in Continual Learning of\nVision-Language Models\nZangwei Zheng1\nMingyuan Ma2\nKai Wang1\nZiheng Qin1\nXiangyu Yue3\nYang You1\n1National University of Singapore\n2UC Berkeley\n3The Chinese University of Hong Kong\n1{zangwei, kai.wang, zihengq, youy}@comp.nus.edu.sg 2mamingyuan2001@berkeley.edu 3xyyue@ie.cuhk.edu.hk\nAbstract\nContinual learning (CL) can help pre-trained vision-\nlanguage models efficiently adapt to new or under-trained\ndata distributions without re-training. Nevertheless, dur-\ning the continual training of the Contrastive Language-\nImage Pre-train",
+  "local_pdf": "references/06_多模态与跨模态融合/P021/paper.pdf",
+  "sha256": "8cba67bdf597d5407346d30f82f523ac373f11399d7f7b581dad8c6d1347b5e4",
+  "bytes": 1502037,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

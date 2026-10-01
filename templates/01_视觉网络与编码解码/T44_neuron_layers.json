@@ -1,0 +1,598 @@
+{
+  "id": "T44",
+  "category": "01_视觉网络与编码解码",
+  "slug": "neuron_layers",
+  "title": "Neural network as neuron-node layers",
+  "description": "每个神经元与连接都可编辑，适合小型全连接网络、神经网络机制解释。",
+  "nodes": [
+    {
+      "id": "l0_0",
+      "label": "x1",
+      "x": 150,
+      "y": 257.0,
+      "w": 48,
+      "h": 48,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "l0_1",
+      "label": "x2",
+      "x": 150,
+      "y": 340.0,
+      "w": 48,
+      "h": 48,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "l0_2",
+      "label": "x3",
+      "x": 150,
+      "y": 423.0,
+      "w": 48,
+      "h": 48,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "l1_0",
+      "label": "",
+      "x": 440,
+      "y": 174.0,
+      "w": 48,
+      "h": 48,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "l1_1",
+      "label": "",
+      "x": 440,
+      "y": 257.0,
+      "w": 48,
+      "h": 48,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "l1_2",
+      "label": "",
+      "x": 440,
+      "y": 340.0,
+      "w": 48,
+      "h": 48,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "l1_3",
+      "label": "",
+      "x": 440,
+      "y": 423.0,
+      "w": 48,
+      "h": 48,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "l1_4",
+      "label": "",
+      "x": 440,
+      "y": 506.0,
+      "w": 48,
+      "h": 48,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "l2_0",
+      "label": "",
+      "x": 750,
+      "y": 174.0,
+      "w": 48,
+      "h": 48,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "l2_1",
+      "label": "",
+      "x": 750,
+      "y": 257.0,
+      "w": 48,
+      "h": 48,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "l2_2",
+      "label": "",
+      "x": 750,
+      "y": 340.0,
+      "w": 48,
+      "h": 48,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "l2_3",
+      "label": "",
+      "x": 750,
+      "y": 423.0,
+      "w": 48,
+      "h": 48,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "l2_4",
+      "label": "",
+      "x": 750,
+      "y": 506.0,
+      "w": 48,
+      "h": 48,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "l3_0",
+      "label": "y1",
+      "x": 1090,
+      "y": 298.5,
+      "w": 48,
+      "h": 48,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "l3_1",
+      "label": "y2",
+      "x": 1090,
+      "y": 381.5,
+      "w": 48,
+      "h": 48,
+      "kind": "input",
+      "shape": "ellipse"
+    }
+  ],
+  "edges": [
+    {
+      "source": "l0_0",
+      "target": "l1_0",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l0_0",
+      "target": "l1_1",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l0_0",
+      "target": "l1_2",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l0_0",
+      "target": "l1_3",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l0_0",
+      "target": "l1_4",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l0_1",
+      "target": "l1_0",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l0_1",
+      "target": "l1_1",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l0_1",
+      "target": "l1_2",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l0_1",
+      "target": "l1_3",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l0_1",
+      "target": "l1_4",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l0_2",
+      "target": "l1_0",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l0_2",
+      "target": "l1_1",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l0_2",
+      "target": "l1_2",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l0_2",
+      "target": "l1_3",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l0_2",
+      "target": "l1_4",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_0",
+      "target": "l2_0",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_0",
+      "target": "l2_1",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_0",
+      "target": "l2_2",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_0",
+      "target": "l2_3",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_0",
+      "target": "l2_4",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_1",
+      "target": "l2_0",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_1",
+      "target": "l2_1",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_1",
+      "target": "l2_2",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_1",
+      "target": "l2_3",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_1",
+      "target": "l2_4",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_2",
+      "target": "l2_0",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_2",
+      "target": "l2_1",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_2",
+      "target": "l2_2",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_2",
+      "target": "l2_3",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_2",
+      "target": "l2_4",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_3",
+      "target": "l2_0",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_3",
+      "target": "l2_1",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_3",
+      "target": "l2_2",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_3",
+      "target": "l2_3",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_3",
+      "target": "l2_4",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_4",
+      "target": "l2_0",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_4",
+      "target": "l2_1",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_4",
+      "target": "l2_2",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_4",
+      "target": "l2_3",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l1_4",
+      "target": "l2_4",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l2_0",
+      "target": "l3_0",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l2_0",
+      "target": "l3_1",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l2_1",
+      "target": "l3_0",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l2_1",
+      "target": "l3_1",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l2_2",
+      "target": "l3_0",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l2_2",
+      "target": "l3_1",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l2_3",
+      "target": "l3_0",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l2_3",
+      "target": "l3_1",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l2_4",
+      "target": "l3_0",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    },
+    {
+      "source": "l2_4",
+      "target": "l3_1",
+      "label": "",
+      "style": "solid",
+      "via": [],
+      "straight": true
+    }
+  ],
+  "groups": [
+    {
+      "title": "Input",
+      "x": 105,
+      "y": 160,
+      "w": 150,
+      "h": 420
+    },
+    {
+      "title": "Hidden layer 1",
+      "x": 395,
+      "y": 120,
+      "w": 150,
+      "h": 500
+    },
+    {
+      "title": "Hidden layer 2",
+      "x": 705,
+      "y": 120,
+      "w": 150,
+      "h": 500
+    },
+    {
+      "title": "Output",
+      "x": 1045,
+      "y": 160,
+      "w": 150,
+      "h": 420
+    }
+  ],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

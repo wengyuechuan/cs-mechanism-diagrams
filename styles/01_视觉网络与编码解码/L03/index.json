@@ -1,0 +1,36 @@
+[
+  {
+    "id": "T03",
+    "title": "U-shaped encoder-decoder",
+    "category": "01_视觉网络与编码解码",
+    "layout_style": "L03",
+    "visual_style": "V01",
+    "description": "U 形层级结构与跨层跳连；箭头表示 concat / add 的位置应按方法替换。",
+    "topic": "01",
+    "kind": "original_blueprint",
+    "year": 2026,
+    "venue": "原创结构蓝图",
+    "image": "templates/01_视觉网络与编码解码/T03_unet_skip.png",
+    "rights": "MIT; original generic structure, not an exact paper reproduction",
+    "source_url": null,
+    "keywords": "替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。",
+    "image_sha256": "0b8993946d21e8f9d90173982cccb9e7f3b31f0ae219760567d3ff2166da2adb"
+  },
+  {
+    "id": "T04",
+    "title": "Feature pyramid and lateral fusion",
+    "category": "01_视觉网络与编码解码",
+    "layout_style": "L03",
+    "visual_style": "V01",
+    "description": "左右层级对齐，适合 FPN、金字塔特征融合和多尺度检测。",
+    "topic": "01",
+    "kind": "original_blueprint",
+    "year": 2026,
+    "venue": "原创结构蓝图",
+    "image": "templates/01_视觉网络与编码解码/T04_feature_pyramid.png",
+    "rights": "MIT; original generic structure, not an exact paper reproduction",
+    "source_url": null,
+    "keywords": "替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。",
+    "image_sha256": "566d520065aaab228b8394b6244c96a1e1bb9e23ebfaa9a779370f9da73f0225"
+  }
+]

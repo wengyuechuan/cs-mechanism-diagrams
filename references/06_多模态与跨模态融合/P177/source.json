@@ -1,0 +1,20 @@
+{
+  "title": "Modality-Aware Neuron Pruning for Unlearning in Multimodal Large Language Models",
+  "venue": "ACL",
+  "year": 2025,
+  "source_url": "https://aclanthology.org/2025.acl-long.295/",
+  "pdf_url": "https://aclanthology.org/2025.acl-long.295.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P177",
+  "category": "06_多模态与跨模态融合",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 21,
+  "pdf_first_page_excerpt": "Modality-Aware Neuron Pruning for Unlearning in\nMultimodal Large Language Models\nZheyuan Liu1, Guangyao Dou2, Xiangchi Yuan3, Chunhui Zhang4,\nZhaoxuan Tan1, Meng Jiang1\n1University of Notre Dame, 2University of Pennsylvania,\n3Georgia Institute of Technology, 4Dartmouth College\nzliu29@nd.edu\nAbstract\nGenerative models such as Large Language\nModels (LLMs) and Multimodal Large Lan-\nguage Models (MLLMs) trained on massive\ndatasets can lead them to memorize and in-\nadvertently reveal sensitive information, rais-\ning ethical and privacy concerns. While some\nprior works have explored this issue in th",
+  "local_pdf": "references/06_多模态与跨模态融合/P177/paper.pdf",
+  "sha256": "e7af61715ab9ffa1d391b0fcaa99acbd9911ec06dd6c4f7d7d686b5c2e9ae1b9",
+  "bytes": 3386781,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

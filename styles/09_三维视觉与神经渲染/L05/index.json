@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P119_F5_p06",
+    "title": "Deep Learning for 3D Point Clouds: A Survey",
+    "category": "09_三维视觉与神经渲染",
+    "layout_style": "L05",
+    "visual_style": "V05",
+    "source_url": "https://doi.org/10.1109/TPAMI.2020.3005434",
+    "pdf_url": "https://arxiv.org/pdf/1912.12033",
+    "figure_number": "5",
+    "pdf_page": 6,
+    "caption": "Fig. 5: An illustration of a graph-based network.",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "09",
+    "kind": "paper_reference",
+    "year": 2021,
+    "venue": "IEEE TPAMI",
+    "image": "references/09_三维视觉与神经渲染/P119/figures/P119_F5_p06.png",
+    "description": "图结构与消息传递",
+    "source_kind": "author_preprint_of_verified_journal_paper",
+    "copy_note": "作者公开预印本；期刊身份由 DOI / 正式书目信息确认",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "7ad84a42984e4b1a08d40731f76b34ec59a8510b1d918f4749cac62486f029cf"
+  }
+]

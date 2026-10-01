@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P167_F6_p14",
+    "title": "Open-Det: An Efficient Learning Framework for Open-Ended Detection",
+    "category": "01_视觉网络与编码解码",
+    "layout_style": "L06",
+    "visual_style": "V04",
+    "source_url": "https://proceedings.mlr.press/v267/cao25h.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/cao25h/cao25h.pdf",
+    "figure_number": "6",
+    "pdf_page": 14,
+    "caption": "Figure 6: Illustration of contradictory loss generation in the query-text alignment process.",
+    "crop_note": "机制图形裁剪；图注见元数据",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": "v2-2025-expansion",
+    "topic": "01",
+    "kind": "paper_reference",
+    "year": 2025,
+    "venue": "ICML",
+    "image": "references/01_视觉网络与编码解码/P167/figures/P167_F6_p14.png",
+    "description": "机制示意与总体框架",
+    "source_kind": "official_proceedings",
+    "copy_note": "官方会议公开论文版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "3d69d07ab6a6407d199a05c716d7334d1fcbbc20d1c914f17afbdbf7b23b9ef6"
+  }
+]

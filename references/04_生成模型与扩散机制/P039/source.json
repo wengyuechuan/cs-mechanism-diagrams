@@ -1,0 +1,19 @@
+{
+  "title": "VFusion3D: Learning Scalable 3D Generative Models from Video Diffusion Models",
+  "venue": "ECCV",
+  "year": 2024,
+  "source_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/255_ECCV_2024_paper.php",
+  "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00255.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P039",
+  "category": "04_生成模型与扩散机制",
+  "pages": 18,
+  "pdf_first_page_excerpt": "VFusion3D: Learning Scalable 3D Generative\nModels from Video Diffusion Models\nJunlin Han1,2*, Filippos Kokkinos1*, and Philip Torr2\n1 GenAI, Meta\n2 Torr Vision Group, University of Oxford\n* Equal contribution\njunlinhan@meta.com, fkokkinos@meta.com, philip.torr@eng.ox.ac.uk\nProject page: https://junlinhan.github.io/projects/vfusion3d.html\nOpenLRM \n \n \n \n \n      TriplaneGaussian\nLGM                                                VFusion3D (ours)\nOpenLRM \n \n \n \n \n      TriplaneGaussian\nOpenLRM \n \n \n \n \n      TriplaneGaussian\nLGM                                                VFusion3D (ours)\nLGM ",
+  "local_pdf": "references/04_生成模型与扩散机制/P039/paper.pdf",
+  "sha256": "8f44173acb6119213eb901cdffd2312b3948dbc450f557be8cdf50ff521c888a",
+  "bytes": 4093720,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

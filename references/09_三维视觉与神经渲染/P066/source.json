@@ -1,0 +1,19 @@
+{
+  "title": "EvGGS: A Collaborative Learning Framework for Event-based Generalizable Gaussian Splatting",
+  "venue": "ICML",
+  "year": 2024,
+  "source_url": "https://proceedings.mlr.press/v235/wang24w.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/wang24w/wang24w.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P066",
+  "category": "09_三维视觉与神经渲染",
+  "pages": 19,
+  "pdf_first_page_excerpt": "EvGGS: A Collaborative Learning Framework for Event-based Generalizable\nGaussian Splatting\nJiaxu Wang 1 Junhao He 1 Ziyi Zhang 1 Mingyuan Sun 2 Jingkai Sun 1 Renjing Xu 1\nAbstract\nEvent cameras offer promising advantages such as\nhigh dynamic range and low latency, making them\nwell-suited for challenging lighting conditions\nand fast-moving scenarios. However, reconstruct-\ning 3D scenes from raw event streams is difficult\nbecause event data is sparse and does not carry ab-\nsolute color information. To release its potential\nin 3D reconstruction, we propose the first event-\nbased generalizable 3D ",
+  "local_pdf": "references/09_三维视觉与神经渲染/P066/paper.pdf",
+  "sha256": "b539509e8acd8169a3caf3075608e369c5c9fa799ce586c0bb95292c174a2189",
+  "bytes": 8175762,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

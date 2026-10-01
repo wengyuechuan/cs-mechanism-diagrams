@@ -1,0 +1,136 @@
+{
+  "id": "T34",
+  "category": "10_计算机系统与数据流程",
+  "slug": "distributed_workers",
+  "title": "Distributed worker and storage architecture",
+  "description": "分发、并行执行和共享存储，适合分布式计算系统架构。",
+  "nodes": [
+    {
+      "id": "client",
+      "label": "Clients",
+      "x": 70,
+      "y": 315,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "route",
+      "label": "Request router",
+      "x": 335,
+      "y": 315,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "w1",
+      "label": "Worker 1",
+      "x": 650,
+      "y": 155,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "w2",
+      "label": "Worker 2",
+      "x": 650,
+      "y": 315,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "w3",
+      "label": "Worker N",
+      "x": 650,
+      "y": 475,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "store",
+      "label": "Shared storage",
+      "x": 1035,
+      "y": 315,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "database"
+    }
+  ],
+  "edges": [
+    {
+      "source": "client",
+      "target": "route",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "route",
+      "target": "w1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "route",
+      "target": "w2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "route",
+      "target": "w3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "w1",
+      "target": "store",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "w2",
+      "target": "store",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "w3",
+      "target": "store",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [
+    {
+      "title": "Compute cluster",
+      "x": 580,
+      "y": 110,
+      "w": 310,
+      "h": 465
+    }
+  ],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

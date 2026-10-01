@@ -1,0 +1,19 @@
+{
+  "title": "On Neural Networks as Infinite Tree-Structured Probabilistic Graphical Models",
+  "venue": "NeurIPS",
+  "year": 2024,
+  "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/0856bc553d3e3b9827e5140d0ad3bf8d-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/0856bc553d3e3b9827e5140d0ad3bf8d-Paper-Conference.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P048",
+  "category": "03_图神经网络与关系推理",
+  "pages": 31,
+  "pdf_first_page_excerpt": "On Neural Networks as Infinite Tree-Structured\nProbabilistic Graphical Models\nBoyao Li∗\nDepartment of Biostatistics and Bioinformatics\nDuke University\nboyao.li@duke.edu\nAlexander J. Thomson∗\nDepartment of Computer Science\nDuke University\nalexander.thomson@duke.edu\nHoussam Nassif\nMeta Inc.\nhoussamn@meta.com\nMatthew M. Engelhard†\nDepartment of Biostatistics and Bioinformatics\nDuke University\nm.engelhard@duke.edu\nDavid Page†\nDepartment of Biostatistics and Bioinformatics\nDuke University\ndavid.page@duke.edu\nAbstract\nDeep neural networks (DNNs) lack the precise semantics and definitive proba-\nbilis",
+  "local_pdf": "references/03_图神经网络与关系推理/P048/paper.pdf",
+  "sha256": "49a326bb970294c04dae00c97df47c44b24013463fbbcc0f02dda0909f143647",
+  "bytes": 521077,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Cross-modal attention fusion">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T21 / Cross-modal attention fusion</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 250,254.0 L 370,254.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 250,484.0 L 370,484.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 540,254.0 L 620.0,254.0 L 620.0,354.0 L 700,354.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 540,484.0 L 620.0,484.0 L 620.0,354.0 L 700,354.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 960,354.0 L 1060,354.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="80" y="220" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="165.0" y="259.0" text-anchor="middle" font-size="16" font-weight="600">Modality A tokens</text>
+<rect x="80" y="450" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="165.0" y="489.0" text-anchor="middle" font-size="16" font-weight="600">Modality B tokens</text>
+<rect x="370" y="220" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="455.0" y="259.0" text-anchor="middle" font-size="16" font-weight="600">Projection Q</text>
+<rect x="370" y="450" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="455.0" y="489.0" text-anchor="middle" font-size="16" font-weight="600">Projection K,V</text>
+<rect x="700" y="320" width="260" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="830.0" y="349.0" text-anchor="middle" font-size="16" font-weight="600">Cross-attention</text>
+<text x="830.0" y="369.0" text-anchor="middle" font-size="16" font-weight="400">Q_A attends to K_B,V_B</text>
+<rect x="1060" y="320" width="210" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1165.0" y="359.0" text-anchor="middle" font-size="16" font-weight="600">Fused representation</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

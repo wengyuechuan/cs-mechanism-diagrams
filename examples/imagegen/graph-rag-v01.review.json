@@ -1,0 +1,43 @@
+{
+  "tool": "built-in imagegen",
+  "mode": "new diagram with local style references",
+  "image_pixels": [
+    1774,
+    887
+  ],
+  "topic": "05",
+  "layout_style": "L08",
+  "visual_style": "V01",
+  "review_method": "manual visual inspection of the actual generated image",
+  "checks": {
+    "node_labels": {
+      "status": "pass",
+      "observation": "All nine node labels match the brief."
+    },
+    "system_edges": {
+      "status": "pass",
+      "observation": "D→C, C→X, X→G, Q→L, L→R, G→R, R→E, E→A; eight directed system arrows visible."
+    },
+    "forbidden_writeback": {
+      "status": "pass",
+      "observation": "No Answer→Graph index, Answer→Entity-relation extraction or Evidence pack→Graph index arrow."
+    },
+    "grouping": {
+      "status": "pass",
+      "observation": "Offline indexing and Online answering lanes are distinct."
+    },
+    "text_and_overlap": {
+      "status": "pass",
+      "observation": "Required labels readable, no extra title/footer/template ID; no overlapping modules."
+    },
+    "reference_style": {
+      "status": "pass",
+      "observation": "Swimlanes, muted functional colors, graph/evidence icons. A faint light-blue lane fill remains; no semantic issue observed."
+    },
+    "target_journal_print_requirements": {
+      "status": "unverified",
+      "observation": "No target publication or physical print-size test supplied. This is a workflow demonstration, not a certified submission-ready figure."
+    }
+  },
+  "repairs": 0
+}

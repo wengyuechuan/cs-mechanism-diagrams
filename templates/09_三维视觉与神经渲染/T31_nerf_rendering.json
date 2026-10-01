@@ -1,0 +1,97 @@
+{
+  "id": "T31",
+  "category": "09_三维视觉与神经渲染",
+  "slug": "nerf_rendering",
+  "title": "Neural radiance field rendering",
+  "description": "射线采样、位置编码与体渲染作为不同语义模块。",
+  "nodes": [
+    {
+      "id": "ray",
+      "label": "Camera ray",
+      "x": 65,
+      "y": 310,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "sample",
+      "label": "Sample 3D positions\n(x,y,z), direction",
+      "x": 330,
+      "y": 310,
+      "w": 215,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "enc",
+      "label": "Position encoding",
+      "x": 630,
+      "y": 310,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "mlp",
+      "label": "Radiance field MLP\ncolor + density",
+      "x": 895,
+      "y": 310,
+      "w": 225,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "render",
+      "label": "Volume rendering\nPixel color",
+      "x": 895,
+      "y": 510,
+      "w": 225,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "ray",
+      "target": "sample",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "sample",
+      "target": "enc",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "enc",
+      "target": "mlp",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "mlp",
+      "target": "render",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

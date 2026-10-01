@@ -1,0 +1,19 @@
+{
+  "title": "Doubly Robust Causal Effect Estimation under Networked Interference via Targeted Learning",
+  "venue": "ICML",
+  "year": 2024,
+  "source_url": "https://proceedings.mlr.press/v235/chen24c.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24c/chen24c.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P068",
+  "category": "11_因果与AI科学机制",
+  "pages": 29,
+  "pdf_first_page_excerpt": "Doubly Robust Causal Effect Estimation under Networked Interference via\nTargeted Learning\nWeilin Chen 1 Ruichu Cai 1 2 Zeqin Yang 1 Jie Qiao 1 Yuguang Yan 1 Zijian Li 3 Zhifeng Hao 4\nAbstract\nCausal effect estimation under networked inter-\nference is an important but challenging prob-\nlem. Available parametric methods are limited\nin their model space, while previous semiparamet-\nric methods, e.g., leveraging neural networks to\nfit only one single nuisance function, may still\nencounter misspecification problems under net-\nworked interference without appropriate assump-\ntions on the data generat",
+  "local_pdf": "references/11_因果与AI科学机制/P068/paper.pdf",
+  "sha256": "b0e8d2b20edc83436c51c87e2dcf20596a8074572da3c1da84d159098d572c42",
+  "bytes": 1475489,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

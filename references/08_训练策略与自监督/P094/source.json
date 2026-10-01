@@ -1,0 +1,19 @@
+{
+  "title": "Masked Autoencoders Are Scalable Vision Learners",
+  "venue": "CVPR",
+  "year": 2022,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf",
+  "source_kind": "official_or_author_public_copy",
+  "id": "P094",
+  "category": "08_训练策略与自监督",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Masked Autoencoders Are Scalable Vision Learners\nKaiming He∗,†\nXinlei Chen∗\nSaining Xie\nYanghao Li\nPiotr Doll´ar\nRoss Girshick\n∗equal technical contribution\n†project lead\nFacebook AI Research (FAIR)\nAbstract\nThis paper shows that masked autoencoders (MAE) are\nscalable self-supervised learners for computer vision. Our\nMAE approach is simple: we mask random patches of the\ninput image and reconstruct the missing pixels. It is based\non two core designs.\nFirst, we develop an asymmetric\nencoder-decoder architecture, with an encoder that oper-\nates only on the visible subset of patches (without mask ",
+  "local_pdf": "references/08_训练策略与自监督/P094/paper.pdf",
+  "sha256": "81bbc64bc197a64362927010470e46601a0f0311aa4c2014a355dfff0e5b3b6c",
+  "bytes": 1737112,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

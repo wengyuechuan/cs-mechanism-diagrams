@@ -1,0 +1,19 @@
+{
+  "title": "Distributionally Robust Model-Based Offline Reinforcement Learning with Near-Optimal Sample Complexity",
+  "venue": "JMLR",
+  "year": 2024,
+  "source_url": "https://jmlr.org/papers/volume25/22-1482/22-1482.html",
+  "pdf_url": "https://jmlr.org/papers/volume25/22-1482/22-1482.pdf",
+  "source_kind": "official_journal",
+  "id": "P088",
+  "category": "07_强化学习与智能体",
+  "pages": 91,
+  "pdf_first_page_excerpt": "Journal of Machine Learning Research 25 (2024) 1-91\nSubmitted 12/22; Revised 12/23; Published 7/24\nDistributionally Robust Model-Based Oﬄine Reinforcement\nLearning with Near-Optimal Sample Complexity\nLaixi Shi\nlaixis@caltech.edu\nComputing Mathematical Sciences\nCalifornia Institute of Technology\nPasadena, CA, 91125, USA\nYuejie Chi\nyuejiechi@cmu.edu\nDepartment of Electrical and Computer Engineering\nCarnegie Mellon University\nPittsburgh, PA, 15213, USA\nEditor: Shipra Agrawal\nAbstract\nThis paper concerns the central issues of model robustness and sample eﬃciency in\noﬄine reinforcement learning (RL",
+  "local_pdf": "references/07_强化学习与智能体/P088/paper.pdf",
+  "sha256": "f9354872e72306100315550fe50304632cd040b051630819b96d62ae256a3e99",
+  "bytes": 794140,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "GameFormer: Game-theoretic Modeling and Learning of Transformer-based Interactive Prediction and Planning for Autonomous Driving",
+  "venue": "ICCV",
+  "year": 2023,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Huang_GameFormer_Game-theoretic_Modeling_and_Learning_of_Transformer-based_Interactive_Prediction_and_ICCV_2023_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Huang_GameFormer_Game-theoretic_Modeling_and_Learning_of_Transformer-based_Interactive_Prediction_and_ICCV_2023_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P017",
+  "category": "02_Transformer与注意力",
+  "pages": 11,
+  "pdf_first_page_excerpt": "GameFormer: Game-theoretic Modeling and Learning of Transformer-based\nInteractive Prediction and Planning for Autonomous Driving\nZhiyu Huang†, Haochen Liu†, Chen Lv∗\nNanyang Technological University, Singapore\n† Equal contribution {zhiyu001,haochen002}@e.ntu.edu.sg\n∗Corresponding author lyuchen@ntu.edu.sg\nAbstract\nAutonomous vehicles operating in complex real-world\nenvironments require accurate predictions of interactive be-\nhaviors between trafﬁc participants.\nThis paper tackles\nthe interaction prediction problem by formulating it with\nhierarchical game theory and proposing the GameFormer\nmod",
+  "local_pdf": "references/02_Transformer与注意力/P017/paper.pdf",
+  "sha256": "f70b54c4f9232fb666b746769e183f1764c2ed6757b0326ccb078257d01a656a",
+  "bytes": 1355533,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Causal-Guided Active Learning for Debiasing Large Language Models",
+  "venue": "ACL",
+  "year": 2024,
+  "source_url": "https://aclanthology.org/2024.acl-long.778/",
+  "pdf_url": "https://aclanthology.org/2024.acl-long.778.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P079",
+  "category": "11_因果与AI科学机制",
+  "pages": 15,
+  "pdf_first_page_excerpt": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 14455–14469\nAugust 11-16, 2024 ©2024 Association for Computational Linguistics\nCausal-Guided Active Learning for Debiasing Large Language Models\nZhouhao Sun1∗, Li Du2*, Xiao Ding1†, Yixuan Ma1, Yang Zhao1, Kaitao Qiu3, Ting Liu1, Bing Qin1\n1Research Center for Social Computing and Information Retrieval\nHarbin Institute of Technology, China\n2Beijing Academy of Artificial Intelligence, Beijing, China\n3 Harbin Institute of Technology, China\n{zhsun, xding, yxma, yzhao, tliu, bqin}",
+  "local_pdf": "references/11_因果与AI科学机制/P079/paper.pdf",
+  "sha256": "5c9e6475460ad17aa4725853fbc646c701dd9ba56adcdeba189ae24b6bd2743c",
+  "bytes": 2183489,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

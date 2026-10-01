@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Distributed worker and storage architecture">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T34 / Distributed worker and storage architecture</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<rect x="580" y="110" width="310" height="465" rx="12" fill="#FAFBFD" stroke="#CCD4DD" stroke-dasharray="5 4"/>
+<text x="596" y="135" font-size="15" font-weight="700" fill="#68778A">Compute cluster</text>
+<path d="M 240,349.0 L 335,349.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 505,349.0 L 577.5,349.0 L 577.5,189.0 L 650,189.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 505,349.0 L 650,349.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 505,349.0 L 577.5,349.0 L 577.5,509.0 L 650,509.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 820,189.0 L 927.5,189.0 L 927.5,349.0 L 1035,349.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 820,349.0 L 1035,349.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 820,509.0 L 927.5,509.0 L 927.5,349.0 L 1035,349.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="70" y="315" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="155.0" y="354.0" text-anchor="middle" font-size="16" font-weight="600">Clients</text>
+<rect x="335" y="315" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="420.0" y="354.0" text-anchor="middle" font-size="16" font-weight="600">Request router</text>
+<rect x="650" y="155" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="735.0" y="194.0" text-anchor="middle" font-size="16" font-weight="600">Worker 1</text>
+<rect x="650" y="315" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="735.0" y="354.0" text-anchor="middle" font-size="16" font-weight="600">Worker 2</text>
+<rect x="650" y="475" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="735.0" y="514.0" text-anchor="middle" font-size="16" font-weight="600">Worker N</text>
+<path d="M1035,327 V371 C1035,387 1205,387 1205,371 V327 Z" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<ellipse cx="1120.0" cy="327" rx="85.0" ry="12" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="1120.0" y="354.0" text-anchor="middle" font-size="16" font-weight="600">Shared storage</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

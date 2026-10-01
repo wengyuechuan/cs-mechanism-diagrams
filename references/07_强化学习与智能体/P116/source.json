@@ -1,0 +1,19 @@
+{
+  "title": "Tianshou: A Highly Modularized Deep Reinforcement Learning Library",
+  "venue": "JMLR",
+  "year": 2022,
+  "source_url": "https://jmlr.org/papers/v23/21-1127.html",
+  "pdf_url": "https://jmlr.org/papers/volume23/21-1127/21-1127.pdf",
+  "source_kind": "official_journal",
+  "category": "07_强化学习与智能体",
+  "id": "P116",
+  "pages": 6,
+  "pdf_first_page_excerpt": "Journal of Machine Learning Research 23 (2022) 1-6\nSubmitted 9/21; Revised 5/22; Published 8/22\nTianshou: A Highly Modularized Deep Reinforcement\nLearning Library\nJiayi Weng‡∗\ntrinkle23897@gmail.com\nHuayu Chen‡∗\nchenhuay21@mails.tsinghua.edu.cn\nDong Yan‡\nsproblvem@gmail.com\nKaichao You§\nyoukaichao@gmail.com\nAlexis Duburcq¶\nalexis.duburcq@gmail.com\nMinghao Zhang§\nmehoozhang@gmail.com\nYi Su♯\nnuance@gmail.com\nHang Su‡†\nsuhangss@tsinghua.edu.cn\nJun Zhu‡†\ndcszj@tsinghua.edu.cn\n‡Dept. of Comp. Sci. & Tech., BNRist Center, Institute for AI, Tsinghua-Bosch Joint ML Center,\nTHBI Lab, Tsinghua Universit",
+  "local_pdf": "references/07_强化学习与智能体/P116/paper.pdf",
+  "sha256": "9c4b96a6a785d96bbe15b2eac26d674c98f091ce4babf21e33b45f48e7c19d13",
+  "bytes": 377924,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

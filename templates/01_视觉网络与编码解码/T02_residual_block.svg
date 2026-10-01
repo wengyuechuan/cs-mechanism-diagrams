@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Residual block with identity path">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T02 / Residual block with identity path</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 240,349.0 L 330,349.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 500,349.0 L 570,349.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 740,349.0 L 835,349.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 895,349.0 L 1010,349.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 155.0,315 L 155,230 L 865,230 L 865.0,319" fill="none" stroke="#647284" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<rect x="476.0" y="209.0" width="68" height="19" rx="3" fill="white"/>
+<text x="510.0" y="223.0" text-anchor="middle" font-size="12" fill="#516173">identity</text>
+<rect x="70" y="315" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="155.0" y="354.0" text-anchor="middle" font-size="16" font-weight="600">Input feature x</text>
+<rect x="330" y="315" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="415.0" y="354.0" text-anchor="middle" font-size="16" font-weight="600">Conv + Norm</text>
+<rect x="570" y="315" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="655.0" y="354.0" text-anchor="middle" font-size="16" font-weight="600">Activation + Conv</text>
+<ellipse cx="865.0" cy="349.0" rx="30.0" ry="30.0" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="865.0" y="354.0" text-anchor="middle" font-size="16" font-weight="600">+</text>
+<rect x="1010" y="315" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1095.0" y="354.0" text-anchor="middle" font-size="16" font-weight="600">Output: x + F(x)</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

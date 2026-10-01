@@ -1,0 +1,19 @@
+{
+  "title": "The Heuristic Core: Understanding Subnetwork Generalization in Pretrained Language Models",
+  "venue": "ACL",
+  "year": 2024,
+  "source_url": "https://aclanthology.org/2024.acl-long.774/",
+  "pdf_url": "https://aclanthology.org/2024.acl-long.774.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P080",
+  "category": "08_训练策略与自监督",
+  "pages": 18,
+  "pdf_first_page_excerpt": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 14351–14368\nAugust 11-16, 2024 ©2024 Association for Computational Linguistics\nThe Heuristic Core: Understanding Subnetwork Generalization\nin Pretrained Language Models\nAdithya Bhaskar\nDan Friedman\nPrinceton Language and Intelligence (PLI), Princeton University\nadithyab@princeton.edu\n{dfriedman, danqic}@cs.princeton.edu\nDanqi Chen\nAbstract\nPrior work has found that pretrained language\nmodels (LMs) fine-tuned with different ran-\ndom seeds can achieve similar in-domain per-\nform",
+  "local_pdf": "references/08_训练策略与自监督/P080/paper.pdf",
+  "sha256": "cbde6782a700174c0954a8a1ad6ccce5cff186f64905a48f82563b9486ac4183",
+  "bytes": 986139,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

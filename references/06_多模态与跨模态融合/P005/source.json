@@ -1,0 +1,19 @@
+{
+  "title": "Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Dual_Memory_Networks_A_Versatile_Adaptation_Approach_for_Vision-Language_Models_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Dual_Memory_Networks_A_Versatile_Adaptation_Approach_for_Vision-Language_Models_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P005",
+  "category": "06_多模态与跨模态融合",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Dual Memory Networks:\nA Versatile Adaptation Approach for Vision-Language Models\nYabin Zhang1,2\nWenjie Zhu1\nHui Tang3\nZhiyuan Ma1\nKaiyang Zhou4\nLei Zhang1,2,*\n1HKPolyU\n2OPPO\n3HKUST\n4HKBU\n{csybzhang,cslzhang}@comp.polyu.edu.hk\nAbstract\nWith the emergence of pre-trained vision-language mod-\nels like CLIP, how to adapt them to various downstream\nclassiﬁcation tasks has garnered signiﬁcant attention in re-\ncent research. The adaptation strategies can be typically\ncategorized into three paradigms: zero-shot adaptation,\nfew-shot adaptation, and the recently-proposed training-\nfree few-shot adaptatio",
+  "local_pdf": "references/06_多模态与跨模态融合/P005/paper.pdf",
+  "sha256": "dad47e1b36dcd6d0db34153d5a4285b1c10f043c9afd79cb9b4d735ee9cbeb35",
+  "bytes": 1170575,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

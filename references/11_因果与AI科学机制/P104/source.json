@@ -1,0 +1,19 @@
+{
+  "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+  "venue": "Nature",
+  "year": 2024,
+  "source_url": "https://www.nature.com/articles/s41586-024-07487-w",
+  "pdf_url": "https://www.nature.com/articles/s41586-024-07487-w.pdf",
+  "source_kind": "official_open_access_journal",
+  "id": "P104",
+  "category": "11_因果与AI科学机制",
+  "pages": 24,
+  "pdf_first_page_excerpt": "Nature  |  Vol 630  |  13 June 2024  |  493\nArticle\nAccurate structure prediction of \nbiomolecular interactions with AlphaFold 3\nJosh Abramson1,7, Jonas Adler1,7, Jack Dunger1,7, Richard Evans1,7, Tim Green1,7, \nAlexander Pritzel1,7, Olaf Ronneberger1,7, Lindsay Willmore1,7, Andrew J. Ballard1, \nJoshua Bambrick2, Sebastian W. Bodenstein1, David A. Evans1, Chia-Chun Hung2, \nMichael O’Neill1, David Reiman1, Kathryn Tunyasuvunakool1, Zachary Wu1, Akvilė Žemgulytė1, \nEirini Arvaniti3, Charles Beattie3, Ottavia Bertolli3, Alex Bridgland3, Alexey Cherepanov4, \nMiles Congreve4, Alexander I. Cowen-Riv",
+  "local_pdf": "references/11_因果与AI科学机制/P104/paper.pdf",
+  "sha256": "aba3109f2892454c9512570001598a069aaf422adb5aa0f3879414cb29a258fb",
+  "bytes": 8602339,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

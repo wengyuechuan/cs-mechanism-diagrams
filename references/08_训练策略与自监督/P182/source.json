@@ -1,0 +1,20 @@
+{
+  "title": "I mpli H ate V id: A Benchmark Dataset and Two-stage Contrastive Learning Framework for Implicit Hate Speech Detection in Videos",
+  "venue": "ACL",
+  "year": 2025,
+  "source_url": "https://aclanthology.org/2025.acl-long.842/",
+  "pdf_url": "https://aclanthology.org/2025.acl-long.842.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P182",
+  "category": "08_训练策略与自监督",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 13,
+  "pdf_first_page_excerpt": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 17209–17221\nJuly 27 - August 1, 2025 ©2025 Association for Computational Linguistics\nImpliHateVid: A Benchmark Dataset and Two-stage Contrastive Learning\nFramework for Implicit Hate Speech Detection in Videos\nMohammad Zia Ur Rehman1, Anukriti Bhatnagar1, Omkar Kabde2, Shubhi Bansal1,\nNagendra Kumar1\n1Indian Institute of Technology Indore, Indore, India\n2Chaitanya Bharathi Institute of Technology, Telangana, India\n{phd2101201005, mt2302101007}@iiti.ac.in, ugs22058_cic.omkar@cbi",
+  "local_pdf": "references/08_训练策略与自监督/P182/paper.pdf",
+  "sha256": "09fe95b93dec33119432d9b50356c1729ad3d8d43b859c0fd303020647d7c4e6",
+  "bytes": 2405525,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

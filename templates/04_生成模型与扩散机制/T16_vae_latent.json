@@ -1,0 +1,138 @@
+{
+  "id": "T16",
+  "category": "04_生成模型与扩散机制",
+  "slug": "vae_latent",
+  "title": "Variational latent reparameterization",
+  "description": "概率变量与采样节点分开，清晰显示可微重参数化结构。",
+  "nodes": [
+    {
+      "id": "x",
+      "label": "Input x",
+      "x": 65,
+      "y": 335,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "enc",
+      "label": "Encoder q(z|x)",
+      "x": 295,
+      "y": 335,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "mu",
+      "label": "Mean mu",
+      "x": 545,
+      "y": 210,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "sd",
+      "label": "Scale sigma",
+      "x": 545,
+      "y": 455,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "s",
+      "label": "Reparameterize\nz = mu + sigma * eps",
+      "x": 790,
+      "y": 335,
+      "w": 225,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "dec",
+      "label": "Decoder p(x|z)",
+      "x": 1070,
+      "y": 335,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "eps",
+      "label": "eps ~ N(0, I)",
+      "x": 790,
+      "y": 520,
+      "w": 170,
+      "h": 68,
+      "kind": "neutral",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "x",
+      "target": "enc",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "enc",
+      "target": "mu",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "enc",
+      "target": "sd",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "mu",
+      "target": "s",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "sd",
+      "target": "s",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "eps",
+      "target": "s",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "s",
+      "target": "dec",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

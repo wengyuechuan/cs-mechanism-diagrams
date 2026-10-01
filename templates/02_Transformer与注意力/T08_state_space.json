@@ -1,0 +1,138 @@
+{
+  "id": "T08",
+  "category": "02_Transformer与注意力",
+  "slug": "state_space",
+  "title": "State-space block with gating",
+  "description": "局部卷积、状态更新和乘性门控的机制示意，需按具体 SSM 实现调整。",
+  "nodes": [
+    {
+      "id": "x",
+      "label": "Token sequence",
+      "x": 65,
+      "y": 310,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "proj",
+      "label": "Input projection",
+      "x": 285,
+      "y": 310,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "conv",
+      "label": "Local convolution",
+      "x": 525,
+      "y": 210,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "ssm",
+      "label": "Selective state space\ns_t = A_t s_(t-1) + B_t x_t",
+      "x": 765,
+      "y": 210,
+      "w": 245,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "gate",
+      "label": "Gating branch",
+      "x": 525,
+      "y": 435,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "mul",
+      "label": "x",
+      "x": 1075,
+      "y": 320,
+      "w": 60,
+      "h": 60,
+      "kind": "latent",
+      "shape": "ellipse"
+    },
+    {
+      "id": "out",
+      "label": "Output projection",
+      "x": 1070,
+      "y": 500,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "x",
+      "target": "proj",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "proj",
+      "target": "conv",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "conv",
+      "target": "ssm",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "proj",
+      "target": "gate",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "ssm",
+      "target": "mul",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "gate",
+      "target": "mul",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "mul",
+      "target": "out",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

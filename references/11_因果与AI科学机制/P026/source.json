@@ -1,0 +1,19 @@
+{
+  "title": "A Dynamic Dual-Processing Object Detection Framework Inspired by the Brain's Recognition Mechanism",
+  "venue": "ICCV",
+  "year": 2023,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_A_Dynamic_Dual-Processing_Object_Detection_Framework_Inspired_by_the_Brains_ICCV_2023_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_A_Dynamic_Dual-Processing_Object_Detection_Framework_Inspired_by_the_Brains_ICCV_2023_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P026",
+  "category": "11_因果与AI科学机制",
+  "pages": 11,
+  "pdf_first_page_excerpt": "A Dynamic Dual-Processing Object Detection Framework Inspired by the\nBrain’s Recognition Mechanism\nMinying Zhang*†\nTianpeng Bu*\nLulu Hu\nAlibaba Group\nHangzhou, Zhejiang, China\n{minying.zmy, tianpeng.btp, chudu.hll} @alibaba-inc.com\nAbstract\nThere are two main approaches to object detection:\nCNN-based and Transformer-based. The former views ob-\nject detection as a dense local matching problem, while the\nlatter sees it as a sparse global retrieval problem. Research\nin neuroscience has shown that the recognition decision in\nthe brain is based on two processes, namely familiarity and\nrecollection.",
+  "local_pdf": "references/11_因果与AI科学机制/P026/paper.pdf",
+  "sha256": "f14881cb33119e407f4e34973fef74377e434b269ff4ca2f12760731d5a0a505",
+  "bytes": 5378000,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

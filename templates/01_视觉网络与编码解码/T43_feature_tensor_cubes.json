@@ -1,0 +1,97 @@
+{
+  "id": "T43",
+  "category": "01_视觉网络与编码解码",
+  "slug": "feature_tensor_cubes",
+  "title": "Feature tensors and convolution stages",
+  "description": "可编辑立体特征图图元展示空间分辨率下降和通道变化，不要求读者只靠方框理解张量。",
+  "nodes": [
+    {
+      "id": "im",
+      "label": "Input image\nH x W x 3",
+      "x": 65,
+      "y": 300,
+      "w": 155,
+      "h": 155,
+      "kind": "input",
+      "shape": "cube"
+    },
+    {
+      "id": "f1",
+      "label": "Feature map\nH/2 x W/2 x C",
+      "x": 330,
+      "y": 320,
+      "w": 165,
+      "h": 120,
+      "kind": "module",
+      "shape": "cube"
+    },
+    {
+      "id": "f2",
+      "label": "Feature map\nH/4 x W/4 x 2C",
+      "x": 605,
+      "y": 340,
+      "w": 165,
+      "h": 90,
+      "kind": "module",
+      "shape": "cube"
+    },
+    {
+      "id": "f3",
+      "label": "Feature map\nH/8 x W/8 x 4C",
+      "x": 880,
+      "y": 350,
+      "w": 155,
+      "h": 70,
+      "kind": "attention",
+      "shape": "cube"
+    },
+    {
+      "id": "out",
+      "label": "Task head",
+      "x": 1110,
+      "y": 350,
+      "w": 155,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "im",
+      "target": "f1",
+      "label": "Conv / stride 2",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "f1",
+      "target": "f2",
+      "label": "Conv / stride 2",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "f2",
+      "target": "f3",
+      "label": "Conv / stride 2",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "f3",
+      "target": "out",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

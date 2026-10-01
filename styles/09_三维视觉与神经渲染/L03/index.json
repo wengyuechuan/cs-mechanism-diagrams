@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P066_F6_p12",
+    "title": "EvGGS: A Collaborative Learning Framework for Event-based Generalizable Gaussian Splatting",
+    "category": "09_三维视觉与神经渲染",
+    "layout_style": "L03",
+    "visual_style": "V03",
+    "source_url": "https://proceedings.mlr.press/v235/wang24w.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/wang24w/wang24w.pdf",
+    "figure_number": "6",
+    "pdf_page": 12,
+    "caption": "Figure 6. Architecture visualization of the UNet feature extraction network used in depth estimation and intensity reconstruction modules",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "09",
+    "kind": "paper_reference",
+    "year": 2024,
+    "venue": "ICML",
+    "image": "references/09_三维视觉与神经渲染/P066/figures/P066_F6_p12.png",
+    "description": "网络架构图",
+    "source_kind": "official_proceedings",
+    "copy_note": "原论文集/出版商公开版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "4ae8265a77261c8969617b26527478a881dc241cc053b21f45305a0245a934eb"
+  }
+]

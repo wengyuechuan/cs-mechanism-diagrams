@@ -1,0 +1,20 @@
+{
+  "title": "Fundamental limits of learning in sequence multi-index models and deep attention networks: high-dimensional asymptotics and sharp thresholds",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/troiani25a.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/troiani25a/troiani25a.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P157",
+  "category": "02_Transformer与注意力",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 36,
+  "pdf_first_page_excerpt": "Fundamental limits of learning in sequence multi-index models and deep\nattention networks: high-dimensional asymptotics and sharp thresholds\nEmanuele Troiani 1 Hugo Cui 2 Yatin Dandi 1 3 Florent Krzakala 3 Lenka Zdeborov´a 1\nAbstract\nIn this manuscript, we study the learning of deep\nattention neural networks, defined as the composi-\ntion of multiple self-attention layers, with tied and\nlow-rank weights. We first establish a mapping of\nsuch models to sequence multi-index models, a\ngeneralization of the widely studied multi-index\nmodel to sequential covariates, for which we es-\ntablish a number ",
+  "local_pdf": "references/02_Transformer与注意力/P157/paper.pdf",
+  "sha256": "73cc1e19f1147ee2c77904e6491dcb97f957c125b841a5120748283dae260f49",
+  "bytes": 912219,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

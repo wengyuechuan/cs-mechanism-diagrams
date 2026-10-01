@@ -1,0 +1,19 @@
+{
+  "title": "ReMAP: Neural Model Reprogramming with Network Inversion and Retrieval-Augmented Mapping for Adaptive Motion Forecasting",
+  "venue": "NeurIPS",
+  "year": 2024,
+  "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/2cdf71a65e95bf1874212f6e604c64db-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/2cdf71a65e95bf1874212f6e604c64db-Paper-Conference.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P050",
+  "category": "05_检索增强与知识系统",
+  "pages": 33,
+  "pdf_first_page_excerpt": "ReMAP: Neural Model Reprogramming with Network\nInversion and Retrieval-Augmented Mapping for\nAdaptive Motion Forecasting\nSharmita Dey∗, Sarath Ravindran Nair∗\nAbstract\nMobility impairment caused by limb loss, aging, stroke, and other movement\ndeficiencies is a significant challenge faced by millions of individuals worldwide.\nAdvanced assistive technologies, such as prostheses and orthoses, have the potential\nto greatly improve the quality of life for such individuals. A critical component\nin the design of these technologies is the accurate forecasting of reference joint\nmotion for impaired lim",
+  "local_pdf": "references/05_检索增强与知识系统/P050/paper.pdf",
+  "sha256": "2eb46d2df7ec9846116e0ffa9236b4f9ce9b1193aa351779ce1cd5081118bf3d",
+  "bytes": 4753041,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

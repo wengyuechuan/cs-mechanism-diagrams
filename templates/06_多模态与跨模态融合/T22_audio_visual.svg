@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Audio-visual temporal fusion">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T22 / Audio-visual temporal fusion</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 235,229.0 L 345,229.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 235,469.0 L 345,469.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 515,229.0 L 590.0,229.0 L 590.0,349.0 L 665,349.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 515,469.0 L 590.0,469.0 L 590.0,349.0 L 665,349.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 835,349.0 L 955,349.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 1040.0,383 L 1040.0,515" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="65" y="195" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="150.0" y="234.0" text-anchor="middle" font-size="16" font-weight="600">Video frames</text>
+<rect x="65" y="435" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="150.0" y="474.0" text-anchor="middle" font-size="16" font-weight="600">Audio waveform</text>
+<rect x="345" y="195" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="430.0" y="234.0" text-anchor="middle" font-size="16" font-weight="600">Visual encoder</text>
+<rect x="345" y="435" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="430.0" y="474.0" text-anchor="middle" font-size="16" font-weight="600">Audio encoder</text>
+<rect x="665" y="315" width="170" height="68" rx="8" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="750.0" y="354.0" text-anchor="middle" font-size="16" font-weight="600">Temporal alignment</text>
+<rect x="955" y="315" width="170" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="1040.0" y="354.0" text-anchor="middle" font-size="16" font-weight="600">Fusion block</text>
+<rect x="955" y="515" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1040.0" y="554.0" text-anchor="middle" font-size="16" font-weight="600">Prediction</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

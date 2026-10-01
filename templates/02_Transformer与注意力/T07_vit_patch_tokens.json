@@ -1,0 +1,113 @@
+{
+  "id": "T07",
+  "category": "02_Transformer与注意力",
+  "slug": "vit_patch_tokens",
+  "title": "Vision Transformer token pipeline",
+  "description": "图像到 patch、token 序列、Transformer 和任务头，适合 ViT 类方法。",
+  "nodes": [
+    {
+      "id": "0",
+      "label": "Image\nH x W x C",
+      "x": 65,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "1",
+      "label": "Patchify\np x p patches",
+      "x": 275,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "2",
+      "label": "Patch embedding\nN x D + position",
+      "x": 485,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "3",
+      "label": "Transformer blocks\nN x D",
+      "x": 695,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "4",
+      "label": "CLS / pooled head",
+      "x": 905,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "label": "class token + position",
+      "style": "dashed",
+      "via": [
+        [
+          360,
+          210
+        ],
+        [
+          780,
+          210
+        ]
+      ]
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

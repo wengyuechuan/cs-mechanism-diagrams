@@ -1,0 +1,21 @@
+{
+  "title": "ECERC : Evidence-Cause Attention Network for Multi-Modal Emotion Recognition in Conversation",
+  "venue": "ACL",
+  "year": 2025,
+  "source_url": "https://aclanthology.org/2025.acl-long.102/",
+  "pdf_url": "https://aclanthology.org/2025.acl-long.102.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P183",
+  "category": "06_多模态与跨模态融合",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 14,
+  "pdf_first_page_excerpt": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 2064–2077\nJuly 27 - August 1, 2025 ©2025 Association for Computational Linguistics\nECERC: Evidence-Cause Attention Network for Multi-Modal Emotion\nRecognition in Conversation\nTao Zhang† and Zhenhua Tan†‡§∗\n†Software College, Northeastern University, Shenyang, China\n‡National Frontiers Science Center for Industrial Intelligence and Systems Optimization,\nNortheastern University, Shenyang, China\n§Key Laboratory of Data Analytics and Optimization for Smart Industry\n(Northeastern U",
+  "local_pdf": "references/02_Transformer与注意力/P183/paper.pdf",
+  "sha256": "55858648fd35d7278caaa51a1a4ab478bceb1c278edd84d1de9074e8e08b9eea",
+  "bytes": 2855998,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "T12",
+  "category": "03_图神经网络与关系推理",
+  "slug": "hierarchical_graph",
+  "title": "Hierarchical graph pooling",
+  "description": "真实节点图元加聚合模块，展示图到粗粒度图再到图级表示。",
+  "nodes": [
+    {
+      "id": "g1",
+      "label": "Fine graph\nNode embeddings",
+      "x": 100,
+      "y": 310,
+      "w": 210,
+      "h": 150,
+      "kind": "input",
+      "shape": "graph"
+    },
+    {
+      "id": "pool",
+      "label": "Learned assignment\nS: N x K",
+      "x": 425,
+      "y": 340,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "g2",
+      "label": "Coarsened graph\nK supernodes",
+      "x": 760,
+      "y": 310,
+      "w": 210,
+      "h": 150,
+      "kind": "latent",
+      "shape": "graph"
+    },
+    {
+      "id": "read",
+      "label": "Graph readout",
+      "x": 1080,
+      "y": 350,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "g1",
+      "target": "pool",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "pool",
+      "target": "g2",
+      "label": "pool",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "g2",
+      "target": "read",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

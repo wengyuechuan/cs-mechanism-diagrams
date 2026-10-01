@@ -1,0 +1,19 @@
+{
+  "title": "HyperPrism: An Adaptive Non-linear Aggregation Framework for Distributed Machine Learning over Non-IID Data and Time-varying Communication Links",
+  "venue": "NeurIPS",
+  "year": 2024,
+  "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/15e5fccdfeb10bb54f8e74944de1c8bf-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/15e5fccdfeb10bb54f8e74944de1c8bf-Paper-Conference.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P055",
+  "category": "10_计算机系统与数据流程",
+  "pages": 23,
+  "pdf_first_page_excerpt": "HyperPrism: An Adaptive Non-linear Aggregation\nFramework for Distributed Machine Learning over\nnon-IID Data and Time-varying Communication Links\nHaizhou Du ∗\nShanghai University\nof Electric Power\nShanghai, China\nYijian Chen\nShanghai University\nof Electric Power\nShanghai, China\nRyan Yang ∗\nMassachusetts Institute\nof Technology\nMA, USA\nYuchen Li\nShanghai Jiao Tong\nUniversity\nShanghai, China\nLinghe Kong\nShanghai Jiao Tong\nUniversity\nShanghai, China\nAbstract\nWhile Distributed Machine Learning (DML) has been widely used to achieve\ndecent performance, it is still challenging to take full advantage o",
+  "local_pdf": "references/10_计算机系统与数据流程/P055/paper.pdf",
+  "sha256": "3db46af32bad977cf966bc19f610ac69e3ba3ccc5ac8ff004b363a232f6a5704",
+  "bytes": 1188274,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

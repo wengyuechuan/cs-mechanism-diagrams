@@ -1,0 +1,158 @@
+{
+  "id": "T46",
+  "category": "02_Transformer与注意力",
+  "slug": "patch_token_strip",
+  "title": "Patch image and editable token strip",
+  "description": "每个 token 为独立图元，C 表示 CLS token；可替换为 mask、时间或模态 token。",
+  "nodes": [
+    {
+      "id": "img",
+      "label": "Image patches",
+      "x": 65,
+      "y": 280,
+      "w": 165,
+      "h": 155,
+      "kind": "input",
+      "shape": "cube"
+    },
+    {
+      "id": "enc",
+      "label": "Transformer encoder",
+      "x": 760,
+      "y": 325,
+      "w": 235,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "out",
+      "label": "Prediction",
+      "x": 1085,
+      "y": 325,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "p0",
+      "label": "C",
+      "x": 370,
+      "y": 325,
+      "w": 31,
+      "h": 70,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "p1",
+      "label": "1",
+      "x": 410,
+      "y": 325,
+      "w": 31,
+      "h": 70,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "p2",
+      "label": "2",
+      "x": 450,
+      "y": 325,
+      "w": 31,
+      "h": 70,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "p3",
+      "label": "3",
+      "x": 490,
+      "y": 325,
+      "w": 31,
+      "h": 70,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "p4",
+      "label": "4",
+      "x": 530,
+      "y": 325,
+      "w": 31,
+      "h": 70,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "p5",
+      "label": "5",
+      "x": 570,
+      "y": 325,
+      "w": 31,
+      "h": 70,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "p6",
+      "label": "6",
+      "x": 610,
+      "y": 325,
+      "w": 31,
+      "h": 70,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "p7",
+      "label": "7",
+      "x": 650,
+      "y": 325,
+      "w": 31,
+      "h": 70,
+      "kind": "module",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "img",
+      "target": "p0",
+      "label": "patch embedding",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "p0",
+      "target": "enc",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "enc",
+      "target": "out",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [
+    {
+      "title": "Embedded token sequence",
+      "x": 335,
+      "y": 250,
+      "w": 365,
+      "h": 175
+    }
+  ],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

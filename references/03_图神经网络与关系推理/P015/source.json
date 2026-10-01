@@ -1,0 +1,19 @@
+{
+  "title": "Leveraging Predicate and Triplet Learning for Scene Graph Generation",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_Leveraging_Predicate_and_Triplet_Learning_for_Scene_Graph_Generation_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Leveraging_Predicate_and_Triplet_Learning_for_Scene_Graph_Generation_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P015",
+  "category": "03_图神经网络与关系推理",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Leveraging Predicate and Triplet Learning for Scene Graph Generation\nJiankai Li1,2,3\nYunhong Wang1\nXiefan Guo1\nRuijie Yang1\nWeixin Li1,2,3*\n1 IRIP Lab, School of Computer Science and Engineering, Beihang University, Beijing, China\n2 State Key Laboratory of Complex & Critical Software Environment, Beihang University, Beijing, China\n3 Shanghai Artificial Intelligence Laboratory, Shanghai, China\n{lijiankai, yhwang, xfguo, rjyang, weixinli}@buaa.edu.cn\nAbstract\nScene Graph Generation (SGG) aims to identify enti-\nties and predict the relationship triplets <subject, predi-\ncate, object> in visual sc",
+  "local_pdf": "references/03_图神经网络与关系推理/P015/paper.pdf",
+  "sha256": "9b9c73145c162bb68458641feaab24db5a0f6f612d4af89c86fcb2ba3237a268",
+  "bytes": 6468446,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

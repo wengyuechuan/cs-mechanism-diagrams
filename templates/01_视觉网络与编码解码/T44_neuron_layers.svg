@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Neural network as neuron-node layers">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T44 / Neural network as neuron-node layers</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<rect x="105" y="160" width="150" height="420" rx="12" fill="#FAFBFD" stroke="#CCD4DD" stroke-dasharray="5 4"/>
+<text x="121" y="185" font-size="15" font-weight="700" fill="#68778A">Input</text>
+<rect x="395" y="120" width="150" height="500" rx="12" fill="#FAFBFD" stroke="#CCD4DD" stroke-dasharray="5 4"/>
+<text x="411" y="145" font-size="15" font-weight="700" fill="#68778A">Hidden layer 1</text>
+<rect x="705" y="120" width="150" height="500" rx="12" fill="#FAFBFD" stroke="#CCD4DD" stroke-dasharray="5 4"/>
+<text x="721" y="145" font-size="15" font-weight="700" fill="#68778A">Hidden layer 2</text>
+<rect x="1045" y="160" width="150" height="420" rx="12" fill="#FAFBFD" stroke="#CCD4DD" stroke-dasharray="5 4"/>
+<text x="1061" y="185" font-size="15" font-weight="700" fill="#68778A">Output</text>
+<path d="M 197.07356993435684,274.39618515671856 L 440.92643006564316,204.60381484328144" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 198.0,281.0 L 440.0,281.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 197.07356993435684,287.60381484328144 L 440.92643006564316,357.39618515671856" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 194.82898977910764,292.92280104597194 L 443.17101022089236,435.07719895402806" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 192.20885532656618,296.6344999183275 L 445.79114467343385,514.3655000816725" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 194.82898977910764,352.07719895402806 L 443.17101022089236,209.92280104597197" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 197.07356993435684,357.39618515671856 L 440.92643006564316,287.60381484328144" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 198.0,364.0 L 440.0,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 197.07356993435684,370.60381484328144 L 440.92643006564316,440.39618515671856" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 194.82898977910764,375.92280104597194 L 443.17101022089236,518.0771989540281" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 192.20885532656618,431.3655000816725 L 445.79114467343385,213.6344999183275" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 194.82898977910764,435.07719895402806 L 443.17101022089236,292.92280104597194" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 197.07356993435684,440.39618515671856 L 440.92643006564316,370.60381484328144" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 198.0,447.0 L 440.0,447.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 197.07356993435684,453.60381484328144 L 440.92643006564316,523.3961851567186" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 488.0,198.0 L 750.0,198.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 487.18342062870994,204.2071739102675 L 750.81657937129,274.7928260897325" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 485.157548183065,209.32952580125416 L 752.8424518169351,352.67047419874586" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 482.71137174394113,213.02945665884303 L 755.2886282560588,431.97054334115694" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 480.3794027230161,215.54181194852043 L 757.620597276984,512.4581880514796" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 487.18342062870994,274.7928260897325 L 750.81657937129,204.2071739102675" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 488.0,281.0 L 750.0,281.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 487.18342062870994,287.2071739102675 L 750.81657937129,357.7928260897325" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 485.157548183065,292.32952580125414 L 752.8424518169351,435.67047419874586" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 482.71137174394113,296.02945665884306 L 755.2886282560588,514.9705433411569" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 485.157548183065,352.67047419874586 L 752.8424518169351,209.32952580125416" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 487.18342062870994,357.7928260897325 L 750.81657937129,287.2071739102675" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 488.0,364.0 L 750.0,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 487.18342062870994,370.2071739102675 L 750.81657937129,440.7928260897325" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 485.157548183065,375.32952580125414 L 752.8424518169351,518.6704741987459" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 482.71137174394113,431.97054334115694 L 755.2886282560588,213.02945665884303" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 485.157548183065,435.67047419874586 L 752.8424518169351,292.32952580125414" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 487.18342062870994,440.7928260897325 L 750.81657937129,370.2071739102675" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 488.0,447.0 L 750.0,447.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 487.18342062870994,453.2071739102675 L 750.81657937129,523.7928260897324" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 480.3794027230161,512.4581880514796 L 757.620597276984,215.54181194852043" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 482.71137174394113,514.9705433411569 L 755.2886282560588,296.02945665884306" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 485.157548183065,518.6704741987459 L 752.8424518169351,375.32952580125414" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 487.18342062870994,523.7928260897324 L 750.81657937129,453.2071739102675" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 488.0,530.0 L 750.0,530.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 796.536600120001,206.25237269100037 L 1091.4633998799989,314.2476273089996" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 794.4862074500486,210.50261189966204 L 1093.5137925499514,392.99738810033796" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 797.8231928900223,283.90783089687034 L 1090.1768071099777,319.59216910312966" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 796.536600120001,289.2523726910004 L 1091.4633998799989,397.2476273089996" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 797.8231928900223,361.09216910312966 L 1090.1768071099777,325.40783089687034" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 797.8231928900223,366.90783089687034 L 1090.1768071099777,402.59216910312966" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 796.536600120001,438.7476273089996 L 1091.4633998799989,330.7523726910004" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 797.8231928900223,444.09216910312966 L 1090.1768071099777,408.40783089687034" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 794.4862074500486,517.497388100338 L 1093.5137925499514,335.00261189966204" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 796.536600120001,521.7476273089997 L 1091.4633998799989,413.7523726910004" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<ellipse cx="174.0" cy="281.0" rx="24.0" ry="24.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="174.0" y="286.0" text-anchor="middle" font-size="16" font-weight="600">x1</text>
+<ellipse cx="174.0" cy="364.0" rx="24.0" ry="24.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="174.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">x2</text>
+<ellipse cx="174.0" cy="447.0" rx="24.0" ry="24.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="174.0" y="452.0" text-anchor="middle" font-size="16" font-weight="600">x3</text>
+<ellipse cx="464.0" cy="198.0" rx="24.0" ry="24.0" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="464.0" y="203.0" text-anchor="middle" font-size="16" font-weight="600"></text>
+<ellipse cx="464.0" cy="281.0" rx="24.0" ry="24.0" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="464.0" y="286.0" text-anchor="middle" font-size="16" font-weight="600"></text>
+<ellipse cx="464.0" cy="364.0" rx="24.0" ry="24.0" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="464.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600"></text>
+<ellipse cx="464.0" cy="447.0" rx="24.0" ry="24.0" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="464.0" y="452.0" text-anchor="middle" font-size="16" font-weight="600"></text>
+<ellipse cx="464.0" cy="530.0" rx="24.0" ry="24.0" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="464.0" y="535.0" text-anchor="middle" font-size="16" font-weight="600"></text>
+<ellipse cx="774.0" cy="198.0" rx="24.0" ry="24.0" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="774.0" y="203.0" text-anchor="middle" font-size="16" font-weight="600"></text>
+<ellipse cx="774.0" cy="281.0" rx="24.0" ry="24.0" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="774.0" y="286.0" text-anchor="middle" font-size="16" font-weight="600"></text>
+<ellipse cx="774.0" cy="364.0" rx="24.0" ry="24.0" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="774.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600"></text>
+<ellipse cx="774.0" cy="447.0" rx="24.0" ry="24.0" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="774.0" y="452.0" text-anchor="middle" font-size="16" font-weight="600"></text>
+<ellipse cx="774.0" cy="530.0" rx="24.0" ry="24.0" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="774.0" y="535.0" text-anchor="middle" font-size="16" font-weight="600"></text>
+<ellipse cx="1114.0" cy="322.5" rx="24.0" ry="24.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1114.0" y="327.5" text-anchor="middle" font-size="16" font-weight="600">y1</text>
+<ellipse cx="1114.0" cy="405.5" rx="24.0" ry="24.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1114.0" y="410.5" text-anchor="middle" font-size="16" font-weight="600">y2</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

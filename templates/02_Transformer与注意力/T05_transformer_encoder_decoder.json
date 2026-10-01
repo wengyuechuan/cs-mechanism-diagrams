@@ -1,0 +1,146 @@
+{
+  "id": "T05",
+  "category": "02_Transformer与注意力",
+  "slug": "transformer_encoder_decoder",
+  "title": "Transformer encoder-decoder overview",
+  "description": "上下双通路展示源端编码、目标端自回归与跨注意力。",
+  "nodes": [
+    {
+      "id": "tok",
+      "label": "Source tokens",
+      "x": 65,
+      "y": 210,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "emb",
+      "label": "Embedding + position",
+      "x": 285,
+      "y": 210,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "enc",
+      "label": "Encoder stack\nSelf-attn -> FFN",
+      "x": 525,
+      "y": 210,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "tgt",
+      "label": "Target tokens",
+      "x": 65,
+      "y": 450,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "temb",
+      "label": "Shifted embedding",
+      "x": 285,
+      "y": 450,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "dec",
+      "label": "Decoder stack\nMasked + cross-attn",
+      "x": 765,
+      "y": 450,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "prob",
+      "label": "Linear + softmax",
+      "x": 1045,
+      "y": 450,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "tok",
+      "target": "emb",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "emb",
+      "target": "enc",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "tgt",
+      "target": "temb",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "temb",
+      "target": "dec",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "enc",
+      "target": "dec",
+      "label": "K, V",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "dec",
+      "target": "prob",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [
+    {
+      "title": "Source sequence",
+      "x": 40,
+      "y": 150,
+      "w": 670,
+      "h": 170
+    },
+    {
+      "title": "Autoregressive target sequence",
+      "x": 40,
+      "y": 390,
+      "w": 1200,
+      "h": 170
+    }
+  ],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

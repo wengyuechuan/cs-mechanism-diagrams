@@ -1,0 +1,122 @@
+{
+  "id": "T42",
+  "category": "12_通用方法与总体框架",
+  "slug": "overview_zoom",
+  "title": "Overview with module zoom-in",
+  "description": "上方总图与下方模块细节形成两级叙事，适合方法模块解释。",
+  "nodes": [
+    {
+      "id": "big",
+      "label": "System overview",
+      "x": 70,
+      "y": 285,
+      "w": 230,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "module",
+      "label": "Highlighted module",
+      "x": 440,
+      "y": 285,
+      "w": 235,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "output",
+      "label": "System output",
+      "x": 795,
+      "y": 285,
+      "w": 210,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "step1",
+      "label": "Internal step A",
+      "x": 380,
+      "y": 520,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "step2",
+      "label": "Internal step B",
+      "x": 635,
+      "y": 520,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "step3",
+      "label": "Internal step C",
+      "x": 890,
+      "y": 520,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "big",
+      "target": "module",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "module",
+      "target": "output",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "module",
+      "target": "step1",
+      "label": "zoom-in",
+      "style": "dashed",
+      "via": []
+    },
+    {
+      "source": "step1",
+      "target": "step2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "step2",
+      "target": "step3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [
+    {
+      "title": "Module detail",
+      "x": 325,
+      "y": 450,
+      "w": 810,
+      "h": 165
+    }
+  ],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

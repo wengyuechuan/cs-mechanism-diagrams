@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="768" viewBox="0 0 1320 768" role="img" aria-label="Causal mechanism and intervention DAG">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="768" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T37 / Causal mechanism and intervention DAG</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 535,197.5 L 465.0,197.5 L 465.0,432.5 L 395,432.5" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 685,197.5 L 812.5,197.5 L 812.5,432.5 L 940,432.5" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 395,432.5 L 585,432.5" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 735,432.5 L 940,432.5" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 320.0,470 L 320,520 L 1015,520 L 1015.0,470" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="616.0" y="499.0" width="103" height="19" rx="3" fill="white"/>
+<text x="667.5" y="513.0" text-anchor="middle" font-size="12" fill="#516173">direct effect</text>
+<path d="M 315.0,570 L 320.0,470" fill="none" stroke="#647284" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<rect x="269.5" y="499.0" width="96" height="19" rx="3" fill="white"/>
+<text x="317.5" y="513.0" text-anchor="middle" font-size="12" fill="#516173">intervention</text>
+<ellipse cx="610.0" cy="197.5" rx="75.0" ry="37.5" fill="#F1F3F5" stroke="#7F8994" stroke-width="1.6"/>
+<text x="610.0" y="202.5" text-anchor="middle" font-size="16" font-weight="600">Confounder U</text>
+<ellipse cx="320.0" cy="432.5" rx="75.0" ry="37.5" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="320.0" y="437.5" text-anchor="middle" font-size="16" font-weight="600">Treatment X</text>
+<ellipse cx="660.0" cy="432.5" rx="75.0" ry="37.5" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="660.0" y="437.5" text-anchor="middle" font-size="16" font-weight="600">Mediator M</text>
+<ellipse cx="1015.0" cy="432.5" rx="75.0" ry="37.5" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="1015.0" y="437.5" text-anchor="middle" font-size="16" font-weight="600">Outcome Y</text>
+<rect x="200" y="570" width="230" height="68" rx="8" fill="#F7E5E4" stroke="#B67975" stroke-width="1.6"/>
+<text x="315.0" y="609.0" text-anchor="middle" font-size="16" font-weight="600">Intervention do(X)</text>
+<line x1="48" y1="685" x2="1272" y2="685" stroke="#DCE2E9"/>
+<text x="48" y="715" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="740" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

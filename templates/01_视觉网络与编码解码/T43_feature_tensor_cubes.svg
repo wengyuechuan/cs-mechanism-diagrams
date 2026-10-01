@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Feature tensors and convolution stages">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T43 / Feature tensors and convolution stages</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 220,377.5 L 330,380.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="216.5" y="357.75" width="117" height="19" rx="3" fill="white"/>
+<text x="275.0" y="371.75" text-anchor="middle" font-size="12" fill="#516173">Conv / stride 2</text>
+<path d="M 495,380.0 L 605,385.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="491.5" y="361.5" width="117" height="19" rx="3" fill="white"/>
+<text x="550.0" y="375.5" text-anchor="middle" font-size="12" fill="#516173">Conv / stride 2</text>
+<path d="M 770,385.0 L 880,385.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="766.5" y="364.0" width="117" height="19" rx="3" fill="white"/>
+<text x="825.0" y="378.0" text-anchor="middle" font-size="12" fill="#516173">Conv / stride 2</text>
+<path d="M 1035,385.0 L 1110,384.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<polygon points="65,317 82,300 220,300 203,317" fill="#E4F0E8" stroke="#63836B"/>
+<polygon points="203,317 220,300 220,438 203,455" fill="#E4F0E8" stroke="#63836B" opacity="0.7"/>
+<rect x="65" y="317" width="138" height="138" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="142.5" y="372.5" text-anchor="middle" font-size="16" font-weight="600">Input image</text>
+<text x="142.5" y="392.5" text-anchor="middle" font-size="16" font-weight="400">H x W x 3</text>
+<polygon points="330,337 347,320 495,320 478,337" fill="#E4EDF6" stroke="#637E9E"/>
+<polygon points="478,337 495,320 495,423 478,440" fill="#E4EDF6" stroke="#637E9E" opacity="0.7"/>
+<rect x="330" y="337" width="148" height="103" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="412.5" y="375.0" text-anchor="middle" font-size="16" font-weight="600">Feature map</text>
+<text x="412.5" y="395.0" text-anchor="middle" font-size="16" font-weight="400">H/2 x W/2 x C</text>
+<polygon points="605,357 622,340 770,340 753,357" fill="#E4EDF6" stroke="#637E9E"/>
+<polygon points="753,357 770,340 770,413 753,430" fill="#E4EDF6" stroke="#637E9E" opacity="0.7"/>
+<rect x="605" y="357" width="148" height="73" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="687.5" y="380.0" text-anchor="middle" font-size="16" font-weight="600">Feature map</text>
+<text x="687.5" y="400.0" text-anchor="middle" font-size="16" font-weight="400">H/4 x W/4 x 2C</text>
+<polygon points="880,367 897,350 1035,350 1018,367" fill="#EEE7F4" stroke="#89719C"/>
+<polygon points="1018,367 1035,350 1035,403 1018,420" fill="#EEE7F4" stroke="#89719C" opacity="0.7"/>
+<rect x="880" y="367" width="138" height="53" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="957.5" y="380.0" text-anchor="middle" font-size="16" font-weight="600">Feature map</text>
+<text x="957.5" y="400.0" text-anchor="middle" font-size="16" font-weight="400">H/8 x W/8 x 4C</text>
+<rect x="1110" y="350" width="155" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1187.5" y="389.0" text-anchor="middle" font-size="16" font-weight="600">Task head</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

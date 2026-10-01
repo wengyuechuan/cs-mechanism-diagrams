@@ -1,0 +1,20 @@
+{
+  "title": "Robustly Learning Single-Index Models via Alignment Sharpness",
+  "venue": "ICML",
+  "year": 2024,
+  "source_url": "https://proceedings.mlr.press/v235/zarifis24a.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/zarifis24a/zarifis24a.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P067",
+  "category": "08_训练策略与自监督",
+  "pages": 47,
+  "pdf_first_page_excerpt": "Robustly Learning Single-Index Models via Alignment Sharpness\nNikos Zarifis * 1 Puqian Wang * 1 Ilias Diakonikolas 1 Jelena Diakonikolas 1\nAbstract\nWe study the problem of learning Single-Index\nModels under the L2\n2 loss in the agnostic model.\nWe give an efficient learning algorithm, achieving\na constant factor approximation to the optimal\nloss, that succeeds under a range of distributions\n(including log-concave distributions) and a broad\nclass of monotone and Lipschitz link functions.\nThis is the first efficient constant factor approxi-\nmate agnostic learner, even for Gaussian data and\nfor an",
+  "local_pdf": "references/10_计算机系统与数据流程/P067/paper.pdf",
+  "sha256": "7644119063bef2663a74ed9350f7ec34144b9c975566ba538213e889b0f8ef11",
+  "bytes": 762805,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

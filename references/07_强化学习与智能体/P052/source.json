@@ -1,0 +1,19 @@
+{
+  "title": "Verified Safe Reinforcement Learning  for Neural Network Dynamic Models",
+  "venue": "NeurIPS",
+  "year": 2024,
+  "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/d5a25f990ffa1cb759cc88916d7fbe96-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/d5a25f990ffa1cb759cc88916d7fbe96-Paper-Conference.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P052",
+  "category": "07_强化学习与智能体",
+  "pages": 22,
+  "pdf_first_page_excerpt": "Verified Safe Reinforcement Learning for Neural\nNetwork Dynamic Models\nJunlin Wu\nComputer Science & Engineering\nWashington University in St. Louis\njunlin.wu@wustl.edu\nHuan Zhang\nElectrical & Computer Engineering\nUniversity of Illinois Urbana-Champaign\nhuan@huan-zhang.com\nYevgeniy Vorobeychik\nComputer Science & Engineering\nWashington University in St. Louis\nyvorobeychik@wustl.edu\nAbstract\nLearning reliably safe autonomous control is one of the core problems in trust-\nworthy autonomy. However, training a controller that can be formally verified to\nbe safe remains a major challenge. We introduce ",
+  "local_pdf": "references/07_强化学习与智能体/P052/paper.pdf",
+  "sha256": "468bfb5a207158b42fd6f338c76ae2944544917ad43a7f3afa3c29689a6fc215",
+  "bytes": 341618,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

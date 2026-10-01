@@ -1,0 +1,19 @@
+{
+  "title": "Learning Non-Gaussian Graphical Models via Hessian Scores and Triangular Transport",
+  "venue": "JMLR",
+  "year": 2024,
+  "source_url": "https://jmlr.org/papers/volume25/21-0022/21-0022.html",
+  "pdf_url": "https://jmlr.org/papers/volume25/21-0022/21-0022.pdf",
+  "source_kind": "official_journal",
+  "id": "P084",
+  "category": "03_图神经网络与关系推理",
+  "pages": 46,
+  "pdf_first_page_excerpt": "Journal of Machine Learning Research 25 (2024) 1-46\nSubmitted 1/21; Revised 2/23; Published 3/24\nLearning Non-Gaussian Graphical Models\nvia Hessian Scores and Triangular Transport\nRicardo Baptista∗\nrsb@caltech.edu\nDepartment of Computing and Mathematical Sciences\nCalifornia Institute of Technology\nPasadena, CA 91125-2100, USA\nRebecca Morrison∗\nrebeccam@colorado.edu\nDepartment of Computer Science\nUniversity of Colorado Boulder\nBoulder, CO 80309-0430, USA\nOlivier Zahm\nolivier.zahm@inria.fr\nUniversité Grenoble Alpes\nInria, CNRS, Grenoble INP, LJK\n38000 Grenoble, France\nYoussef Marzouk\nymarz@mit.e",
+  "local_pdf": "references/03_图神经网络与关系推理/P084/paper.pdf",
+  "sha256": "cdf3ae3fb1656d099d8275ab53f3ce48d1a573297f92cb8fa6a824827f02d17f",
+  "bytes": 1404113,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

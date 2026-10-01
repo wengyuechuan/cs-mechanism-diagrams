@@ -1,0 +1,145 @@
+{
+  "id": "T06",
+  "category": "02_Transformer与注意力",
+  "slug": "qkv_attention",
+  "title": "Q-K-V attention mechanism",
+  "description": "三路投影和两阶段矩阵计算分开展示；这里的 A 是注意力权重，不是统计热图。",
+  "nodes": [
+    {
+      "id": "x",
+      "label": "Input tokens X\nB x T x D",
+      "x": 65,
+      "y": 335,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "q",
+      "label": "Query projection Q",
+      "x": 320,
+      "y": 185,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "k",
+      "label": "Key projection K",
+      "x": 320,
+      "y": 335,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "v",
+      "label": "Value projection V",
+      "x": 320,
+      "y": 485,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "s",
+      "label": "QK^T / sqrt(d)\nsoftmax over keys",
+      "x": 640,
+      "y": 250,
+      "w": 205,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "a",
+      "label": "Weighted values\nA V",
+      "x": 910,
+      "y": 335,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "o",
+      "label": "Output projection",
+      "x": 1130,
+      "y": 335,
+      "w": 150,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "x",
+      "target": "q",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "x",
+      "target": "k",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "x",
+      "target": "v",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "q",
+      "target": "s",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "k",
+      "target": "s",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "s",
+      "target": "a",
+      "label": "A",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "v",
+      "target": "a",
+      "label": "V",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "a",
+      "target": "o",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

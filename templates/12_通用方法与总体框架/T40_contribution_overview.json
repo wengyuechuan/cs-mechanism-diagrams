@@ -1,0 +1,112 @@
+{
+  "id": "T40",
+  "category": "12_通用方法与总体框架",
+  "slug": "contribution_overview",
+  "title": "Contribution-first method overview",
+  "description": "中间突出创新模块，适合论文 Figure 1 / method overview。",
+  "nodes": [
+    {
+      "id": "input",
+      "label": "(a) Input / problem",
+      "x": 65,
+      "y": 330,
+      "w": 220,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "base",
+      "label": "Baseline processing",
+      "x": 395,
+      "y": 210,
+      "w": 220,
+      "h": 68,
+      "kind": "neutral",
+      "shape": "box"
+    },
+    {
+      "id": "novel",
+      "label": "(b) Proposed module\nYour contribution",
+      "x": 395,
+      "y": 465,
+      "w": 245,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "fuse",
+      "label": "Feature integration",
+      "x": 780,
+      "y": 330,
+      "w": 220,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "out",
+      "label": "(c) Output",
+      "x": 1080,
+      "y": 330,
+      "w": 190,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "input",
+      "target": "base",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "input",
+      "target": "novel",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "base",
+      "target": "fuse",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "novel",
+      "target": "fuse",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "fuse",
+      "target": "out",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [
+    {
+      "title": "Method",
+      "x": 340,
+      "y": 145,
+      "w": 720,
+      "h": 455
+    }
+  ],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

@@ -1,0 +1,128 @@
+{
+  "id": "T27",
+  "category": "08_训练策略与自监督",
+  "slug": "contrastive_views",
+  "title": "Two-view contrastive learning",
+  "description": "双视图增强、共享编码与对比目标，适合 SimCLR 类训练机制。",
+  "nodes": [
+    {
+      "id": "x",
+      "label": "Unlabeled sample",
+      "x": 75,
+      "y": 340,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "v1",
+      "label": "Augmented view 1",
+      "x": 360,
+      "y": 200,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "v2",
+      "label": "Augmented view 2",
+      "x": 360,
+      "y": 475,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "e1",
+      "label": "Encoder + projector",
+      "x": 685,
+      "y": 200,
+      "w": 210,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "e2",
+      "label": "Encoder + projector",
+      "x": 685,
+      "y": 475,
+      "w": 210,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "loss",
+      "label": "Contrastive objective",
+      "x": 1040,
+      "y": 340,
+      "w": 205,
+      "h": 68,
+      "kind": "loss",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "x",
+      "target": "v1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "x",
+      "target": "v2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "v1",
+      "target": "e1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "v2",
+      "target": "e2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "e1",
+      "target": "loss",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "e2",
+      "target": "loss",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "e1",
+      "target": "e2",
+      "label": "shared weights",
+      "style": "dashed",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

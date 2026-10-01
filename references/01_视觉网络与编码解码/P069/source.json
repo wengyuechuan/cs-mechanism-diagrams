@@ -1,0 +1,20 @@
+{
+  "title": "Evolving Subnetwork Training for Large Language Models",
+  "venue": "ICML",
+  "year": 2024,
+  "source_url": "https://proceedings.mlr.press/v235/li24k.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/li24k/li24k.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P069",
+  "category": "08_训练策略与自监督",
+  "pages": 16,
+  "pdf_first_page_excerpt": "Evolving Subnetwork Training for Large Language Models\nHanqi Li 1 Lu Chen 1 2 Da Ma 1 Zijian Wu 1 Su Zhu 3 Kai Yu 1 2\nAbstract\nLarge language models have ushered in a new\nera of artificial intelligence research. However,\ntheir substantial training costs hinder further de-\nvelopment and widespread adoption. In this pa-\nper, inspired by the redundancy in the parameters\nof large language models, we propose a novel\ntraining paradigm: Evolving Subnetwork Train-\ning (EST). EST samples subnetworks from the\nlayers of the large language model and from com-\nmonly used modules within each layer, Multi-\nH",
+  "local_pdf": "references/01_视觉网络与编码解码/P069/paper.pdf",
+  "sha256": "7c9c2128bf980891c63010e107b60a863289a810f1e0f0a2333061fa30b72545",
+  "bytes": 782608,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

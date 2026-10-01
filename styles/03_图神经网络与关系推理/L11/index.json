@@ -1,0 +1,19 @@
+[
+  {
+    "id": "T12",
+    "title": "Hierarchical graph pooling",
+    "category": "03_图神经网络与关系推理",
+    "layout_style": "L11",
+    "visual_style": "V05",
+    "description": "真实节点图元加聚合模块，展示图到粗粒度图再到图级表示。",
+    "topic": "03",
+    "kind": "original_blueprint",
+    "year": 2026,
+    "venue": "原创结构蓝图",
+    "image": "templates/03_图神经网络与关系推理/T12_hierarchical_graph.png",
+    "rights": "MIT; original generic structure, not an exact paper reproduction",
+    "source_url": null,
+    "keywords": "替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。",
+    "image_sha256": "c47b3642f20b1af83d8e6b4272f6ba6af5efc6613b3c501edefee0c6aad1fbe9"
+  }
+]

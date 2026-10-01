@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P141_F3_p04",
+    "title": "MotionStreamer: Streaming Motion Generation via Diffusion-based Autoregressive Model in Causal Latent Space",
+    "category": "04_生成模型与扩散机制",
+    "layout_style": "L03",
+    "visual_style": "V04",
+    "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Xiao_MotionStreamer_Streaming_Motion_Generation_via_Diffusion-based_Autoregressive_Model_in_Causal_ICCV_2025_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Xiao_MotionStreamer_Streaming_Motion_Generation_via_Diffusion-based_Autoregressive_Model_in_Causal_ICCV_2025_paper.pdf",
+    "figure_number": "3",
+    "pdf_page": 4,
+    "caption": "Figure 3. Architecture of Causal TAE. 1D temporal causal con- volution is applied in both the encoder and decoder. Variables z1:n are sampled as continuous motion latent representations.",
+    "crop_note": "机制图形裁剪；图注见元数据",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": "v2-2025-expansion",
+    "topic": "04",
+    "kind": "paper_reference",
+    "year": 2025,
+    "venue": "ICCV",
+    "image": "references/04_生成模型与扩散机制/P141/figures/P141_F3_p04.png",
+    "description": "网络架构图",
+    "source_kind": "official_proceedings",
+    "copy_note": "官方会议公开论文版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "5ce565ec79d20383b507750d1ce677d42cc9a3f36f8b6d7313bd029c94d38f87"
+  }
+]

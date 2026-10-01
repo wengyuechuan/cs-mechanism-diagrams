@@ -1,0 +1,19 @@
+{
+  "title": "A Unified Framework for Microscopy Defocus Deblur with Multi-Pyramid Transformer and Contrastive Learning",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_A_Unified_Framework_for_Microscopy_Defocus_Deblur_with_Multi-Pyramid_Transformer_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_A_Unified_Framework_for_Microscopy_Defocus_Deblur_with_Multi-Pyramid_Transformer_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P001",
+  "category": "02_Transformer与注意力",
+  "pages": 12,
+  "pdf_first_page_excerpt": "A Unified Framework for Microscopy Defocus Deblur with Multi-Pyramid\nTransformer and Contrastive Learning\nYuelin Zhang1\nPengyu Zheng1\nWanquan Yan1\nChengyu Fang2\nShing Shin Cheng1†\n1 Department of Mechanical and Automation Engineering, The Chinese University of Hong Kong\n2 Shenzhen International Graduate School, Tsinghua University\nAbstract\nDefocus blur is a persistent problem in microscope\nimaging that poses harm to pathology interpretation and\nmedical intervention in cell microscopy and microscope\nsurgery.\nTo address this problem, a unified framework\nincluding the multi-pyramid transformer (M",
+  "local_pdf": "references/02_Transformer与注意力/P001/paper.pdf",
+  "sha256": "dcb2de3eabb3584931f5e7eecc0850bb785d4fb790fd29a3b51bead50ba912a8",
+  "bytes": 3016110,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

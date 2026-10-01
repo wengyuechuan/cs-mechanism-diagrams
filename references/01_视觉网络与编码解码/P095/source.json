@@ -1,0 +1,19 @@
+{
+  "title": "Segment Anything",
+  "venue": "ICCV",
+  "year": 2023,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf",
+  "source_kind": "official_or_author_public_copy",
+  "id": "P095",
+  "category": "01_视觉网络与编码解码",
+  "pages": 12,
+  "pdf_first_page_excerpt": "Segment Anything\nAlexander Kirillov1,2,4\nEric Mintun2\nNikhila Ravi1,2\nHanzi Mao2\nChloe Rolland3\nLaura Gustafson3\nTete Xiao3\nSpencer Whitehead\nAlexander C. Berg\nWan-Yen Lo\nPiotr Doll´ar4\nRoss Girshick4\n1project lead\n2joint ﬁrst author\n3equal contribution\n4directional lead\nMeta AI Research, FAIR\n(b) Model: Segment Anything Model (SAM)\nprompt\nimage\nvalid mask\nimage \nencoder\nprompt \nencoder\nlightweight mask decoder\n(a) Task: promptable segmentation\nsegmentation prompt\nimage\nmodel\ncat with\nblack ears\nvalid mask\n(c) Data: data engine (top) & dataset (bottom)\n• 1+ billion masks\n• 11 million images \n•",
+  "local_pdf": "references/01_视觉网络与编码解码/P095/paper.pdf",
+  "sha256": "77992e7a518edcaf5200a750299b98f99de051066f7c1dac357e6baf8ce068bb",
+  "bytes": 10985226,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

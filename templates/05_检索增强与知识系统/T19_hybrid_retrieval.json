@@ -1,0 +1,121 @@
+{
+  "id": "T19",
+  "category": "05_检索增强与知识系统",
+  "slug": "hybrid_retrieval",
+  "title": "Hybrid retrieval and routing",
+  "description": "决策节点、双检索分支与汇合，适合混合检索或自适应路径选择。",
+  "nodes": [
+    {
+      "id": "q",
+      "label": "Query",
+      "x": 65,
+      "y": 320,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "router",
+      "label": "Route?",
+      "x": 330,
+      "y": 315,
+      "w": 150,
+      "h": 90,
+      "kind": "latent",
+      "shape": "diamond"
+    },
+    {
+      "id": "dense",
+      "label": "Dense retriever",
+      "x": 650,
+      "y": 190,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "sparse",
+      "label": "Sparse retriever",
+      "x": 650,
+      "y": 450,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "rank",
+      "label": "Merge + rerank",
+      "x": 930,
+      "y": 320,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "out",
+      "label": "Retrieved context",
+      "x": 1130,
+      "y": 320,
+      "w": 155,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "q",
+      "target": "router",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "router",
+      "target": "dense",
+      "label": "semantic",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "router",
+      "target": "sparse",
+      "label": "lexical",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "dense",
+      "target": "rank",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "sparse",
+      "target": "rank",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "rank",
+      "target": "out",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

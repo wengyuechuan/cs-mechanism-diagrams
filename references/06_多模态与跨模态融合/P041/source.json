@@ -1,0 +1,19 @@
+{
+  "title": "UniCode : Learning a Unified Codebook for Multimodal Large Language Models",
+  "venue": "ECCV",
+  "year": 2024,
+  "source_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1331_ECCV_2024_paper.php",
+  "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01331.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P041",
+  "category": "06_多模态与跨模态融合",
+  "pages": 18,
+  "pdf_first_page_excerpt": "UniCode\n: Learning a Unified Codebook for\nMultimodal Large Language Models\nSipeng Zheng1, Bohan Zhou2, Yicheng Feng2, Ye Wang1, Zongqing Lu2,1⋆\n1Beijing Academy of Artificial Intelligence (BAAI)\n2School of Computer Science, Peking University\nspzheng@baai.ac.cn\nzhoubh@stu.pku.edu.cn\nyewang@stu.ecnu.edu.cn\n{fyc813, zongqing.lu}@pku.edu.cn\nAbstract. In this paper, we propose UniCode, a novel approach within\nthe domain of multimodal large language models (MLLMs) that learns\na unified codebook to efficiently tokenize visual, text, and potentially\nother types of signals. This innovation addresses a ",
+  "local_pdf": "references/06_多模态与跨模态融合/P041/paper.pdf",
+  "sha256": "d41e0dc6d62d7d85aad712ffba7151aebe3a5d5250dea258c320e9e9350b115d",
+  "bytes": 744566,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

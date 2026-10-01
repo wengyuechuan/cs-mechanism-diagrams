@@ -1,0 +1,19 @@
+{
+  "title": "Graph Neural Network Causal Explanation via Neural Causal Models",
+  "venue": "ECCV",
+  "year": 2024,
+  "source_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7866_ECCV_2024_paper.php",
+  "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07866.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P046",
+  "category": "03_图神经网络与关系推理",
+  "pages": 17,
+  "pdf_first_page_excerpt": "Graph Neural Network Causal Explanation\nvia Neural Causal Models\nArman Behnam1\nand Binghui Wang1\nIllinois Institute of Technology, Chicago IL 60616, USA\nabehnam@hawk.iit.edu\nbwang70@iit.edu\nAbstract. Graph neural network (GNN) explainers identify the impor-\ntant subgraph that ensures the prediction for a given graph. Until now,\nalmost all GNN explainers are based on association, which is prone to\nspurious correlations. We propose CXGNN, a GNN causal explainer via\ncausal inference. Our explainer is based on the observation that a graph\noften consists of a causal underlying subgraph. CXGNN inclu",
+  "local_pdf": "references/03_图神经网络与关系推理/P046/paper.pdf",
+  "sha256": "965540c53f40e128940ac20f7ff16d0b77c7bc78053864a31e55745565d5e0f7",
+  "bytes": 2744108,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

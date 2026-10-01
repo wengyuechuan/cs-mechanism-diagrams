@@ -1,0 +1,20 @@
+{
+  "title": "A Kernel Test for Causal Association via Noise Contrastive Backdoor Adjustment",
+  "venue": "JMLR",
+  "year": 2024,
+  "source_url": "https://jmlr.org/papers/volume25/21-1409/21-1409.html",
+  "pdf_url": "https://jmlr.org/papers/volume25/21-1409/21-1409.pdf",
+  "source_kind": "official_journal",
+  "id": "P089",
+  "category": "11_因果与AI科学机制",
+  "pages": 56,
+  "pdf_first_page_excerpt": "Journal of Machine Learning Research 25 (2024) 1-56\nSubmitted 11/21; Revised 2/24; Published 5/24\nA Kernel Test for Causal Association via\nNoise Contrastive Backdoor Adjustment\nRobert Hu\nrobyhu@amazon.co.uk\nAmazon\nDino Sejdinovic\ndino.sejdinovic@adelaide.edu.au\nSchool of Computer and Mathematical Sciences\nUniversity of Adelaide\nAdelaide 5005, Australia\nRobin J. Evans\nevans@stats.ox.ac.uk\nDepartment of Statistics\nUniversity of Oxford\nOxford OX1 3LB, UK\nEditor: Silvia Chiappa\nAbstract\nCausal inference grows increasingly complex as the dimension of confounders increases.\nGiven treatments X, outco",
+  "local_pdf": "references/08_训练策略与自监督/P089/paper.pdf",
+  "sha256": "17f40a0e9c708f635c2f92ce9480f537f2375e36a13e7edd28ce71954fe7688e",
+  "bytes": 3457395,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

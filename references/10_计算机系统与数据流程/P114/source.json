@@ -1,0 +1,20 @@
+{
+  "title": "ELEET: Efficient Learned Query Execution over Text and Tables",
+  "venue": "PVLDB",
+  "year": 2024,
+  "source_url": "https://www.vldb.org/pvldb/vol17/p4867-urban.pdf",
+  "pdf_url": "https://vldb.org/pvldb/vol17/p4867-urban.pdf",
+  "source_kind": "official_journal",
+  "category": "10_计算机系统与数据流程",
+  "id": "P114",
+  "download_status": "ok",
+  "original_pdf_url": "https://www.vldb.org/pvldb/vol17/p4867-urban.pdf",
+  "pages": 14,
+  "pdf_first_page_excerpt": "ELEET: Efficient Learned Query Execution over Text and Tables\nMatthias Urban\nTechnical University of Darmstadt\nmatthias.urban@cs.tu-darmstadt.de\nCarsten Binnig\nTechnical University of Darmstadt & DFKI\ncarsten.binnig@cs.tu-darmstadt.de\nABSTRACT\nIn this paper, we present ELEET, a novel execution engine that al-\nlows one to seamlessly query and process text as a first-class citizen\nalong with tables. To enable such a seamless integration of text and\ntables, ELEET leverages learned multi-modal operators (MMOps)\nsuch as joins and unions that seamlessly combine structured with\nunstructured textual d",
+  "local_pdf": "references/10_计算机系统与数据流程/P114/paper.pdf",
+  "sha256": "6e220cbccff8c14f73ce336c5bdc03ebb17640d71bc03a577c0367ffe2f7339f",
+  "bytes": 1548489,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

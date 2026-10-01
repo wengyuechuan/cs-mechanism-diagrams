@@ -1,0 +1,21 @@
+{
+  "title": "Graph Attention Networks",
+  "venue": "ICLR",
+  "year": 2018,
+  "source_url": "https://openreview.net/forum?id=rJXMpikCZ",
+  "pdf_url": "https://arxiv.org/pdf/1710.10903",
+  "source_kind": "author_preprint_of_verified_conference_paper",
+  "id": "P099",
+  "category": "03_图神经网络与关系推理",
+  "download_status": "ok",
+  "original_pdf_url": "https://openreview.net/pdf?id=rJXMpikCZ",
+  "copy_note": "OpenReview returned HTTP 403; downloaded the publicly available arXiv author version.",
+  "pages": 12,
+  "pdf_first_page_excerpt": "Published as a conference paper at ICLR 2018\nGRAPH ATTENTION NETWORKS\nPetar Veliˇckovi´c∗\nDepartment of Computer Science and Technology\nUniversity of Cambridge\npetar.velickovic@cst.cam.ac.uk\nGuillem Cucurull∗\nCentre de Visi´o per Computador, UAB\ngcucurull@gmail.com\nArantxa Casanova∗\nCentre de Visi´o per Computador, UAB\nar.casanova.8@gmail.com\nAdriana Romero\nMontr´eal Institute for Learning Algorithms\nadriana.romero.soriano@umontreal.ca\nPietro Li`o\nDepartment of Computer Science and Technology\nUniversity of Cambridge\npietro.lio@cst.cam.ac.uk\nYoshua Bengio\nMontr´eal Institute for Learning Algori",
+  "local_pdf": "references/02_Transformer与注意力/P099/paper.pdf",
+  "sha256": "a7d811a44e1c65bf27da3a01859f23a8edbe33b8f96114b4b5066aedb078f284",
+  "bytes": 1637828,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

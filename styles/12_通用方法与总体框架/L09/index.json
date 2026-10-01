@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P109_F1_p02",
+    "title": "What large language models know and what people think they know",
+    "category": "12_通用方法与总体框架",
+    "layout_style": "L09",
+    "visual_style": "V04",
+    "source_url": "https://www.nature.com/articles/s42256-024-00976-7",
+    "pdf_url": "https://www.nature.com/articles/s42256-024-00976-7.pdf",
+    "figure_number": "1",
+    "pdf_page": 2,
+    "caption": "Fig. 1 | Overview of the evaluation methodology for assessing the calibration  gap between model confidence and human confidence in the model. The  multiple-choice questions, the approach works as follows: (1) prompt the LLM  with a question to obtain the model’s internal confidence for each answer choice;  (2) select the most likely answer and prompt the model a second time to generate  an explanation for the given answer; (3) obtain the human confidence by showing  users the question and the LLM's explanation and asking users to indicate the  probability that the model is correct. In this toy example, the model confidence for",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "12",
+    "kind": "paper_reference",
+    "year": 2025,
+    "venue": "Nature Machine Intelligence",
+    "image": "references/12_通用方法与总体框架/P109/figures/P109_F1_p02.png",
+    "description": "机制示意与总体框架",
+    "source_kind": "official_open_access_journal",
+    "copy_note": "原论文集/出版商公开版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "052c41c9b7c597359c03945244c76c0c80081759a6ce6860e0a929d8d4ef2d82"
+  }
+]

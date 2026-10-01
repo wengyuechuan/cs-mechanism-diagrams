@@ -1,0 +1,19 @@
+{
+  "title": "What large language models know and what people think they know",
+  "venue": "Nature Machine Intelligence",
+  "year": 2025,
+  "source_url": "https://www.nature.com/articles/s42256-024-00976-7",
+  "pdf_url": "https://www.nature.com/articles/s42256-024-00976-7.pdf",
+  "source_kind": "official_open_access_journal",
+  "id": "P109",
+  "category": "12_通用方法与总体框架",
+  "pages": 16,
+  "pdf_first_page_excerpt": "Nature Machine Intelligence | Volume 7 | February 2025 | 221–231\n221\nnature machine intelligence\nhttps://doi.org/10.1038/s42256-024-00976-7\nArticle\nWhat large language models know and what \npeople think they know\nMark Steyvers \n  1 \n, Heliodoro Tejeda1, Aakriti Kumar1, Catarina Belem2, \nSheer Karny1, Xinyue Hu1, Lukas W. Mayer1 & Padhraic Smyth2\nAs artificial intelligence systems, particularly large language models \n(LLMs), become increasingly integrated into decision-making processes, \nthe ability to trust their outputs is crucial. To earn human trust, LLMs must \nbe well calibrated such that ",
+  "local_pdf": "references/12_通用方法与总体框架/P109/paper.pdf",
+  "sha256": "9d381b81b54093a0b67a6b57f5e4a5b793207d3bd5d5cdd8c835bfaf6851e3e6",
+  "bytes": 2969236,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

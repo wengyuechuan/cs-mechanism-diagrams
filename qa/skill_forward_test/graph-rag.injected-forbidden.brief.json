@@ -1,0 +1,170 @@
+{
+  "title": "Graph-structured RAG",
+  "topic": "retrieval",
+  "intent": "Draw a graph-structured RAG mechanism diagram with two labelled swimlanes, offline graph indexing and online answering, in a flat muted academic style.",
+  "aspect_ratio": "2:1",
+  "background": "white",
+  "show_title": false,
+  "nodes": [
+    {
+      "id": "D",
+      "label": "Documents",
+      "role": "input",
+      "group": "offline"
+    },
+    {
+      "id": "C",
+      "label": "Document chunking",
+      "role": "process",
+      "group": "offline"
+    },
+    {
+      "id": "X",
+      "label": "Entity-relation extraction",
+      "role": "process",
+      "group": "offline"
+    },
+    {
+      "id": "G",
+      "label": "Graph index",
+      "role": "storage",
+      "icon": "small undirected node-link graph",
+      "group": "offline"
+    },
+    {
+      "id": "Q",
+      "label": "Question",
+      "role": "input",
+      "group": "online"
+    },
+    {
+      "id": "L",
+      "label": "Entity linking",
+      "role": "process",
+      "group": "online"
+    },
+    {
+      "id": "R",
+      "label": "Subgraph retrieval",
+      "role": "process",
+      "group": "online"
+    },
+    {
+      "id": "E",
+      "label": "Evidence pack",
+      "role": "evidence",
+      "icon": "small subgraph and source text strips",
+      "group": "online"
+    },
+    {
+      "id": "A",
+      "label": "Answer",
+      "role": "output",
+      "group": "online"
+    }
+  ],
+  "edges": [
+    {
+      "source": "D",
+      "target": "C",
+      "kind": "data"
+    },
+    {
+      "source": "C",
+      "target": "X",
+      "kind": "data"
+    },
+    {
+      "source": "X",
+      "target": "G",
+      "kind": "write"
+    },
+    {
+      "source": "Q",
+      "target": "L",
+      "kind": "data"
+    },
+    {
+      "source": "L",
+      "target": "R",
+      "kind": "data"
+    },
+    {
+      "source": "G",
+      "target": "R",
+      "kind": "read",
+      "label": "read graph index"
+    },
+    {
+      "source": "R",
+      "target": "E",
+      "kind": "data"
+    },
+    {
+      "source": "E",
+      "target": "A",
+      "kind": "data"
+    },
+    {
+      "source": "A",
+      "target": "G",
+      "kind": "write",
+      "label": "answer writeback"
+    }
+  ],
+  "groups": [
+    {
+      "id": "offline",
+      "label": "Offline indexing",
+      "members": [
+        "D",
+        "C",
+        "X",
+        "G"
+      ]
+    },
+    {
+      "id": "online",
+      "label": "Online answering",
+      "members": [
+        "Q",
+        "L",
+        "R",
+        "E",
+        "A"
+      ]
+    }
+  ],
+  "non_edges": [
+    [
+      "A",
+      "G"
+    ],
+    [
+      "A",
+      "X"
+    ],
+    [
+      "E",
+      "G"
+    ]
+  ],
+  "invariants": [
+    "The online path only reads the graph index. There is no answer writeback or feedback loop.",
+    "Exactly nine system nodes and eight directed system arrows. Internal icon edges are undirected illustrations."
+  ],
+  "layout_notes": [
+    "Top lane: D, C, X, G from left to right. Bottom lane: Q, L, R, E, A from left to right.",
+    "Route G to R through the open gutter between lanes; no crossing module or label.",
+    "Give the top lane four balanced nodes and the bottom lane five balanced nodes. Use sufficient width for Entity-relation extraction; do not abbreviate it.",
+    "Graph index to Subgraph retrieval has exactly one arrowhead at Subgraph retrieval. Align or route this connection through the inter-lane gutter."
+  ],
+  "avoid": [
+    "extra retrieval branches",
+    "model-training blocks",
+    "unrequested title or footer",
+    "answer writeback",
+    "reverse graph-read arrow",
+    "gradients, shadows, glossy 3D blocks"
+  ]
+}

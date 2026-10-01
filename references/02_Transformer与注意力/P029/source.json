@@ -1,0 +1,19 @@
+{
+  "title": "Dual Cross-Attention Learning for Fine-Grained Visual Categorization and Object Re-Identification",
+  "venue": "CVPR",
+  "year": 2022,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Zhu_Dual_Cross-Attention_Learning_for_Fine-Grained_Visual_Categorization_and_Object_Re-Identification_CVPR_2022_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Zhu_Dual_Cross-Attention_Learning_for_Fine-Grained_Visual_Categorization_and_Object_Re-Identification_CVPR_2022_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P029",
+  "category": "02_Transformer与注意力",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Dual Cross-Attention Learning for Fine-Grained Visual Categorization and\nObject Re-Identification\nHaowei Zhu*, Wenjing Ke*, Dong Li, Ji Liu, Lu Tian, Yi Shan\nAdvanced Micro Devices, Inc., Beijing, China\n{haowei.zhu, wenjing.ke, d.li, lu.tian, yi.shan}@amd.com\nAbstract\nRecently, self-attention mechanisms have shown impres-\nsive performance in various NLP and CV tasks, which can\nhelp capture sequential characteristics and derive global\ninformation. In this work, we explore how to extend self-\nattention modules to better learn subtle feature embed-\ndings for recognizing fine-grained objects, e.g.",
+  "local_pdf": "references/02_Transformer与注意力/P029/paper.pdf",
+  "sha256": "89305bbc247c0b062cdb9c37d03cb13100126f967787dbda64aa71033e82bb19",
+  "bytes": 6647983,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

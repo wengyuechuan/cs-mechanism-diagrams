@@ -1,0 +1,19 @@
+{
+  "title": "Resilience of Entropy Model in Distributed Neural Networks",
+  "venue": "ECCV",
+  "year": 2024,
+  "source_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3193_ECCV_2024_paper.php",
+  "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03193.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P045",
+  "category": "10_计算机系统与数据流程",
+  "pages": 18,
+  "pdf_first_page_excerpt": "Resilience of Entropy Model in\nDistributed Neural Networks\nMilin Zhang\n, Mohammad Abdi\n,\nShahriar Rifat\n, and Francesco Restuccia\nInstitute for the Wireless Internet of Things\nNortheastern University, Boston MA 02115, USA\n{zhang.mil,abdi.mo,rifat.s,f.restuccia}@northeastern.com\nAbstract. Distributed deep neural networks (DNNs) have emerged as\na key technique to reduce communication overhead without sacrificing\nperformance in edge computing systems. Recently, entropy coding has\nbeen introduced to further reduce the communication overhead. The key\nidea is to train the distributed DNN jointly wit",
+  "local_pdf": "references/10_计算机系统与数据流程/P045/paper.pdf",
+  "sha256": "068dd66a562b875a57a21785c2237efd5f4795a42dc6c973aa1a9d9dd44a9a1c",
+  "bytes": 1673572,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

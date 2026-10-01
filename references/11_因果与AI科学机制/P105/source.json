@@ -1,0 +1,19 @@
+{
+  "title": "Highly accurate protein structure prediction with AlphaFold",
+  "venue": "Nature",
+  "year": 2021,
+  "source_url": "https://www.nature.com/articles/s41586-021-03819-2",
+  "pdf_url": "https://www.nature.com/articles/s41586-021-03819-2.pdf",
+  "source_kind": "official_open_access_journal",
+  "id": "P105",
+  "category": "11_因果与AI科学机制",
+  "pages": 12,
+  "pdf_first_page_excerpt": "Nature  |  Vol 596  |  26 August 2021  |  583\nArticle\nHighly accurate protein structure prediction \nwith AlphaFold\nJohn Jumper1,4 ✉, Richard Evans1,4, Alexander Pritzel1,4, Tim Green1,4, Michael Figurnov1,4, \nOlaf Ronneberger1,4, Kathryn Tunyasuvunakool1,4, Russ Bates1,4, Augustin Žídek1,4, \nAnna Potapenko1,4, Alex Bridgland1,4, Clemens Meyer1,4, Simon A. A. Kohl1,4, \nAndrew J. Ballard1,4, Andrew Cowie1,4, Bernardino Romera-Paredes1,4, Stanislav Nikolov1,4, \nRishub Jain1,4, Jonas Adler1, Trevor Back1, Stig Petersen1, David Reiman1, Ellen Clancy1, \nMichal Zielinski1, Martin Steinegger2,3, Micha",
+  "local_pdf": "references/11_因果与AI科学机制/P105/paper.pdf",
+  "sha256": "6eae057a9faf4f671c3101e0745ed704460c6d3dec77243dfd3a9f2d2ab68970",
+  "bytes": 3651992,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

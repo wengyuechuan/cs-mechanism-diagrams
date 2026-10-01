@@ -1,0 +1,20 @@
+{
+  "title": "The Hidden Attention of Mamba Models",
+  "venue": "ACL",
+  "year": 2025,
+  "source_url": "https://aclanthology.org/2025.acl-long.76/",
+  "pdf_url": "https://aclanthology.org/2025.acl-long.76.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P173",
+  "category": "02_Transformer与注意力",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 19,
+  "pdf_first_page_excerpt": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 1516–1534\nJuly 27 - August 1, 2025 ©2025 Association for Computational Linguistics\nThe Hidden Attention of Mamba Models\nAmeen Ali*, Itamar Zimerman*, Lior Wolf\nBlavatnik School of Computer Science and AI, Tel Aviv University\n{ameenali,zimerman1}@mail.tau.ac.il , wolf@cs.tau.ac.il\nAbstract\nThe Mamba layer offers an efficient selective\nstate-space model (SSM) that is highly effec-\ntive in modeling multiple domains, including\nNLP, long-range sequence processing, and com-\nputer vi",
+  "local_pdf": "references/02_Transformer与注意力/P173/paper.pdf",
+  "sha256": "6070c79b43abc07f6b8764e3d9d02bcd05362ad6d2db6e322296b72cbdcbf503",
+  "bytes": 9128594,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

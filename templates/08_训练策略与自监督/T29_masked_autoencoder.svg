@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Masked autoencoder mechanism">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T29 / Masked autoencoder mechanism</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 240,344.0 L 330,344.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 500,344.0 L 560.0,344.0 L 560.0,244.0 L 620,244.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="529.5" y="273.0" width="61" height="19" rx="3" fill="white"/>
+<text x="560.0" y="287.0" text-anchor="middle" font-size="12" fill="#516173">visible</text>
+<path d="M 840,244.0 L 885.0,244.0 L 885.0,344.0 L 930,344.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 790,494.0 L 860.0,494.0 L 860.0,344.0 L 930,344.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="791.0" y="398.0" width="138" height="19" rx="3" fill="white"/>
+<text x="860.0" y="412.0" text-anchor="middle" font-size="12" fill="#516173">insert mask tokens</text>
+<path d="M 1050.0,378 L 1050.0,520" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="70" y="310" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="155.0" y="349.0" text-anchor="middle" font-size="16" font-weight="600">Image patches</text>
+<rect x="330" y="310" width="170" height="68" rx="8" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="415.0" y="349.0" text-anchor="middle" font-size="16" font-weight="600">Mask sampling</text>
+<rect x="620" y="210" width="220" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="730.0" y="249.0" text-anchor="middle" font-size="16" font-weight="600">Visible-token encoder</text>
+<rect x="620" y="460" width="170" height="68" rx="8" fill="#F1F3F5" stroke="#7F8994" stroke-width="1.6"/>
+<text x="705.0" y="499.0" text-anchor="middle" font-size="16" font-weight="600">Mask tokens</text>
+<rect x="930" y="310" width="240" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="1050.0" y="349.0" text-anchor="middle" font-size="16" font-weight="600">Reconstruction decoder</text>
+<rect x="930" y="520" width="240" height="68" rx="8" fill="#F7E5E4" stroke="#B67975" stroke-width="1.6"/>
+<text x="1050.0" y="559.0" text-anchor="middle" font-size="16" font-weight="600">Masked-patch objective</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

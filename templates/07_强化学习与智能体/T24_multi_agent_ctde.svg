@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="758" viewBox="0 0 1320 758" role="img" aria-label="Multi-agent centralized training">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="758" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T24 / Multi-agent centralized training</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 290,364.0 L 370.0,364.0 L 370.0,194.0 L 450,194.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 290,364.0 L 450,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 290,364.0 L 370.0,364.0 L 370.0,534.0 L 450,534.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 620,194.0 L 740.0,194.0 L 740.0,364.0 L 860,364.0" fill="none" stroke="#647284" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<rect x="699.0" y="258.0" width="82" height="19" rx="3" fill="white"/>
+<text x="740.0" y="272.0" text-anchor="middle" font-size="12" fill="#516173">trajectory</text>
+<path d="M 620,364.0 L 860,364.0" fill="none" stroke="#647284" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<rect x="699.0" y="343.0" width="82" height="19" rx="3" fill="white"/>
+<text x="740.0" y="357.0" text-anchor="middle" font-size="12" fill="#516173">trajectory</text>
+<path d="M 620,534.0 L 740.0,534.0 L 740.0,364.0 L 860,364.0" fill="none" stroke="#647284" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<rect x="699.0" y="428.0" width="82" height="19" rx="3" fill="white"/>
+<text x="740.0" y="442.0" text-anchor="middle" font-size="12" fill="#516173">trajectory</text>
+<path d="M 995.0,398 L 997.5,560" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 535.0,160 L 430,125 L 50,125 L 50,365 L 70,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="213.0" y="104.0" width="54" height="19" rx="3" fill="white"/>
+<text x="240.0" y="118.0" text-anchor="middle" font-size="12" fill="#516173">action</text>
+<path d="M 535.0,568 L 430,600 L 50,600 L 50,365 L 70,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="213.0" y="579.0" width="54" height="19" rx="3" fill="white"/>
+<text x="240.0" y="593.0" text-anchor="middle" font-size="12" fill="#516173">action</text>
+<rect x="70" y="330" width="220" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="180.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">Shared environment</text>
+<rect x="450" y="160" width="170" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="535.0" y="189.0" text-anchor="middle" font-size="16" font-weight="600">Agent 1</text>
+<text x="535.0" y="209.0" text-anchor="middle" font-size="16" font-weight="400">Local policy</text>
+<rect x="450" y="330" width="170" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="535.0" y="359.0" text-anchor="middle" font-size="16" font-weight="600">Agent 2</text>
+<text x="535.0" y="379.0" text-anchor="middle" font-size="16" font-weight="400">Local policy</text>
+<rect x="450" y="500" width="170" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="535.0" y="529.0" text-anchor="middle" font-size="16" font-weight="600">Agent N</text>
+<text x="535.0" y="549.0" text-anchor="middle" font-size="16" font-weight="400">Local policy</text>
+<rect x="860" y="330" width="270" height="68" rx="8" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="995.0" y="359.0" text-anchor="middle" font-size="16" font-weight="600">Central critic / mixer</text>
+<text x="995.0" y="379.0" text-anchor="middle" font-size="16" font-weight="400">Training only</text>
+<rect x="890" y="560" width="215" height="68" rx="8" fill="#F7E5E4" stroke="#B67975" stroke-width="1.6"/>
+<text x="997.5" y="599.0" text-anchor="middle" font-size="16" font-weight="600">Joint objective</text>
+<line x1="48" y1="675" x2="1272" y2="675" stroke="#DCE2E9"/>
+<text x="48" y="705" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="730" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

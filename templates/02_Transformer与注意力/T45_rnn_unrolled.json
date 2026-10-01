@@ -1,0 +1,216 @@
+{
+  "id": "T45",
+  "category": "02_Transformer与注意力",
+  "slug": "rnn_unrolled",
+  "title": "Recurrent computation unrolled in time",
+  "description": "按时间步展开循环神经网络，同色模块表示参数共享，横向箭头表示状态传递。",
+  "nodes": [
+    {
+      "id": "x0",
+      "label": "Input x_0",
+      "x": 110,
+      "y": 185,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "h0",
+      "label": "Recurrent cell\nh_0 = f(x_0, h_-1)",
+      "x": 110,
+      "y": 340,
+      "w": 210,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "y0",
+      "label": "Output y_0",
+      "x": 110,
+      "y": 500,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "x1",
+      "label": "Input x_1",
+      "x": 400,
+      "y": 185,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "h1",
+      "label": "Recurrent cell\nh_1 = f(x_1, h_0)",
+      "x": 400,
+      "y": 340,
+      "w": 210,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "y1",
+      "label": "Output y_1",
+      "x": 400,
+      "y": 500,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "x2",
+      "label": "Input x_2",
+      "x": 690,
+      "y": 185,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "h2",
+      "label": "Recurrent cell\nh_2 = f(x_2, h_1)",
+      "x": 690,
+      "y": 340,
+      "w": 210,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "y2",
+      "label": "Output y_2",
+      "x": 690,
+      "y": 500,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "x3",
+      "label": "Input x_3",
+      "x": 980,
+      "y": 185,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "h3",
+      "label": "Recurrent cell\nh_3 = f(x_3, h_2)",
+      "x": 980,
+      "y": 340,
+      "w": 210,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "y3",
+      "label": "Output y_3",
+      "x": 980,
+      "y": 500,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "x0",
+      "target": "h0",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "h0",
+      "target": "y0",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "x1",
+      "target": "h1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "h1",
+      "target": "y1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "h0",
+      "target": "h1",
+      "label": "state",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "x2",
+      "target": "h2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "h2",
+      "target": "y2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "h1",
+      "target": "h2",
+      "label": "state",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "x3",
+      "target": "h3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "h3",
+      "target": "y3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "h2",
+      "target": "h3",
+      "label": "state",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

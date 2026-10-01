@@ -1,0 +1,21 @@
+{
+  "title": "Gender Inclusivity Fairness Index ( GIFI ): A Multilevel Framework for Evaluating Gender Diversity in Large Language Models",
+  "venue": "ACL",
+  "year": 2025,
+  "source_url": "https://aclanthology.org/2025.acl-long.128/",
+  "pdf_url": "https://aclanthology.org/2025.acl-long.128.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P180",
+  "category": "12_通用方法与总体框架",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 32,
+  "pdf_first_page_excerpt": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 2548–2579\nJuly 27 - August 1, 2025 ©2025 Association for Computational Linguistics\nGender Inclusivity Fairness Index (GIFI): A Multilevel Framework for\nEvaluating Gender Diversity in Large Language Models\nZhengyang Shan\nBoston University\nshanzy@bu.edu\nEmily Ruth Diana\nCarnegie Mellon University\nediana@andrew.cmu.edu\nJiawei Zhou\nStony Brook University\njiawei.zhou.1@stonybrook.edu\nAbstract\nWe present a comprehensive evaluation of gen-\nder fairness in large language models (LLMs)",
+  "local_pdf": "references/10_计算机系统与数据流程/P180/paper.pdf",
+  "sha256": "5452307a6c600abe3e486aec889fc451acaab5c38407b32a80361cf1959c3a9c",
+  "bytes": 3179887,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

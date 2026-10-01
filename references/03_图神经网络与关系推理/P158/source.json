@@ -1,0 +1,20 @@
+{
+  "title": "Learning Changes in Graphon Attachment Network Models",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/fan25f.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/fan25f/fan25f.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P158",
+  "category": "03_图神经网络与关系推理",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 25,
+  "pdf_first_page_excerpt": "Learning Changes in Graphon Attachment Network Models\nXinyuan Fan 1 Bufan Li 1 Chenlei Leng 2 Weichi Wu 1\nAbstract\nThis paper introduces Graphon Attachment Net-\nwork Models (GAN-M), a novel framework for\nmodeling evolving networks with rich structural\ndependencies, grounded in graphon theory. GAN-\nM provides a flexible and interpretable founda-\ntion for studying network formation by leveraging\ngraphon functions to define attachment probabili-\nties, thereby combining the strengths of graphons\nwith a temporal perspective. A key contribution\nof this work is a methodology for learning struc-\ntural",
+  "local_pdf": "references/03_图神经网络与关系推理/P158/paper.pdf",
+  "sha256": "1992379ccaab4a9a05df659b351398d7c62f40578f3590ecbfa2eec669744f4e",
+  "bytes": 646856,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

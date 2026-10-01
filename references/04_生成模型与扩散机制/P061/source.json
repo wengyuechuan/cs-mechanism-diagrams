@@ -1,0 +1,19 @@
+{
+  "title": "Learning Latent Space Hierarchical EBM Diffusion Models",
+  "venue": "ICML",
+  "year": 2024,
+  "source_url": "https://proceedings.mlr.press/v235/cui24b.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/cui24b/cui24b.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P061",
+  "category": "04_生成模型与扩散机制",
+  "pages": 13,
+  "pdf_first_page_excerpt": "Learning Latent Space Hierarchical EBM Diffusion Models\nJiali Cui 1 Tian Han 1\nAbstract\nThis work studies the learning problem of the\nenergy-based prior model and the multi-layer gen-\nerator model. The multi-layer generator model,\nwhich contains multiple layers of latent variables\norganized in a top-down hierarchical structure,\ntypically assumes the Gaussian prior model. Such\na prior model can be limited in modelling expres-\nsivity, which results in a gap between the gener-\nator posterior and the prior model, known as the\nprior hole problem. Recent works have explored\nlearning the energy-based",
+  "local_pdf": "references/04_生成模型与扩散机制/P061/paper.pdf",
+  "sha256": "1e15d470beaf2d024086439746271c4f15d92d3669243601363a77a293131484",
+  "bytes": 9745194,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

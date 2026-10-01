@@ -1,0 +1,20 @@
+{
+  "title": "3DGraphLLM: Combining Semantic Graphs and Large Language Models for 3D Scene Understanding",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zemskova_3DGraphLLM_Combining_Semantic_Graphs_and_Large_Language_Models_for_3D_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zemskova_3DGraphLLM_Combining_Semantic_Graphs_and_Large_Language_Models_for_3D_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P134",
+  "category": "03_图神经网络与关系推理",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "3DGraphLLM: Combining Semantic Graphs and Large Language Models for 3D\nScene Understanding\nTatiana Zemskova1,2\nDmitry Yudin1,2\n1AIRI, 2MIPT\nAbstract\nA 3D scene graph represents a compact scene model by\ncapturing both the objects present and the semantic rela-\ntionships between them, making it a promising structure for\nrobotic applications. To effectively interact with users, an\nembodied intelligent agent should be able to answer a wide\nrange of natural language queries about the surrounding 3D\nenvironment. Large Language Models (LLMs) are benefi-\ncial solutions for user-robot interaction due t",
+  "local_pdf": "references/03_图神经网络与关系推理/P134/paper.pdf",
+  "sha256": "d13d01c1785348702d5ae51dea46595f531d5cbadcc127c99c7defba345a48a4",
+  "bytes": 3025720,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

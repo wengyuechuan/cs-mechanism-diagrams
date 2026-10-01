@@ -1,0 +1,20 @@
+{
+  "title": "Augmenting large language models with chemistry tools",
+  "venue": "Nature Machine Intelligence",
+  "year": 2024,
+  "source_url": "https://www.nature.com/articles/s42256-024-00832-8",
+  "pdf_url": "https://www.nature.com/articles/s42256-024-00832-8.pdf",
+  "source_kind": "official_open_access_journal",
+  "id": "P107",
+  "category": "11_因果与AI科学机制",
+  "pages": 13,
+  "pdf_first_page_excerpt": "Nature Machine Intelligence | Volume 6 | May 2024 | 525–535\n525\nnature machine intelligence\nhttps://doi.org/10.1038/s42256-024-00832-8\nArticle\nAugmenting large language models with \nchemistry tools\nAndres M. Bran1,2,6, Sam Cox3,4,6, Oliver Schilter \n  1,2,5, Carlo Baldassari5, \nAndrew D. White \n  3,4 \n & Philippe Schwaller \n  1,2 \nLarge language models (LLMs) have shown strong performance in \ntasks across domains but struggle with chemistry-related problems. \nThese models also lack access to external knowledge sources, limiting \ntheir usefulness in scientific applications. We introduce ChemCro",
+  "local_pdf": "references/12_通用方法与总体框架/P107/paper.pdf",
+  "sha256": "3b97df0a3d4fa1c73cd7ad97b60ea129388ece2b6b505aefa30a809b67946993",
+  "bytes": 2396611,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

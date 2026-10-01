@@ -1,0 +1,134 @@
+{
+  "id": "T41",
+  "category": "12_通用方法与总体框架",
+  "slug": "algorithm_iteration",
+  "title": "Iterative algorithm with decision branch",
+  "description": "终止条件、迭代更新与返回分支清楚标记，适合算法流程图。",
+  "nodes": [
+    {
+      "id": "start",
+      "label": "Start",
+      "x": 100,
+      "y": 200,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "init",
+      "label": "Initialize state",
+      "x": 400,
+      "y": 200,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "check",
+      "label": "Converged?",
+      "x": 750,
+      "y": 195,
+      "w": 165,
+      "h": 90,
+      "kind": "latent",
+      "shape": "diamond"
+    },
+    {
+      "id": "end",
+      "label": "Return output",
+      "x": 1050,
+      "y": 200,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "update",
+      "label": "Update / refine",
+      "x": 750,
+      "y": 480,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "eval",
+      "label": "Evaluate criterion",
+      "x": 400,
+      "y": 480,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "start",
+      "target": "init",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "init",
+      "target": "check",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "check",
+      "target": "end",
+      "label": "Yes",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "check",
+      "target": "update",
+      "label": "No",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "update",
+      "target": "eval",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "eval",
+      "target": "check",
+      "label": "next iteration",
+      "style": "solid",
+      "via": [
+        [
+          355,
+          590
+        ],
+        [
+          700,
+          590
+        ],
+        [
+          700,
+          240
+        ]
+      ]
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "T07",
+    "title": "Vision Transformer token pipeline",
+    "category": "02_Transformer与注意力",
+    "layout_style": "L01",
+    "visual_style": "V01",
+    "description": "图像到 patch、token 序列、Transformer 和任务头，适合 ViT 类方法。",
+    "topic": "02",
+    "kind": "original_blueprint",
+    "year": 2026,
+    "venue": "原创结构蓝图",
+    "image": "templates/02_Transformer与注意力/T07_vit_patch_tokens.png",
+    "rights": "MIT; original generic structure, not an exact paper reproduction",
+    "source_url": null,
+    "keywords": "替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。",
+    "image_sha256": "72f82aeb8ad6c68e61909189759d69133a90d6963dc8833f93d6d8ed57a96d22"
+  }
+]

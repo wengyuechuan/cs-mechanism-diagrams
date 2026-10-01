@@ -1,0 +1,20 @@
+{
+  "title": "LLaVA-KD: A Framework of Distilling Multimodal Large Language Models",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Cai_LLaVA-KD_A_Framework_of_Distilling_Multimodal_Large_Language_Models_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Cai_LLaVA-KD_A_Framework_of_Distilling_Multimodal_Large_Language_Models_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P139",
+  "category": "06_多模态与跨模态融合",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "LLaVA-KD: A Framework of Distilling Multimodal Large Language Models\nYuxuan Cai1* Jiangning Zhang2,3* Haoyang He2\nXinwei He4\nAo Tong1\nZhenye Gan3\nChengjie Wang3\nZhucun Xue2\nYong Liu2\nXiang Bai1†\n1Huazhong University of Science and Technology\n2Zhejiang University\n3Tencent Youtu Lab\n4Huazhong Agricultural University\n{cyx hust, xbai}@hust.edu.cn, 186368@zju.edu.cn\nAbstract\nThe success of Large Language Models (LLMs) has inspired\nthe development of Multimodal Large Language Models\n(MLLMs) for unified understanding of vision and language.\nHowever, the increasing model size and computational com-\npl",
+  "local_pdf": "references/06_多模态与跨模态融合/P139/paper.pdf",
+  "sha256": "b45fc4183de603d4158c8801aaaf86b9d9b77c926e7567e732d0b078eaf3db64",
+  "bytes": 1730682,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

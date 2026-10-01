@@ -1,0 +1,119 @@
+{
+  "id": "T13",
+  "category": "04_生成模型与扩散机制",
+  "slug": "diffusion_forward_reverse",
+  "title": "Forward noising and reverse denoising",
+  "description": "上下分层区分前向加噪与学习的反向去噪，避免把两个方向混成一条线。",
+  "nodes": [
+    {
+      "id": "x0",
+      "label": "Clean sample x_0",
+      "x": 75,
+      "y": 230,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "xt",
+      "label": "Noisy sample x_t",
+      "x": 420,
+      "y": 230,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "xT",
+      "label": "Noise x_T",
+      "x": 765,
+      "y": 230,
+      "w": 170,
+      "h": 68,
+      "kind": "neutral",
+      "shape": "box"
+    },
+    {
+      "id": "net",
+      "label": "Denoiser epsilon_theta\ncondition + time t",
+      "x": 420,
+      "y": 460,
+      "w": 245,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "out",
+      "label": "Reconstructed sample",
+      "x": 1035,
+      "y": 460,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "x0",
+      "target": "xt",
+      "label": "q(x_t | x_0)",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "xt",
+      "target": "xT",
+      "label": "noise schedule",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "xT",
+      "target": "net",
+      "label": "reverse sampling",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "net",
+      "target": "out",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "xt",
+      "target": "net",
+      "label": "training input",
+      "style": "dashed",
+      "via": []
+    }
+  ],
+  "groups": [
+    {
+      "title": "Forward process",
+      "x": 40,
+      "y": 165,
+      "w": 1210,
+      "h": 160
+    },
+    {
+      "title": "Learned reverse process",
+      "x": 40,
+      "y": 390,
+      "w": 1210,
+      "h": 190
+    }
+  ],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

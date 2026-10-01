@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Temporal graph and node-state evolution">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T47 / Temporal graph and node-state evolution</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<rect x="105" y="200" width="305" height="330" rx="12" fill="#FAFBFD" stroke="#CCD4DD" stroke-dasharray="5 4"/>
+<text x="121" y="225" font-size="15" font-weight="700" fill="#68778A">Time step 0</text>
+<rect x="495" y="200" width="305" height="330" rx="12" fill="#FAFBFD" stroke="#CCD4DD" stroke-dasharray="5 4"/>
+<text x="511" y="225" font-size="15" font-weight="700" fill="#68778A">Time step 1</text>
+<rect x="885" y="200" width="305" height="330" rx="12" fill="#FAFBFD" stroke="#CCD4DD" stroke-dasharray="5 4"/>
+<text x="901" y="225" font-size="15" font-weight="700" fill="#68778A">Time step 2</text>
+<path d="M 188,364.0 L 216.5,364.0 L 216.5,289.0 L 245,289.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 188,364.0 L 216.5,364.0 L 216.5,439.0 L 245,439.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 293,289.0 L 321.5,289.0 L 321.5,364.0 L 350,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 293,439.0 L 321.5,439.0 L 321.5,364.0 L 350,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 578,364.0 L 606.5,364.0 L 606.5,289.0 L 635,289.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 578,364.0 L 606.5,364.0 L 606.5,439.0 L 635,439.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 683,289.0 L 711.5,289.0 L 711.5,364.0 L 740,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 683,439.0 L 711.5,439.0 L 711.5,364.0 L 740,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 398,364.0 L 530,364.0" fill="none" stroke="#647284" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<rect x="430.0" y="343.0" width="68" height="19" rx="3" fill="white"/>
+<text x="464.0" y="357.0" text-anchor="middle" font-size="12" fill="#516173">t -&gt; t+1</text>
+<path d="M 968,364.0 L 996.5,364.0 L 996.5,289.0 L 1025,289.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 968,364.0 L 996.5,364.0 L 996.5,439.0 L 1025,439.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 1073,289.0 L 1101.5,289.0 L 1101.5,364.0 L 1130,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 1073,439.0 L 1101.5,439.0 L 1101.5,364.0 L 1130,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 788,364.0 L 920,364.0" fill="none" stroke="#647284" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<rect x="820.0" y="343.0" width="68" height="19" rx="3" fill="white"/>
+<text x="854.0" y="357.0" text-anchor="middle" font-size="12" fill="#516173">t -&gt; t+1</text>
+<ellipse cx="164.0" cy="364.0" rx="24.0" ry="24.0" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="164.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">1</text>
+<ellipse cx="269.0" cy="289.0" rx="24.0" ry="24.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="269.0" y="294.0" text-anchor="middle" font-size="16" font-weight="600">2</text>
+<ellipse cx="269.0" cy="439.0" rx="24.0" ry="24.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="269.0" y="444.0" text-anchor="middle" font-size="16" font-weight="600">3</text>
+<ellipse cx="374.0" cy="364.0" rx="24.0" ry="24.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="374.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">4</text>
+<ellipse cx="554.0" cy="364.0" rx="24.0" ry="24.0" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="554.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">1</text>
+<ellipse cx="659.0" cy="289.0" rx="24.0" ry="24.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="659.0" y="294.0" text-anchor="middle" font-size="16" font-weight="600">2</text>
+<ellipse cx="659.0" cy="439.0" rx="24.0" ry="24.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="659.0" y="444.0" text-anchor="middle" font-size="16" font-weight="600">3</text>
+<ellipse cx="764.0" cy="364.0" rx="24.0" ry="24.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="764.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">4</text>
+<ellipse cx="944.0" cy="364.0" rx="24.0" ry="24.0" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="944.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">1</text>
+<ellipse cx="1049.0" cy="289.0" rx="24.0" ry="24.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1049.0" y="294.0" text-anchor="middle" font-size="16" font-weight="600">2</text>
+<ellipse cx="1049.0" cy="439.0" rx="24.0" ry="24.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1049.0" y="444.0" text-anchor="middle" font-size="16" font-weight="600">3</text>
+<ellipse cx="1154.0" cy="364.0" rx="24.0" ry="24.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1154.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">4</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

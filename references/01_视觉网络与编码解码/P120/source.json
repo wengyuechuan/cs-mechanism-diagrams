@@ -1,0 +1,19 @@
+{
+  "title": "Deep Learning for Generic Object Detection: A Survey",
+  "venue": "IJCV",
+  "year": 2020,
+  "source_url": "https://doi.org/10.1007/s11263-019-01247-4",
+  "pdf_url": "https://arxiv.org/pdf/1809.02165",
+  "source_kind": "author_preprint_of_verified_journal_paper",
+  "category": "01_视觉网络与编码解码",
+  "id": "P120",
+  "pages": 35,
+  "pdf_first_page_excerpt": "Deep Learning for Generic Object Detection: A Survey\nLi Liu 1,2 · Wanli Ouyang 3 · Xiaogang Wang 4 ·\nPaul Fieguth 5 · Jie Chen 2 · Xinwang Liu 1 · Matti Pietik¨ainen 2\nReceived: 12 September 2018\nAbstract Object detection, one of the most fundamental and chal-\nlenging problems in computer vision, seeks to locate object in-\nstances from a large number of predeﬁned categories in natural im-\nages. Deep learning techniques have emerged as a powerful strat-\negy for learning feature representations directly from data and have\nled to remarkable breakthroughs in the ﬁeld of generic object de-\ntection.",
+  "local_pdf": "references/01_视觉网络与编码解码/P120/paper.pdf",
+  "sha256": "58aafe9a3d61b1ab378aa545cf108606da50a3e08c18dca70cf6bcaa87707407",
+  "bytes": 9009290,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "作者公开预印本；期刊身份由 DOI / 正式书目信息确认"
+}

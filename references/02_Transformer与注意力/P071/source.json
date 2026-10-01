@@ -1,0 +1,19 @@
+{
+  "title": "SAPT : A Shared Attention Framework for Parameter-Efficient Continual Learning of Large Language Models",
+  "venue": "ACL",
+  "year": 2024,
+  "source_url": "https://aclanthology.org/2024.acl-long.625/",
+  "pdf_url": "https://aclanthology.org/2024.acl-long.625.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P071",
+  "category": "02_Transformer与注意力",
+  "pages": 21,
+  "pdf_first_page_excerpt": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 11641–11661\nAugust 11-16, 2024 ©2024 Association for Computational Linguistics\nSAPT: A Shared Attention Framework for Parameter-Efficient\nContinual Learning of Large Language Models\nWeixiang Zhao1, Shilong Wang1, Yulin Hu1, Yanyan Zhao1*, Bing Qin1,\nXuanyu Zhang2, Qing Yang2, Dongliang Xu2, Wanxiang Che1\n1Harbin Institute of Technology, Harbin, China\n2Du Xiaoman (Beijing) Science Technology Co., Ltd.\n{wxzhao, yyzhao, qinb, car}@ir.hit.edu.cn\nAbstract\nThe continual learning (CL",
+  "local_pdf": "references/02_Transformer与注意力/P071/paper.pdf",
+  "sha256": "b16ab8c55d6d1ad2abafd2d951713b663f44ebd988bc5c8dbc2357010b26c376",
+  "bytes": 1040253,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

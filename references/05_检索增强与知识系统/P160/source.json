@@ -1,0 +1,21 @@
+{
+  "title": "sciLaMA: A Single-Cell Representation Learning Framework to Leverage Prior Knowledge from Large Language Models",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/hu25aa.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/hu25aa/hu25aa.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P160",
+  "category": "11_因果与AI科学机制",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 19,
+  "pdf_first_page_excerpt": "sciLaMA: A Single-Cell Representation Learning Framework to Leverage Prior\nKnowledge from Large Language Models\nHongru Hu 1 2 Shuwen Zhang 3 Yongin Choi 1 2 Venkat S. Malladi 4 Gerald Quon 1 2\nAbstract\nSingle-cell RNA sequencing (scRNA-seq) en-\nables high-resolution exploration of cellular di-\nversity and gene regulation, yet analyzing such\ndata remains challenging due to technical and\nmethodological limitations. Existing task-specific\ndeep generative models like Variational Auto-\nEncoder (VAE) and its variants struggle to in-\ncorporate external biological knowledge, while\ntransformer-based fo",
+  "local_pdf": "references/05_检索增强与知识系统/P160/paper.pdf",
+  "sha256": "f70bdf4780e32e84c56bf01fb7220d0cf579ef22850fd3f42cf7ea40e71a758d",
+  "bytes": 8258294,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

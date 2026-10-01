@@ -1,0 +1,110 @@
+[
+  {
+    "stage": "download",
+    "id": "P110",
+    "url": "https://www.vldb.org/pvldb/vol17/p3283-tang.pdf",
+    "error": "HTTPSConnectionPool(host='www.vldb.org', port=443): Read timed out. (read timeout=15)"
+  },
+  {
+    "stage": "download",
+    "id": "P111",
+    "url": "https://www.vldb.org/pvldb/vol17/p1-zheng.pdf",
+    "error": "HTTPSConnectionPool(host='www.vldb.org', port=443): Read timed out. (read timeout=15)"
+  },
+  {
+    "stage": "download",
+    "id": "P113",
+    "url": "https://www.vldb.org/pvldb/vol17/p4827-li.pdf",
+    "error": "HTTPSConnectionPool(host='www.vldb.org', port=443): Read timed out. (read timeout=15)"
+  },
+  {
+    "stage": "download",
+    "id": "P112",
+    "url": "https://www.vldb.org/pvldb/vol17/p41-li.pdf",
+    "error": "HTTPSConnectionPool(host='www.vldb.org', port=443): Read timed out. (read timeout=15)"
+  },
+  {
+    "stage": "download",
+    "id": "P114",
+    "url": "https://www.vldb.org/pvldb/vol17/p4867-urban.pdf",
+    "error": "HTTPSConnectionPool(host='www.vldb.org', port=443): Read timed out. (read timeout=15)"
+  },
+  {
+    "stage": "download",
+    "id": "P121",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Dastani_Spectral_State_Space_Model_for_Rotation-Invariant_Visual_Representation_Learning_CVPR_2025_paper.pdf",
+    "error": "'category'"
+  },
+  {
+    "stage": "download",
+    "id": "P122",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_VasTSD_Learning_3D_Vascular_Tree-state_Space_Diffusion_Model_for_Angiography_CVPR_2025_paper.pdf",
+    "error": "'category'"
+  },
+  {
+    "stage": "download",
+    "id": "P123",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Xiang_DKDM_Data-Free_Knowledge_Distillation_for_Diffusion_Models_with_Any_Architecture_CVPR_2025_paper.pdf",
+    "error": "'category'"
+  },
+  {
+    "stage": "download",
+    "id": "P124",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Sun_Learning_Compatible_Multi-Prize_Subnetworks_for_Asymmetric_Retrieval_CVPR_2025_paper.pdf",
+    "error": "'category'"
+  },
+  {
+    "stage": "download",
+    "id": "P125",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Jia_SymDPO_Boosting_In-Context_Learning_of_Large_Multimodal_Models_with_Symbol_CVPR_2025_paper.pdf",
+    "error": "'category'"
+  },
+  {
+    "stage": "download",
+    "id": "P126",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Hao_Neural_Motion_Simulator_Pushing_the_Limit_of_World_Models_in_CVPR_2025_paper.pdf",
+    "error": "'category'"
+  },
+  {
+    "stage": "download",
+    "id": "P127",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_Stealthy_Backdoor_Attack_in_Self-Supervised_Learning_Vision_Encoders_for_Large_CVPR_2025_paper.pdf",
+    "error": "'category'"
+  },
+  {
+    "stage": "download",
+    "id": "P128",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Hermosilla_Masked_Scene_Modeling_Narrowing_the_Gap_Between_Supervised_and_Self-Supervised_CVPR_2025_paper.pdf",
+    "error": "'category'"
+  },
+  {
+    "stage": "download",
+    "id": "P129",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_LiveCC_Learning_Video_LLM_with_Streaming_Speech_Transcription_at_Scale_CVPR_2025_paper.pdf",
+    "error": "'category'"
+  },
+  {
+    "stage": "download",
+    "id": "P130",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Brain-Inspired_Spiking_Neural_Networks_for_Energy-Efficient_Object_Detection_CVPR_2025_paper.pdf",
+    "error": "'category'"
+  },
+  {
+    "stage": "download",
+    "id": "P131",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Beyond_Clean_Training_Data_A_Versatile_and_Model-Agnostic_Framework_for_CVPR_2025_paper.pdf",
+    "error": "'category'"
+  },
+  {
+    "stage": "download",
+    "id": "P132",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_Enhancing_Online_Continual_Learning_with_Plug-and-Play_State_Space_Model_and_CVPR_2025_paper.pdf",
+    "error": "'category'"
+  },
+  {
+    "stage": "download",
+    "id": "P115",
+    "url": "https://www.vldb.org/pvldb/vol17/p4571-li.pdf",
+    "error": "HTTPSConnectionPool(host='www.vldb.org', port=443): Read timed out. (read timeout=15)"
+  }
+]

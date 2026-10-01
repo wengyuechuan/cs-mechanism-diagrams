@@ -1,0 +1,19 @@
+{
+  "title": "Neural Motion Simulator Pushing the Limit of World Models in Reinforcement Learning",
+  "venue": "CVPR",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Hao_Neural_Motion_Simulator_Pushing_the_Limit_of_World_Models_in_CVPR_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Hao_Neural_Motion_Simulator_Pushing_the_Limit_of_World_Models_in_CVPR_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P126",
+  "download_status": "ok",
+  "category": "07_强化学习与智能体",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Neural Motion Simulator\nPushing the Limit of World Models in Reinforcement Learning\nChenjie Hao1⇤, Weyl Lu1⇤, Yifan Xu2, Yubei Chen1,2†\n1UC Davis\n2Open Path AI Foundation\n{cjhao, adslu, ybchen}@ucdavis.edu, yifan.xu@openpathai.com\nFigure 1. This ﬁgures demonstrate the long-horizon precise prediction by the Neural Motion Simulators. In each of the three agents, the\nﬁrst row shows the groud-truth states and the second row shows the predicted states with the same initial condition and actions sequence.\nHumanoid predicts for 30 steps with rendering every 3 steps; Panda predicts for 200 steps with ",
+  "local_pdf": "references/07_强化学习与智能体/P126/paper.pdf",
+  "sha256": "7e5265ba41c2dc2757917b071bded316b93b6dd754485fa965f7b92a3fe9f402",
+  "bytes": 3030705,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "InfoSEM: A Deep Generative Model with Informative Priors for Gene Regulatory Network Inference",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/cui25e.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/cui25e/cui25e.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P170",
+  "category": "04_生成模型与扩散机制",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 16,
+  "pdf_first_page_excerpt": "InfoSEM: A Deep Generative Model with Informative Priors for Gene\nRegulatory Network Inference\nTianyu Cui 1 Song-Jun Xu 1 Artem Moskalev 1 Shuwei Li 1 Tommaso Mansi 1 Mangal Prakash 1 * Rui Liao 1 *\nAbstract\nInferring Gene Regulatory Networks (GRNs)\nfrom gene expression data is crucial for under-\nstanding biological processes. While supervised\nmodels are reported to achieve high performance\nfor this task, they rely on costly ground truth\n(GT) labels and risk learning gene-specific bi-\nases—such as class imbalances of GT interac-\ntions—rather than true regulatory mechanisms.\nTo address these is",
+  "local_pdf": "references/04_生成模型与扩散机制/P170/paper.pdf",
+  "sha256": "703b195d8c236755a2b7b909265176bb09cdb8eb2512a0b152a625c83cbd528c",
+  "bytes": 536256,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Learning Structure-from-Motion with Graph Attention Networks",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Brynte_Learning_Structure-from-Motion_with_Graph_Attention_Networks_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Brynte_Learning_Structure-from-Motion_with_Graph_Attention_Networks_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P002",
+  "category": "03_图神经网络与关系推理",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Learning Structure-from-Motion with Graph Attention Networks\nLucas Brynte\nJos´e Pedro Iglesias\nCarl Olsson\nFredrik Kahl\nChalmers University of Technology\n{brynte,jose.iglesias,caols,fredrik.kahl}@chalmers.se\nAbstract\nIn this paper we tackle the problem of learning Structure-\nfrom-Motion (SfM) through the use of graph attention net-\nworks. SfM is a classic computer vision problem that is\nsolved though iterative minimization of reprojection errors,\nreferred to as Bundle Adjustment (BA), starting from a good\ninitialization.\nIn order to obtain a good enough initial-\nization to BA, conventional met",
+  "local_pdf": "references/02_Transformer与注意力/P002/paper.pdf",
+  "sha256": "69b91e6404552372b81f610c1dcf2b94b9c8ea523be700eaeee9ba2b4bb109d4",
+  "bytes": 952297,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

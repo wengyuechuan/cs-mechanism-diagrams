@@ -1,0 +1,19 @@
+{
+  "title": "Data-to-Model Distillation: Data-Efficient Learning Framework",
+  "venue": "ECCV",
+  "year": 2024,
+  "source_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6020_ECCV_2024_paper.php",
+  "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06020.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P043",
+  "category": "08_训练策略与自监督",
+  "pages": 20,
+  "pdf_first_page_excerpt": "Data-to-Model Distillation: Data-Efficient\nLearning Framework\nAhmad Sajedi1∗, Samir Khaki1* , Lucy Z. Liu2, Ehsan Amjadian 2 , Yuri A.\nLawryshyn1, and Konstantinos N. Plataniotis 1\n1 University of Toronto, Toronto, Canada\n2 Royal Bank of Canada (RBC), Toronto, Canada\nhttps://datadistillation.github.io/D2M/\n{ahmad.sajedi,samir.khaki}@mail.utoronto.ca\nAbstract. Dataset distillation aims to distill the knowledge of a large-\nscale real dataset into small yet informative synthetic data such that\na model trained on it performs as well as a model trained on the full\ndataset. Despite recent progress, ",
+  "local_pdf": "references/08_训练策略与自监督/P043/paper.pdf",
+  "sha256": "3c6114eb674ca4d5442f14d9c527d7855d5482c37368a09244f529930ff980d1",
+  "bytes": 9192644,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

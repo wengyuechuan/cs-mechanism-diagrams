@@ -1,0 +1,19 @@
+{
+  "title": "Deep Learning for 3D Point Clouds: A Survey",
+  "venue": "IEEE TPAMI",
+  "year": 2021,
+  "source_url": "https://doi.org/10.1109/TPAMI.2020.3005434",
+  "pdf_url": "https://arxiv.org/pdf/1912.12033",
+  "source_kind": "author_preprint_of_verified_journal_paper",
+  "category": "09_三维视觉与神经渲染",
+  "id": "P119",
+  "pages": 27,
+  "pdf_first_page_excerpt": "IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE\n1\nDeep Learning for 3D Point Clouds: A Survey\nYulan Guo∗, Hanyun Wang∗, Qingyong Hu∗, Hao Liu∗, Li Liu, and Mohammed Bennamoun\nAbstract—Point cloud learning has lately attracted increasing attention due to its wide applications in many areas, such as computer\nvision, autonomous driving, and robotics. As a dominating technique in AI, deep learning has been successfully used to solve various\n2D vision problems. However, deep learning on point clouds is still in its infancy due to the unique challenges faced by the processing\nof point",
+  "local_pdf": "references/09_三维视觉与神经渲染/P119/paper.pdf",
+  "sha256": "e087507623e2f01843a14077b44dfa126f32c0479967db7a643f96bcd26e1941",
+  "bytes": 2466766,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "作者公开预印本；期刊身份由 DOI / 正式书目信息确认"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "T33",
+  "category": "09_三维视觉与神经渲染",
+  "slug": "point_cloud",
+  "title": "Point-set encoder with global-local fusion",
+  "description": "无序点集的共享变换、对称池化与局部特征回传。",
+  "nodes": [
+    {
+      "id": "0",
+      "label": "Point cloud\nN x 3",
+      "x": 65,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "1",
+      "label": "Shared point MLP\nN x C",
+      "x": 275,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "2",
+      "label": "Symmetric pooling\n1 x C",
+      "x": 485,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "3",
+      "label": "Global + local fuse\nN x 2C",
+      "x": 695,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "4",
+      "label": "Per-point prediction",
+      "x": 905,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "label": "point features",
+      "style": "dashed",
+      "via": [
+        [
+          360,
+          215
+        ],
+        [
+          780,
+          215
+        ]
+      ]
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Improving Training Efficiency of Diffusion Models via Multi-Stage Framework and Tailored Multi-Decoder Architecture",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Improving_Training_Efficiency_of_Diffusion_Models_via_Multi-Stage_Framework_and_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Improving_Training_Efficiency_of_Diffusion_Models_via_Multi-Stage_Framework_and_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P003",
+  "category": "04_生成模型与扩散机制",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Improving Training Efficiency of Diffusion Models via Multi-Stage Framework\nand Tailored Multi-Decoder Architecture\nHuijie Zhang1 ∗\nYifu Lu1 ∗\nIsmail Alkhouri1,2\nSaiprasad Ravishankar2,3\nDogyoon Song1\nQing Qu1\n1Department of Electrical Engineering & Computer Science, University of Michigan\n2Department of Computational Mathematics, Science & Engineering, Michigan State University\n3Department of Biomedical Engineering, Michigan State University\n{huijiezh, yifulu, ismailal, dogyoons, qingqu}@umich.edu\nravisha3@msu.edu\nFigure 1. Overview of three diffusion model architectures: (a) unified, (b) sep",
+  "local_pdf": "references/04_生成模型与扩散机制/P003/paper.pdf",
+  "sha256": "b2ef653a8b7083d68364267a605599c2e3742b7cd414fd499de2baaaf3ee0d3a",
+  "bytes": 2361891,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

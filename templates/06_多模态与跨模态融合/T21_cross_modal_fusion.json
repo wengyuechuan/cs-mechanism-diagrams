@@ -1,0 +1,114 @@
+{
+  "id": "T21",
+  "category": "06_多模态与跨模态融合",
+  "slug": "cross_modal_fusion",
+  "title": "Cross-modal attention fusion",
+  "description": "明确 Q 与 K/V 来自不同模态，便于展示交互模块创新。",
+  "nodes": [
+    {
+      "id": "a",
+      "label": "Modality A tokens",
+      "x": 80,
+      "y": 220,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "b",
+      "label": "Modality B tokens",
+      "x": 80,
+      "y": 450,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "qa",
+      "label": "Projection Q",
+      "x": 370,
+      "y": 220,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "kv",
+      "label": "Projection K,V",
+      "x": 370,
+      "y": 450,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "cross",
+      "label": "Cross-attention\nQ_A attends to K_B,V_B",
+      "x": 700,
+      "y": 320,
+      "w": 260,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "out",
+      "label": "Fused representation",
+      "x": 1060,
+      "y": 320,
+      "w": 210,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "a",
+      "target": "qa",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "b",
+      "target": "kv",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "qa",
+      "target": "cross",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "kv",
+      "target": "cross",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "cross",
+      "target": "out",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

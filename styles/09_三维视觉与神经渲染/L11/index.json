@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P054_F4_p05",
+    "title": "LinNet: Linear Network for Efficient Point Cloud Representation Learning",
+    "category": "09_三维视觉与神经渲染",
+    "layout_style": "L11",
+    "visual_style": "V02",
+    "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/4bfcebedf7a2967c410b64670f27f904-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/4bfcebedf7a2967c410b64670f27f904-Paper-Conference.pdf",
+    "figure_number": "4",
+    "pdf_page": 5,
+    "caption": "Figure 4: Comparison of various local aggregation. Each square represents the semantic feature, while each rectangle represents relative coordinates. The number of neighbors is 3. The blue line indicates a mapping in a high-dimensional space (e.g., from 3 + c to c, or c to c), and the red line indicates a mapping from a lower dimension to a higher dimension (e.g., from 3 to c). More blue lines indicate more computation.",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "09",
+    "kind": "paper_reference",
+    "year": 2024,
+    "venue": "NeurIPS",
+    "image": "references/09_三维视觉与神经渲染/P054/figures/P054_F4_p05.png",
+    "description": "机制示意与总体框架",
+    "source_kind": "official_proceedings",
+    "copy_note": "原论文集/出版商公开版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "69853d7773323d551119608f01102b0bbbf019adc4ef5b278f310cdb76a24bad"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "title": "Adaptive Hyper-Graph Convolution Network for Skeleton-based Human Action Recognition with Virtual Connections",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_Adaptive_Hyper-Graph_Convolution_Network_for_Skeleton-based_Human_Action_Recognition_with_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhou_Adaptive_Hyper-Graph_Convolution_Network_for_Skeleton-based_Human_Action_Recognition_with_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P156",
+  "category": "03_图神经网络与关系推理",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Adaptive Hyper-Graph Convolution Network for Skeleton-based\nHuman Action Recognition with Virtual Connections\nYouwei Zhou1, Tianyang Xu1*, Cong Wu1, Xiaojun Wu1, Josef Kittler2\n1Jiangnan University, China\n2University of Surrey, UK\nyouwei zhou@stu.jiangnan.edu.cn\n{tianyang xu, congwu, wu xiaojun}@jiangnan.edu.cn\nj.kittler@surrey.ac.uk\nAbstract\nThe shared topology of human skeletons motivated the re-\ncent investigation of graph convolutional network (GCN)\nsolutions for action recognition. However, most of the ex-\nisting GCNs rely on the binary connection of two neighbor-\ning vertices (joints) fo",
+  "local_pdf": "references/03_图神经网络与关系推理/P156/paper.pdf",
+  "sha256": "672cf14868066de83ffbe41ebb5cedd9f7b0b583020ce588c40cc15bcd2835c3",
+  "bytes": 823212,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

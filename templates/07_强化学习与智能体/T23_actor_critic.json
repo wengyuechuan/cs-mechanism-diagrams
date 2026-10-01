@@ -1,0 +1,120 @@
+{
+  "id": "T23",
+  "category": "07_强化学习与智能体",
+  "slug": "actor_critic",
+  "title": "Actor-critic interaction and learning",
+  "description": "实线交互环与虚线训练支路分开，适合强化学习系统总览。",
+  "nodes": [
+    {
+      "id": "env",
+      "label": "Environment",
+      "x": 80,
+      "y": 315,
+      "w": 215,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "obs",
+      "label": "Observation encoder",
+      "x": 420,
+      "y": 210,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "actor",
+      "label": "Actor pi(a|s)",
+      "x": 730,
+      "y": 210,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "critic",
+      "label": "Critic V(s) / Q(s,a)",
+      "x": 730,
+      "y": 465,
+      "w": 215,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "buf",
+      "label": "Replay / rollout",
+      "x": 420,
+      "y": 465,
+      "w": 170,
+      "h": 68,
+      "kind": "neutral",
+      "shape": "database"
+    }
+  ],
+  "edges": [
+    {
+      "source": "env",
+      "target": "obs",
+      "label": "state / observation",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "obs",
+      "target": "actor",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "actor",
+      "target": "env",
+      "label": "action",
+      "style": "solid",
+      "via": [
+        [
+          815,
+          145
+        ],
+        [
+          190,
+          145
+        ]
+      ]
+    },
+    {
+      "source": "env",
+      "target": "buf",
+      "label": "transition",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "buf",
+      "target": "critic",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "critic",
+      "target": "actor",
+      "label": "learning signal",
+      "style": "dashed",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

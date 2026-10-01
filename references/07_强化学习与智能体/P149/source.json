@@ -1,0 +1,20 @@
+{
+  "title": "Disentangled World Models: Learning to Transfer Semantic Knowledge from Distracting Videos for Reinforcement Learning",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_Disentangled_World_Models_Learning_to_Transfer_Semantic_Knowledge_from_Distracting_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_Disentangled_World_Models_Learning_to_Transfer_Semantic_Knowledge_from_Distracting_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P149",
+  "category": "07_强化学习与智能体",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Disentangled World Models: Learning to Transfer Semantic\nKnowledge from Distracting Videos for Reinforcement Learning\nQi Wang1,2,3* Zhipeng Zhang4,5* Baao Xie2,3* Xin Jin2,3† Yunbo Wang1\nShiyu Wang5,6 Liaomo Zheng5,6 Xiaokang Yang1 Wenjun Zeng2,3\n1 MoE Key Lab of Artificial Intelligence, AI Institute, Shanghai Jiao Tong University\n2 Ningbo Institute of Digital Twin, Eastern Institute of Technology, Ningbo, China\n3 Ningbo Key Laboratory of Spatial Intelligence and Digital Derivative, Ningbo, China\n4 University of Chinese Academy of Sciences\n5 Shenyang Institute of Computing Technology, Chinese ",
+  "local_pdf": "references/07_强化学习与智能体/P149/paper.pdf",
+  "sha256": "e3761d35a0c87ab7ec25435f4c5101cd6e14edae5f6c913ee71431ef0ec62a3d",
+  "bytes": 1631143,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

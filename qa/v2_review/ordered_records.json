@@ -1,0 +1,417 @@
+[
+  {
+    "number": 1,
+    "id": "P133_F3_p03",
+    "title": "Mamba-3VL: Taming State Space Model for 3D Vision Language Learning"
+  },
+  {
+    "number": 2,
+    "id": "P134_F2_p04",
+    "title": "3DGraphLLM: Combining Semantic Graphs and Large Language Models for 3D Scene Understanding"
+  },
+  {
+    "number": 3,
+    "id": "P135_F2_p03",
+    "title": "Golden Noise for Diffusion Models: A Learning Framework"
+  },
+  {
+    "number": 4,
+    "id": "P136_F2_p03",
+    "title": "LoRAverse: A Submodular Framework to Retrieve Diverse Adapters for Diffusion Models"
+  },
+  {
+    "number": 5,
+    "id": "P137_F1_p01",
+    "title": "Multi-Modal Multi-Task Unified Embedding Model (M3T-UEM): A Task-Adaptive Representation Learning Framework"
+  },
+  {
+    "number": 6,
+    "id": "P137_F2_p03",
+    "title": "Multi-Modal Multi-Task Unified Embedding Model (M3T-UEM): A Task-Adaptive Representation Learning Framework"
+  },
+  {
+    "number": 7,
+    "id": "P137_F4_p06",
+    "title": "Multi-Modal Multi-Task Unified Embedding Model (M3T-UEM): A Task-Adaptive Representation Learning Framework"
+  },
+  {
+    "number": 8,
+    "id": "P138_F2_p04",
+    "title": "Learning 4D Embodied World Models"
+  },
+  {
+    "number": 9,
+    "id": "P139_F2_p04",
+    "title": "LLaVA-KD: A Framework of Distilling Multimodal Large Language Models"
+  },
+  {
+    "number": 10,
+    "id": "P140_F3_p05",
+    "title": "Bridging Diffusion Models and 3D Representations: A 3D Consistent Super-Resolution Framework"
+  },
+  {
+    "number": 11,
+    "id": "P141_F2_p03",
+    "title": "MotionStreamer: Streaming Motion Generation via Diffusion-based Autoregressive Model in Causal Latent Space"
+  },
+  {
+    "number": 12,
+    "id": "P141_F3_p04",
+    "title": "MotionStreamer: Streaming Motion Generation via Diffusion-based Autoregressive Model in Causal Latent Space"
+  },
+  {
+    "number": 13,
+    "id": "P142_F2_p03",
+    "title": "CARL: Causality-guided Architecture Representation Learning for an Interpretable Performance Predictor"
+  },
+  {
+    "number": 14,
+    "id": "P142_F3_p04",
+    "title": "CARL: Causality-guided Architecture Representation Learning for an Interpretable Performance Predictor"
+  },
+  {
+    "number": 15,
+    "id": "P142_F5_p08",
+    "title": "CARL: Causality-guided Architecture Representation Learning for an Interpretable Performance Predictor"
+  },
+  {
+    "number": 16,
+    "id": "P143_F1_p01",
+    "title": "From Easy to Hard: Progressive Active Learning Framework for Infrared Small Target Detection with Single Point Supervision"
+  },
+  {
+    "number": 17,
+    "id": "P143_F2_p03",
+    "title": "From Easy to Hard: Progressive Active Learning Framework for Infrared Small Target Detection with Single Point Supervision"
+  },
+  {
+    "number": 18,
+    "id": "P143_F3_p04",
+    "title": "From Easy to Hard: Progressive Active Learning Framework for Infrared Small Target Detection with Single Point Supervision"
+  },
+  {
+    "number": 19,
+    "id": "P144_F2_p03",
+    "title": "STDDNet: Harnessing Mamba for Video Polyp Segmentation via Spatial-aligned Temporal Modeling and Discriminative Dynamic Representation Learning"
+  },
+  {
+    "number": 20,
+    "id": "P144_F3_p04",
+    "title": "STDDNet: Harnessing Mamba for Video Polyp Segmentation via Spatial-aligned Temporal Modeling and Discriminative Dynamic Representation Learning"
+  },
+  {
+    "number": 21,
+    "id": "P144_F7_p07",
+    "title": "STDDNet: Harnessing Mamba for Video Polyp Segmentation via Spatial-aligned Temporal Modeling and Discriminative Dynamic Representation Learning"
+  },
+  {
+    "number": 22,
+    "id": "P145_F2_p02",
+    "title": "SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions"
+  },
+  {
+    "number": 23,
+    "id": "P145_F5_p05",
+    "title": "SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions"
+  },
+  {
+    "number": 24,
+    "id": "P146_F2_p05",
+    "title": "Joint Diffusion Models in Continual Learning"
+  },
+  {
+    "number": 25,
+    "id": "P147_F1_p03",
+    "title": "FedXDS: Leveraging Model Attribution Methods to counteract Data Heterogeneity in Federated Learning"
+  },
+  {
+    "number": 26,
+    "id": "P147_F2_p08",
+    "title": "FedXDS: Leveraging Model Attribution Methods to counteract Data Heterogeneity in Federated Learning"
+  },
+  {
+    "number": 27,
+    "id": "P148_F2_p04",
+    "title": "ModalTune: Fine-Tuning Slide-Level Foundation Models with Multi-Modal Information for Multi-task Learning in Digital Pathology"
+  },
+  {
+    "number": 28,
+    "id": "P149_F1_p01",
+    "title": "Disentangled World Models: Learning to Transfer Semantic Knowledge from Distracting Videos for Reinforcement Learning"
+  },
+  {
+    "number": 29,
+    "id": "P149_F2_p03",
+    "title": "Disentangled World Models: Learning to Transfer Semantic Knowledge from Distracting Videos for Reinforcement Learning"
+  },
+  {
+    "number": 30,
+    "id": "P150_F1_p01",
+    "title": "Harnessing Text-to-Image Diffusion Models for Point Cloud Self-Supervised Learning"
+  },
+  {
+    "number": 31,
+    "id": "P150_F2_p04",
+    "title": "Harnessing Text-to-Image Diffusion Models for Point Cloud Self-Supervised Learning"
+  },
+  {
+    "number": 32,
+    "id": "P151_F2_p03",
+    "title": "Prior-aware Dynamic Temporal Modeling Framework for Sequential 3D Hand Pose Estimation"
+  },
+  {
+    "number": 33,
+    "id": "P152_F1_p02",
+    "title": "S3R-GS: Streamlining the Pipeline for Large-Scale Street Scene Reconstruction"
+  },
+  {
+    "number": 34,
+    "id": "P152_F2_p03",
+    "title": "S3R-GS: Streamlining the Pipeline for Large-Scale Street Scene Reconstruction"
+  },
+  {
+    "number": 35,
+    "id": "P153_F2_p03",
+    "title": "Causality-guided Prompt Learning for Vision-language Models via Visual Granulation"
+  },
+  {
+    "number": 36,
+    "id": "P153_F3_p03",
+    "title": "Causality-guided Prompt Learning for Vision-language Models via Visual Granulation"
+  },
+  {
+    "number": 37,
+    "id": "P153_F4_p04",
+    "title": "Causality-guided Prompt Learning for Vision-language Models via Visual Granulation"
+  },
+  {
+    "number": 38,
+    "id": "P154_F2_p02",
+    "title": "SAUCE: Selective Concept Unlearning in Vision-Language Models with Sparse Autoencoders"
+  },
+  {
+    "number": 39,
+    "id": "P155_F2_p03",
+    "title": "Learning Counterfactually Decoupled Attention for Open-World Model Attribution"
+  },
+  {
+    "number": 40,
+    "id": "P155_F3_p04",
+    "title": "Learning Counterfactually Decoupled Attention for Open-World Model Attribution"
+  },
+  {
+    "number": 41,
+    "id": "P156_F1_p01",
+    "title": "Adaptive Hyper-Graph Convolution Network for Skeleton-based Human Action Recognition with Virtual Connections"
+  },
+  {
+    "number": 42,
+    "id": "P156_F2_p04",
+    "title": "Adaptive Hyper-Graph Convolution Network for Skeleton-based Human Action Recognition with Virtual Connections"
+  },
+  {
+    "number": 43,
+    "id": "P158_F1_p04",
+    "title": "Learning Changes in Graphon Attachment Network Models"
+  },
+  {
+    "number": 44,
+    "id": "P158_F2_p07",
+    "title": "Learning Changes in Graphon Attachment Network Models"
+  },
+  {
+    "number": 45,
+    "id": "P159_F1_p03",
+    "title": "A Variational Framework for Improving Naturalness in Generative Spoken Language Models"
+  },
+  {
+    "number": 46,
+    "id": "P159_F2_p15",
+    "title": "A Variational Framework for Improving Naturalness in Generative Spoken Language Models"
+  },
+  {
+    "number": 47,
+    "id": "P160_F1_p04",
+    "title": "sciLaMA: A Single-Cell Representation Learning Framework to Leverage Prior Knowledge from Large Language Models"
+  },
+  {
+    "number": 48,
+    "id": "P160_F5_p08",
+    "title": "sciLaMA: A Single-Cell Representation Learning Framework to Leverage Prior Knowledge from Large Language Models"
+  },
+  {
+    "number": 49,
+    "id": "P161_F1_p03",
+    "title": "ELEMENTAL: Interactive Learning from Demonstrations and Vision-Language Models for Reward Design in Robotics"
+  },
+  {
+    "number": 50,
+    "id": "P161_F2_p05",
+    "title": "ELEMENTAL: Interactive Learning from Demonstrations and Vision-Language Models for Reward Design in Robotics"
+  },
+  {
+    "number": 51,
+    "id": "P162_F1_p02",
+    "title": "LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models"
+  },
+  {
+    "number": 52,
+    "id": "P163_F1_p03",
+    "title": "SHARP-Distill: A 68$\\times$ Faster Recommender System with Hypergraph Neural Networks and Language Models"
+  },
+  {
+    "number": 53,
+    "id": "P164_F1_p06",
+    "title": "Graph Neural Network Generalization With Gaussian Mixture Model Based Augmentation"
+  },
+  {
+    "number": 54,
+    "id": "P167_F2_p04",
+    "title": "Open-Det: An Efficient Learning Framework for Open-Ended Detection"
+  },
+  {
+    "number": 55,
+    "id": "P167_F3_p05",
+    "title": "Open-Det: An Efficient Learning Framework for Open-Ended Detection"
+  },
+  {
+    "number": 56,
+    "id": "P167_F5_p13",
+    "title": "Open-Det: An Efficient Learning Framework for Open-Ended Detection"
+  },
+  {
+    "number": 57,
+    "id": "P167_F6_p14",
+    "title": "Open-Det: An Efficient Learning Framework for Open-Ended Detection"
+  },
+  {
+    "number": 58,
+    "id": "P168_F8_p15",
+    "title": "Quamba2: A Robust and Scalable Post-training Quantization Framework for Selective State Space Models"
+  },
+  {
+    "number": 59,
+    "id": "P169_F1_p03",
+    "title": "AutoGFM: Automated Graph Foundation Model with Adaptive Architecture Customization"
+  },
+  {
+    "number": 60,
+    "id": "P169_F2_p04",
+    "title": "AutoGFM: Automated Graph Foundation Model with Adaptive Architecture Customization"
+  },
+  {
+    "number": 61,
+    "id": "P169_F4_p17",
+    "title": "AutoGFM: Automated Graph Foundation Model with Adaptive Architecture Customization"
+  },
+  {
+    "number": 62,
+    "id": "P171_F5_p15",
+    "title": "From RAG to Memory: Non-Parametric Continual Learning for Large Language Models"
+  },
+  {
+    "number": 63,
+    "id": "P172_F2_p04",
+    "title": "FOCoOp: Enhancing Out-of-Distribution Robustness in Federated Prompt Learning for Vision-Language Models"
+  },
+  {
+    "number": 64,
+    "id": "P174_F1_p03",
+    "title": "Taming Language Models for Text-attributed Graph Learning with Decoupled Aggregation"
+  },
+  {
+    "number": 65,
+    "id": "P174_F2_p03",
+    "title": "Taming Language Models for Text-attributed Graph Learning with Decoupled Aggregation"
+  },
+  {
+    "number": 66,
+    "id": "P174_F3_p05",
+    "title": "Taming Language Models for Text-attributed Graph Learning with Decoupled Aggregation"
+  },
+  {
+    "number": 67,
+    "id": "P175_F2_p04",
+    "title": "Segment-Level Diffusion: A Framework for Controllable Long-Form Generation with Diffusion Language Models"
+  },
+  {
+    "number": 68,
+    "id": "P175_F3_p08",
+    "title": "Segment-Level Diffusion: A Framework for Controllable Long-Form Generation with Diffusion Language Models"
+  },
+  {
+    "number": 69,
+    "id": "P175_F6_p18",
+    "title": "Segment-Level Diffusion: A Framework for Controllable Long-Form Generation with Diffusion Language Models"
+  },
+  {
+    "number": 70,
+    "id": "P176_F3_p05",
+    "title": "CART : A Generative Cross-Modal Retrieval Framework With Coarse-To-Fine Semantic Modeling"
+  },
+  {
+    "number": 71,
+    "id": "P177_F3_p04",
+    "title": "Modality-Aware Neuron Pruning for Unlearning in Multimodal Large Language Models"
+  },
+  {
+    "number": 72,
+    "id": "P178_F1_p01",
+    "title": "FACT - AUDIT : An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models"
+  },
+  {
+    "number": 73,
+    "id": "P178_F2_p04",
+    "title": "FACT - AUDIT : An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models"
+  },
+  {
+    "number": 74,
+    "id": "P178_F7_p13",
+    "title": "FACT - AUDIT : An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models"
+  },
+  {
+    "number": 75,
+    "id": "P179_F2_p03",
+    "title": "A Triple-View Framework for Fine-Grained Emotion Classification with Clustering-Guided Contrastive Learning"
+  },
+  {
+    "number": 76,
+    "id": "P180_F1_p03",
+    "title": "Gender Inclusivity Fairness Index ( GIFI ): A Multilevel Framework for Evaluating Gender Diversity in Large Language Models"
+  },
+  {
+    "number": 77,
+    "id": "P180_F5_p08",
+    "title": "Gender Inclusivity Fairness Index ( GIFI ): A Multilevel Framework for Evaluating Gender Diversity in Large Language Models"
+  },
+  {
+    "number": 78,
+    "id": "P181_F1_p02",
+    "title": "IRIS : An Iterative and Integrated Framework for Verifiable Causal Discovery in the Absence of Tabular Data"
+  },
+  {
+    "number": 79,
+    "id": "P182_F2_p05",
+    "title": "I mpli H ate V id: A Benchmark Dataset and Two-stage Contrastive Learning Framework for Implicit Hate Speech Detection in Videos"
+  },
+  {
+    "number": 80,
+    "id": "P183_F1_p02",
+    "title": "ECERC : Evidence-Cause Attention Network for Multi-Modal Emotion Recognition in Conversation"
+  },
+  {
+    "number": 81,
+    "id": "P183_F2_p05",
+    "title": "ECERC : Evidence-Cause Attention Network for Multi-Modal Emotion Recognition in Conversation"
+  },
+  {
+    "number": 82,
+    "id": "P183_F3_p06",
+    "title": "ECERC : Evidence-Cause Attention Network for Multi-Modal Emotion Recognition in Conversation"
+  },
+  {
+    "number": 83,
+    "id": "P184_F2_p04",
+    "title": "A Generative Adaptive Replay Continual Learning Model for Temporal Knowledge Graph Reasoning"
+  }
+]

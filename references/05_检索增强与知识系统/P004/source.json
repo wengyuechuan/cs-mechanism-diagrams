@@ -1,0 +1,20 @@
+{
+  "title": "Looking Similar Sounding Different: Leveraging Counterfactual Cross-Modal Pairs for Audiovisual Representation Learning",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Singh_Looking_Similar_Sounding_Different_Leveraging_Counterfactual_Cross-Modal_Pairs_for_Audiovisual_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Singh_Looking_Similar_Sounding_Different_Leveraging_Counterfactual_Cross-Modal_Pairs_for_Audiovisual_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P004",
+  "category": "06_多模态与跨模态融合",
+  "pages": 12,
+  "pdf_first_page_excerpt": "Looking Similar, Sounding Different: Leveraging Counterfactual Cross-Modal\nPairs for Audiovisual Representation Learning\nNikhil Singh1*\nChih-Wei Wu2\nIroro Orife2\nMahdi Kalayeh2\n1Massachusetts Institute of Technology\n2Netflix\n1nsingh1@mit.edu\n2[chihweiw, iorife, mkalayeh]@netflix.com\nFigure 1. (Left) Audiovisual scenes can be perceptually similar even as the words spoken in them differ, which may be a challenge for\nself-supervised audiovisual representation learning. (Right) We propose to leverage movie dubs during training and show that it improves\nthe quality of learned representations on a w",
+  "local_pdf": "references/05_检索增强与知识系统/P004/paper.pdf",
+  "sha256": "61af8fd3f40bc42fdf6300ba95821c5ac1c289e4bc354df92c7711ce7fd490f7",
+  "bytes": 9842039,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

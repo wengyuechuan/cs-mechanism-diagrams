@@ -1,0 +1,19 @@
+{
+  "title": "DO-GAN: A Double Oracle Framework for Generative Adversarial Networks",
+  "venue": "CVPR",
+  "year": 2022,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Aung_DO-GAN_A_Double_Oracle_Framework_for_Generative_Adversarial_Networks_CVPR_2022_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Aung_DO-GAN_A_Double_Oracle_Framework_for_Generative_Adversarial_Networks_CVPR_2022_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P031",
+  "category": "04_生成模型与扩散机制",
+  "pages": 10,
+  "pdf_first_page_excerpt": "DO-GAN: A Double Oracle Framework for Generative Adversarial Networks\nAye Phyu Phyu Aung1,2*, Xinrun Wang1*†, Runsheng Yu1*, Bo An1†\nSenthilnath Jayavelu2, Xiaoli Li1,2,3†\n1School of Computer Science and Engineering, Nanyang Technological University, Singapore\n2Institute for Infocomm Research, A*STAR, Singapore\n3A*STAR Centre for Frontier AI Research, Singapore\n{ayep0001,xinrun.wang, boan}@ntu.edu.sg, runshengyu@gmail.com,\n{j_senthilnath, xlli}@i2r.a-star.edu.sg\nAbstract\nIn this paper, we propose a new approach to train Gen-\nerative Adversarial Networks (GANs) where we deploy a\ndouble-oracle f",
+  "local_pdf": "references/04_生成模型与扩散机制/P031/paper.pdf",
+  "sha256": "d0e2a7fb12734e8b871c4afd38d960a2048c1b955cc9b7a853532a48cb5d73c6",
+  "bytes": 7896888,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

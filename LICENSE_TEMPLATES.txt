@@ -1,0 +1,3 @@
+Original editable templates and authoring scripts: MIT License
+Copyright (c) 2026. Permission is granted to use, modify, and distribute the original templates and scripts, with this notice retained. Provided without warranty.
+Downloaded papers, PDF-derived images, and third-party resources are excluded from this license and retain their original rights.

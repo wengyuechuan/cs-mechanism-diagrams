@@ -1,0 +1,19 @@
+{
+  "title": "SNED: Superposition Network Architecture Search for Efficient Video Diffusion Model",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_SNED_Superposition_Network_Architecture_Search_for_Efficient_Video_Diffusion_Model_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Li_SNED_Superposition_Network_Architecture_Search_for_Efficient_Video_Diffusion_Model_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P014",
+  "category": "04_生成模型与扩散机制",
+  "pages": 10,
+  "pdf_first_page_excerpt": "SNED: Superposition Network Architecture Search for Efficient Video Diffusion\nModel\nZhengang Li1,2, Yan Kang2, Yuchen Liu2, Difan Liu2, Tobias Hinz3, Feng Liu2, Yanzhi Wang1\n1Northeastern University, 2Adobe Research, 3Adobe\n1{li.zhen, yanz.wang}@northeastern.edu, 2,3{yankang, yuliu, diliu, thinz, fengl}@adobe.com\nAbstract\nWhile AI-generated content has garnered significant at-\ntention, achieving photo-realistic video synthesis remains a\nformidable challenge. Despite the promising advances in\ndiffusion models for video generation quality, the complex\nmodel architecture and substantial computati",
+  "local_pdf": "references/04_生成模型与扩散机制/P014/paper.pdf",
+  "sha256": "9793529089fa5356218d3faf01b6c9ba4c13217cecd3ffd39de412a53bd33457",
+  "bytes": 4251894,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

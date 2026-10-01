@@ -1,0 +1,20 @@
+{
+  "title": "From Easy to Hard: Progressive Active Learning Framework for Infrared Small Target Detection with Single Point Supervision",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Yu_From_Easy_to_Hard_Progressive_Active_Learning_Framework_for_Infrared_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yu_From_Easy_to_Hard_Progressive_Active_Learning_Framework_for_Infrared_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P143",
+  "category": "01_视觉网络与编码解码",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "From Easy to Hard: Progressive Active Learning Framework for Infrared Small\nTarget Detection with Single Point Supervision\nChuang Yu1,2,3, Jinmiao Zhao1,2,3, Yunpeng Liu2†, Sicheng Zhao4, Yimian Dai5, Xiangyu Yue6,7†\n1Key Laboratory of Opto-Electronic Information Processing, Chinese Academy of Sciences\n2Shenyang Institute of Automation, Chinese Academy of Sciences\n3University of Chinese Academy of Sciences\n4Tsinghua University\n5Nankai University\n6MMLab, The Chinese University of Hong Kong\n7CPII under InnoHK\nAbstract\nRecently, single-frame infrared small target (SIRST) detec-\ntion with single p",
+  "local_pdf": "references/01_视觉网络与编码解码/P143/paper.pdf",
+  "sha256": "f4a935f3b63c0bd8c643b2bcc526dbbd12f9e8b7328ae04c732b6fb0a2bd78b2",
+  "bytes": 2129087,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

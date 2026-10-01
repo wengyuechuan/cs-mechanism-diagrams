@@ -1,0 +1,43 @@
+{
+  "layout_style": "L08",
+  "visual_style": "V01",
+  "reference_images": [
+    {
+      "id": "T17",
+      "title": "RAG offline index and online answering",
+      "category": "05_检索增强与知识系统",
+      "layout_style": "L08",
+      "visual_style": "V01",
+      "description": "离线索引和在线问答分轨，便于论文方法总览。",
+      "topic": "05",
+      "kind": "original_blueprint",
+      "year": 2026,
+      "venue": "原创结构蓝图",
+      "image": "assets/images/05/L08/T17.png",
+      "rights": "MIT; original generic structure, not an exact paper reproduction",
+      "source_url": null,
+      "keywords": "替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。",
+      "image_sha256": "bb31e7b1a3e1563eb62fed2363bf6e1f4210f8b7c0892682d5d50681609ffcab",
+      "absolute_image": "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\agent-skill\\cs-mechanism-imagegen\\assets\\images\\05\\L08\\T17.png"
+    },
+    {
+      "id": "T18",
+      "title": "Graph-based retrieval and evidence path",
+      "category": "05_检索增强与知识系统",
+      "layout_style": "L05",
+      "visual_style": "V05",
+      "description": "知识图谱、查询与子图证据分开展示，适合 GraphRAG 类结构。",
+      "topic": "05",
+      "kind": "original_blueprint",
+      "year": 2026,
+      "venue": "原创结构蓝图",
+      "image": "assets/images/05/L05/T18.png",
+      "rights": "MIT; original generic structure, not an exact paper reproduction",
+      "source_url": null,
+      "keywords": "替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。",
+      "image_sha256": "c233c1f99e8d6f2394fb361d02bf7d551a9e0e702d01df58ae3653f294da7ada",
+      "absolute_image": "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\agent-skill\\cs-mechanism-imagegen\\assets\\images\\05\\L05\\T18.png"
+    }
+  ],
+  "transparent_background": false
+}

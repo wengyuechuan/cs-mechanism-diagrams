@@ -1,0 +1,19 @@
+{
+  "title": "Gated Inference Network: Inference and Learning State-Space Models",
+  "venue": "NeurIPS",
+  "year": 2024,
+  "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/44cb9aa2897a288f7e6d9dd66659d523-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/44cb9aa2897a288f7e6d9dd66659d523-Paper-Conference.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P047",
+  "category": "02_Transformer与注意力",
+  "pages": 38,
+  "pdf_first_page_excerpt": "Gated Inference Network: Inference and Learning\nState-Space Models\nHamidreza Hashempoor\nSeoul National University\nDepartment of Electrical and Computer Engineering\nhamidreza.hashemp@snu.ac.kr\nWan Choi\nSeoul National University\nDepartment of Electrical and Computer Engineering\nwanchoi@snu.ac.kr\nAbstract\nThis paper advances temporal reasoning within dynamically changing high-\ndimensional noisy observations, focusing on a latent space that characterizes\nthe nonlinear dynamics of objects in their environment. We introduce the Gated\nInference Network (GIN), an efficient approximate Bayesian inferen",
+  "local_pdf": "references/02_Transformer与注意力/P047/paper.pdf",
+  "sha256": "6947f713c8bb5bdf6f84369251ebe7c9e83db7ff1d6d649b3ab702f9c3d23965",
+  "bytes": 5268052,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

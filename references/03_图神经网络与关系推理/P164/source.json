@@ -1,0 +1,20 @@
+{
+  "title": "Graph Neural Network Generalization With Gaussian Mixture Model Based Augmentation",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/abbahaddou25a.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/abbahaddou25a/abbahaddou25a.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P164",
+  "category": "03_图神经网络与关系推理",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 24,
+  "pdf_first_page_excerpt": "Graph Neural Network Generalization\nwith Gaussian Mixture Model Based Augmentation\nYassine Abbahaddou 1 * Fragkiskos D. Malliaros 2 Johannes F. Lutzeyer 1\nAmine M. Aboussalah 3 Michalis Vazirgiannis 1 4\nAbstract\nGraph Neural Networks (GNNs) have shown\ngreat promise in tasks like node and graph classi-\nfication, but they often struggle to generalize, par-\nticularly to unseen or out-of-distribution (OOD)\ndata.\nThese challenges are exacerbated when\ntraining data is limited in size or diversity. To\naddress these issues, we introduce a theoretical\nframework using Rademacher complexity to com-\npute ",
+  "local_pdf": "references/03_图神经网络与关系推理/P164/paper.pdf",
+  "sha256": "28d7101a7886bdcf615fc7358c8e184d6a2a2f362105c684f89c35f4707787c3",
+  "bytes": 606987,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

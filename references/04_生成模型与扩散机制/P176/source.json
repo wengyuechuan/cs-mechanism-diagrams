@@ -1,0 +1,21 @@
+{
+  "title": "CART : A Generative Cross-Modal Retrieval Framework With Coarse-To-Fine Semantic Modeling",
+  "venue": "ACL",
+  "year": 2025,
+  "source_url": "https://aclanthology.org/2025.acl-long.735/",
+  "pdf_url": "https://aclanthology.org/2025.acl-long.735.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P176",
+  "category": "05_检索增强与知识系统",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 14,
+  "pdf_first_page_excerpt": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 15120–15133\nJuly 27 - August 1, 2025 ©2025 Association for Computational Linguistics\nCART: A Generative Cross-Modal Retrieval Framework\nwith Coarse-To-Fine Semantic Modeling\nMinghui Fang1*, Shengpeng Ji1*, Jialong Zuo1, Hai Huang1, Yan Xia1, Jieming Zhu2†\nXize Cheng1, Xiaoda Yang1, Wenrui Liu1, Gang Wang2, Zhenhua Dong2, Zhou Zhao1†\n1Zhejiang University,\n2Huawei Noah’s Ark Lab\nminghuifang.zju@zju.edu.cn\njiemingzhu@ieee.org\nzhaozhou@zju.edu.cn\nAbstract\nCross-modal retrieval aim",
+  "local_pdf": "references/04_生成模型与扩散机制/P176/paper.pdf",
+  "sha256": "65caa63540f8bafd9c4b831e3aaa2c9940fec76043d8e86043d26b52ccac5935",
+  "bytes": 674661,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

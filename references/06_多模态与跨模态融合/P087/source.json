@@ -1,0 +1,19 @@
+{
+  "title": "Efficient Modality Selection in Multimodal Learning",
+  "venue": "JMLR",
+  "year": 2024,
+  "source_url": "https://jmlr.org/papers/volume25/23-0439/23-0439.html",
+  "pdf_url": "https://jmlr.org/papers/volume25/23-0439/23-0439.pdf",
+  "source_kind": "official_journal",
+  "id": "P087",
+  "category": "06_多模态与跨模态融合",
+  "pages": 39,
+  "pdf_first_page_excerpt": "Journal of Machine Learning Research 25 (2024) 1-39\nSubmitted 4/23; Revised 1/24; Published 1/24\nEﬃcient Modality Selection in Multimodal Learning\nYifei He∗\nyifeihe3@illinois.edu\nUniversity of Illinois Urbana-Champaign\nRunxiang Cheng∗\nrcheng12@illinois.edu\nUniversity of Illinois Urbana-Champaign\nGargi Balasubramaniam∗\ngargib2@illinois.edu\nUniversity of Illinois Urbana-Champaign\nYao-Hung Hubert Tsai\nyaohungt@cs.cmu.edu\nCarnegie Mellon University\nHan Zhao\nhanzhao@illinois.edu\nUniversity of Illinois Urbana-Champaign\nEditor: Francis Bach\nAbstract\nMultimodal learning aims to learn from data of diﬀe",
+  "local_pdf": "references/06_多模态与跨模态融合/P087/paper.pdf",
+  "sha256": "ef87b55e7366d6919a47322fa6610bb470941450652829b919daf6345fe66881",
+  "bytes": 719689,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

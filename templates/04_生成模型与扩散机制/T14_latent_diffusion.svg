@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Latent diffusion with conditioning">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T14 / Latent diffusion with conditioning</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<rect x="40" y="175" width="1220" height="190" rx="12" fill="#FAFBFD" stroke="#CCD4DD" stroke-dasharray="5 4"/>
+<text x="56" y="200" font-size="15" font-weight="700" fill="#68778A">Latent-space generator</text>
+<path d="M 240,284.0 L 300,284.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 470,284.0 L 530,284.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 700,284.0 L 775,284.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 990,284.0 L 1040,284.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 470,514.0 L 575,514.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 745,514.0 L 860,514.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 860,514.0 L 925.0,514.0 L 925.0,284.0 L 990,284.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="908.5" y="378.0" width="33" height="19" rx="3" fill="white"/>
+<text x="925.0" y="392.0" text-anchor="middle" font-size="12" fill="#516173">K,V</text>
+<rect x="70" y="250" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="155.0" y="289.0" text-anchor="middle" font-size="16" font-weight="600">Image x</text>
+<rect x="300" y="250" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="385.0" y="289.0" text-anchor="middle" font-size="16" font-weight="600">Image encoder</text>
+<rect x="530" y="250" width="170" height="68" rx="8" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="615.0" y="289.0" text-anchor="middle" font-size="16" font-weight="600">Latent z</text>
+<rect x="775" y="250" width="215" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="882.5" y="289.0" text-anchor="middle" font-size="16" font-weight="600">Latent denoising U-Net</text>
+<rect x="1040" y="250" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="1125.0" y="289.0" text-anchor="middle" font-size="16" font-weight="600">Image decoder</text>
+<rect x="300" y="480" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="385.0" y="519.0" text-anchor="middle" font-size="16" font-weight="600">Text / condition</text>
+<rect x="575" y="480" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="660.0" y="519.0" text-anchor="middle" font-size="16" font-weight="600">Condition encoder</text>
+<rect x="860" y="480" width="170" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="945.0" y="519.0" text-anchor="middle" font-size="16" font-weight="600">Cross-attention</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

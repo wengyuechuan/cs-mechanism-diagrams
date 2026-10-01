@@ -1,0 +1,21 @@
+{
+  "title": "FedXDS: Leveraging Model Attribution Methods to counteract Data Heterogeneity in Federated Learning",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Hoefler_FedXDS_Leveraging_Model_Attribution_Methods_to_counteract_Data_Heterogeneity_in_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Hoefler_FedXDS_Leveraging_Model_Attribution_Methods_to_counteract_Data_Heterogeneity_in_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P147",
+  "category": "10_计算机系统与数据流程",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 10,
+  "pdf_first_page_excerpt": "FedXDS: Leveraging Model Attribution Methods to counteract Data\nHeterogeneity in Federated Learning\nMaximilian Andreas Hoefler1 *\nKarsten Mueller1\nWojciech Samek1,2,3\n1Fraunhofer Heinrich Hertz Institute, Berlin, Germany\n2Technical University of Berlin, Berlin, Germany\n3Berlin Institute for the Foundations of Learning and Data (BIFOLD)\nAbstract\nExplainable AI (XAI) methods have demonstrated signif-\nicant success in recent years at identifying relevant fea-\ntures in input data that drive deep learning model deci-\nsions, enhancing interpretability for users. However, the\npotential of XAI beyond ",
+  "local_pdf": "references/05_检索增强与知识系统/P147/paper.pdf",
+  "sha256": "5ac13b808e89b388107a4975f29695000239a42e5b94712544fefd79015dbdae",
+  "bytes": 2412268,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

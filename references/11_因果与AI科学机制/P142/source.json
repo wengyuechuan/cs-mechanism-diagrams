@@ -1,0 +1,20 @@
+{
+  "title": "CARL: Causality-guided Architecture Representation Learning for an Interpretable Performance Predictor",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Ji_CARL_Causality-guided_Architecture_Representation_Learning_for_an_Interpretable_Performance_Predictor_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Ji_CARL_Causality-guided_Architecture_Representation_Learning_for_an_Interpretable_Performance_Predictor_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P142",
+  "category": "11_因果与AI科学机制",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "CARL: Causality-guided Architecture Representation Learning for an\nInterpretable Performance Predictor\nHan Ji\nYuqi Feng\nJiahao Fan\nYanan Sun*\nCollege of Computer Science, Sichuan University\njihan@stu.scu.edu.cn, feng770623@gmail.com, {fanjh,ysun}@scu.edu.cn\nAbstract\nPerformance predictors have emerged as a promising\nmethod to accelerate the evaluation stage of neural archi-\ntecture search (NAS). These predictors estimate the perfor-\nmance of unseen architectures by learning from the cor-\nrelation between a small set of trained architectures and\ntheir performance. However, most existing predict",
+  "local_pdf": "references/11_因果与AI科学机制/P142/paper.pdf",
+  "sha256": "2dfbd9ebed98712cd3c2d437ebb175c59e95d3fbf287fe7fc30c6b37155cc432",
+  "bytes": 748299,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

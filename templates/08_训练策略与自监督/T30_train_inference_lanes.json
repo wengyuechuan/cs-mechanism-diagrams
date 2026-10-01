@@ -1,0 +1,145 @@
+{
+  "id": "T30",
+  "category": "08_训练策略与自监督",
+  "slug": "train_inference_lanes",
+  "title": "Training and inference separation",
+  "description": "上下泳道拆分训练更新与推理前向，适合整篇方法总览。",
+  "nodes": [
+    {
+      "id": "train",
+      "label": "Training data",
+      "x": 70,
+      "y": 195,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "model",
+      "label": "Shared model",
+      "x": 410,
+      "y": 195,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "loss",
+      "label": "Objective + update",
+      "x": 790,
+      "y": 195,
+      "w": 170,
+      "h": 68,
+      "kind": "loss",
+      "shape": "box"
+    },
+    {
+      "id": "test",
+      "label": "New input",
+      "x": 70,
+      "y": 470,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "copy",
+      "label": "Model parameters\nInference mode",
+      "x": 410,
+      "y": 470,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "out",
+      "label": "Prediction",
+      "x": 790,
+      "y": 470,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "train",
+      "target": "model",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "model",
+      "target": "loss",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "loss",
+      "target": "model",
+      "label": "gradient update",
+      "style": "dashed",
+      "via": [
+        [
+          1000,
+          130
+        ],
+        [
+          495,
+          130
+        ]
+      ]
+    },
+    {
+      "source": "model",
+      "target": "copy",
+      "label": "parameters",
+      "style": "dashed",
+      "via": []
+    },
+    {
+      "source": "test",
+      "target": "copy",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "copy",
+      "target": "out",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [
+    {
+      "title": "Training",
+      "x": 40,
+      "y": 145,
+      "w": 1210,
+      "h": 165
+    },
+    {
+      "title": "Inference",
+      "x": 40,
+      "y": 405,
+      "w": 1210,
+      "h": 165
+    }
+  ],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

@@ -1,0 +1,20 @@
+{
+  "title": "LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/abdulhai25a.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/abdulhai25a/abdulhai25a.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P162",
+  "category": "07_强化学习与智能体",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 28,
+  "pdf_first_page_excerpt": "LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning\nwith Language Models\nMarwa Abdulhai 1 Isadora White 1 Charlie Snell 1 Charles Sun 1\nJoey Hong 1 Yuexiang Zhai 1 Kelvin Xu 2 Sergey Levine 1\nAbstract\nLarge language models (LLMs) provide excellent\ntext-generation capabilities, but standard prompt-\ning and generation methods generally do not lead\nto intentional or goal-directed agents and might\nnecessitate considerable prompt tuning. Even the\nbest current LLMs rarely ask clarifying questions,\nengage in explicit information gathering, or take\nactions that lead to better decisions after mu",
+  "local_pdf": "references/07_强化学习与智能体/P162/paper.pdf",
+  "sha256": "d50cd618bb62c53c9453502d6027ab7f480c4aeea3e0df58306e4eeacbe7dd5d",
+  "bytes": 764791,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

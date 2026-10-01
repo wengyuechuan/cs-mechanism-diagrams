@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P111_F7_p07",
+    "title": "DecLog: Decentralized Logging in Non-Volatile Memory for Time Series Database Systems",
+    "category": "10_计算机系统与数据流程",
+    "layout_style": "L06",
+    "visual_style": "V01",
+    "source_url": "https://www.vldb.org/pvldb/vol17/p1-zheng.pdf",
+    "pdf_url": "https://vldb.org/pvldb/vol17/p1-zheng.pdf",
+    "figure_number": "7",
+    "pdf_page": 7,
+    "caption": "Figure 7: Log Flushing Pipeline",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "10",
+    "kind": "paper_reference",
+    "year": 2024,
+    "venue": "PVLDB",
+    "image": "references/10_计算机系统与数据流程/P111/figures/P111_F7_p07.png",
+    "description": "方法流程图",
+    "source_kind": "official_journal",
+    "copy_note": "原论文集/出版商公开版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "326ed97738767b29296dd9db8d444daa41ef48a553bab6b21b25d81d8ebca375"
+  }
+]

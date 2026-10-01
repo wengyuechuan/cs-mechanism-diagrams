@@ -1,0 +1,19 @@
+{
+  "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+  "venue": "ICCV",
+  "year": 2023,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_Adding_Conditional_Control_to_Text-to-Image_Diffusion_Models_ICCV_2023_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Adding_Conditional_Control_to_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf",
+  "source_kind": "official_or_author_public_copy",
+  "id": "P096",
+  "category": "04_生成模型与扩散机制",
+  "pages": 12,
+  "pdf_first_page_excerpt": "Adding Conditional Control to Text-to-Image Diffusion Models\nLvmin Zhang, Anyi Rao, and Maneesh Agrawala\nStanford University\n{lvmin, anyirao, maneesh}@cs.stanford.edu\nInput Canny edge\nDefault\n“masterpiece of fairy tale, giant deer, golden antlers”\nInput human pose\nDefault\n“chef in kitchen”\n“…, quaint city Galic”\n“Lincoln statue”\nFigure 1: Controlling Stable Diffusion with learned conditions. ControlNet allows users to add conditions like Canny edges\n(top), human pose (bottom), etc., to control the image generation of large pretrained diffusion models. The default results use\nthe prompt “a high",
+  "local_pdf": "references/04_生成模型与扩散机制/P096/paper.pdf",
+  "sha256": "5cdb3da7d7929477b1b13138e483a6e904788dd0f824f230ef0abf395bfee59b",
+  "bytes": 5309396,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

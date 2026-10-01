@@ -1,0 +1,20 @@
+{
+  "title": "Causality-guided Prompt Learning for Vision-language Models via Visual Granulation",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Gao_Causality-guided_Prompt_Learning_for_Vision-language_Models_via_Visual_Granulation_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Gao_Causality-guided_Prompt_Learning_for_Vision-language_Models_via_Visual_Granulation_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P153",
+  "category": "06_多模态与跨模态融合",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Causality-guided Prompt Learning for Vision-language Models via Visual\nGranulation\nMengyu Gao12\nQiulei Dong12 *\n1 State Key Laboratory of Multimodal Artificial Intelligence Systems,\nInstitute of Automation, Chinese Academy of Sciences\n2 School of Artificial Intelligence, University of Chinese Academy of Sciences\ngaomengyu2021@ia.ac.cn\nqldong@nlpr.ia.ac.cn.\nAbstract\nPrompt learning has recently attracted much attention for\nadapting pre-trained vision-language models (e.g., CLIP)\nto downstream recognition tasks. However, most of the ex-\nisting CLIP-based prompt learning methods only show a\nlimit",
+  "local_pdf": "references/06_多模态与跨模态融合/P153/paper.pdf",
+  "sha256": "33af8f66c5523062050280c57443e15f4d15c9ab4273aca8952a595f4af69ff0",
+  "bytes": 844084,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

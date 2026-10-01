@@ -1,0 +1,1707 @@
+[
+  {
+    "id": "P001_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P002_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P002_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P002_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P002_F4_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P002_F5_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P004_F5_p08",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P005_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P006_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P007_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P007_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P008_F1_p01",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P008_F2_p02",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P008_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P009_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P010_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L05",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P010_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L03",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P011_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P012_F1_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P013_F1_p02",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P013_F2_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P014_F1_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P014_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P015_F2_p02",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P015_F3_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P017_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P017_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P019_F4_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P020_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P021_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P022_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L05",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P022_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P023_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P023_F3_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P024_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P024_F2_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P026_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P026_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V06"
+  },
+  {
+    "id": "P026_F4_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P027_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P029_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P030_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P030_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L05",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P031_F2_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P033_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P033_F2_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L08",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P034_F4_p06",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P036_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P037_F2_p06",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P037_F3_p07",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P038_F2_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P039_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P040_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P041_F2_p06",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P041_F3_p07",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P042_F3_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P043_F1_p02",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P043_F2_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P044_F2_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P044_F3_p07",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P045_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P050_F1_p02",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P051_F1_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P053_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P054_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P054_F4_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L11",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P055_F1_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P056_F1_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P057_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P058_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P060_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P060_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L05",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P063_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P063_F5_p06",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P065_F6_p16",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L10",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P066_F1_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P066_F6_p12",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L03",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P066_F7_p13",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P068_F2_p06",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P069_F1_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P070_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P071_F1_p01",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P071_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P072_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L05",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P074_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P075_F2_p02",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P076_F1_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P077_F1_p01",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P077_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P078_F1_p01",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L10",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P078_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P078_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P078_F4_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P079_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P089_F3_p08",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P090_F1_p12",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P090_F2_p13",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P090_F3_p14",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L03",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P091_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P092_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P093_F2_p02",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P093_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P093_F4_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P094_F1_p01",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P095_F4_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P096_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P097_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P098_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P099_F1_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L05",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P100_F1_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L05",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P102_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P104_F2_p03a",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P104_F2_p03b",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P105_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P106_F1_p02",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L05",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P107_F1_p02",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P108_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P108_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P109_F1_p02",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P110_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P110_F5_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P111_F4_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P111_F7_p07",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P112_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P113_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P114_F2_p02",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P114_F3_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P115_F2_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L11",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P115_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P115_F10_p09",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P116_F1_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P116_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P117_F1_p12",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P118_F1_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P118_F2_p11",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P118_F3_p14",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P119_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P119_F4_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P119_F5_p06",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L05",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P119_F11_p16",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P119_F12_p17",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P120_F8_p06",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P120_F12_p11",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L08",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P120_F13_p12",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P120_F14_p13",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P120_F17_p18",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P121_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P121_F3_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P122_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P122_F3_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P123_F1_p01",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P123_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P124_F1_p01",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L11",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P124_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P127_F1_p01",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P127_F3_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P128_F4_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P128_F5_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P129_F2_p03",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L08",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P129_F3_p03",
+    "batch": "v1",
+    "decision": "exclude",
+    "reason": "数据样例或含数值结果的混合原图，本次风格库不纳入"
+  },
+  {
+    "id": "P130_F1_p01",
+    "batch": "v1",
+    "decision": "exclude",
+    "reason": "数据样例或含数值结果的混合原图，本次风格库不纳入"
+  },
+  {
+    "id": "P130_F3_p05",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P130_F4_p06",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L03",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P132_F1_p04",
+    "batch": "v1",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P133_F3_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P134_F2_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P135_F2_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P136_F2_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P137_F1_p01",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P137_F2_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P137_F4_p06",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P138_F2_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P139_F2_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P140_F3_p05",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P141_F2_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P141_F3_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L03",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P142_F2_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L05",
+    "visual_style": "V02"
+  },
+  {
+    "id": "P142_F3_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P142_F5_p08",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P143_F1_p01",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P143_F2_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P143_F3_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L10",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P144_F2_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P144_F3_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P144_F7_p07",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P145_F2_p02",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P145_F5_p05",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P146_F2_p05",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P147_F1_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P147_F2_p08",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P148_F2_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P149_F1_p01",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L08",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P149_F2_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P150_F1_p01",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P150_F2_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P151_F2_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P152_F1_p02",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P152_F2_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P153_F2_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P153_F3_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P153_F4_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P154_F2_p02",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P155_F2_p03",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P155_F3_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P156_F1_p01",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P156_F2_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P158_F1_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L05",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P158_F2_p07",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P159_F1_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P159_F2_p15",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P160_F1_p04",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P160_F5_p08",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P161_F1_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P161_F2_p05",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P162_F1_p02",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P163_F1_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P164_F1_p06",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P167_F2_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P167_F3_p05",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P167_F5_p13",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P167_F6_p14",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P168_F8_p15",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P169_F1_p03",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P169_F2_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P169_F4_p17",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P171_F5_p15",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P172_F2_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P174_F1_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P174_F2_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L05",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P174_F3_p05",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P175_F2_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P175_F3_p08",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P175_F6_p18",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P176_F3_p05",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P177_F3_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L01",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P178_F1_p01",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L09",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P178_F2_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P178_F7_p13",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P179_F2_p03",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V05"
+  },
+  {
+    "id": "P180_F1_p03",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P180_F5_p08",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P181_F1_p02",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L07",
+    "visual_style": "V04"
+  },
+  {
+    "id": "P182_F2_p05",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V03"
+  },
+  {
+    "id": "P183_F1_p02",
+    "batch": "v2",
+    "decision": "exclude",
+    "reason": "统计结果、纯结果/数据展示、正文提示文本或混合图不作为机制风格参考"
+  },
+  {
+    "id": "P183_F2_p05",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L02",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P183_F3_p06",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L06",
+    "visual_style": "V01"
+  },
+  {
+    "id": "P184_F2_p04",
+    "batch": "v2",
+    "decision": "include",
+    "layout_style": "L04",
+    "visual_style": "V05"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "title": "Neural Autoregressive Distribution Estimation",
+  "venue": "JMLR",
+  "year": 2016,
+  "source_url": "https://jmlr.org/papers/v17/16-272.html",
+  "pdf_url": "https://jmlr.org/papers/volume17/16-272/16-272.pdf",
+  "source_kind": "official_journal",
+  "category": "12_通用方法与总体框架",
+  "id": "P118",
+  "pages": 37,
+  "pdf_first_page_excerpt": "Journal of Machine Learning Research 17 (2016) 1-37\nSubmitted 5/16; Published 9/16\nNeural Autoregressive Distribution Estimation\nBenigno Uria\nbenigno.uria@gmail.com\nGoogle DeepMind\nLondon, UK\nMarc-Alexandre Cˆot´e\nmarc-alexandre.cote@usherbrooke.ca\nDepartment of Computer Science\nUniversit´e de Sherbrooke\nSherbrooke, J1K 2R1, QC, Canada\nKarol Gregor\nkarol.gregor@gmail.com\nGoogle DeepMind\nLondon, UK\nIain Murray\ni.murray@ed.ac.uk\nSchool of Informatics\nUniversity of Edinburgh\nEdinburgh EH8 9AB, UK\nHugo Larochelle\nhlarochelle@twitter.com\nTwitter\n141 Portland St, Floor 6\nCambridge MA 02139, USA\nEdit",
+  "local_pdf": "references/12_通用方法与总体框架/P118/paper.pdf",
+  "sha256": "42d0de51cb936768fa5f9816518ffee2a15909b2bbd46c7aecbf2837eed52dc3",
+  "bytes": 2594696,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "FuRL: Visual-Language Models as Fuzzy Rewards for Reinforcement Learning",
+  "venue": "ICML",
+  "year": 2024,
+  "source_url": "https://proceedings.mlr.press/v235/fu24j.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/fu24j/fu24j.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P063",
+  "category": "06_多模态与跨模态融合",
+  "pages": 19,
+  "pdf_first_page_excerpt": "FuRL: Visual-Language Models as Fuzzy Rewards for Reinforcement Learning\nYuwei Fu 1 2 † Haichao Zhang 2 Di Wu 1 Wei Xu 2 Benoit Boulet 1\nAbstract\nIn this work, we investigate how to leverage pre-\ntrained visual-language models (VLM) for online\nReinforcement Learning (RL). In particular, we\nfocus on sparse reward tasks with pre-defined tex-\ntual task descriptions. We first identify the prob-\nlem of reward misalignment when applying VLM\nas a reward in RL tasks. To address this issue,\nwe introduce a lightweight fine-tuning method,\nnamed Fuzzy VLM reward-aided RL (FuRL),\nbased on reward alignment ",
+  "local_pdf": "references/06_多模态与跨模态融合/P063/paper.pdf",
+  "sha256": "c1077d6196ba410d055e121fb4050a09c427adac2e06e532fc690b37b54bd187",
+  "bytes": 9931816,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

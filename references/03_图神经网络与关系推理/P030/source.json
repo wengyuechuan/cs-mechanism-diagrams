@@ -1,0 +1,19 @@
+{
+  "title": "OrphicX: A Causality-Inspired Latent Variable Model for Interpreting Graph Neural Networks",
+  "venue": "CVPR",
+  "year": 2022,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Lin_OrphicX_A_Causality-Inspired_Latent_Variable_Model_for_Interpreting_Graph_Neural_CVPR_2022_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Lin_OrphicX_A_Causality-Inspired_Latent_Variable_Model_for_Interpreting_Graph_Neural_CVPR_2022_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P030",
+  "category": "03_图神经网络与关系推理",
+  "pages": 10,
+  "pdf_first_page_excerpt": "OrphicX: A Causality-Inspired Latent Variable Model for Interpreting Graph\nNeural Networks\nWanyu Lin1\nHao Lan2\nHao Wang3\nBaochun Li2\n1The Hong Kong Polytechnic University, 2University of Toronto, 3Rutgers University\nwan-yu.lin@polyu.edu.hk, hao.lan@mail.utoronto.ca, bli@ece.toronto.edu, hoguewang@gmail.com\nAbstract\nThis paper proposes a new eXplanation framework,\ncalled OrphicX, for generating causal explanations for\nany graph neural networks (GNNs) based on learned la-\ntent causal factors. Speciﬁcally, we construct a distinct\ngenerative model and design an objective function that en-\ncourages",
+  "local_pdf": "references/03_图神经网络与关系推理/P030/paper.pdf",
+  "sha256": "13afd12434f266ae21c5090fec4f5370c2bb8293cfaefc9d1f6bb3ecdd527ccf",
+  "bytes": 1150048,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

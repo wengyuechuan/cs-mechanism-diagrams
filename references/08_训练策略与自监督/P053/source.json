@@ -1,0 +1,19 @@
+{
+  "title": "Connecting Joint-Embedding Predictive Architecture with Contrastive Self-supervised Learning",
+  "venue": "NeurIPS",
+  "year": 2024,
+  "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/04a80267ad46fc730011f8760f265054-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/04a80267ad46fc730011f8760f265054-Paper-Conference.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P053",
+  "category": "08_训练策略与自监督",
+  "pages": 30,
+  "pdf_first_page_excerpt": "Connecting Joint-Embedding Predictive Architecture\nwith Contrastive Self-supervised Learning\nShentong Mo1∗, Shengbang Tong2\n1CMU, 2NYU\nAbstract\nIn recent advancements in unsupervised visual representation learning, the Joint-\nEmbedding Predictive Architecture (JEPA) has emerged as a significant method for\nextracting visual features from unlabeled imagery through an innovative masking\nstrategy. Despite its success, two primary limitations have been identified: the\ninefficacy of Exponential Moving Average (EMA) from I-JEPA in preventing entire\ncollapse and the inadequacy of I-JEPA prediction in ",
+  "local_pdf": "references/08_训练策略与自监督/P053/paper.pdf",
+  "sha256": "d023c2c309d3e3251836b143622c06bfe9b61cd9750f78d8133f9cbf878863f1",
+  "bytes": 5641170,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

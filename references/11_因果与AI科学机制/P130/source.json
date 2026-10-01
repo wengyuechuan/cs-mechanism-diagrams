@@ -1,0 +1,19 @@
+{
+  "title": "Brain-Inspired Spiking Neural Networks for Energy-Efficient Object Detection",
+  "venue": "CVPR",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Brain-Inspired_Spiking_Neural_Networks_for_Energy-Efficient_Object_Detection_CVPR_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Brain-Inspired_Spiking_Neural_Networks_for_Energy-Efficient_Object_Detection_CVPR_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P130",
+  "download_status": "ok",
+  "category": "11_因果与AI科学机制",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Brain-Inspired Spiking Neural Networks for Energy-Efficient Object Detection\nZiqi Li1, Tao Gao1* Yisheng An1, Ting Chen1*, Jing Zhang2 Yuanbo Wen1, Mengkun Liu1, Qianxi Zhang1\nChang’an University1, Australian National University2\n{lzq,gaotao,aysm,tchen,wyb,mengkunliu,zqx1216}@chd.edu.cn, jing.zhang@anu.edu.au\nAbstract\nBrain-inspired spiking neural networks (SNNs) have the ca-\npability of energy-efficient processing of temporal informa-\ntion. However, leveraging the rich dynamic characteris-\ntics of SNNs and prior works in artificial neural networks\n(ANNs) to construct an effective object detec",
+  "local_pdf": "references/11_因果与AI科学机制/P130/paper.pdf",
+  "sha256": "713cce91234550456193a68502eaf95eaf2151de0883f83948448f19d14a8185",
+  "bytes": 4237016,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

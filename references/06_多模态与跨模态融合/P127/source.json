@@ -1,0 +1,19 @@
+{
+  "title": "Stealthy Backdoor Attack in Self-Supervised Learning Vision Encoders for Large Vision Language Models",
+  "venue": "CVPR",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Stealthy_Backdoor_Attack_in_Self-Supervised_Learning_Vision_Encoders_for_Large_CVPR_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_Stealthy_Backdoor_Attack_in_Self-Supervised_Learning_Vision_Encoders_for_Large_CVPR_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P127",
+  "download_status": "ok",
+  "category": "06_多模态与跨模态融合",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Stealthy Backdoor Attack in Self-Supervised Learning Vision Encoders for\nLarge Vision Language Models\nZhaoyi Liu1,†, Huan Zhang1\n1University of Illinois Urbana-Champaign (UIUC)\nzhaoyil@illinois.edu\nhuan@huan-zhang.com\nAbstract\nSelf-supervised learning (SSL) vision encoders learn high-\nquality image representations and thus have become a vi-\ntal part of developing vision modality of large vision lan-\nguage models (LVLMs).\nDue to the high cost of train-\ning such encoders, pre-trained encoders are widely shared\nand deployed into many LVLMs, which are security-critical\nor bear societal signiﬁcance",
+  "local_pdf": "references/06_多模态与跨模态融合/P127/paper.pdf",
+  "sha256": "634f72d834ff2531c05c644e6affde28d0681424e2bd44617b48c6bcc52a7416",
+  "bytes": 2473775,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

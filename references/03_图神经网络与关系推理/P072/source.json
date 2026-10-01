@@ -1,0 +1,19 @@
+{
+  "title": "A Unified Temporal Knowledge Graph Reasoning Model Towards Interpolation and Extrapolation",
+  "venue": "ACL",
+  "year": 2024,
+  "source_url": "https://aclanthology.org/2024.acl-long.8/",
+  "pdf_url": "https://aclanthology.org/2024.acl-long.8.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P072",
+  "category": "03_图神经网络与关系推理",
+  "pages": 16,
+  "pdf_first_page_excerpt": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 117–132\nAugust 11-16, 2024 ©2024 Association for Computational Linguistics\nA Unified Temporal Knowledge Graph Reasoning Model Towards\nInterpolation and Extrapolation\nKai Chen1∗, Ye Wang1∗, Yitong Li2†, Aiping Li1† , Han Yu1, Xin Song1\n1National University of Defense Technology, Changsha, China\n2Huawei Technologies Co., Ltd.\n{chenkai_,ye.wang,liaiping,yuhan17,songxin}@nudt.edu.cn\nliyitong3@huawei.com\nAbstract\nTemporal knowledge graph (TKG) reason-\ning has two settings: interpol",
+  "local_pdf": "references/03_图神经网络与关系推理/P072/paper.pdf",
+  "sha256": "d2978e0d911358945a00bd8458f4b9103c4528f68a924f3a38bbe83818a36625",
+  "bytes": 874199,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

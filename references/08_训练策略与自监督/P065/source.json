@@ -1,0 +1,20 @@
+{
+  "title": "Offline Transition Modeling via Contrastive Energy Learning",
+  "venue": "ICML",
+  "year": 2024,
+  "source_url": "https://proceedings.mlr.press/v235/chen24w.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24w/chen24w.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P065",
+  "category": "07_强化学习与智能体",
+  "pages": 23,
+  "pdf_first_page_excerpt": "Offline Transition Modeling via Contrastive Energy Learning\nRuifeng Chen * 1 2 Chengxing Jia * 1 2 Zefang Huang 1 Tian-Shuo Liu 1 2 Xu-Hui Liu 1 Yang Yu 1 2\nAbstract\nLearning a high-quality transition model is of\ngreat importance for sequential decision-making\ntasks, especially in offline settings. Nevertheless,\nthe complex behaviors of transition dynamics in\nreal-world environments pose challenges for the\nstandard forward models because of their induc-\ntive bias towards smooth regressors, conflicting\nwith the inherent nature of transitions such as dis-\ncontinuity or large curvature. In this w",
+  "local_pdf": "references/08_训练策略与自监督/P065/paper.pdf",
+  "sha256": "bcaada273215fa3133ffee6aa187e2b3d0e4877f3f012dee889301ecc008cf6f",
+  "bytes": 5058948,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

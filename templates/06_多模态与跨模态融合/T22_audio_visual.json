@@ -1,0 +1,131 @@
+{
+  "id": "T22",
+  "category": "06_多模态与跨模态融合",
+  "slug": "audio_visual",
+  "title": "Audio-visual temporal fusion",
+  "description": "时间对齐作为独立模块，适合音视频识别和事件理解。",
+  "nodes": [
+    {
+      "id": "v",
+      "label": "Video frames",
+      "x": 65,
+      "y": 195,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "a",
+      "label": "Audio waveform",
+      "x": 65,
+      "y": 435,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "ve",
+      "label": "Visual encoder",
+      "x": 345,
+      "y": 195,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "ae",
+      "label": "Audio encoder",
+      "x": 345,
+      "y": 435,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "align",
+      "label": "Temporal alignment",
+      "x": 665,
+      "y": 315,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "fuse",
+      "label": "Fusion block",
+      "x": 955,
+      "y": 315,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "out",
+      "label": "Prediction",
+      "x": 955,
+      "y": 515,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "v",
+      "target": "ve",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "a",
+      "target": "ae",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "ve",
+      "target": "align",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "ae",
+      "target": "align",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "align",
+      "target": "fuse",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "fuse",
+      "target": "out",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

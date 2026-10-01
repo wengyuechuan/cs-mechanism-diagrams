@@ -1,0 +1,20 @@
+{
+  "title": "Mamba-3VL: Taming State Space Model for 3D Vision Language Learning",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_Mamba-3VL_Taming_State_Space_Model_for_3D_Vision_Language_Learning_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_Mamba-3VL_Taming_State_Space_Model_for_3D_Vision_Language_Learning_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P133",
+  "category": "02_Transformer与注意力",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Mamba-3VL: Taming State Space Model for 3D Vision Language Learning\nYuan Wang1,2\nYuxin Chen2\nZhongang Qi2\nLijun Liu3\nJile Jiao1,4\nXuetao Feng1,4\nYujia Liang5\nYing Shan2\nZhipeng Zhang6,7‡\n1Tsinghua University\n2ARC Lab, Tencent PCG\n3UCAS\n4Deepeleph\n5HUST\n6School of Artificial Intelligence, SJTU\n7Anyverse Intelligence\n‡Corresponding Author\nRobot Manipulation\nQ: Hello, could you describe the furniture \nin the living room?\nA: Sure! there has a wooden table, two big \nwooden chair, and a gray upholstered sofa. \nQ: Thanks for your help! It's I want to know.\nMulti-target Grounding\nQuestion Answering\nSi",
+  "local_pdf": "references/02_Transformer与注意力/P133/paper.pdf",
+  "sha256": "3bd13bc0cff1221a6be382c020e2ad65f6b1ab1aa7c5a0fc61de8aae3e318319",
+  "bytes": 3370893,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

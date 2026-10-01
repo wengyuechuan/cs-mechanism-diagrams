@@ -1,0 +1,19 @@
+{
+  "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+  "venue": "ACM TOG / SIGGRAPH",
+  "year": 2023,
+  "source_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/",
+  "pdf_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_low.pdf",
+  "source_kind": "official_or_author_public_copy",
+  "id": "P103",
+  "category": "09_三维视觉与神经渲染",
+  "pages": 14,
+  "pdf_first_page_excerpt": "3D Gaussian Splatting for Real-Time Radiance Field Rendering\nBERNHARD KERBL∗, Inria, Université Côte d’Azur, France\nGEORGIOS KOPANAS∗, Inria, Université Côte d’Azur, France\nTHOMAS LEIMKÜHLER, Max-Planck-Institut für Informatik, Germany\nGEORGE DRETTAKIS, Inria, Université Côte d’Azur, France\nGround Truth\nInstantNGP (9.2 fps) \nPlenoxels (8.2 fps) \nTrain: 7min, PSNR: 22.1\nTrain: 26min, PSNR: 21.9\nMip-NeRF360 (0.071 fps) \nTrain: 48h, PSNR: 24.3\nOurs (135  fps) \nTrain: 6min, PSNR: 23.6\nOurs (93 fps) \nTrain: 51min, PSNR: 25.2\nFig. 1. Our method achieves real-time rendering of radiance fields with qu",
+  "local_pdf": "references/09_三维视觉与神经渲染/P103/paper.pdf",
+  "sha256": "d4b85a5d86f389dcd702203e6c4f21cdcce7f49450f33bc4adeadfee6edca2c7",
+  "bytes": 24343676,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

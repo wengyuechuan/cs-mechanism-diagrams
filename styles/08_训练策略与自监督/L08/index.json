@@ -1,0 +1,19 @@
+[
+  {
+    "id": "T30",
+    "title": "Training and inference separation",
+    "category": "08_训练策略与自监督",
+    "layout_style": "L08",
+    "visual_style": "V01",
+    "description": "上下泳道拆分训练更新与推理前向，适合整篇方法总览。",
+    "topic": "08",
+    "kind": "original_blueprint",
+    "year": 2026,
+    "venue": "原创结构蓝图",
+    "image": "templates/08_训练策略与自监督/T30_train_inference_lanes.png",
+    "rights": "MIT; original generic structure, not an exact paper reproduction",
+    "source_url": null,
+    "keywords": "替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。",
+    "image_sha256": "8257da0846e0ce6f1006183a18e36ac3fbbea657612fece960c039e2d427cbad"
+  }
+]

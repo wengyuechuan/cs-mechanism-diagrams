@@ -1,0 +1,20 @@
+{
+  "title": "A New Approach to Backtracking Counterfactual Explanations: A Unified Causal Framework for Efficient Model Interpretability",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/fatemi25a.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/fatemi25a/fatemi25a.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P166",
+  "category": "11_因果与AI科学机制",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 13,
+  "pdf_first_page_excerpt": "A New Approach to Backtracking Counterfactual Explanations:\nA Unified Causal Framework for Efficient Model Interpretability\nPouria Fatemi 1 2 Ehsan Sharifian 3 Mohammad Hossein Yassaee 4\nAbstract\nCounterfactual explanations enhance interpretabil-\nity by identifying alternative inputs that produce\ndifferent outputs, offering localized insights into\nmodel decisions. However, traditional methods\noften neglect causal relationships, leading to un-\nrealistic examples. While newer approaches inte-\ngrate causality, they are computationally expen-\nsive. To address these challenges, we propose\nan effici",
+  "local_pdf": "references/11_因果与AI科学机制/P166/paper.pdf",
+  "sha256": "7a3ed77893b984bc0ac3db8417cbbdaf5483e714d6b94ff449837c7eb3ed98e0",
+  "bytes": 368479,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

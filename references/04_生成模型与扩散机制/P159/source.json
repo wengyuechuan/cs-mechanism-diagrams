@@ -1,0 +1,20 @@
+{
+  "title": "A Variational Framework for Improving Naturalness in Generative Spoken Language Models",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/chen25z.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/chen25z/chen25z.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P159",
+  "category": "04_生成模型与扩散机制",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 19,
+  "pdf_first_page_excerpt": "A Variational Framework for Improving Naturalness\nin Generative Spoken Language Models\nLi-Wei Chen 1 Takuya Higuchi 2 Zakaria Aldeneh 2 Ahmed Hussen Abdelaziz 2 Alexander Rudnicky 1\nAbstract\nThe success of large language models in text pro-\ncessing has inspired their adaptation to speech\nmodeling. However, since speech is continuous\nand complex, it is often discretized for autore-\ngressive modeling. Speech tokens derived from\nself-supervised models (known as semantic to-\nkens) typically focus on the linguistic aspects of\nspeech but neglect prosodic information. As a\nresult, models trained on t",
+  "local_pdf": "references/04_生成模型与扩散机制/P159/paper.pdf",
+  "sha256": "6c6c734b0256dcf8bd73c61e66f4a9962ab64d2beed956f59610ae35ab5bb5de",
+  "bytes": 861150,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

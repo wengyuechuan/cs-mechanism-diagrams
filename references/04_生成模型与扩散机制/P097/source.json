@@ -1,0 +1,19 @@
+{
+  "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+  "venue": "CVPR",
+  "year": 2022,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf",
+  "source_kind": "official_or_author_public_copy",
+  "id": "P097",
+  "category": "04_生成模型与扩散机制",
+  "pages": 12,
+  "pdf_first_page_excerpt": "High-Resolution Image Synthesis with Latent Diffusion Models\nRobin Rombach1 ∗\nAndreas Blattmann1 ∗\nDominik Lorenz1\nPatrick Esser\nBj¨orn Ommer1\n1Ludwig Maximilian University of Munich & IWR, Heidelberg University, Germany\nRunway ML\nhttps://github.com/CompVis/latent-diffusion\nAbstract\nBy decomposing the image formation process into a se-\nquential application of denoising autoencoders, diffusion\nmodels (DMs) achieve state-of-the-art synthesis results on\nimage data and beyond. Additionally, their formulation al-\nlows for a guiding mechanism to control the image gen-\neration process without retrain",
+  "local_pdf": "references/04_生成模型与扩散机制/P097/paper.pdf",
+  "sha256": "5e2b3a5c07d5ed193d5d115270c8a601732c6d8a25dc25fa0c9448dac53c9a82",
+  "bytes": 2388575,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

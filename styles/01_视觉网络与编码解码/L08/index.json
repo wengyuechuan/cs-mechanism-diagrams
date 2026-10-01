@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P120_F12_p11",
+    "title": "Deep Learning for Generic Object Detection: A Survey",
+    "category": "01_视觉网络与编码解码",
+    "layout_style": "L08",
+    "visual_style": "V04",
+    "source_url": "https://doi.org/10.1007/s11263-019-01247-4",
+    "pdf_url": "https://arxiv.org/pdf/1809.02165",
+    "figure_number": "12",
+    "pdf_page": 11,
+    "caption": "Fig. 12 Illustration of the RCNN detection framework [85, 87].",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "01",
+    "kind": "paper_reference",
+    "year": 2020,
+    "venue": "IJCV",
+    "image": "references/01_视觉网络与编码解码/P120/figures/P120_F12_p11.png",
+    "description": "机制示意与总体框架",
+    "source_kind": "author_preprint_of_verified_journal_paper",
+    "copy_note": "作者公开预印本；期刊身份由 DOI / 正式书目信息确认",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "ea7fd69aef5372052dbbdb498731c194dd3e08cc18f1905d60d8c17242eb4536"
+  }
+]

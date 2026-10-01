@@ -1,0 +1,20 @@
+{
+  "title": "Learning 4D Embodied World Models",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhen_Learning_4D_Embodied_World_Models_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhen_Learning_4D_Embodied_World_Models_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P138",
+  "category": "07_强化学习与智能体",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Learning 4D Embodied World Models\nHaoyu Zhen1 ∗\nQiao Sun1 ∗\nHongxin Zhang1\nJunyan Li1\nSiyuan Zhou2\nYilun Du3\nChuang Gan1\n1UMass Amherst\n2HKUST\n3Harvard University\nhttps://TesserActWorld.github.io\nReach the target\nLift\nInput Instruction: Pick up the brown cup – Franka Panda Robot\nRGB-DN Video Generation\n4D Scene Reconstruction & Explicit Actions\nInput Instruction: Pick up the apple from white bowl – Trossen WidowX 250\nRGB-DN Video Generation\n4D Scene Reconstruction & Explicit Actions\nUnseen scene, unseen object\nCross Domain\nMesh\nNormal\nDepth\nRGB\nNormal\nDepth\nRGB\nGrasp\nPoint Cloud\nMove coke can ",
+  "local_pdf": "references/07_强化学习与智能体/P138/paper.pdf",
+  "sha256": "d8c0728be11b070b743c385f1acd8ba9575fecc921017ef4fb13f26c888306da",
+  "bytes": 12791952,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

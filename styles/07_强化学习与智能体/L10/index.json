@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P065_F6_p16",
+    "title": "Offline Transition Modeling via Contrastive Energy Learning",
+    "category": "07_强化学习与智能体",
+    "layout_style": "L10",
+    "visual_style": "V02",
+    "source_url": "https://proceedings.mlr.press/v235/chen24w.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24w/chen24w.pdf",
+    "figure_number": "6",
+    "pdf_page": 16,
+    "caption": "Figure 6. A schematic diagram of the didactic environment.",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "07",
+    "kind": "paper_reference",
+    "year": 2024,
+    "venue": "ICML",
+    "image": "references/08_训练策略与自监督/P065/figures/P065_F6_p16.png",
+    "description": "机制示意与总体框架",
+    "source_kind": "official_proceedings",
+    "copy_note": "原论文集/出版商公开版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "45b853079265a7cb1c6586f4a07ea27529f0fa8880c724d0e9edfcadd3f3611e"
+  }
+]

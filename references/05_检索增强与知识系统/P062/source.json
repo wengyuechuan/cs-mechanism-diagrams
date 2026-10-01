@@ -1,0 +1,19 @@
+{
+  "title": "A Statistical Framework for Data-dependent Retrieval-Augmented Models",
+  "venue": "ICML",
+  "year": 2024,
+  "source_url": "https://proceedings.mlr.press/v235/basu24a.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/basu24a/basu24a.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P062",
+  "category": "05_检索增强与知识系统",
+  "pages": 27,
+  "pdf_first_page_excerpt": "A Statistical Framework for Data-dependent Retrieval-Augmented Models\nSoumya Basu * 1 Ankit Singh Rawat * 2 Manzil Zaheer * 3\nAbstract\nModern ML systems increasingly augment input\ninstances with additional relevant information to\nenhance ﬁnal prediction. Despite growing interest\nin such retrieval-augmented models, their funda-\nmental properties and training are not well under-\nstood. We propose a statistical framework to study\nsuch models with two components: 1) a retriever\nto identify the relevant information out of a large\ncorpus via a data-dependent metric; and 2) a pre-\ndictor that consume",
+  "local_pdf": "references/05_检索增强与知识系统/P062/paper.pdf",
+  "sha256": "698e0591088e5aac70ac411707d36d1153e08ba6c73464f65b6dc130dc307693",
+  "bytes": 537980,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

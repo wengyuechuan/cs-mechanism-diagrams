@@ -1,0 +1,20 @@
+{
+  "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+  "venue": "ICLR",
+  "year": 2017,
+  "source_url": "https://openreview.net/forum?id=SJU4ayYgl",
+  "pdf_url": "https://arxiv.org/pdf/1609.02907",
+  "source_kind": "author_preprint_of_verified_conference_paper",
+  "id": "P100",
+  "category": "03_图神经网络与关系推理",
+  "download_status": "ok",
+  "original_pdf_url": "https://openreview.net/pdf?id=SJU4ayYgl",
+  "copy_note": "OpenReview returned HTTP 403; downloaded the publicly available arXiv author version.",
+  "pages": 14,
+  "pdf_first_page_excerpt": "Published as a conference paper at ICLR 2017\nSEMI-SUPERVISED CLASSIFICATION WITH\nGRAPH CONVOLUTIONAL NETWORKS\nThomas N. Kipf\nUniversity of Amsterdam\nT.N.Kipf@uva.nl\nMax Welling\nUniversity of Amsterdam\nCanadian Institute for Advanced Research (CIFAR)\nM.Welling@uva.nl\nABSTRACT\nWe present a scalable approach for semi-supervised learning on graph-structured\ndata that is based on an efﬁcient variant of convolutional neural networks which\noperate directly on graphs. We motivate the choice of our convolutional archi-\ntecture via a localized ﬁrst-order approximation of spectral graph convolutions.\nOur",
+  "local_pdf": "references/03_图神经网络与关系推理/P100/paper.pdf",
+  "sha256": "a654f884db04a317b0f2414a83f2ba32a9f8442d29bcf1cb5f73f7af78a98070",
+  "bytes": 873897,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

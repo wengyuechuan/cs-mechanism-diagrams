@@ -1,0 +1,20 @@
+{
+  "title": "IRIS : An Iterative and Integrated Framework for Verifiable Causal Discovery in the Absence of Tabular Data",
+  "venue": "ACL",
+  "year": 2025,
+  "source_url": "https://aclanthology.org/2025.acl-long.463/",
+  "pdf_url": "https://aclanthology.org/2025.acl-long.463.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P181",
+  "category": "11_因果与AI科学机制",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 29,
+  "pdf_first_page_excerpt": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 9400–9428\nJuly 27 - August 1, 2025 ©2025 Association for Computational Linguistics\nIRIS: An Iterative and Integrated Framework for Verifiable Causal\nDiscovery in the Absence of Tabular Data\nTao Feng1, Lizhen Qu1 *, Niket Tandon2, Gholamreza Haffari1\n1Monash University, 2Microsoft Research, India\n1 firstname.lastname@monash.edu, 2 nikett@gmail.com\nAbstract\nCausal discovery is fundamental to scientific re-\nsearch, yet traditional statistical algorithms face\nsignificant challenge",
+  "local_pdf": "references/11_因果与AI科学机制/P181/paper.pdf",
+  "sha256": "ae2100d1cdd7d65ac34e3274081331de25be8d3745b623ca9e852088bcaa4cda",
+  "bytes": 3625152,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

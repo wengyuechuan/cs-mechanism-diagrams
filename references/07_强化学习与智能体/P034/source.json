@@ -1,0 +1,19 @@
+{
+  "title": "Habitat-Web: Learning Embodied Object-Search Strategies From Human Demonstrations at Scale",
+  "venue": "CVPR",
+  "year": 2022,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Ramrakhya_Habitat-Web_Learning_Embodied_Object-Search_Strategies_From_Human_Demonstrations_at_Scale_CVPR_2022_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Ramrakhya_Habitat-Web_Learning_Embodied_Object-Search_Strategies_From_Human_Demonstrations_at_Scale_CVPR_2022_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P034",
+  "category": "07_强化学习与智能体",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Habitat-Web: Learning Embodied Object-Search Strategies\nfrom Human Demonstrations at Scale\nRam Ramrakhya1\nEric Undersander2\nDhruv Batra1,2\nAbhishek Das2\n1Georgia Institute of Technology\n2Meta AI Research\n1{ram.ramrakhya,dbatra}@gatech.edu\n2{eundersander,abhshkdz}@fb.com\nAbstract\nWe present a large-scale study of imitating human demon-\nstrations on tasks that require a virtual robot to search for\nobjects in new environments – (1) ObjectGoal Navigation\n(e.g. ‘ﬁnd & go to a chair’) and (2) PICK&PLACE (e.g. ‘ﬁnd\nmug, pick mug, ﬁnd counter, place mug on counter’). First,\nwe develop a virtual teleop",
+  "local_pdf": "references/07_强化学习与智能体/P034/paper.pdf",
+  "sha256": "a89f5f06d6bd06a6b734a35bb5388611f46f99565cdfc748d01492b9dceabbe8",
+  "bytes": 8513748,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

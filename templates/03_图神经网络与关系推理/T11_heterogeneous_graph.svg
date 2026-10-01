@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Heterogeneous graph relations">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T11 / Heterogeneous graph relations</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 235,246.0 L 435,244.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="297.5" y="224.0" width="75" height="19" rx="3" fill="white"/>
+<text x="335.0" y="238.0" text-anchor="middle" font-size="12" fill="#516173">interacts</text>
+<path d="M 235,501.0 L 335.0,501.0 L 335.0,244.0 L 435,244.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 235,501.0 L 435,499.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="304.5" y="479.0" width="61" height="19" rx="3" fill="white"/>
+<text x="335.0" y="493.0" text-anchor="middle" font-size="12" fill="#516173">similar</text>
+<path d="M 605,244.0 L 690.0,244.0 L 690.0,374.0 L 775,374.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 605,499.0 L 690.0,499.0 L 690.0,374.0 L 775,374.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 945,374.0 L 1075,374.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<ellipse cx="175.0" cy="246.0" rx="60.0" ry="36.0" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="175.0" y="251.0" text-anchor="middle" font-size="16" font-weight="600">User node</text>
+<ellipse cx="175.0" cy="501.0" rx="60.0" ry="36.0" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="175.0" y="506.0" text-anchor="middle" font-size="16" font-weight="600">Item node</text>
+<rect x="435" y="210" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="520.0" y="249.0" text-anchor="middle" font-size="16" font-weight="600">User-item relation</text>
+<rect x="435" y="465" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="520.0" y="504.0" text-anchor="middle" font-size="16" font-weight="600">Item-item relation</text>
+<rect x="775" y="340" width="170" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="860.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">Relation-aware</text>
+<text x="860.0" y="389.0" text-anchor="middle" font-size="16" font-weight="400">aggregation</text>
+<rect x="1075" y="340" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1160.0" y="379.0" text-anchor="middle" font-size="16" font-weight="600">Link prediction</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

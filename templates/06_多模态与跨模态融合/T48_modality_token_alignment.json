@@ -1,0 +1,246 @@
+{
+  "id": "T48",
+  "category": "06_多模态与跨模态融合",
+  "slug": "modality_token_alignment",
+  "title": "Token-level cross-modal interactions",
+  "description": "上下 token 对应边展示模态对齐和交互机制，可改为稀疏或全连接交互。",
+  "nodes": [
+    {
+      "id": "image",
+      "label": "Visual tokens",
+      "x": 65,
+      "y": 220,
+      "w": 175,
+      "h": 110,
+      "kind": "input",
+      "shape": "cube"
+    },
+    {
+      "id": "text",
+      "label": "Language tokens",
+      "x": 65,
+      "y": 460,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "ve",
+      "label": "Visual backbone",
+      "x": 370,
+      "y": 220,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "te",
+      "label": "Language backbone",
+      "x": 370,
+      "y": 460,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "merge",
+      "label": "Shared fusion tokens",
+      "x": 955,
+      "y": 335,
+      "w": 250,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "v0",
+      "label": "1",
+      "x": 650,
+      "y": 220,
+      "w": 29,
+      "h": 65,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "t0",
+      "label": "1",
+      "x": 650,
+      "y": 460,
+      "w": 29,
+      "h": 65,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "v1",
+      "label": "2",
+      "x": 688,
+      "y": 220,
+      "w": 29,
+      "h": 65,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "t1",
+      "label": "2",
+      "x": 688,
+      "y": 460,
+      "w": 29,
+      "h": 65,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "v2",
+      "label": "3",
+      "x": 726,
+      "y": 220,
+      "w": 29,
+      "h": 65,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "t2",
+      "label": "3",
+      "x": 726,
+      "y": 460,
+      "w": 29,
+      "h": 65,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "v3",
+      "label": "4",
+      "x": 764,
+      "y": 220,
+      "w": 29,
+      "h": 65,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "t3",
+      "label": "4",
+      "x": 764,
+      "y": 460,
+      "w": 29,
+      "h": 65,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "v4",
+      "label": "5",
+      "x": 802,
+      "y": 220,
+      "w": 29,
+      "h": 65,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "t4",
+      "label": "5",
+      "x": 802,
+      "y": 460,
+      "w": 29,
+      "h": 65,
+      "kind": "latent",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "image",
+      "target": "ve",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "text",
+      "target": "te",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "ve",
+      "target": "v0",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "te",
+      "target": "t0",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "v4",
+      "target": "merge",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "t4",
+      "target": "merge",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "v0",
+      "target": "t0",
+      "label": "",
+      "style": "dashed",
+      "via": []
+    },
+    {
+      "source": "v1",
+      "target": "t1",
+      "label": "",
+      "style": "dashed",
+      "via": []
+    },
+    {
+      "source": "v2",
+      "target": "t2",
+      "label": "",
+      "style": "dashed",
+      "via": []
+    },
+    {
+      "source": "v3",
+      "target": "t3",
+      "label": "",
+      "style": "dashed",
+      "via": []
+    },
+    {
+      "source": "v4",
+      "target": "t4",
+      "label": "",
+      "style": "dashed",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Enhancing Online Continual Learning with Plug-and-Play State Space Model and Class-Conditional Mixture of Discretization",
+  "venue": "CVPR",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhancing_Online_Continual_Learning_with_Plug-and-Play_State_Space_Model_and_CVPR_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_Enhancing_Online_Continual_Learning_with_Plug-and-Play_State_Space_Model_and_CVPR_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P132",
+  "download_status": "ok",
+  "category": "02_Transformer与注意力",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Enhancing Online Continual Learning with Plug-and-Play State Space Model\nand Class-Conditional Mixture of Discretization\nSihao Liu1\nYibo Yang2†\nXiaojie Li3\nDavid A. Clifton4\nBernard Ghanem2\n1Harbin Institute of Technology\n2King Abdullah University of Science and Technology\n3Harbin Institute of Technology (Shenzhen)\n4University of Oxford\nAbstract\nOnline continual learning (OCL) seeks to learn new\ntasks from data streams that appear only once, while re-\ntaining knowledge of previously learned tasks. Most exist-\ning methods rely on replay, focusing on enhancing mem-\nory retention through regulari",
+  "local_pdf": "references/02_Transformer与注意力/P132/paper.pdf",
+  "sha256": "d5f4b03fea1c3081c88f460dd612bc5870b9446a3c715554f5893f50ccbaff1c",
+  "bytes": 2350353,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

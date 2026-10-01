@@ -1,0 +1,28 @@
+{
+  "source_papers": 184,
+  "paper_references": 223,
+  "original_blueprints": 48,
+  "portable_png_images": 271,
+  "topic_categories": 12,
+  "layout_styles": 11,
+  "visual_styles": 6,
+  "new_papers": 52,
+  "new_paper_references": 61,
+  "distinct_image_hashes": 271,
+  "zip_image_count": 271,
+  "zip_megabytes": 23.03,
+  "zip_integrity": "pass",
+  "imagegen_real_example": "examples/imagegen/graph-rag-v01.png",
+  "browser_checks": [
+    "combined topic/layout/visual",
+    "reference detail",
+    "empty result"
+  ],
+  "manual_review_scope": "thumbnail diagram type/style; example nodes, edges, labels; not full-paper algorithm review",
+  "installed_skill": "C:\\Users\\wengy\\.codex\\skills\\cs-mechanism-imagegen",
+  "installed_files_hash_verified": 292,
+  "skill_frontmatter_validation": "pass (Python UTF-8 mode)",
+  "script_tests_passed": 7,
+  "relocation_validation": "pass",
+  "full_library_validation": "pass: 0 errors, 0 warnings"
+}

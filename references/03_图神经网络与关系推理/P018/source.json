@@ -1,0 +1,19 @@
+{
+  "title": "Learning Adaptive Neighborhoods for Graph Neural Networks",
+  "venue": "ICCV",
+  "year": 2023,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Saha_Learning_Adaptive_Neighborhoods_for_Graph_Neural_Networks_ICCV_2023_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Saha_Learning_Adaptive_Neighborhoods_for_Graph_Neural_Networks_ICCV_2023_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P018",
+  "category": "03_图神经网络与关系推理",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Learning Adaptive Neighborhoods for Graph Neural Networks\nAvishkar Saha1, Oscar Mendez1, Chris Russell2, Richard Bowden1\n1Centre for Vision Speech and Signal Processing, University of Surrey, Guildford, UK\n2 University of Oxford, Oxford, UK\n{a.saha, o.mendez, r.bowden}@surrey.ac.uk, christopher.m.russell@gmail.com\nAbstract\nGraph convolutional networks (GCNs) enable end-to-end\nlearning on graph structured data. However, many works\nassume a given graph structure. When the input graph is\nnoisy or unavailable, one approach is to construct or learn a\nlatent graph structure. These methods typically ",
+  "local_pdf": "references/03_图神经网络与关系推理/P018/paper.pdf",
+  "sha256": "b04c4e90aa73e71a6a03ced94a362207d5e4b248ba5ba1d80375bf03401ed758",
+  "bytes": 1300783,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

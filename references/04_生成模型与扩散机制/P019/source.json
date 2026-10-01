@@ -1,0 +1,19 @@
+{
+  "title": "Text-Conditioned Sampling Framework for Text-to-Image Generation with Masked Generative Models",
+  "venue": "ICCV",
+  "year": 2023,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Lee_Text-Conditioned_Sampling_Framework_for_Text-to-Image_Generation_with_Masked_Generative_Models_ICCV_2023_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_Text-Conditioned_Sampling_Framework_for_Text-to-Image_Generation_with_Masked_Generative_Models_ICCV_2023_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P019",
+  "category": "04_生成模型与扩散机制",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Text-Conditioned Sampling Framework for\nText-to-Image Generation with Masked Generative Models\nJaewoong Lee∗\nKAIST\nRepublic of Korea\nhello3196@kaist.ac.kr\nSangwon Jang∗\nYonsei University\nRepublic of Korea\nagwmon@gmail.com\nJaehyeong Jo, Jaehong Yoon\nKAIST\nRepublic of Korea\n{harryjo97, jaehong.yoon}@kaist.ac.kr\nYunji Kim, Jin-Hwa Kim, Jung-Woo Ha\nNAVER AI Lab\nRepublic of Korea\n{yunji.kim, jinhwa.kim, jungwoo.ha}@navercorp.com\nSung Ju Hwang\nKAIST\nRepublic of Korea\nsjhwang82@kaist.ac.kr\nAbstract\nToken-based masked generative models are gaining pop-\nularity for their fast inference time with parall",
+  "local_pdf": "references/04_生成模型与扩散机制/P019/paper.pdf",
+  "sha256": "49c93464b32a9d69caea57262b5533c55a991c4b82b0dcd477bce1685006f312",
+  "bytes": 2116903,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P033_F2_p05",
+    "title": "Learning To Prompt for Open-Vocabulary Object Detection With Vision-Language Model",
+    "category": "06_多模态与跨模态融合",
+    "layout_style": "L08",
+    "visual_style": "V03",
+    "source_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Du_Learning_To_Prompt_for_Open-Vocabulary_Object_Detection_With_Vision-Language_Model_CVPR_2022_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Du_Learning_To_Prompt_for_Open-Vocabulary_Object_Detection_With_Vision-Language_Model_CVPR_2022_paper.pdf",
+    "figure_number": "2",
+    "pdf_page": 5,
+    "caption": "Figure 2. Assembling DetPro with ViLD. DetPro is highlighted with azure background. We omit the class-agnostic bounding box regres- sion branch and mask prediction branch in both training and testing pipelines.",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "06",
+    "kind": "paper_reference",
+    "year": 2022,
+    "venue": "CVPR",
+    "image": "references/06_多模态与跨模态融合/P033/figures/P033_F2_p05.png",
+    "description": "训练机制与学习流程",
+    "source_kind": "official_proceedings",
+    "copy_note": "原论文集/出版商公开版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "427daa0610d9f60aa72a9c49051c2a6a7c1a4e316521768584b5616665b8a574"
+  }
+]

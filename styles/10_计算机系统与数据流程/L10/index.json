@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P078_F1_p01",
+    "title": "S tream V oice: Streamable Context-Aware Language Modeling for Real-time Zero-Shot Voice Conversion",
+    "category": "10_计算机系统与数据流程",
+    "layout_style": "L10",
+    "visual_style": "V04",
+    "source_url": "https://aclanthology.org/2024.acl-long.396/",
+    "pdf_url": "https://aclanthology.org/2024.acl-long.396.pdf",
+    "figure_number": "1",
+    "pdf_page": 1,
+    "caption": "Figure 1: The concept of the streaming zero-shot VC employing the widely used recognition-synthesis frame- work (Sun et al., 2016), where only the encoder of ASR is involved. StreamVoice is built on this popu- lar paradigm.",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "10",
+    "kind": "paper_reference",
+    "year": 2024,
+    "venue": "ACL",
+    "image": "references/10_计算机系统与数据流程/P078/figures/P078_F1_p01.png",
+    "description": "网络架构图",
+    "source_kind": "official_proceedings",
+    "copy_note": "原论文集/出版商公开版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "cf0bc3666a87a1e878eee744ea7d3bfae7bccd6595a33f4e5b3b5f89e9144718"
+  }
+]

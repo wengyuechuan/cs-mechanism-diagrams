@@ -1,0 +1,19 @@
+{
+  "title": "Masked Scene Modeling: Narrowing the Gap Between Supervised and Self-Supervised Learning in 3D Scene Understanding",
+  "venue": "CVPR",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Hermosilla_Masked_Scene_Modeling_Narrowing_the_Gap_Between_Supervised_and_Self-Supervised_CVPR_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Hermosilla_Masked_Scene_Modeling_Narrowing_the_Gap_Between_Supervised_and_Self-Supervised_CVPR_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P128",
+  "download_status": "ok",
+  "category": "08_训练策略与自监督",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Masked Scene Modeling:\nNarrowing the Gap Between Supervised and Self-Supervised Learning\nin 3D Scene Understanding\nPedro Hermosilla\nTU Wien\nChristian Stippel\nTU Wien\nLeon Sick\nUlm University\nFigure 1. Self-Supervised Feature Visualization using PCA. We reduce the point features obtained with our self-supervised model to\nthree dimensions using PCA and visualize them as colors. Features learned by our model are semantic-aware, which is visible from the\ncolor separation: Similar objects result in similar features, such as the sofas in the first figure or the chairs in the last one, while differen",
+  "local_pdf": "references/08_训练策略与自监督/P128/paper.pdf",
+  "sha256": "ac4caa48e434e94922dc19a23fbba8b4b55a86a2ef85e8c3ee7bdd7b66c7aed0",
+  "bytes": 3656707,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

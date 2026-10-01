@@ -1,0 +1,20 @@
+{
+  "title": "ELEMENTAL: Interactive Learning from Demonstrations and Vision-Language Models for Reward Design in Robotics",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/chen25at.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/chen25at/chen25at.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P161",
+  "category": "06_多模态与跨模态融合",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 26,
+  "pdf_first_page_excerpt": "ELEMENTAL: Interactive Learning from Demonstrations and Vision-Language\nModels for Reward Design in Robotics\nLetian Chen 1 Nina Moorman 1 Matthew Gombolay 1\nAbstract\nReinforcement learning (RL) has demonstrated\ncompelling performance in robotic tasks, but its\nsuccess often hinges on the design of complex, ad\nhoc reward functions. Researchers have explored\nhow Large Language Models (LLMs) could en-\nable non-expert users to specify reward functions\nmore easily. However, LLMs struggle to balance\nthe importance of different features, generalize\npoorly to out-of-distribution robotic tasks, and\ncann",
+  "local_pdf": "references/06_多模态与跨模态融合/P161/paper.pdf",
+  "sha256": "870f6b7d388e0324c578f30fbc9df879b7cf5e40845213da3dd408fd161d5228",
+  "bytes": 4048328,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

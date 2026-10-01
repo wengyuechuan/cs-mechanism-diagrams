@@ -1,0 +1,19 @@
+{
+  "title": "OmniVec2 - A Novel Transformer based Network for Large Scale Multimodal and Multitask Learning",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Srivastava_OmniVec2_-_A_Novel_Transformer_based_Network_for_Large_Scale_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Srivastava_OmniVec2_-_A_Novel_Transformer_based_Network_for_Large_Scale_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P012",
+  "category": "02_Transformer与注意力",
+  "pages": 13,
+  "pdf_first_page_excerpt": "OmniVec2 - A Novel Transformer based Network for Large Scale\nMultimodal and Multitask Learning\nSiddharth Srivastava, Gaurav Sharma\nTypeface\n{siddharth.srivastava, gaurav}@typeface.ai\nAbstract\nWe present a novel multimodal multitask network and\nassociated training algorithm. The method is capable of\ningesting data from approximately 12 different modalities\nnamely image, video, audio, text, depth, point cloud, time\nseries, tabular, graph, X-ray, infrared, IMU, and hyper-\nspectral.\nThe proposed approach utilizes modality spe-\ncialized tokenizers, a shared transformer architecture, and\ncross-atten",
+  "local_pdf": "references/02_Transformer与注意力/P012/paper.pdf",
+  "sha256": "143d1bd1c8890b1c1697855029192cba8e4806b74b697ef0ed93046e2e62f4c3",
+  "bytes": 499057,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

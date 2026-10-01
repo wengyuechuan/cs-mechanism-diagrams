@@ -1,0 +1,174 @@
+{
+  "id": "T04",
+  "category": "01_视觉网络与编码解码",
+  "slug": "feature_pyramid",
+  "title": "Feature pyramid and lateral fusion",
+  "description": "左右层级对齐，适合 FPN、金字塔特征融合和多尺度检测。",
+  "nodes": [
+    {
+      "id": "c2",
+      "label": "Backbone C2",
+      "x": 125,
+      "y": 200,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "c3",
+      "label": "Backbone C3",
+      "x": 125,
+      "y": 330,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "c4",
+      "label": "Backbone C4",
+      "x": 125,
+      "y": 460,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "p2",
+      "label": "Lateral + fuse P2",
+      "x": 545,
+      "y": 200,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "p3",
+      "label": "Lateral + fuse P3",
+      "x": 545,
+      "y": 330,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "p4",
+      "label": "Lateral + fuse P4",
+      "x": 545,
+      "y": 460,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "head",
+      "label": "Multi-scale head",
+      "x": 1005,
+      "y": 330,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c2",
+      "target": "c3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "c3",
+      "target": "c4",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "c2",
+      "target": "p2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "c3",
+      "target": "p3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "c4",
+      "target": "p4",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "p4",
+      "target": "p3",
+      "label": "up",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "p3",
+      "target": "p2",
+      "label": "up",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "p2",
+      "target": "head",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "p3",
+      "target": "head",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "p4",
+      "target": "head",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [
+    {
+      "title": "Backbone",
+      "x": 75,
+      "y": 140,
+      "w": 280,
+      "h": 410
+    },
+    {
+      "title": "Feature pyramid",
+      "x": 490,
+      "y": 140,
+      "w": 280,
+      "h": 410
+    }
+  ],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Hierarchical Visual Categories Modeling: A Joint Representation Learning and Density Estimation Framework for Out-of-Distribution Detection",
+  "venue": "ICCV",
+  "year": 2023,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_Hierarchical_Visual_Categories_Modeling_A_Joint_Representation_Learning_and_Density_ICCV_2023_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Hierarchical_Visual_Categories_Modeling_A_Joint_Representation_Learning_and_Density_ICCV_2023_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P027",
+  "category": "01_视觉网络与编码解码",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Hierarchical Visual Categories Modeling: A Joint Representation Learning and\nDensity Estimation Framework for Out-of-Distribution Detection\nJinglun Li1\nXinyu Zhou2\nPinxue Guo1\nYixuan Sun1\nYiwen Huang2\nWeifeng Ge2†\nWenqiang Zhang1,2†\n1Academy for Engineering and Technology, Fudan University\n2School of Computer Science, Fudan University\njingli960423@gmail.com, zhouxinyu20@fudan.edu.cn,\n{pxguo21, 21210860014, 21210240056}@m.fudan.edu.cn,\nweifeng.ge.ic@gmail.com, wqzhang@fudan.edu.cn\nAbstract\nDetecting out-of-distribution inputs for visual recogni-\ntion models has become critical in safe deep lear",
+  "local_pdf": "references/01_视觉网络与编码解码/P027/paper.pdf",
+  "sha256": "f64a684483d2cd78512d44c96458e3282d939dc3c4933ed6ba1585d9897d14c4",
+  "bytes": 1289501,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

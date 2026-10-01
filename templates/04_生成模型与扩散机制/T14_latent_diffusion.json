@@ -1,0 +1,156 @@
+{
+  "id": "T14",
+  "category": "04_生成模型与扩散机制",
+  "slug": "latent_diffusion",
+  "title": "Latent diffusion with conditioning",
+  "description": "编码到潜空间、条件注入与图像解码，适合条件生成总图。",
+  "nodes": [
+    {
+      "id": "im",
+      "label": "Image x",
+      "x": 70,
+      "y": 250,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "enc",
+      "label": "Image encoder",
+      "x": 300,
+      "y": 250,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "z",
+      "label": "Latent z",
+      "x": 530,
+      "y": 250,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "unet",
+      "label": "Latent denoising U-Net",
+      "x": 775,
+      "y": 250,
+      "w": 215,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "dec",
+      "label": "Image decoder",
+      "x": 1040,
+      "y": 250,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "text",
+      "label": "Text / condition",
+      "x": 300,
+      "y": 480,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "ce",
+      "label": "Condition encoder",
+      "x": 575,
+      "y": 480,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "ca",
+      "label": "Cross-attention",
+      "x": 860,
+      "y": 480,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "im",
+      "target": "enc",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "enc",
+      "target": "z",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "z",
+      "target": "unet",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "unet",
+      "target": "dec",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "text",
+      "target": "ce",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "ce",
+      "target": "ca",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "ca",
+      "target": "unet",
+      "label": "K,V",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [
+    {
+      "title": "Latent-space generator",
+      "x": 40,
+      "y": 175,
+      "w": 1220,
+      "h": 190
+    }
+  ],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

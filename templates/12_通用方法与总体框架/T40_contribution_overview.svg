@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Contribution-first method overview">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T40 / Contribution-first method overview</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<rect x="340" y="145" width="720" height="455" rx="12" fill="#FAFBFD" stroke="#CCD4DD" stroke-dasharray="5 4"/>
+<text x="356" y="170" font-size="15" font-weight="700" fill="#68778A">Method</text>
+<path d="M 285,364.0 L 340.0,364.0 L 340.0,244.0 L 395,244.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 285,364.0 L 340.0,364.0 L 340.0,499.0 L 395,499.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 615,244.0 L 697.5,244.0 L 697.5,364.0 L 780,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 640,499.0 L 710.0,499.0 L 710.0,364.0 L 780,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 1000,364.0 L 1080,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="65" y="330" width="220" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="175.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">(a) Input / problem</text>
+<rect x="395" y="210" width="220" height="68" rx="8" fill="#F1F3F5" stroke="#7F8994" stroke-width="1.6"/>
+<text x="505.0" y="249.0" text-anchor="middle" font-size="16" font-weight="600">Baseline processing</text>
+<rect x="395" y="465" width="245" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="517.5" y="494.0" text-anchor="middle" font-size="16" font-weight="600">(b) Proposed module</text>
+<text x="517.5" y="514.0" text-anchor="middle" font-size="16" font-weight="400">Your contribution</text>
+<rect x="780" y="330" width="220" height="68" rx="8" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="890.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">Feature integration</text>
+<rect x="1080" y="330" width="190" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1175.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">(c) Output</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

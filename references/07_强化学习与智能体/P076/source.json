@@ -1,0 +1,19 @@
+{
+  "title": "Language Model Adaption for Reinforcement Learning with Natural Language Action Space",
+  "venue": "ACL",
+  "year": 2024,
+  "source_url": "https://aclanthology.org/2024.acl-long.89/",
+  "pdf_url": "https://aclanthology.org/2024.acl-long.89.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P076",
+  "category": "07_强化学习与智能体",
+  "pages": 15,
+  "pdf_first_page_excerpt": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 1620–1634\nAugust 11-16, 2024 ©2024 Association for Computational Linguistics\nLanguage Model Adaption for Reinforcement Learning with\nNatural Language Action Space\nJiangxing Wang1 Jiachen Li1 Xiao Han1 Deheng Ye2 Zongqing Lu1,3†\n1School of Computer Science, Peking University\n2Tencent Inc.\n3BAAI\n{jiangxiw,lijiachen,hanx}@stu.pku.edu.cn dericye@tencent.com\nzongqing.lu@pku.edu.cn\nAbstract\nReinforcement learning with natural language\naction space often suffers from the curse of\ndim",
+  "local_pdf": "references/07_强化学习与智能体/P076/paper.pdf",
+  "sha256": "b0c9ac2e4b969ebb54f07e249e2adf6c27f79e406ebdcb2f09343ac252b126ac",
+  "bytes": 938656,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

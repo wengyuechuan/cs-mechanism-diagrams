@@ -1,0 +1,19 @@
+{
+  "title": "Multiple Instance Learning Framework with Masked Hard Instance Mining for Whole Slide Image Classification",
+  "venue": "ICCV",
+  "year": 2023,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Tang_Multiple_Instance_Learning_Framework_with_Masked_Hard_Instance_Mining_for_ICCV_2023_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Tang_Multiple_Instance_Learning_Framework_with_Masked_Hard_Instance_Mining_for_ICCV_2023_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P023",
+  "category": "08_训练策略与自监督",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Multiple Instance Learning Framework with Masked Hard Instance Mining for\nWhole Slide Image Classification\nWenhao Tang1\nSheng Huang1* Xiaoxian Zhang1\nFengtao Zhou2\nYi Zhang1\nBo Liu3\n1 Chongqing University\n2 The Hong Kong University of Science and Technology\n3 Walmart Global Tech\n{whtang, huangsheng, zhangxiaoxian, zhangyii}@cqu.edu.cn\nfzhouaf@connect.ust.hk, kfliubo@gmail.com\nAbstract\nThe whole slide image (WSI) classification is often for-\nmulated as a multiple instance learning (MIL) problem.\nSince the positive tissue is only a small fraction of the gi-\ngapixel WSI, existing MIL methods intu",
+  "local_pdf": "references/08_训练策略与自监督/P023/paper.pdf",
+  "sha256": "19b97b7f069dfa4091f9c43746cc21c4d90854c21ec18b3f53fc17f0e5e737a3",
+  "bytes": 1602655,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

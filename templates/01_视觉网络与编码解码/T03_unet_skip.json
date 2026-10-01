@@ -1,0 +1,146 @@
+{
+  "id": "T03",
+  "category": "01_视觉网络与编码解码",
+  "slug": "unet_skip",
+  "title": "U-shaped encoder-decoder",
+  "description": "U 形层级结构与跨层跳连；箭头表示 concat / add 的位置应按方法替换。",
+  "nodes": [
+    {
+      "id": "e1",
+      "label": "Encoder 1\nH x W",
+      "x": 65,
+      "y": 210,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "e2",
+      "label": "Encoder 2\nH/2 x W/2",
+      "x": 295,
+      "y": 325,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "b",
+      "label": "Bottleneck\nH/4 x W/4",
+      "x": 545,
+      "y": 440,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "d2",
+      "label": "Decoder 2\nH/2 x W/2",
+      "x": 795,
+      "y": 325,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "d1",
+      "label": "Decoder 1\nH x W",
+      "x": 1025,
+      "y": 210,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "o",
+      "label": "Segmentation map",
+      "x": 1025,
+      "y": 495,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "e1",
+      "target": "e2",
+      "label": "downsample",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "e2",
+      "target": "b",
+      "label": "downsample",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "b",
+      "target": "d2",
+      "label": "upsample",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "d2",
+      "target": "d1",
+      "label": "upsample",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "d1",
+      "target": "o",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "e1",
+      "target": "d1",
+      "label": "skip connection",
+      "style": "dashed",
+      "via": [
+        [
+          150,
+          150
+        ],
+        [
+          1110,
+          150
+        ]
+      ]
+    },
+    {
+      "source": "e2",
+      "target": "d2",
+      "label": "skip connection",
+      "style": "dashed",
+      "via": [
+        [
+          380,
+          265
+        ],
+        [
+          880,
+          265
+        ]
+      ]
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

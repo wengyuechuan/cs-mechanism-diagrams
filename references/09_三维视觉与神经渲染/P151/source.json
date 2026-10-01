@@ -1,0 +1,20 @@
+{
+  "title": "Prior-aware Dynamic Temporal Modeling Framework for Sequential 3D Hand Pose Estimation",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Ren_Prior-aware_Dynamic_Temporal_Modeling_Framework_for_Sequential_3D_Hand_Pose_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Ren_Prior-aware_Dynamic_Temporal_Modeling_Framework_for_Sequential_3D_Hand_Pose_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P151",
+  "category": "09_三维视觉与神经渲染",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 12,
+  "pdf_first_page_excerpt": "Prior-aware Dynamic Temporal Modeling Framework for\nSequential 3D Hand Pose Estimation\nPengfei Ren, Jingyu Wang*, Haifeng Sun*, Qi Qi, Xingyu Liu,\nMenghao Zhang, Lei Zhang, Jing Wang, Jianxin Liao\nState Key Laboratory of Networking and Switching Technology,\nBeijing University of Posts and Telecommunications\n{rpf, wangjingyu, hfsun, qiqi8266, liuxingyu, zhangmenghao}@bupt.edu.cn;\nzhangl83@chinaunicom.cn; wangjing@bupt.edu.cn; jxlbupt@gmail.com\nAbstract\n3D hand pose estimation plays a critical role in various\nhuman-computer interaction tasks. Single-frame 3D hand\npose estimation methods have poo",
+  "local_pdf": "references/09_三维视觉与神经渲染/P151/paper.pdf",
+  "sha256": "9a8f91c61924864cc8cbd8f05e328810b43d553c3f8b7e876e996e14c0d18db0",
+  "bytes": 2009854,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

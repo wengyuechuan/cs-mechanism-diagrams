@@ -1,0 +1,41 @@
+{
+  "layout_style": "L08",
+  "visual_style": "V01",
+  "reference_images": [
+    {
+      "id": "T17",
+      "title": "RAG offline index and online answering",
+      "category": "05_检索增强与知识系统",
+      "layout_style": "L08",
+      "visual_style": "V01",
+      "description": "离线索引和在线问答分轨，便于论文方法总览。",
+      "topic": "05",
+      "kind": "original_blueprint",
+      "year": 2026,
+      "venue": "原创结构蓝图",
+      "image": "assets/images/05/L08/T17.png",
+      "rights": "MIT; original generic structure, not an exact paper reproduction",
+      "source_url": null,
+      "keywords": "替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。",
+      "image_sha256": "ca625eeff76f73b40a4b55f6b1fb170c0fad026910bb1c643a98622ae7e99191"
+    },
+    {
+      "id": "T18",
+      "title": "Graph-based retrieval and evidence path",
+      "category": "05_检索增强与知识系统",
+      "layout_style": "L05",
+      "visual_style": "V05",
+      "description": "知识图谱、查询与子图证据分开展示，适合 GraphRAG 类结构。",
+      "topic": "05",
+      "kind": "original_blueprint",
+      "year": 2026,
+      "venue": "原创结构蓝图",
+      "image": "assets/images/05/L05/T18.png",
+      "rights": "MIT; original generic structure, not an exact paper reproduction",
+      "source_url": null,
+      "keywords": "替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。",
+      "image_sha256": "3796fe545dfff9e28761bee8810cc2e836d7f05bcf92dc4f827ab1c1cf41653b"
+    }
+  ],
+  "tool": "built-in imagegen"
+}

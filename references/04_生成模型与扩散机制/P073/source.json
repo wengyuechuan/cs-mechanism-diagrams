@@ -1,0 +1,20 @@
+{
+  "title": "C on S i DERS -The-Human Evaluation Framework: Rethinking Human Evaluation for Generative Large Language Models",
+  "venue": "ACL",
+  "year": 2024,
+  "source_url": "https://aclanthology.org/2024.acl-long.63/",
+  "pdf_url": "https://aclanthology.org/2024.acl-long.63.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P073",
+  "category": "12_通用方法与总体框架",
+  "pages": 24,
+  "pdf_first_page_excerpt": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 1137–1160\nAugust 11-16, 2024 ©2024 Association for Computational Linguistics\nConSiDERS-The-Human Evaluation Framework:\nRethinking Human Evaluation for Generative Large Language Models\nAparna Elangovan, Ling Liu, Lei Xu, Sravan Bodapati, Dan Roth\nAWS AI Labs\n{aeg,lingliun,leixx,sravanb,drot}@amazon.com\nAbstract\nIn this position paper, we argue that human\nevaluation of generative large language models\n(LLMs) should be a multidisciplinary undertak-\ning that draws upon insights fr",
+  "local_pdf": "references/04_生成模型与扩散机制/P073/paper.pdf",
+  "sha256": "e81bd937c69c13f7abfa76c5af74560f76773035012074aa4752a563d162a943",
+  "bytes": 676647,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

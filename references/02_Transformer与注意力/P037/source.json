@@ -1,0 +1,19 @@
+{
+  "title": "Towards Multi-modal Transformers in Federated Learning",
+  "venue": "ECCV",
+  "year": 2024,
+  "source_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2339_ECCV_2024_paper.php",
+  "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02339.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P037",
+  "category": "02_Transformer与注意力",
+  "pages": 18,
+  "pdf_first_page_excerpt": "Towards Multi-modal Transformers in\nFederated Learning\nGuangyu Sun1 , Matias Mendieta1 , Aritra Dutta2 , Xin Li2 , and Chen\nChen1\n1 Center for Research in Computer Vision, University of Central Florida, FL, USA\n2 Department of Mathematics, University of Central Florida, FL, USA\n{guangyu, matias.mendieta, aritra.dutta, xin.li}@ucf.edu;\nchen.chen@crcv.ucf.edu\nAbstract. Multi-modal transformers mark significant progress in dif-\nferent domains, but privacy concerns on high-quality data hinder their\nfurther improvement. Federated learning (FL) has emerged as a promis-\ning privacy-preserving paradig",
+  "local_pdf": "references/02_Transformer与注意力/P037/paper.pdf",
+  "sha256": "21fa5ee2c7914e23160dda902643620bbd1dda7a98076a389168de9eeb7f14c8",
+  "bytes": 1068772,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

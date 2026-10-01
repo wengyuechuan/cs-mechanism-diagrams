@@ -1,0 +1,19 @@
+{
+  "title": "Task Confusion and Catastrophic Forgetting in Class-Incremental Learning: A Mathematical Framework for Discriminative and Generative Modelings",
+  "venue": "NeurIPS",
+  "year": 2024,
+  "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5503a7c69d48a2f86fc00b3dc09de686-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/5503a7c69d48a2f86fc00b3dc09de686-Paper-Conference.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P049",
+  "category": "04_生成模型与扩散机制",
+  "pages": 30,
+  "pdf_first_page_excerpt": "Task Confusion and Catastrophic Forgetting in\nClass-Incremental Learning: A Mathematical\nFramework for Discriminative and Generative\nModelings\nMilad Khademi Nori∗\nElectrical and Computer Engineering\nQueen’s University\nKingston, Ontario, Canada\n19mkn1@queensu.ca\nIl-Min Kim\nElectrical and Computer Engineering\nQueen’s University\nKingston, Ontario, Canada\nilmin.kim@queensu.ca\nAbstract\nIn class-incremental learning (class-IL), models must classify all previously seen\nclasses at test time without task-IDs, leading to task confusion. Despite being\na key challenge, task confusion lacks a theoretical u",
+  "local_pdf": "references/04_生成模型与扩散机制/P049/paper.pdf",
+  "sha256": "545d0313f1074fbae8283992c848ed2116a2231db356fbd02497c1e4536c1a1f",
+  "bytes": 678102,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

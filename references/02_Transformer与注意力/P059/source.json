@@ -1,0 +1,19 @@
+{
+  "title": "Exact Conversion of In-Context Learning to Model Weights in Linearized-Attention Transformers",
+  "venue": "ICML",
+  "year": 2024,
+  "source_url": "https://proceedings.mlr.press/v235/chen24r.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24r/chen24r.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P059",
+  "category": "02_Transformer与注意力",
+  "pages": 14,
+  "pdf_first_page_excerpt": "Exact Conversion of In-Context Learning to Model Weights in\nLinearized-Attention Transformers\nBrian K Chen 1 2 Tianyang Hu 3 Hui Jin 3 Hwee Kuan Lee 1 2 4 5 6 7 Kenji Kawaguchi 1\nAbstract\nIn-Context Learning (ICL) has been a powerful\nemergent property of large language models that\nhas attracted increasing attention in recent years.\nIn contrast to regular gradient-based learning,\nICL is highly interpretable and does not require\nparameter updates. In this paper, we show that, for\nlinearized transformer networks, ICL can be made\nexplicit and permanent through the inclusion of\nbias terms. We mathe",
+  "local_pdf": "references/02_Transformer与注意力/P059/paper.pdf",
+  "sha256": "31563f7847e7c5611d53729475acae2cb3bf938894d0904f4c1c027f75f439d2",
+  "bytes": 340291,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Domain-Adversarial Training of Neural Networks",
+  "venue": "JMLR",
+  "year": 2016,
+  "source_url": "https://jmlr.org/papers/v17/15-239.html",
+  "pdf_url": "https://jmlr.org/papers/volume17/15-239/15-239.pdf",
+  "source_kind": "official_journal",
+  "category": "12_通用方法与总体框架",
+  "id": "P117",
+  "pages": 35,
+  "pdf_first_page_excerpt": "Journal of Machine Learning Research 17 (2016) 1-35\nSubmitted 5/15; Published 4/16\nDomain-Adversarial Training of Neural Networks\nYaroslav Ganin\nganin@skoltech.ru\nEvgeniya Ustinova\nevgeniya.ustinova@skoltech.ru\nSkolkovo Institute of Science and Technology (Skoltech)\nSkolkovo, Moscow Region, Russia\nHana Ajakan\nhana.ajakan.1@ulaval.ca\nPascal Germain\nPascal.Germain@ift.ulaval.ca\nD´epartement d’informatique et de g´enie logiciel, Universit´e Laval\nQu´ebec, Canada, G1V 0A6\nHugo Larochelle\nhugo.larochelle@usherbrooke.ca\nD´epartement d’informatique, Universit´e de Sherbrooke\nQu´ebec, Canada, J1K 2R1\n",
+  "local_pdf": "references/12_通用方法与总体框架/P117/paper.pdf",
+  "sha256": "801be7cae7acf3ec0df604d40e6129cb9f594e09e6891370b3f7bd2ebef40403",
+  "bytes": 5670840,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

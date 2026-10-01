@@ -1,0 +1,19 @@
+{
+  "title": "Contextualized Policy Recovery: Modeling and Interpreting Medical Decisions with Adaptive Imitation Learning",
+  "venue": "ICML",
+  "year": 2024,
+  "source_url": "https://proceedings.mlr.press/v235/deuschel24a.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/deuschel24a/deuschel24a.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P064",
+  "category": "07_强化学习与智能体",
+  "pages": 19,
+  "pdf_first_page_excerpt": "Contextualized Policy Recovery: Modeling and Interpreting Medical Decisions\nwith Adaptive Imitation Learning\nJannik Deuschel * 1 2 Caleb N. Ellington * 1 Yingtao Luo 1 Benjamin J. Lengerich 3 4 Pascal Friederich 2\nEric P. Xing 5 1 6\nAbstract\nInterpretable policy learning seeks to estimate\nintelligible decision policies from observed ac-\ntions; however, existing models force a tradeoff\nbetween accuracy and interpretability, limiting\ndata-driven interpretations of human decision-\nmaking processes. Fundamentally, existing ap-\nproaches are burdened by this tradeoff because\nthey represent the under",
+  "local_pdf": "references/07_强化学习与智能体/P064/paper.pdf",
+  "sha256": "bfd58ec2198d332c6e3fe1a7e94f165d857dcc8055b2c4ec7c49b3b89434ab75",
+  "bytes": 6664505,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

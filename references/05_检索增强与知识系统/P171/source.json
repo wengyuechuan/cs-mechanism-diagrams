@@ -1,0 +1,20 @@
+{
+  "title": "From RAG to Memory: Non-Parametric Continual Learning for Large Language Models",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/gutierrez25a.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/gutierrez25a/gutierrez25a.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P171",
+  "category": "05_检索增强与知识系统",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 19,
+  "pdf_first_page_excerpt": "From RAG to Memory: Non-Parametric Continual Learning for\nLarge Language Models\nBernal Jim´enez Guti´errez * 1 Yiheng Shu * 1 Weijian Qi 1 Sizhe Zhou 2 Yu Su 1\nAbstract\nOur ability to continuously acquire, organize, and\nleverage knowledge is a key feature of human\nintelligence that AI systems must approximate\nto unlock their full potential. Given the chal-\nlenges in continual learning with large language\nmodels (LLMs), retrieval-augmented generation\n(RAG) has become the dominant way to intro-\nduce new information. However, its reliance on\nvector retrieval hinders its ability to mimic the dy-\nn",
+  "local_pdf": "references/05_检索增强与知识系统/P171/paper.pdf",
+  "sha256": "45ce410cc2656736fb3f6a18eb34cf8d742fcb46a05a02fa02b60b0d10907f3e",
+  "bytes": 2409304,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "计算机论文机制图 AI 绘制"
+  short_description: "按主题、布局和视觉风格检索本地图例，组织准确机制并生成 imagegen 绘图提示词"
+  default_prompt: "使用 $cs-mechanism-imagegen 根据我的方法选取图库风格，并调用 imagegen 绘制机制图。"

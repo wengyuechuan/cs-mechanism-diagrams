@@ -1,0 +1,20 @@
+{
+  "title": "Golden Noise for Diffusion Models: A Learning Framework",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_Golden_Noise_for_Diffusion_Models_A_Learning_Framework_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhou_Golden_Noise_for_Diffusion_Models_A_Learning_Framework_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P135",
+  "category": "04_生成模型与扩散机制",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Golden Noise for Diffusion Models: A Learning Framework\nZikai Zhou1, Shitong Shao1, Lichen Bai1, Shufei Zhang2,\nZhiqiang Xu3, Bo Han4, Zeke Xie1*\n1 HKUST-GZ\n2 Shanghai AI Lab\n3 MBZUAI\n4 HKBU\n{zikaizhou, sshao213, lichenbai, zekexie}@hkust-gz.edu.cn\nzhangshufei@pjlab.org.cn\nzhiqiang.xu@mbzuai.ac.ae\nbhanml@comp.hkbu.edu.hk\nGithub:\nhttps://github.com/xie-lab-ml/Golden-Noise-for-Diffusion-Models\nStableDiffusion-xl\nHunyuan-DiT\nDreamshaper-xl-v2-turbo\nMPS：0.3970 < 0.6030\nCLIPScore:  0.8381 < 0.9269\nHPSv2:  34.69 < 36.67\nAES:  5.4045 < 5.6784\nImageReward:  134.85 < 191.58\nPickScore:  24.33 < 25.21\nSt",
+  "local_pdf": "references/04_生成模型与扩散机制/P135/paper.pdf",
+  "sha256": "4ff05ab49db1d7248f98e1a6bfd601d959748c384ed0f57dc0c067e94162f5ad",
+  "bytes": 14767101,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

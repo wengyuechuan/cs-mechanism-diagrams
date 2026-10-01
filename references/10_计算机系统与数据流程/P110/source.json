@@ -1,0 +1,20 @@
+{
+  "title": "nsDB: Architecting the Next Generation Database by Integrating Neural and Symbolic Systems (Vision)",
+  "venue": "PVLDB",
+  "year": 2024,
+  "source_url": "https://www.vldb.org/pvldb/vol17/p3283-tang.pdf",
+  "pdf_url": "https://vldb.org/pvldb/vol17/p3283-tang.pdf",
+  "source_kind": "official_journal",
+  "category": "10_计算机系统与数据流程",
+  "id": "P110",
+  "download_status": "ok",
+  "original_pdf_url": "https://www.vldb.org/pvldb/vol17/p3283-tang.pdf",
+  "pages": 7,
+  "pdf_first_page_excerpt": "nsDB: Architecting the Next Generation Database by Integrating\nNeural and Symbolic Systems\nYe Yuan\nBeijing Institute of Technology\nBeijing, China\nyuan-ye@bit.edu.cn\nBo Tang\nSouthern Univ. of Sci. and Tech.\nShenzhen, China\ntangb3@sustech.edu.cn\nTianfei Zhou\nBeijing Institute of Technology\nBeijing, China\nztfei.debug@gmail.com\nZhiwei Zhang\nBeijing Institute of Technology\nBeijing, China\nzwzhang@bit.edu.cn\nJianbin Qin\nShenzhen University\nShenzhen, China\nqinjianbin@szu.edu.cn\nABSTRACT\nIn this paper, we propose nsDB, a novel neuro-symbolic database\nsystem that integrates neural and symbolic system ar",
+  "local_pdf": "references/10_计算机系统与数据流程/P110/paper.pdf",
+  "sha256": "90918ce4a58700fad0e4a2ee0c5cb6ec38f8fceb931c9cb77fcd60ad4bd02ff2",
+  "bytes": 2281086,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

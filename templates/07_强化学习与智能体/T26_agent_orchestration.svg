@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Coordinator and specialist agents">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T26 / Coordinator and specialist agents</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 235,364.0 L 340,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 510,364.0 L 587.5,364.0 L 587.5,194.0 L 665,194.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 510,364.0 L 665,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 510,364.0 L 587.5,364.0 L 587.5,534.0 L 665,534.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 835,194.0 L 942.5,194.0 L 942.5,364.0 L 1050,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 835,364.0 L 1050,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 835,534.0 L 942.5,534.0 L 942.5,364.0 L 1050,364.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="65" y="330" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="150.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">Problem</text>
+<rect x="340" y="330" width="170" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="425.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">Coordinator</text>
+<rect x="665" y="160" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="750.0" y="199.0" text-anchor="middle" font-size="16" font-weight="600">Research agent</text>
+<rect x="665" y="330" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="750.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">Coding agent</text>
+<rect x="665" y="500" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="750.0" y="539.0" text-anchor="middle" font-size="16" font-weight="600">Verifier agent</text>
+<rect x="1050" y="330" width="205" height="68" rx="8" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="1152.5" y="369.0" text-anchor="middle" font-size="16" font-weight="600">Synthesize + verify</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

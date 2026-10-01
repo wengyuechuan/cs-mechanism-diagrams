@@ -1,0 +1,259 @@
+{
+  "id": "T47",
+  "category": "03_图神经网络与关系推理",
+  "slug": "temporal_graph",
+  "title": "Temporal graph and node-state evolution",
+  "description": "三个时间切片均为可编辑节点—边图，虚线连接表示跨时间状态变化。",
+  "nodes": [
+    {
+      "id": "g0_0",
+      "label": "1",
+      "x": 140,
+      "y": 340,
+      "w": 48,
+      "h": 48,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "g0_1",
+      "label": "2",
+      "x": 245,
+      "y": 265,
+      "w": 48,
+      "h": 48,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "g0_2",
+      "label": "3",
+      "x": 245,
+      "y": 415,
+      "w": 48,
+      "h": 48,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "g0_3",
+      "label": "4",
+      "x": 350,
+      "y": 340,
+      "w": 48,
+      "h": 48,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "g1_0",
+      "label": "1",
+      "x": 530,
+      "y": 340,
+      "w": 48,
+      "h": 48,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "g1_1",
+      "label": "2",
+      "x": 635,
+      "y": 265,
+      "w": 48,
+      "h": 48,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "g1_2",
+      "label": "3",
+      "x": 635,
+      "y": 415,
+      "w": 48,
+      "h": 48,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "g1_3",
+      "label": "4",
+      "x": 740,
+      "y": 340,
+      "w": 48,
+      "h": 48,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "g2_0",
+      "label": "1",
+      "x": 920,
+      "y": 340,
+      "w": 48,
+      "h": 48,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "g2_1",
+      "label": "2",
+      "x": 1025,
+      "y": 265,
+      "w": 48,
+      "h": 48,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "g2_2",
+      "label": "3",
+      "x": 1025,
+      "y": 415,
+      "w": 48,
+      "h": 48,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "g2_3",
+      "label": "4",
+      "x": 1130,
+      "y": 340,
+      "w": 48,
+      "h": 48,
+      "kind": "input",
+      "shape": "ellipse"
+    }
+  ],
+  "edges": [
+    {
+      "source": "g0_0",
+      "target": "g0_1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "g0_0",
+      "target": "g0_2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "g0_1",
+      "target": "g0_3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "g0_2",
+      "target": "g0_3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "g1_0",
+      "target": "g1_1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "g1_0",
+      "target": "g1_2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "g1_1",
+      "target": "g1_3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "g1_2",
+      "target": "g1_3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "g0_3",
+      "target": "g1_0",
+      "label": "t -> t+1",
+      "style": "dashed",
+      "via": []
+    },
+    {
+      "source": "g2_0",
+      "target": "g2_1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "g2_0",
+      "target": "g2_2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "g2_1",
+      "target": "g2_3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "g2_2",
+      "target": "g2_3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "g1_3",
+      "target": "g2_0",
+      "label": "t -> t+1",
+      "style": "dashed",
+      "via": []
+    }
+  ],
+  "groups": [
+    {
+      "title": "Time step 0",
+      "x": 105,
+      "y": 200,
+      "w": 305,
+      "h": 330
+    },
+    {
+      "title": "Time step 1",
+      "x": 495,
+      "y": 200,
+      "w": 305,
+      "h": 330
+    },
+    {
+      "title": "Time step 2",
+      "x": 885,
+      "y": 200,
+      "w": 305,
+      "h": 330
+    }
+  ],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

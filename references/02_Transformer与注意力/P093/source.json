@@ -1,0 +1,19 @@
+{
+  "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+  "venue": "ICCV",
+  "year": 2021,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2021/html/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.pdf",
+  "source_kind": "official_or_author_public_copy",
+  "id": "P093",
+  "category": "02_Transformer与注意力",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\nZe Liu1,2†*\nYutong Lin1,3†*\nYue Cao1*\nHan Hu1*‡\nYixuan Wei1,4†\nZheng Zhang1\nStephen Lin1\nBaining Guo1\n1Microsoft Research Asia\n2University of Science and Technology of China\n3Xian Jiaotong University\n4Tsinghua University\n{v-zeliu1,v-yutlin,yuecao,hanhu,v-yixwe,zhez,stevelin,bainguo}@microsoft.com\nAbstract\nThis paper presents a new vision Transformer, called\nSwin Transformer, that capably serves as a general-purpose\nbackbone for computer vision.\nChallenges in adapting\nTransformer from language to vision arise from differenc",
+  "local_pdf": "references/02_Transformer与注意力/P093/paper.pdf",
+  "sha256": "0f77d1635bdbb040bc5f9174ddbda63b5ca17ffab0459b55dfa4148f9916f833",
+  "bytes": 1387205,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

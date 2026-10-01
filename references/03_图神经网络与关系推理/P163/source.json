@@ -1,0 +1,20 @@
+{
+  "title": "SHARP-Distill: A 68$\\times$ Faster Recommender System with Hypergraph Neural Networks and Language Models",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/forouzandeh25a.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/forouzandeh25a/forouzandeh25a.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P163",
+  "category": "03_图神经网络与关系推理",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 37,
+  "pdf_first_page_excerpt": "SHARP-Distill: A 68× Faster Recommender System with Hypergraph Neural\nNetworks and Language Models\nSaman Forouzandeh 1 Parham Moradi 1 Mahdi Jalili 1\nAbstract\nThis paper proposes SHARP-Distill (Speedy\nHypergraph And Review-based Personalised Dis-\ntillation), a novel knowledge distillation approach\nbased on the teacher-student framework that com-\nbines Hypergraph Neural Networks (HGNNs)\nwith language models to enhance recommenda-\ntion quality while significantly improving infer-\nence time. The teacher model leverages HGNNs\nto generate user and item embeddings from inter-\naction data, capturing ",
+  "local_pdf": "references/03_图神经网络与关系推理/P163/paper.pdf",
+  "sha256": "c0b0fc839d9e34e91c26f81c64ea5bd69ffe2e4b53ba59740ed2208cc723dbf7",
+  "bytes": 2119956,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

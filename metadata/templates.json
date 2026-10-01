@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "T01",
+    "category": "01_视觉网络与编码解码",
+    "title": "CNN backbone and prediction head",
+    "description": "卷积网络的主干—特征—任务头结构，适合分类与特征提取总览。",
+    "slug": "cnn_backbone",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/01_视觉网络与编码解码/T01_cnn_backbone.drawio",
+    "preview": "templates/01_视觉网络与编码解码/T01_cnn_backbone.svg",
+    "spec": "templates/01_视觉网络与编码解码/T01_cnn_backbone.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P167_F5_p13",
+      "P167_F3_p05",
+      "P120_F17_p18",
+      "P092_F3_p04",
+      "P143_F2_p03",
+      "P143_F3_p04"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zlfj6M2EMA/DY8XgU0I+5iQcFe1PVXdSnd9qhzsEHcNRsZssv30HRuTQCCn3eqKdNKuVsEzHv+b39hMHA8nHk7PhfCQ/8xUzWXp4a2HVsHCh0/QsjKTlJd5q2704UNsKnDq4Z3nrz2cFOcDFwxMj7LW1gyRqlpQTnJFinpRMg2qmwEQiha+GQOZfnDirMGqJAVrTZLPn0Hek+xpL0szACkpfFaKUZ5p0xOMyQhte+e0bfWHH1x6Lc4fFamOv0rKzArpuTUJMPLbRvSl1cS+U+Sq6ye4Kh75P25KQWfWcMrqgaGWUmheDZWZLEuW6YGOKCVPQ7ODFMNRK5KzkeIxI2Ks/cKpPt6uy1R8Yjw/uqFXXUVBOmOnqI+EylNPZR2npNSdCxMmRM+/rp2H0jsGl7kpVupXttFcmxCyUUJEw3oobSvkvy0Yav3SuUqzM8xic9QQ5HgbQJEInpsoFOxgaiAsNQfXrp264JSaxpvTkWv2WJHM9HSCQALdQZbahQOKOtkNFjg5kUIqOzhGIfzDbtlcdgBM566bBoHLZMG0ejErdcGSX1SmoesmjFvRBTJatuKpFxUIO/8fexERLm+YQMFhmUZUN/tpSh9ZyRTPzFlBuSZ7exbUWjWZbpQpfzBroKTSJv4kbQTsnI4fo7mVtDRrkI0yNdCQmKFhtUdJF29H2qMUhGMqKxz7D3hGKqspKv4EFfRWKuVf/gjIT4U5PVAkjCv24NEoN6WNnR7ysXt+cs8vI/8q2ZSUUefbqW3Qcz0c/qLn212Y+rsY9BAB8on1aiIc42jzjT1i9CkpuDBeWysOMTBEGV267Q69YGF1MLn2FRX/n1Cj5QAq7gD2qa4moEbxm6EGI6iJLJ8tJVbcR5tc0abhFa8pf1fEu20aTSNe7R52PzDiy06dgTEaMf6d1Zy2R1+tiT0Yb0kn7XnaClBGt4oweWf92jN6PtZ4/NYUcm9JV5A3mtXe3dTfmWiapsF2NUV0vYsTGOzHJRo9zEc0HBH9bZyK3kP68/sr93VEH/y5iLJxHjWCZJLVLtmXCnLTXJZE7K7azRDj1eYXKSun/Jtp/eLcSxrIewdoWUnX5vshiHshs6dWlXLRGYwZhysUhxOYVjcowfkbQfZMbOBLVG5nOjwW4M8Md+b6q+3Ad9KfIPmLpZ0KAPpqRb8Tr7Wtv4yTvh0D4FNI9DN2k8FqonKmBxnQa6NFMUE0fx6O+3r042zrHf086IMp9GhG9OMk7B39POjRFHo8I/pxTvaOfh70eAp9OB96wXJmbp9u8D9CIg4Wa89cyKoTUdTrbh95qZkiXXJ3EPK0gOeW1EfmWpDmzAUnds5tG60IL21m7xT1E6+sewwvkwrWzF5kWvzIt6jq/3jb1b/dCmL/YXkTC3PedkXLaJykXS6B+1ladzF5jxyI15toW9e7z++U3U8HVyP7ewTe/Qs=",
+    "layout_style": "L01",
+    "visual_style": "V01",
+    "preview_png": "templates/01_视觉网络与编码解码/T01_cnn_backbone.png"
+  },
+  {
+    "id": "T02",
+    "category": "01_视觉网络与编码解码",
+    "title": "Residual block with identity path",
+    "description": "实线主路径与上方残差旁路分开，突出模块新增计算。",
+    "slug": "residual_block",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/01_视觉网络与编码解码/T02_residual_block.drawio",
+    "preview": "templates/01_视觉网络与编码解码/T02_residual_block.svg",
+    "spec": "templates/01_视觉网络与编码解码/T02_residual_block.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P167_F3_p05",
+      "P027_F1_p03",
+      "P095_F4_p05",
+      "P120_F14_p13",
+      "P120_F17_p18",
+      "P092_F3_p04"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Znrj6M2EMD/Gj5eZHBCyMe8uFbqS91KvX6qvNgh7hqMjNlk+9d3bAzhtXfZ9i6nU7OKFjye8WN+YxgbD289HJ8z4QXomamSy9zDOy9Y+jME/0HK8kRSnqe1uNKHd5GpwLGH9x5ae3ibnQ9cMFA9ylJbtYAUxYxykiqSlbOcaRANOgiCcIZMH4FpB2+dNmjlJGO1yq+s5LQiZmyPQiZPcD1xfYQLpyzXXL/AbUGMJLDC2uw3FLTNZuf3ihTHHyVlphl6rlV8HKDaiL7Ukgg5QaqadvyL4IH/7cbkN2oVjKHsKWopheZFX5jIPGeJ7smIUvLUVztI0e+1ICkbCR4SIsbS3zkFFwzmZSq+Yzw9uq6XTUVGGmUnKI+EylNHZB2npNSNC7dMiI5/nZ0XxK8otGNTQOlKG6BpYsiGCREV66C0VgF6YzSU+qXxlWZnGMbmqCHM8c6HWyJ4auJQsIOpgcDUHHy7duKMU2qMN6cj1+yhIIlp6QSRBLKDzLWLhyBsyq4z35W3UkhlO8fBHH6wXjbtGoDhvOonvxu5TGZMKzMt4qIlbUXG0DUzj+qii+RgURdPnbAIsANw7ITEfDGAAjeOyzSjsnqcxvSe5UzxxDwtKNfk0T4NSq2qRFfK3L8zc6Ck0CYAJa0ELB2Q5NSapLakpZmDrJSpAUNLGmZ7lHT2dqQdSv58TGWJI7TCN6SynKKCJqgEb6WS/3keAfk+Lyrj6wMjjsB55EIlq5wy6tw3Fekd78ITXnTct5/HaB+BHCDLJ9apCXGEw81HloGRxyTjwjhmrThg7tMK22abB5s/szIYXP0eir4ktyXqccP+BLjlBLcwejO3xB+B28r82TYCE0Q/SZV9Zmz7XRxOY1vuV/tvGBvGN+QWjLitE82fiTbZTUOvRnmndw29xQ1XXVllI3yW2AAV2EEy91oW8DqmOI793XIK03ofbefbbxhThBcDTKsRpnCK0jD9+zQlWekRpZ8rbV5reF2/z9w6g9wwgtLq/oK7DqKP/FstNoYmVtpwmUH616TPUkG2l8qciP1FuulzvOj8IGXhhH8xrV+cf0kFmWSPLcvp2my5oFjvHKwo5qJRGEOeL4NoPsFpOWAJ3t8I8sjEhiRPqR1p/1EAf6a7M9cfbAPIlf6AEpot7FCA0AdbRE3xUlv7yzjp40EAPoXUOWGDnFATlTLdTziujRfFBLzRnvsdX89+nNzc2d+GfZNXDuAHN4Q/zpDu8G8EP5iC75KeG9HHd/pfiX6b3Pbxu2zqRvjnI/yXE7r/cxg48G0YoH4YLPphYGopKY/t3D9rKvDfHwjWFDxLulaF5LkuOy3/YgSd5HPR30G0B5Odk+GBSRR+ygRu6nFcwrOd0FURK1jKzFnkIGofpDAaZrtxkOpEFPWaw2gYIVMkcRv+g5CnGVx3DpexINWZC06sT2sbrQjPTYLfCMonXnjuzNrgRSUzR3X28wBcbWSV//Lss3vW6UdotRiE7i3PPsNFON5gtN8EujuMKbRdclC8fJioQV8+7zTC5lPSRcl+n8L7fwA=",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/01_视觉网络与编码解码/T02_residual_block.png"
+  },
+  {
+    "id": "T03",
+    "category": "01_视觉网络与编码解码",
+    "title": "U-shaped encoder-decoder",
+    "description": "U 形层级结构与跨层跳连；箭头表示 concat / add 的位置应按方法替换。",
+    "slug": "unet_skip",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/01_视觉网络与编码解码/T03_unet_skip.drawio",
+    "preview": "templates/01_视觉网络与编码解码/T03_unet_skip.svg",
+    "spec": "templates/01_视觉网络与编码解码/T03_unet_skip.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P167_F3_p05",
+      "P120_F17_p18",
+      "P092_F3_p04",
+      "P143_F2_p03",
+      "P143_F3_p04",
+      "P167_F2_p04"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Vptc+MmEP41/hiPhF79MX7R3Yd2pjNp53KfOthgmQYLDUJnp7++C0KWZCmJEyfOtfVN5iyWXUD7PLuAYOTNRl6y3/IRcn5QWTCRjbz5CEXu2IH/QUqzlSAsSytxqdY3sa7wkpG3GDm3I2+23a8Zp6C6EYUyagjn+ZgwnEq8LcYZVSA66gChcOzoPpBux5tZbdDK8JZWKn/cFBucU1KPgsobQs1v1R4jld7vjndoZ7v/InG++RW09DuRfaXiesipjMhjJYkdK0hl3Y7bCO7Y33YQbq1WMkKLjqISgiuWd4UrkWV0pToyLKXYddXWgnd7zXFKe4K7FeZ96TdG1Ob4vXTFV8rSje06qiu2uFa2AnAqEbuWyDhOCqFqF84o5y3/WrsRSp5QOIxN0kydaKOY0qQxvMC8pC0ojRVyXoK/UI+1cxTdQ7/TjQIie3MXHjFnqWYap2tdA9RTDJx5a8VbRog2nu42TNG7HK90SzugDsjWIlOWACisy7Yz15ZnggtpOveQD38QEdMDy2E4TzrGbVOVii1V8lFTxNIjPYi0oW3Gj6uipS4KquKuxQPkWY9vWhzwgyMU4MECMQxKUS6HcflCMyrZSkNBmMJLE++FkuVKlVI/3+h3IDhXmnGClBxiBSSZQY+kpqSEfgdRSl0Dhlh3DW+7EWT8ekhbKLl+H5XIi52Jd0FUoiFUnAFU0GtRyf6kbg+RRWZDwYG6kGuPLKEUpvrpqxklcr713CpFmRFKrEuH2N/yOOR13nLpwl/MEx0QALx4oK2a0IsWk8UzoaHlCd4yrp11KxlA30WwabbObu7YyGBw1ewTfySWYdCNsDrrt8GMBrAM49djiZ7BEg1imaAGzwRdMT0NUzTpguoN5c13AnXZw3QqFCRSWAo8DEPqtyD13xfSxSJK/CFI40nkTmb/YkgDvwup739cnJJ+nM7pNU7fH9TognFK+hNpA+p1Ij0fTNdBl5tKRQ/MO5puYfxY6X2m3vvk7wxc4iziYeBiL5z+l4DzJx8VhtTp4QYb0qzA27zeerTw0ruHevclJGwWUpFhvmik0y6ijc4vQuRW+BdV6tF6GpewEemgTDNyq7foUFxyATO2ESWM1wp9uP0Ixf4AYtERqoDDlOMl5VO8ekjNSFvNJOaf7m7P1L1pwLGl71ByxoEZCmB1b4pOXWxqK39pJz1PB/Ap7LxW9LAMrT9iYJlS1V2cnkodSTlE2g96zDpwJm5b5YJlqmi1/JsWtFZqYTB2ulnD98f9TwgvmnnBpGcGD9V4Gm4eXuw0uvbnjCtdL05XNETX5WewNXBOod0JZn7UJ/n5bO0vW8v8ytVLcnU5RFXyKZk1Ck4h3QlmH5NZvStXP5mrZDCvkletIN+LrJPJmxJr32xo9XA+Wf0eWf/fJLW0tCR1G1bedzn7/cDZN5N0cK0qzuToa3YsQQ/74oHB3rI+7jPbzSsZmoz1MhkILjaHd3/zsnCQGZ+Tvtygm4UO5adTl+u6L9mcn7fCK3d/Tu4OT72fsk704qMZNDw+pOyZxC+anE1dTlOqT5CPP/IJrjVuR/oahdxhSUb1nQEYIZXYctpZc7Ebw+/cwqUtcLlnnGHj08pGScwy/YWtFtjwyM3FiakWUH3EbW5xwK9hVvHGE+v2CbUbO5PgiLqXPLEOA5saOkfW9dWN9ic+byArtZGDYnN/pAK6uYVTC+srPo2SuTfkLf4B",
+    "layout_style": "L03",
+    "visual_style": "V01",
+    "preview_png": "templates/01_视觉网络与编码解码/T03_unet_skip.png"
+  },
+  {
+    "id": "T04",
+    "category": "01_视觉网络与编码解码",
+    "title": "Feature pyramid and lateral fusion",
+    "description": "左右层级对齐，适合 FPN、金字塔特征融合和多尺度检测。",
+    "slug": "feature_pyramid",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/01_视觉网络与编码解码/T04_feature_pyramid.drawio",
+    "preview": "templates/01_视觉网络与编码解码/T04_feature_pyramid.svg",
+    "spec": "templates/01_视觉网络与编码解码/T04_feature_pyramid.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P167_F3_p05",
+      "P120_F17_p18",
+      "P092_F3_p04",
+      "P143_F2_p03",
+      "P143_F3_p04",
+      "P167_F2_p04"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zrdb6M4EMD/Gh4bGUwCecwXew+70ko96XafTg444K2DkTFNen/92cYQCDTbZBNaqamqNh6PP5jfeGycseDCgsF+Sy0HPGOeE5ZacGk5nj0C8q+U4jRkEUnjUlyIzYOvKmBgwZUFZhZcbPcbQrFUTVgutJqDsmwUERRztM1HKRZSdDSA40xGQI3hqH7gwmhLrRRtcakSYCQKrnrOXmQdieQnlKq/FAnMkZr0ptBd6v6lgm73N3Drfrf7LxxlyTcWYaUe7UsVGzqgbBS9lBIfGEHMq37sg+CR/GcmZVdqBYlw3lIUjFFBsrYwZGmKQ9GSIc7Zrq22YbQ9aoZi3BE8hoh2pf+QSCTHz6Uq/sIkTszQXlWxRZWyEeQJitiuIdKG44yJyoQLTGnDvqad5QSvKNRz4zgVb2wjiFBOpP0E0QI3UOpWDjjXHXLxUhlL4L2cxzwR0tHh0pYfESWx8kSKN6pGuqYg0rgzI5a9R6rxfJcQgR8zFKqedtKVpGzDUmEcwplUZTOYbcoLRhnXg0PHlb9yxczrVSCn86qh7KbrYrbFgr+oBzXuEtci1dB04/pl0biyMy6Lu4ZfONAQSBo+4Y6PqMgPBkw/pLxY93P6glPMSajiRUQEWut4kAtehAbZg3qGCGVCeSCLCirXToUPR7EuCaaegRVc1ciGmqh82oRFo/ORNijZbpeKB30whQNS8fqogB4qzrlUYtDhMUfh05qluGO2fEe2FKW4bbpcIF4ZC46lgLMijXBkqmUME4hIwqacMZLKFbd6lvZRFgBah1KU5WStR1ISuSvQhsGDWTAPlnowzp5wo2axWLpLVROhPKkHbfIbd/lNfM/zZ7fkVwEz/GwXdADKXaNnVdnHwe63AO0OwJ5gdyd58UqcgqFQpv+GzonVCBZOB2SbUN+G0+B7hGLlrpbBpA/FBHqr6erEbqTkgfQsqowy40RG2zaqQ7fVAcMeaZmcXHkg9N8KLQYXUBu3oU26zGyvh9nEPx8ZPIkM3pFdhsye3pCZe5KZe2d2GbP6BeIGzLJuaPxaH90tZ14e4BW/71cOk6uVF7h9/PypZ08XH4XfJZvbuH1MuWGYzLph8jV8Vw6ZnwffLUNm1g2Zr/G7cvj8PPxuGT4TjKIOwW8FFeQh1xdDaoRK5Wo7XwBWfv/O58PJ/IOgu4ScDcARO3grdrj7ht6hpG5BqlskxkXCYpYiujpIj17lDjpfGcuM8BcW4sXYFxWCtdniNJqpq0dZXFMWPpWigNDD2+MxZNdzfLeHk3fEUlp/TtEaU3UIi/VMm2+M+kcNtyfih5SB0diUfurugJ6KJNSoVMWfughqN1BGOu0E0qas4CGuz4nG0vK9OMailsJzHIZjigR5bo/8dvjdt/s7/IHgw1747oDwu0fezw3f4DbwG7R/1LQb8MdXX/nlO8hA8LsH5jv8geD3rvxsyLDfPW3f4Q8E3+2FP2TYH3fgF9nnxt/e9cHJXd/+o10/68c/5Nqf3PG/H/7+0D/kvu/dQ/87hf7qirkNv7oW+QP8uqk0J2q20l+f5o2evyvB4YrBn5gcp0NuBnQrSSMX5rfNJJlOM/mhnM/BJ+sHe5ub+nc3fS837Y1RV3DTc6LU9I7/vfD3nlA+TpRypx8nSlEc4zTquOojo0pjZqncSb5DPLKqREGd0oJCoTMBwYay3Uj+X5qUFNUCFXtCCdK2LdsIjkiqLp0rQf5EMo1S+Zb6aiTH6oJdp25aKuVQulV+YVpaMw3N9sF0fOS3Q6alTcbmrNrKS3N6br1hD9omOVk8JI2WoA+pt5WwyvM9KOnkYbj6Hw==",
+    "layout_style": "L03",
+    "visual_style": "V01",
+    "preview_png": "templates/01_视觉网络与编码解码/T04_feature_pyramid.png"
+  },
+  {
+    "id": "T05",
+    "category": "02_Transformer与注意力",
+    "title": "Transformer encoder-decoder overview",
+    "description": "上下双通路展示源端编码、目标端自回归与跨注意力。",
+    "slug": "transformer_encoder_decoder",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/02_Transformer与注意力/T05_transformer_encoder_decoder.drawio",
+    "preview": "templates/02_Transformer与注意力/T05_transformer_encoder_decoder.svg",
+    "spec": "templates/02_Transformer与注意力/T05_transformer_encoder_decoder.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P132_F1_p04",
+      "P001_F2_p03",
+      "P037_F2_p06",
+      "P037_F3_p07",
+      "P057_F1_p03",
+      "P058_F2_p04"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zptj6M2EIB/DR834i1APuYFrlLvqkp7aq+fKgcccNdgajubbH99x8YkENhudrVldbqcVhc89thmnvHgwVje2vKSY0kt137EXBBWWd7GckNnZsP/IMVVyjJS5Y14L3d3karwEsuLLXtpeevyuCMUQ9OCCambuaiuZxlBOUelmFVYguhiANcNZrYaw1X9eGvTGlpVqMRNk68cVWLHeIl5OxHM7zKsf0HCoMNHgg9N7yQzWvb81Gt5/MRRXXwBBXWH2bFp4niu3ShlT40kso0g520/zllwT/4xU3LaZnuSYdFrKBmjktR9YcqqCqeyJ0Ocs0O/2Y7R/qg1yvFAcJ8iOpT+TjJZXN6XqvgJk7wwQ4dtRYnaxkYgCpSxQ0ekDccZk60J15jSjn2NnuUmzzQ4zY3jSl6pI4lULqS9BNE97qDUWq79OmcQ8qk1lcRHmMWqkODk3saBS0RJrryQ4p2qAUVJwLRLIy5Jlinl1aEgEt/XKFU9HcCRQLZjlTTu4AZt2QzmmPKaUcb14J7rwx+sltVpBcB0njWT03VczEos+ZNyGOMs+UmkFE03ftQUjSO786Z46HiF6xn7Fx2P8OcXTODCYBlHJPbbcUqfcIU5SRWVjEi01bFASL5P5Z6r6zt1DxmqpfI/lu0prByQVJlWyXVJMnUPbK9QIlBEami424Jls9cj7VBy/CGV0IvshTchlXCMij1CxX0tldwe8LgHK6aaAf57DwsFD+wnDqSkqMJ9GwqJeGs1bw4CzvZVhjNTDaFMIgKoTblmpJKYx49gKGUKW7ehFNWCbPVISgKPBtqxfLJMVslGD8bZA+7UrNcbf6NqMiSK06BdkPMhyCAKw2j5v4K0eyCduT0gGYQjIJ3wMua9SNIZkFzuJeM451gI8qiIAqFcPU1vaN8frbcYoh1fpK9nW/0p2cPzCxUqcSUGLPuQxp5GHcQXNGI/seNojEbgRV6w+o9HlZInqCRUGWbJCYTiPq3g1G2793BmWgaTa3aK0bXccvsN4NogacAFI9zGlmQQvZoaLrcDanG5xZneEauuVuqGmCBSbWzfF2C8SYJxgGG8iL9rgP50BKt0SLBqN40QF1NYlwFVm4YtSIJcXd1jurtDUlbN5qURwnWS/PK+jOM4TPwxxtEidBbr75mxH03GWOZywPhr+6T8gWPrWx6K08VWORZc7wuyk1gnBucw+wNG1Tehmy6qQto9QLfBL0TVL0g8aLTNUzPlTAgTZX/AmPoWwuF0q7PmbLg6P0OOgPiJoGA7WaLjLbZeic+x7Yn44eFbgQEl9ealfXPFuCxYzipE47P0Ikk8t/nMWG2Ef2Epn4x9EWSrfba4ypbqZScUt5RBTNCihNBzXnoJ2Q/dyB/hFF6wBOOvKNpiuoJYk+uZdnNR/U8NdyTym+7ANqU/oGTP5noqAOibLtpt8Vzb2EsZ6VknMCLRpHGXiZ7J1fuZxLUewzFFUuX83YGuxz98lXDDPw3+06bmAn+ThkyE373h/6jV36Yiffxy2uXv3fh/FP9n1r/ZME/E3x/w/9lyQc3+7eYHEz0G2tdO7+0GWhXMibpa+n296PT8qxJ08gbPHLWfjwl9v5V0DmVfVPOjoRpcNPM5++bpxq5z1/ktXH2Qm57y+L6btsnfNOGK4hyrs+DB6QhVLZaW+jyCHxDPrPZbAH06hdLmnbu9o+wwg9+NOV1SGmh/JJQgPedGR3JEqvatvRKIB1JrGyloOp3F6ixGf50Bv5qXeOPZc/es2YnsxfzCIaY8ew7mgTXIMk+fZHTTTG9kaXfJQfH8XUiz0M9f17TC9kOecyP9dZAX/ws=",
+    "layout_style": "L08",
+    "visual_style": "V01",
+    "preview_png": "templates/02_Transformer与注意力/T05_transformer_encoder_decoder.png"
+  },
+  {
+    "id": "T06",
+    "category": "02_Transformer与注意力",
+    "title": "Q-K-V attention mechanism",
+    "description": "三路投影和两阶段矩阵计算分开展示；这里的 A 是注意力权重，不是统计热图。",
+    "slug": "qkv_attention",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/02_Transformer与注意力/T06_qkv_attention.drawio",
+    "preview": "templates/02_Transformer与注意力/T06_qkv_attention.svg",
+    "spec": "templates/02_Transformer与注意力/T06_qkv_attention.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P093_F4_p05",
+      "P121_F2_p03",
+      "P093_F2_p02",
+      "P132_F1_p04",
+      "P001_F2_p03",
+      "P037_F2_p06"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zpdb6M4FIZ/DZeN+IZcJmkyu+qudqtWM52rlRsc4onB1Jgm3V+/x8YkEDOzSdv0Q8qomuDDObY5z2uDwZY3sbzZJqOWaz9iXhKWW96l5UbOwIb/wYrzOUtIntbmSiwuYnnCm1ne1LJHljfJNgtCMbguWSmUm4uKYpAQlHKUlYMcCzDtNeC64cCWbbiyHm+ivcErRxmuXa4vri6+ggUJgXMhI107w/MlykmZ1VWSpHa9tcNtVdnmC0fF8k+WYHlZyaZ2cTzXroOSp9oS29qQ8qYeZ2e4If/qfjiNW0USXHYcBWNUkKJrnLM8x3PRsSHO2brrtmC022qBUmwYbuaImtZvJBHL/euSJ37DJF3qpqPmRIYaZ20olyhh65ZJJY4zJpoUTjClrfzqOMud/cRh2zcOqA6MEURI3ShpIFrhFkoV5doHKKAUT01+BN5A0+OlADl7lw4cIkpSqTeKF/IMCFAQyOdImzOSJDJ4vF4SgW8KNJc1rUE9YFuwXGgNuGFT1o05ujxhlHHVuOf68AfjYrzVOnTnp7lx2mrFLMOCP8nr1ApJtyYZqKvx47qo1esGdXHdkoLr6aQvWzLwgz0QcKBZ9HMpq/t+NF9wjjmZy1khIQLdq1FfCl7NRcXl8YW8hgQVQnJiSUVhuIAlT1RIqkqCyWtgFZdnIBBRBVUsWTI4HmmLkuObVCIvtofeG1KJ+qjYPVTcY6nk/2wMIL/nRSVUTlc4l8m9s9yQyrzcQ3rDVB6NVV9d+1b/XhpJ5qzKE5zoBPeNhVb+Ya6nrQRP/Zk9jcEOMoBOtM6EXuyF418MFGmfoYxQmboRJyCELs9wW20z3TkDZYPO1Xek+JRkw6BD1vN60EY9ZMP4aLIPBtnrCqseFpz9gHtJPfVdvy666TSa+X3o4mHkDCefGN32lqjZOfHp2K0MdlfYIHd1Jvc8cqccdY8Gua/qcI/d1zO757HzTzjqSnPGvLKC6e320bF84HBnjOHJY2jeE0u2EBmSd0MGeYCfFX4qXxXzbDZzLqM+zKNpPPE/M+bQ72J2A9vA7NrBq2BGBuZvqkKcNNbSpDs6D9rDaQ6dt5twmUHzr0rUT7DtGff8eHoIOMfxDiAXvAY5bBvgDEpyedcsjxmH1VzKckSnO+u4y3Hn8wdjhTb+wEI86fyiClaKHbY4T0byNQoU7ymbr2rTjNDGwYTsR27s93CK9lhC9scU3WM6RvNVqnranczhn2xuQ8SdqsDWpe9QsgeB6goQulNFuynuztb5kkn6tQggp7A0nuNmyOg1n0A8xaIxPhwjF44pEuQR7ysNUonaUQUjuShbNf8tDTu9uVE02FsRhcOB+ZLnf8NcxwyDg7o/Oz1uL+wwiTpniX4kia5eKNFjZif3jP4joX/81LNTcJLZyTtL9J0k+tAn0fI9JBqEwWBv5dSjtUPCYv8EEvXPEn0nia4+sEQPmkXfSqKBIdHRWaNvo9GyT6PoPTQamwuKHrEdENYn7ZdrNDQ0ar6KOmv0JBp9/DAajWx7b0Lse6w8IOw0Go3Ot/p3kijqkyh7oUSPWCtTnGK5G2MP/w2j0kO+OF8wvkY8sZrvKCBQzFHzLWxB2XoAv5eoXGIdgaoNoQSpPtcxgiOSy1eg248xK1Ko9EheckNCieVnNrUpCn4VqvKZuz/auz2c2B4Ge1p4y90fYaCn/872j+azWPsdrNczqtvkoLjbjlWP8d2mtsbYbJrbOamdeN70Pw==",
+    "layout_style": "L06",
+    "visual_style": "V01",
+    "preview_png": "templates/02_Transformer与注意力/T06_qkv_attention.png"
+  },
+  {
+    "id": "T07",
+    "category": "02_Transformer与注意力",
+    "title": "Vision Transformer token pipeline",
+    "description": "图像到 patch、token 序列、Transformer 和任务头，适合 ViT 类方法。",
+    "slug": "vit_patch_tokens",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/02_Transformer与注意力/T07_vit_patch_tokens.drawio",
+    "preview": "templates/02_Transformer与注意力/T07_vit_patch_tokens.svg",
+    "spec": "templates/02_Transformer与注意力/T07_vit_patch_tokens.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P132_F1_p04",
+      "P001_F2_p03",
+      "P037_F2_p06",
+      "P037_F3_p07",
+      "P057_F1_p03",
+      "P058_F2_p04"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zltb6M4EIB/TT5uZF4C5GOSwu5Je6eVurrd/XRysAO+GoyM06T3629sDIHAdtvbLlJ1raoWj2f8Ms/YDPbC2y285FzwhYvuqayZKBfezcINnSWCvyClZSoIK7NGfFSHd5Gu8JKFFy/QZuHtivOBcQqquaiVUXNxVS0Jw5nERb0sqQLRVQeuGyyR7sPV7Xg7qw1aJS5oo/InM+ou+ixxWR+ELKiEkhJ3VEsrVlHOSto0zkhj9BmFXaPF+b3EVf67IFRPkJwbFcdzUWNEHhpJhKwgk207zkVwy/6xI3JatSMjtB4oKiG4YtVQmIqypKkayLCU4jRUOwg+7LXCGR0JblPMx9IvjKj8el664gNlWW67DtuKArfKVlDnmIhTT2QcJ4VQrQt3lPOef63dwk2+o9CNTdJSPdFGMcUtx3vMj7SH0li56FmxUKuH1lOKnmEQ21xBiHs3DjxizjIdg5wedA0EpWLg2Y0VF4wQbbw95UzR2wqnuqUTxBHIDqJUNhrcoC3bzhxb3gkupOncc334hbWy7eIfhvNdLzn9uKWioEo+6HixsZJ1Im1om/Gjpmjj2F01xVMvKFzPuj/vBYS/ukICD5bKNKH6uJ+G9J6WVLJU7xSEKbw3O0Gt5DFVR6mf3+k5EFwpHX6CHDksHJCUxJhkpqSEnoM4aqQYDLHuGmabC7J8PtIeJccfUwm9CK29GamEU1TQBBX3uVTKv9AIyG+F3jzcgGtX7MGjQaafPpjhueiL/b8b+VWKY0kosT6dCv+ey2HL5z2fxn6C4gjkQB6WZK8m8CIv2D6yNrQ8wQXj2lsbyYD9EGHQNdvudc7SyGBwzYsp+pUwg9UApteC69MMJ2AG0bNhOiOYn7BKc3Z4GPOsLMfKTBG09EJ6UaLxTRJMEw3jdfyKiXYLcgak7jRSvfcVe0pMZjVi+4dle2P62uopi5op8wJ8QcRJkjg34RTiTRzt/N0rRuxH8yH2xonLIEfZc5He1Y9Sfsl1G8dh4k9Bjdahs37NUIP1fFD9EdTdx9suG60g2afE9ILJ24v0afjWaC58dJwVjSDp1LNN3YWETDMTJebxRbodYrzofBSissK/qVIP1r34CFnsAC0tyUZ/7EHR7AGNKGG8VRgz9kM38icwhVcowflbjveUb3F6l5mRDjd2+NHdnZn6ahpAtvQNSmi5MkMBQF9NEbXFS23jL+2kx2MAfAppe0qv8lGFZUbVIK95arRIyrFi98N+n45+nEO9oZ8HvTOF3p0R/TjXekM/D3p3Cr03I/pxDvaGfh703hR6f0b040wt5bhuTpWaw8EffEL9rwLDhkIXGGgYGKthYOhaguu8m/uLvht+doMwpuBX3LeqBCtV3Wv5kxZcslAvQIMstDvT751OX5mE0Y9M4KEZxyVkuwk9KYo5zWhJRpF8K7jW2Cz0HYE8YUm6TxAYIZU4bSIaHbg4LfW3pIWlLfDxzDjDxqeNjZKYlebEwQrqO2bPj3IDF9VUH9maKwr4b+Kq/o8nsP0TVydC69VV4M55AhusgvGnRncv0f/W8CbQ9slB8XI50oC+XDG1wvYy66Jkbsi8+F8=",
+    "layout_style": "L01",
+    "visual_style": "V01",
+    "preview_png": "templates/02_Transformer与注意力/T07_vit_patch_tokens.png"
+  },
+  {
+    "id": "T08",
+    "category": "02_Transformer与注意力",
+    "title": "State-space block with gating",
+    "description": "局部卷积、状态更新和乘性门控的机制示意，需按具体 SSM 实现调整。",
+    "slug": "state_space",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/02_Transformer与注意力/T08_state_space.drawio",
+    "preview": "templates/02_Transformer与注意力/T08_state_space.svg",
+    "spec": "templates/02_Transformer与注意力/T08_state_space.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P155_F3_p04",
+      "P012_F1_p04",
+      "P071_F1_p01",
+      "P017_F2_p03",
+      "P029_F1_p03",
+      "P132_F1_p04"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Vptc+MmEP41+hgPepc/+vXameu0M+lMr58yWMIyFyxUhGKnv74LQpZkKRenF9uX1hlPJBYW0D4PCwtY7sxyl/stsxz0RERBeWa5c8sJ7RGC/yAlWcwTmqWVuJTru0hluEvLXVhoYrmz7X5NGYGiG15IXczBeT5KKE4F3hajjEgQHTXgOMEIqTYcVY87M6WhVIa3pCpyL7Ekd0WOY1X7ivH4EZ47KjfwSLFUvdIV06RS+B1Fhwq3+08C55tfeELUxyX7qojtOqhSSp4rSYSMIBV1PXYjuKd/m97YdbGSJqToFJScM0nzrjDmWUZi2ZFhIfiuW2zNWbfVHKekJ7iPMetL/6AJ2OLou1TGT4SmG9N0WGdscV3YCIoNTviuJdKGE5zL2oQzwljLvkbPcpYvFDj0TZBMnqgjqVTs0QTBrCQtKLWWg07mQSGfaytJsocOTDcSqO3ObXjFjKaKe4ysVQ6QUVKw6sSItzRJlPJ0t6GS3OvG3PkOOASyNc+kYYIT1GnTmG3SM8640I27jgc/GCPTA++hOy9ayG5zlvAtkeJZccXwJD2IlKKpxouqpOGw41fJXYsQjmtMv2mRwfOP4IAXg8gwOkW5GgboE8mIoLHyEAmVeKU9QCFFGctSqPc79Q0JzqWiHk9KBoMGJFmiVVKdklx9Ay+FygFFrJqGr93wZPR2SFso2V4fldCN0Ni9ICrhECpoABXnrahkD/v+iOGPJFMWI3+V4LRJz36Cl1lCEmO7IZq3TAsunbVst/CWaBGBHBCGdlo5gRu5wfQbY0DJl3hLmbLKRFDAuAtVcKi29mf2SMugc9XEE50TtMDvgObWfr6NWjgAWhC9GbRc8K893H7O8lKNEZUJ84WaIN8XucV8GQwjFy7Giw+MnBNdDjqYzZ960H3msfZYKpOz8obd6dj5Thc754zYFcW2B909YWqwPVWzFqwv1LNaYQRMTSYrmJOCVL0VD2p4ajU00e/Fg+VE8g6+e6x7AmZCU52zf5Dvy4DFIlx6QwyIxqE9nn1gBoTB6ww4rFe+kwGpBvh4BWNWjmglcBZv3hW35XJpz8Mh3CaLaOZ9ZNyOR67nDixz3mnkbkvWg23fAwq0IPh6ae3+vwTJRuHR3Oj0R1cwBNJxvPY6SLyUPZB+LeWZVzX/2fUoQIc60PnoXFMjQT3g+oMLQrU61OUCIrOUZ5gtGum0i2NT5jPnuRF+JVI+G/viEqK+DrYkSyZqYwSSVXCvRUvK6gJ9kL3QibwBnMIjLMH6U4ZXhE1x/JjqnnYdAPyp5vZUftEVIJP6E1Jo5OuuAEJfdBLVySa3spcy0rdJADaFMDcm9aAxXkxikRJZC+v44FTGCMKwXsO02zkdffuG/pXQbwLBLgHqKOM7CKBVwaC4rZVzmsmiVfNvStDauBibvdhmvvC8UX/r7lU1Z0ANXqr+NKw8fNhpRHVuRL0SUZuwt0tUE1JdyFG5N/x/MEdVB1Qf1lF5wfgMjsq7EfVKRD3s8XR5agLIS9PURp4zOtreOIWnA3quj85AVP9G1CsRtdmK+iGYGkX+CZ7xBLXz8DS48fRKPD1svXVpajZ7Lu5QbXSKYzxFz3fPEKIwkhJ1sn18ysCZKjGx1D0PscMisepLDdBNIrDZGUNrxncjeM5xsSFGA5d7yijW1q10pMA0q/asK0HxSHMNpmKXOoUoiDrI0NdM4KmJVfzLk/T2ybkdobF/xNxLnqQHvnEEnaP0ekuzvQfmDkDbRg6SzQWXCujmmlAtrC8jNYX0DSd38Q8=",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/02_Transformer与注意力/T08_state_space.png"
+  },
+  {
+    "id": "T09",
+    "category": "03_图神经网络与关系推理",
+    "title": "Neighborhood message passing",
+    "description": "节点—边结构突出邻居消息汇聚和目标节点更新。",
+    "slug": "message_passing",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/03_图神经网络与关系推理/T09_message_passing.drawio",
+    "preview": "templates/03_图神经网络与关系推理/T09_message_passing.svg",
+    "spec": "templates/03_图神经网络与关系推理/T09_message_passing.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P158_F1_p04",
+      "P060_F2_p03",
+      "P099_F1_p04",
+      "P100_F1_p04",
+      "P174_F2_p03",
+      "P072_F1_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zlbc6M2FMc/jR/XA4hbHn1j+7DZ6Uy60+1TRgYFqxGIEcJ2+ul7JATmlqydJml2NplMgo5ucH5/iXPQDK1mKDpmbOZYeyJKyvMZWs+cwJ5b8BesJI95QvO0Nlfy7lOoKlA0Q5uZtZihVXa8o4xA0x0vpW7m4KKYJxSnAmflPCcSTIMJHMefW2oOR42DVqY1tMpxRuomXwlNd1sudpwnUJGRssSpmqjAZaluSY9Kk7r1H9ZVO1p2/CxwsbvmCVFPlhzrJjZyrLpT8lBbQssYUtGMY58MN/Qfcyt206yiCSl7DSXnTNKib4x5npNY9mxYCH7oN7vjrD9roR5waLiJMRtb/6SJ3A2fS1X8ptxmpg6aigw3jY2h3OGEHzom7TjBuWxcuCKMdfxr+s2c6JEG7b0Jkssz+0gqlXS0OjCrSAel7uVY54mglA+NiyQ5wuzLnQRRo7UNl5jRVKmOkTtVAzKUFFy6MOaMJonqvDzsqCQ3BY7VSAcQENjueC6NDBy/KZvJbFNeccaFnhw5LvzC6li2iofbedQ9dlewhGdEigclFCOStDWpjmYYN6yLRsCOVxcPHTU4yPh911GC6w1YwIXBMY2mrLbTdD6TnAgaq70hoRJv9dovpahiWQl1/Uk9Q4ILqXjxpGKwYsCSJ7pLqkuSq2fglVA10BEzDVfueDK/HGmHku2OqQQotK7QG1IJpqhYE1ScS6mk1ojHFx5r76Vqy1MbaG/FDFxZHmjGcE767iwlFo0DkQcGwas8IYmpht1MYgrUTbngNJdEbPbgM+UVS7dhDBcl3eqZlAXeCqwDIVpEy2itJxP8nnRqVqu1u1Y1CS537aRdpt6YqR8GQbh4Taah1WNqu2OoXsOvv9IuhZrf7kdU9yN00AdeM49tVB2aA8dvNpsgcqccH14F9tXqiV1M2SOcUaZ8sBAUdNYH47fDNq8je65tcHN10BCeiyi1nsHICfqQ2kXWgeQ7Y0aN7QJElT1i1JheApIbWZtwCpKPQuQvf2ZIXp/RxOboT2yN/jB4OAORM0bkfCC6HBGaCCteihEaM0IfjM6JMaw+pIn30Qsxwmk6grRIU0FSLEknwoBAzmcq/tpCGOen6urm23Ubul9vFl9HZPuRxWV0oyiy18EU3cUmXLnv5U32nGDDD73+CkTjF1mbhfbwhpcvwSIZ4f1WJIYt5MwqMyW4juaHgHcQq3ibmRPCmEt40qsXJfyTrN/nELYtdAZiayKgvBgxGScJ2a09EVFCMtYks1xA7pXyHLPNyTrIA05tvnBeGOPfRMoH42NcQV7X40vyZKG+e0Bxy3h8X5siyk6pxxC0GzihO8EqGPAEAkuGt4QtcXyf6jvt7xXwo6Y7UvldD2CZ0l9QsuaevhWg9F0XraZ4qq39pZz0tBDAp5DIxmQYKUJSlRLZWPeXaEYQhiXdk6HcwJe420tnYmVn5N+VoRcfzwcRstdaOp9lftgNBf6oG1zU93MSZftg5+l0HFJnt1OZz4dOX0WnzjvWqWe9I52O84rsFv3iOrWe0qn9ojpF70anrusP91PnDJ2Ou72OTse51a+t0bfbS/dTEjV51H8Q6SVBn/sB/3+C3+bLffwmz3ob/IykJB/ndTecqRYLldJxccAiadNz/Q0fx1IdyUIt44c5/F+bb/CqB66OlFGs77nuIwWmuT51M4bynhbaRYrZUhmISh/1WSf817jKZ57odE9w7NC68gZ6eMsTHd/zZ8NkzW4POLvZGprY1rvkoHg6Za03+dNZdWNsjsNPjfQZO9r8Cw==",
+    "layout_style": "L05",
+    "visual_style": "V05",
+    "preview_png": "templates/03_图神经网络与关系推理/T09_message_passing.png"
+  },
+  {
+    "id": "T10",
+    "category": "03_图神经网络与关系推理",
+    "title": "Graph attention and multi-head aggregation",
+    "description": "权重标在真实图边上；右侧展示多头聚合，不使用统计热图。",
+    "slug": "graph_attention",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/03_图神经网络与关系推理/T10_graph_attention.drawio",
+    "preview": "templates/03_图神经网络与关系推理/T10_graph_attention.svg",
+    "spec": "templates/03_图神经网络与关系推理/T10_graph_attention.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P158_F1_p04",
+      "P060_F2_p03",
+      "P099_F1_p04",
+      "P100_F1_p04",
+      "P174_F2_p03",
+      "P072_F1_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zpbc+I2FMc/DY/L2JJvPAKB3Ye205l0ptunHcUWtjbC8sgykH76HtkyGOQkkIWE7ZLJgHV8jm6/v3UxGuDpAM83Sz5AzorKkol8gO8GKHSHDnyCleaxSFieNuZKLT5F+gaeD/Bs4IwHeLrcLBin4JqJUtVuiBTFMGEklWRZDnOqwHRQAELB0NFlIJ0Pnhpv8MrJkjYunyUpMrAQpWiudCRc5wl8Liuu2KeMEp0gaSppShoHXQ5Lmvi/3F3+y02d2+8iobqtyaZxcTFymqDkqbFEjjGkss3H3Rnu2b+mcm7rVrGElnuOSgioXrFvjEWe01jt2YiUYr3vthB8v9SCpNQy3MeE29a/WaKyw3bpG18oSzNTdIhwc2NJWmfjWWYkEeuOqe44KYRqu3BKOe/0r4kboPkzDtu6SeB3ZIxiSoup1gvhFe2grKOQ81ZZlOqp7TRFN1CfSaZA+PjOhUvCWaqVyelC3wGpKgadPDbmJUsSHTxZZ0zR+4LEOqc11ARsC5ErIwwUtGlTmGvSU8GFrAvHyIN/eIIm26cCqvNsh7ldCVOxpEo+6dYZ2aRbkw402XhRkzSSRn6TXHf0gbAhkXW04fkHdODCAOqHVVYP/bw+05xKFuvxI2GKPNTjQ6lkFatK6utPug0JKZTGJpKKwzPUYqRJWqeU0G0QldR3IJDooqG1mUiGpyPtUHI9m0qII2eE35FK2EfF6aGCTqWSf1tZQFZWh0EMjFHPabrTjzC6805HzWazcK47EHCKR9q5E41CdzR9QfDaPidLxnUXjCUDoPtcgm227VjmDmsbVK6Zg6JLEsKBs4cIezajILAJtbYTCFWuhag1nYORN3dmUR+jAEc4mPzEjFxvn9F2Iu4yQj2M0OmMkM0I3RidzsiLLscI24zwjdERs9Ho4Dlyesa68zDK7LFu3Fm7mfWaPfpJUeUJTQya2yxlsgld/4Cc/XS5Yc9CIohOR2cPgT3o7EHxhu4odDjoWQSeC509Mvag+3JD9zZ0ft+u6kzoYqIsdlOR12azCSbQRP1mAAVcb24eYI8UpPrqD5Ho/ZWoVFGp88L9/06GruO914NJHQst4UVGvq16lv+wEW5fJAgJ+95U5ITPdtbJPs+dz29CFMb4nSr1ZPqZVLCn3mNM82Ss30JB8oGL+LExzRlvHWzYXogir4dXeMAUKEw4eaB8QuLHtK5pJ5t5/aeL2zD1tc7AMal/IOUM/boqQOprnXTa5O5u01+6k14WA/SpqGRMt2vG9j0dkSlVrXV1im4k5USxFT2UHPQl6UYVguWq7OT8pzbshIcid3iwDvO2ls5LslfDcBhZYXDR1GcnzG3DjtOqvXAzWu3ZBt20ehGtoivWqu9ekVbtlarRas928FfSqvOSVt2zahVfjVY9PzocV3HwulbtsMto1V6a/9oafb/xdNUn0eykNeO5NOqHuimvie2IMIS9C2jUu2n0qjSKflCjp+xR/Bv7q2KPf+rxyfdHFxifgptGP0ijWe/+2by0em+VjgLfWunZ0+ERYXh0CZWGN5V+lEp7d84/rtJT5tHoRv+j6PfuRa9mjOqbEj9qjOI0pfrc1YFS7wXXHuOBPpQo10Qmg/bHB6gllSQ2vyQtuFgP4fuOlBk1EaTaMM5I3bdNjJKE5fpVfmsoH1lRk9TSmmgD1T9c1Gci4btWVfnGc17dc11u5Iz8A9m+5zmvwB816b2DXu1ByO5vCbgHbZccJHenMRvQuzOtrbE9SLtzqk/n4tl/",
+    "layout_style": "L05",
+    "visual_style": "V05",
+    "preview_png": "templates/03_图神经网络与关系推理/T10_graph_attention.png"
+  },
+  {
+    "id": "T11",
+    "category": "03_图神经网络与关系推理",
+    "title": "Heterogeneous graph relations",
+    "description": "用节点颜色和关系分支区分异构实体，适合推荐与知识图谱。",
+    "slug": "heterogeneous_graph",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/03_图神经网络与关系推理/T11_heterogeneous_graph.drawio",
+    "preview": "templates/03_图神经网络与关系推理/T11_heterogeneous_graph.svg",
+    "spec": "templates/03_图神经网络与关系推理/T11_heterogeneous_graph.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P158_F1_p04",
+      "P060_F2_p03",
+      "P099_F1_p04",
+      "P100_F1_p04",
+      "P174_F2_p03",
+      "P072_F1_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7VlRj5s4EP41PG5kMAHymGShrdSTTrd3uvbp5AWHuOtgZEyTvV9/Y2MCBLaXrXazbZVVtMHjGdvM983YEzt47eDksOOOh75SWTFROPjW8UJ3huA/SGmRiowVeSOu1eYm0h04cXDsoKWD17vDhnEKqltRKaPmkbKcZYzkkuyqWUEViE4m8LxghvQcnh4Hr602aBVkRxuV91RRKXJaUFFX0AMK5Ra+JeVEwUBVMyzLGvU/Xfc43O7wTiv/JjKqXy07NCou9lBjlD02kghZQS7bcdxOcMf+tWtxW7WaZbQaKCohuGLlUJiKoqCpGsiIlGI/VNsIPpy1JDkdCe5SwsfSv1mmtqfvpTveU5Zv7dRh27EjrbIVVFuSiX1PZBwnhVCtC9eU855/rZ3jJU8oHNcmaaHOtFFMae4YehBe0x6UxspDZ7KgUo+tjxQ9wPSrrQJa41sXHglnueYdpxvdA0RUDHy6tOIdyzJtvNpvmaJ3JUn1SHuYCGQbUSjLAy9o23Yy17bXggtpJseeDx+Ij9WR87CcJ/0zYCwVO6rko2aKZUl+FGlDO4wfNU3LYG/eNPc9OnjYOn7bo4I/PwEDHiwe09hU9f00PO8ADMlSnR0ypsi9if5KyTpVtdTPN/odMlIqTTyR1Zxq5EiRGZPctJTQ7yBqqXvAkOip4W23Ips9H9IeSq4/RiXEEVrgC6ISTqGCJlDxnotK8U9dUTnC5C8jRAVkvJH3YADIT08RvOdUSOS857XYT1AcgRywFQ+01xPgCAerb7BfyxOyY1z7YykZoDsEKTgO2+Yxd2ZksLhmu4leEy7XnQ+jqE3wQ8DGeIXes/ECl+9GeH0wwpfFK0kS9zacwmsZR2t//Qvh5QeTAfYieMHO4k7G102D5HHrGQEnRV1kNLPoPDfY4tskmA62MF7EPzF4Pj4j2MIJ8ILoe8DzJoPtCt7LgDcZeS8EHsnzEXZ/WLxuyJ7ow0XA9X5/D5tdkOsnsJE0fwVI4zhM/ClIo0XoLn7mZBqGQ0ix/3rxWErw/ymmH1nxoN8D+lj6CsH46x5b0MWgo2gEGyugFIOz+rjk0of6tigSEs7wuSgIjzvpaghop/NRiNIKv1ClHq2jSQ31wQBkWmRLXUBD856L9KERJYy3CmO0/dCL/AnAwhNQAYYVJ/eUr0j6kJuVDk9V8KenOzD1yQyAbOsztNBsbpYCUH0yTdQ2u97GX9pJ32YD+BQKopS2wdOd9BWROVWnJ5Rz2dPseV+Hs5/PhPFp6EqAyxCgKx1enADGFBxK+lalgBiveiP/rgVd/sF4PkODBDRH7mz8K8//mnm+PzKDh2Y9HSuPL3YeUccnv4pBMifyytc356t3wYSFrwnrjQjQ1c5DAtiT/aXzVbBAZySeM8xw+Br5yr/y9O146v3QPPUXix+Hp/MrT9+Ip8dfRIY0bavqy+ynnOa0GFfxd4JrjaWj7zHlnsjMaS/t2krRlPZow8V+Bt+3pNpSa0HqA+OMmDU3NkoSVugauhVUD6w0PtKgrbSA6sslc40K3wav6jvvivp3Q26EFvMTQlzyriiYB86ohj/enfaLeDwR2n3koNld4DaB3l2Dt8L2qr1TMvf3OP4P",
+    "layout_style": "L05",
+    "visual_style": "V05",
+    "preview_png": "templates/03_图神经网络与关系推理/T11_heterogeneous_graph.png"
+  },
+  {
+    "id": "T12",
+    "category": "03_图神经网络与关系推理",
+    "title": "Hierarchical graph pooling",
+    "description": "真实节点图元加聚合模块，展示图到粗粒度图再到图级表示。",
+    "slug": "hierarchical_graph",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/03_图神经网络与关系推理/T12_hierarchical_graph.drawio",
+    "preview": "templates/03_图神经网络与关系推理/T12_hierarchical_graph.svg",
+    "spec": "templates/03_图神经网络与关系推理/T12_hierarchical_graph.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P158_F1_p04",
+      "P169_F2_p04",
+      "P184_F2_p04",
+      "P060_F2_p03",
+      "P099_F1_p04",
+      "P100_F1_p04"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Vvdcto4GH0aX5axJWPDZSCQzrTbm+zMdq8yAgujjS0xslzIPv1+smWwsUmA1lqSaaYT0CfJks85+jtVHDx18HyXJg5yf1CZMcEdfO+g0Bu48BuilC9FxHhchnO1+jTSGXju4Jnj3jl4mu5WLKFQdC0yVRRDZLMZRIzEkqTZgFMFoaMGEAoGrm4D6efgqSkNpThJaVnkM6OSyOWaLYnuH+Rv1vC5ESLRHSqeyaKy7J8e2j8r3T3oon+IiOp60a4s4mHklpWilzIyck0gltVzvEPgkf1rOuJVxXIW0axRUEFnFNs0g0vBOV2qRoxIKbbNYiuRNFvdkJi2Ao/w9u3oXyxS6+P30hmfKYvXpumwykhJVdgEsjWJxLYWKoCTQqgKwilNkhq+pp6D5icK7PsmKVdn1lFMaeEU2iBJTmtUFrWQe44EMvVSAaToDtqerBUIGt978JUkLNaKS+hK54AElX7WnQmnLIp05cl2zRR93JClftIWmoHYSnBlRICCKm0a80x6KhIhi8Yx8uEfjIzJXu3QnZPgeHW5UpFSJV+0TIxE4n1IVzSP8Udl0sgXDcvktqYFhA3q65oO/OERE/DFkNFNTJYvurl5oJxKttTzQsQUWRTjPlMyX6pc6u+f9DtEZKO06kSUJzBeIMKjokpcpJTQ7yByqXOgYkEtvO1aRIPLKa2x5PltVkI8csfYIithFytuByvoUlb4U+y1GJkzTmsjoxw232Dq04CnCxrpyTtrwSpFziMaGUi71F9DHOb3pAbpzJ+7sxHEgXjxTGs5AR7hYPLK0NDxOUlZosG6kwyobzIY7B9bzXDeoIhB58pVSDcME6wi8OLSdHAjGFdUzn4AkZoqt2OoL4RSIj1qDh0ePTH598M+xeJVSjBqwdXaUpPLfr2pq8UbHk+nb8klZZyBYp7clmZaaoCKsIbRNtXz4udVqms6OQu1SsUXAofD5twXtkdZ0IFacCVo7YH2HkEbN0GD+bFX0NCHAM0bNlHDQb+o4Q+BWtAErWsV/JWg+R8CNO9oVgvHPaFGawtBHSIe3elzCaS44PQySPR27k1AoDnY6C1p55KkiIyp6ph4z4VR0oQo9qPZjQtR8W4GFe80Ksg2Kh3D6fa0gm2jgm8GlVe0Yh0V/z2g4ttGZXgzqKAbQiW4GVTwTaDCn7SX5RxvZr5SIjkcz3WjGZxfU/1SKEi04bGQ8C3W3x4dfAdFvhUbCuR+aWH7U6f82Syc+110jMahN572f8p3+jqE+5X1Uu3w/fYh3As7DuHB6GJ64/ahaCqIzGhJb9O3+aLpyzdUcqGN5l9JJ+x4vfuwi8672WjqW6Dz/Zo2YWDZtEE9mTZ7qq8431y0Bf0/TBvUk2ljGzSrpg3qybSxDZpd0wb1ZNrYRs2qaYN6Mm2sS82iaYOuM21OQ/LWhrlipLVhRqcP4si2aYOuM216QeXkkRPZNm3QdaaNba1YtifQdaaNba1YR+Uq08Y2KpbtCXSdadMLKuiGULnKtOkFlZOmjVVU+JOkJHKONzMP5iyvM0WuWqC97zsXTl+na88dHR2vh33ZMfScYzWos7rlJaRai1hwkswO0UmTx0OZr0JsTPAfqtSLwZfkSjS5rY2eRSKWz2VozpKqQJtkP0Qjv4On0Gl7IwlZ0GRCls9x0dOuTTTdMfW9eIBrUn9Dyh0Mi64AQ9+LpFslD7lnDOEO0/VgxdaH7sH8tDNuadsgOLivvyXQtwQOWDdFcNkp7CclcI7d8Zv+XmaAji3NYSW1Q39CY8rbK/ejSHQJ/Z8pKyG3REZOZckXHjVZKn1xHXITsR3A5z3J1tTUIPmOJYwUfS7rKElgU6LvJ5tA9sw2BUSas4kOUH0/s7gTDp8FXdmVd1/rd129kTseHunB5t3XYNhhu+0vgteXbvyGMQ7Jw230Iq92p78KVn80cChU/CUCnv0H",
+    "layout_style": "L11",
+    "visual_style": "V05",
+    "preview_png": "templates/03_图神经网络与关系推理/T12_hierarchical_graph.png"
+  },
+  {
+    "id": "T13",
+    "category": "04_生成模型与扩散机制",
+    "title": "Forward noising and reverse denoising",
+    "description": "上下分层区分前向加噪与学习的反向去噪，避免把两个方向混成一条线。",
+    "slug": "diffusion_forward_reverse",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/04_生成模型与扩散机制/T13_diffusion_forward_reverse.drawio",
+    "preview": "templates/04_生成模型与扩散机制/T13_diffusion_forward_reverse.svg",
+    "spec": "templates/04_生成模型与扩散机制/T13_diffusion_forward_reverse.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P146_F2_p05",
+      "P042_F3_p05",
+      "P150_F1_p01",
+      "P031_F2_p05",
+      "P123_F2_p03",
+      "P159_F1_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zlbb9s2FMc/jR5r6C750Td1D90wLAHWPQW0RMtcKFGjqNrZpx8PRVnXpo7ruCuSIEjEw6vO70/yUDScleFEx4watvkF85Kw3HDWhh1YM1P+lVacxywheVqbK7H7EEKGExnOxjAXhrPKjjtCsSy6Z6VQxWxUFLOEoJSjrJzlWEjToAPb9mcm9GFDO85Kl5alcpThukjE+AHxBGyMlDAG20Q5pDmGtqDPBJ/yoAuS1FXvLefUdHb8yFGx/5UlGF4zOdZFLMc260rJU20JTW1IedOO1RruyL96XFZTrCIJLnsFBWNUkKJvjFme41j0bIhzdugX2zHa77VAKR4Z7mJEx9Y/SSL2w/eCjF8wSfe666DJyFBTWBvKPUrYoWNSjuOMicaFK0xpx7+6nmFHXylwGhvHuTizjiACdKSkgmiFOyhVLdu8QBGleGr8JfBRDmW5F1LuztqSj4iSFPRI8Q5yZBOCSP8utDkjSQKVl4c9EfiuQDG0dJBqkrYdy4XWhO03ad2ZpdMrRhlXnTu2K3/lvFme5oIczld9ZXXVi1mGBX+Cd9WKSU8mqKibccM6qdVse3Xy0JGG7WgI+44sXG8ARj5oNtOcymo7jeojzjEnMawaCRFoq1aFUvAqFhWH5w/wDgkqBIiQJRWV06chiJNUpQSDd2AVhxxZEUHX8m33LJm9HGmHkuWOqQROaM6dG1IJpqiYE1Tsl1JJzRGPdroUnMW4LEf+Kw8koyjHfR+WAvHGa44nDZxVeYITnS3XM4GIRK3TBSO5wHzzRToKXGGqMpSioiRb1RNY5CZBO56PFtEyWqvOOHvEnZzVau2uISdB5f7UaRekNwbph0EQLl4VpNkDaflTJK0JkpY/XPm+idIaofyEEc9xf6V7h3ptqM7cPBfq/KVQ84fjeIauKEY50ENZoVbL44M54tkHNbUXdTAPiGzcyNyEU0R8J3T85TMbFdgjlBEKzllwIhfiPjH/1GwTflgzZZODqyPG8Fx2qXkBPMfrwZuakMEEOj98OTkxIvebDDKe+uTEVclFUWStgylyi024clc/NbnQvBm6+0l0NbH76xKzIifypogFUTifT4QfPw+xwL7ZZGvPiy2ytQrqMcSEWG5AlOUPYo8FMmyfQpi3lTl+Kup9TMaecMyETpcQUJIMaF93dm42myByp1iH88Ca/29m5yWb4nB2BuNN8XRo+E7WrBqz/gNLhvWpQQU8zQr7BnfFS+jN59636F1npuJxOPOPYYdqHzSNYNVEM/MROjjqNUdlxuXJLmU5opvWOohN2zKfGCu08W8sxJN2OqrkqbEHHOfJAj6xyOSWsvixNkWEtuHwkLwb2KE7AS8YAJZElhRtMV2i+DFVI+1v2/IHujsS8Vk1YOrUXxA0zzw1FEnts0qaTbLNrf0FTno+1pU+lcfkGA/jSxnop1j0Y5dzRcQxRYJ86fd8viTGB5dcb7ZlLMP+amIev4vhdcQgJsVwf0Mx2CMxtGdXtahPfaR7U3Iwn5ODdVU53E/JQYda36EHVVV6E3VrqW8HZafl38HQCSYtb9YPMWzfnQ0P1GdUc+fjavKhHk8r0tOLnadbZ6Tbt63S2y1ap9C/L1MdJd5o2XJH+AVHJK9vG0heVOOTxLscnpVD75vfdTe0H7SCeeZFK9i42qusYBSnGO5UBjK+YxRKLAy4a2xuBuqLNfWtF8X63Lyj7DCT/9eaG9RA1ZFQgpRv6zqdWVEbykdSKJKgMzh5lxi2enXVKf8riZUX3uF0P6ZYoTn3Bhq+5R2O7/nG+CuxPXGmcibQdsnJZHvJWoNur6obY3M13hZS9+3O5j8=",
+    "layout_style": "L07",
+    "visual_style": "V01",
+    "preview_png": "templates/04_生成模型与扩散机制/T13_diffusion_forward_reverse.png"
+  },
+  {
+    "id": "T14",
+    "category": "04_生成模型与扩散机制",
+    "title": "Latent diffusion with conditioning",
+    "description": "编码到潜空间、条件注入与图像解码，适合条件生成总图。",
+    "slug": "latent_diffusion",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/04_生成模型与扩散机制/T14_latent_diffusion.drawio",
+    "preview": "templates/04_生成模型与扩散机制/T14_latent_diffusion.svg",
+    "spec": "templates/04_生成模型与扩散机制/T14_latent_diffusion.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P097_F3_p04",
+      "P140_F3_p05",
+      "P150_F2_p04",
+      "P175_F2_p04",
+      "P019_F4_p05",
+      "P036_F2_p04"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7ZpZb+M2EIB/jR9jUJclP/qQtkW3RYG03e1TwUi0zIYSDYpaO/n1HVKUdeZsoiBIFsFaHM6Q1HxDiiNq5mxmTnTK2MxGP4goKM9nznZm+9Ycwf8gJXnME5qnlbiUu4tAVTjRzAlnaDVzNtlpRxkB1T0vpFaz8eEwTyhOBc6KeU4kiHod2PZijlQftmrH2Rht0MpxRiqVr1iSHGxRQne7Upva6EjlHn5inidUgkgNTbdOk8rqD8s9t5qdvgh82P/KE6LuMDlVKpZjo8oouakkATKCVNTtWI3gkt6aIVm1WkkTUnQUJedM0kNXCMPMSSw7MiwEP3bVdpx1ez3glAwElzFmQ+k3moBHevelKn4iNN2brv26IsO1shEUe5zwY0ukHSc4l7ULN4Sxln+N3cyO7lA4j00oeo+zkVSqENJRgllJWii1lY2eFgyFvKldJckJRrHeSwhyZ2vBJWY0VVHIyE7VQFhKCq5dGXFGk0QZr497KsnlAceqpSMEEsh2PJcmHOxFXTadWaa84YwL3blju/AHs2V9ngEwnDvdZLUDl/CMSHGjAsYES3oWKUPTjBtURRPItlcVj62osB3j/30rIlyvxwQuDJZxREV5NU7pC8mJoLFaK4ACvtJrQSFFGctSqOsLdQ8JPih6GU9KBjMHJHmiTVJdklzdAy+FqgFDrLqGu93zZP50pC1KEEIDKr4ToKUzIRV/jAoaoWI/lUqKBjyqmXJR6MCFpUrhwRLuve/G4kgzhnPSdWUhsaid53ggELzME5KYaphrElNo0pQPnOaSiPAH9Kk8grQOY/hQ0Cvdk5LAE4K1AESraB1tdWeCX5NWzWazdbeqJsHF/txpm6c35LkIfD9YvSpP1OFpjQK1R4Bay/7a9xDR/B+aDZj+nKkHghpOH2KXztiS1WLbwxC6EQqDMQwLJ3AW63vWMyWPcEaZ8shKUJivXUyLc7P1A8qaaxkMrtpOBI8FlqJnEHO6xMaA+SO8FsGTccEO6U5eevdEhlPv/1ELt9FinJofLsP3TM1eTIbt9o6FE2S3L8oriiJr64/xWoXBxt28Z17ucjJeZZNHjCBLSM5pofd/6M+L32rVl5pyYehH7hjCYOlby3eN0He8hxDalvciCBNy90oJdZ8r5ROwWQhNNvX0fnuQnGmhyc7OGdhH3J88Z0Pp9Oi5AXo1fPEwZ9s0vD7yHuU55Dzfm44cHpITvCgusFTPvRefb+/jMfccasFiqvlGhhn5AJJ661G/NeJC7nnKc8zCRtpLuhudr5wfjPBfIuWNcS8uJe+iJXmyUi8aoXjFeHxdiSLKmjy/PzNd3w7cEUx+DyU4f83wFWFrHF+neqTd7S78U92dqPyuG0Cm9DeU0NzTQwFA33UR1cWmtvKXctL9MQA+5aWIST1d6sRZYpESWUtNfvbYgBGEYUl/dLt+PH3rk/4b0T/n4V38txPCtz/hvxH82zH0dco4EX3nk/4b0W/eDXQDwCScE/F3P/m/Ef8mQe3yrzKfifB7n/jfCH+d4Pbg4wnhLwbwf5nZm78+dgSg+yLAetEIwK/0/Nem4E7cttJnnkWr5d+VoEk2l7Y376abnuXWktZHEA+aAZWBGVxU42kC83xjj4pVRlKizt578XrJmdJYzdTnKOKIRXJ+u6dPeHFs3hftGD/O4XdrTmiVBS5PlFGsfVvZSIFp9T2GERTX9KBRqthaKwFR73311zDwq8OqeOZZf/ts3wrQ0uvF7ZRn/QvPrAUPng07I2jb5KDYfIdTgW6+ZqqF9YdTjZL+GssJ/wM=",
+    "layout_style": "L04",
+    "visual_style": "V01",
+    "preview_png": "templates/04_生成模型与扩散机制/T14_latent_diffusion.png"
+  },
+  {
+    "id": "T15",
+    "category": "04_生成模型与扩散机制",
+    "title": "Adversarial generator-discriminator loop",
+    "description": "真假样本合流及训练反馈放在下方，适合 GAN 与对抗机制。",
+    "slug": "gan_adversarial",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/04_生成模型与扩散机制/T15_gan_adversarial.drawio",
+    "preview": "templates/04_生成模型与扩散机制/T15_gan_adversarial.svg",
+    "spec": "templates/04_生成模型与扩散机制/T15_gan_adversarial.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P146_F2_p05",
+      "P042_F3_p05",
+      "P150_F1_p01",
+      "P031_F2_p05",
+      "P123_F2_p03",
+      "P159_F1_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7ZrZbuM2FIafRpcxRC2WfOlFSi/aomgKdHo1oEVa5oQSBYoaO/P0PdRirdkdZ4JJECTmIQ9Jne8nxcWGvTbs8JhwwzK/U5kzkRr2xrA8NDPhL1hpGgnC0rgyF2p35esMOzTswDCXhr1OjjvGKRTdi1yVxSycZTPCcCxxks9SqsA0aMCy5jNTt2Hpeux1XRpKpTihVZEl0R5YMqy7F9OUSqyEvCIsjyRLWKpTkMOFyKoWGKk8/0HuqebkeC1xtv9DEKqrIceqCLIts3Iid5XFN2tDLJt6UGu4YT/qbqGmWMEIzXsFlRBcsaxvjESa0kj1bFhKcegX2wnebzXDMR0ZbiLMx9Z/GVH74XPpjN8oi/d1016TkeCmcG3I95iIQ8dUBk4KoZoQrinnnfjWfoYV3lPg1DdJU/VEH8WUllGpFMwL2kFZelnm8wWRq7smXIoeoServQKx2xsEHzFnsVYjpzudA3UrBuFd1uaEEaKdV4c9U/Qmw5Gu6QBiAttOpKqWhDVv0nVjqE6vBYfu6MZty4FfGDWr00iA7twbKtQVLxUJVfJOi6YWTHwyace6GsevkrWYLbdKHjrKsOyawb6jCscdcIEPNZppTHmxnSZ1rXmwSM8ZhCm8LeeEXMkiUoXUn6/0MxCcKa1BQQoOowcsKSld4jKlhH4GUWiMGBxL0vC0e0Fmz0faoYScMRXP9s2FfUEq3hQVc4KK9Vwq6ddUsHwM5c/Kav4YBU+KIiWU1IGb0ngnrjDD807gwjBEGy1nwCtuaSdnGfhrZ/3AAND2ECeM65Asy6Hc5zQ/VdvMamhW2qBz1XvIf0tivtsjhhbmGJk3QWzuP5sYTGDTg6iexq7PyiwIAi90ppj5Cw8tPjIzu4F0AWg7fHvP1IcV1TNZjpOsmR3Phc4JzcCfQje3fXu++sDoPHQ5dJLqt8kA3d+l8ZPaq6g5zttR04u7EbXNYMW3OTO5YBPOp8l5wSL4wOSQaffRnbYLb4COizwfoesv4sX2G+yN2PfzDr3QC9xg8l23mnsLWIV9XICOORh6/pjf5EL/2fyoOWI3gqSX7c22R0hYpccixTxoras+xrbM73qPVhm/UaXu6vDiAnYAPbQ0JUu9W4bklovotjKFjDcFxoPU8SzfmcDkDVBC8Fccbylf4eg2LnvaX+TCj27uyNSXsgKzTv0HKXPmll0BQF/KpNkk29wqXjpID2sAYgpbnog2A6ezlldYxlQNloxP1YykHJeDq9vU0wWAPgXwTgI4bQ36+JvF54X4W5/834l/u8voC6BZDL1CAKUrBBR3vTLBUpV3av5LG9q3zsJ1Z/33Drx5GkvnSO9RN9sdu8GHqj+tKk8P9jSh2p9CfSehtnuqn1WojvcTCdUZCVVJzFK9brTMHaVkC3x/be3Waq21i1qxfulLuc0lON+fnv2lQm63mX0hN3uYSwsZocGhlus/qmIXuY+4vF7B7kjBRUaw0mfM4/PKX0y4D0y6aGrSPYtw2032ubcKL9It7EcHM6mLnjABj92mFhivli+nEBYykvCN4LrEUk/CQh6wJEZz5wi9pBJHSl9cQy4Xh5k+b6rJaQ9cHBlnuIxt5dOZ0ytDfsuykqVW2kobqB4w5S0w/C9Flr/wfqt7n4V8c+EOVHzJ+625OzdGh0mnq9/uaYQ9gbZLDpLt/XMFur3Fb4zNlwbaQuU3Eezgfw==",
+    "layout_style": "L07",
+    "visual_style": "V01",
+    "preview_png": "templates/04_生成模型与扩散机制/T15_gan_adversarial.png"
+  },
+  {
+    "id": "T16",
+    "category": "04_生成模型与扩散机制",
+    "title": "Variational latent reparameterization",
+    "description": "概率变量与采样节点分开，清晰显示可微重参数化结构。",
+    "slug": "vae_latent",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/04_生成模型与扩散机制/T16_vae_latent.drawio",
+    "preview": "templates/04_生成模型与扩散机制/T16_vae_latent.svg",
+    "spec": "templates/04_生成模型与扩散机制/T16_vae_latent.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P159_F1_p03",
+      "P136_F2_p03",
+      "P014_F1_p04",
+      "P123_F2_p03",
+      "P146_F2_p05",
+      "P159_F2_p15"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zpdb9s2FIZ/jS5rUN/yZWxLXYF1GJZha68GxqRlLrSoUVTt5GK/fYcUZUuW2iSNEzeDgyYVj3hI6jwvPyXHnzt+tttwx0NfqKyYKBx/4XixO0HwF6y0WArCirwx12r1LtE3/MzxUwddOf58s1sxTiHrWlTKZPNwWU4Iw7nEm2pSUAWmowo8L5ogXYeny/HnNjfkKvCGNln+wJJhBR5YN49jRQsoCUlaYshKFZXs3txvimekcfvdjfbFbnbvJS7XHwWhugyya7K4vocaJ3LXWBJkDblsy3EPhmt2b9vkttlqRmjVy6iE4IqVfeNSFAVdqp4NSym2/Wwrwfu1ljinA8P1EvOh9U9G1Pr4ufSNnyjL17bquL2xwW1ma6jWmIhtx2QCJ4VQbQjnlPNOfK2f42VfybBvm9TAHuejmNIaMjLBvKYdlMbLQ09UQ6Xu2lgpuoNmzNYKZO4vXLjEnOVah5yu9B0QpmIQ2ytr3jBCtPNsu2aKXpd4qUvagpLAthKFsnrwojZtK3Ntei64kKZy3wvgH/SX2b4PQHO+Gie3q1wq4LHknVaMVUu+N2lHW0yQNEmrZC9sktuOLDzfAlh3JBGER1DgwnIZZ1TVN+OY3tMCor/UowVhCt+Y0aBSsl6qWurrd/oZCC41sI0gNYeuA5aCGJfcpJTQzyBqqe+Ao8EMT7sWZPJ0pB1KbjCkEvsJmvqvSCUeo4JGqHhPpVL8tRsA+VCUtTJtOQ6cFHVBKLFBG9N3J6YwrvNO0NIgQ2kCdkArbmnnTuQnfjT7hvi1PcMbxnU4rqAj8yNG0b7YdjhzJ8YGjWtmn+QlaUVhj5bvj+CKR2hFyZNpwYQ64JXqSZZq5f/jeMm9E8+B3PTE8NJFFo3Di9Np+obhedPXo7epB/A+Ulzooao+Ka8sy9xFPMbrKk3mwfwN8wqDPq/9ouoFeFVkwKtZRQEolm/whdn3MQvCl+tj1QDZb91FHrCLuJ7jb2DAjHJ9da8r0DlNL4S6Zge+kLrSy4yyOu14mqZxFoyxTqaxO33LrOMpenA83a9Tnsma0OFsuKDtbFjCbLiD2fD+9LPh/3Yp46L4YXwnW8yUw85qbOhf+P0F8EFpUA76cGqCmZv5WThGMM6S6XRkzf9mCB73v9B7qfmRogG9ASS9P2v3t0LCdizXW/D0YJ31MR7y/CxEaY1/U6XubHhxDVu9HlpakCt9JgLJGy6Wt40pY7zNMOylQewlwQim+AglBH/G8Q3lM7y8zU1L+xM2/Ojqdkx9MgUgm/oMKTQJTVMA0CeTRG3ycLeJlw7StzUAMYW97ZK2PcduzRSWOVX77tTsDR6rF0k5VuxLv+bHw3cv8M8Ef78H7ONvthDPoG9cIZq461UKVqiqU/Kv2tBZ2qFwcjRjRNPJ8MTuQTcvCAZucNG05yDJ/YM9TqXeRaU/lkqbLdWbVWmQDN2er1L/otIzqbQ9dzkS6Tk0Gofe5OhoY2RIfITbmLSfr9HgotEzabQ9hfohNTo2IJ5No+FFoz2NWlXuNYr6Gg27Gm30/N2zfbuVP61In7IhiS7wzzVAjaG3Z3OvA5/TnBZkIIBrwXUOfYK7EnKLJXHaDwJgfKISL5tX/mjFxXYC/y9wtabWA9c7xhk2bW58lMSs0Ec4raG6ZaUJkCZmTo2pfjdgPtFw9GcGAKv6zvfP3TMpN0HT8EgNr/n+OQpt5+q9gPZGDpH8kUG9Sw6Sh49DmiH+8IlNa2w/5zlkMt8I+el/",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/04_生成模型与扩散机制/T16_vae_latent.png"
+  },
+  {
+    "id": "T17",
+    "category": "05_检索增强与知识系统",
+    "title": "RAG offline index and online answering",
+    "description": "离线索引和在线问答分轨，便于论文方法总览。",
+    "slug": "rag_online_offline",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/05_检索增强与知识系统/T17_rag_online_offline.drawio",
+    "preview": "templates/05_检索增强与知识系统/T17_rag_online_offline.svg",
+    "spec": "templates/05_检索增强与知识系统/T17_rag_online_offline.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P176_F3_p05",
+      "P124_F1_p01",
+      "P124_F3_p04",
+      "P040_F2_p04",
+      "P050_F1_p02",
+      "P020_F1_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7ZrZcqM4FIafxpdxsYMvvUDmIl1T1Zml+6pLBhk0FhIRInbm6UcSArOlK3YlznQlqVSCjlbO92tnZq9ndnTM8cwyHiErESUzezOzfHNuiL/CCklME0TS2lzx3U0gI+xoZoczYzmz1/lxhzAUSTNacpXMAkUxTxBIGcjLOYFcmAYVWJY3N2QdlizHXuvUIhUBOayTfF3eijDd7TAisnxEEngU/wFJpJ1oMyDlATLZRFULSurcf5h+W3p+vGWgyL7QBMo3TY51EtO2jDpT8lRbAkMbUtaUY54M9+hf3TSzSVahBJa9hJxSzFHRN8aUEBjzng0wRg/9ZDuK+7UWIIUjw30M8Nj6N0p4NnwvGfEbRGmmq/abiBw0ibWhzEBCDx2TchyjlDcuXEOMO/7V+WZW9EyCtm0MEv7CPBxxKSWlFoAr2EGpclnGZaIo+VPjMg6PojWrjAvR2xtTPAKMUqlKDHcyRsiUI+HipTbnKElk5tUhQxzeFyCWJR2EoIRtRwnXsrC8JqwrM3V4TTFlqnLbcsSv6D2rtkeI5jzrLrMrYEhzyNmTfDctmrQ1yYy6GCeog1rQllsHDx11WLbmkHWU4bgDNuJB45lGVVbbaVq3kAjPx3LsSBAHWzU2lJxVMa+YfL6R75CAgksd0qTCogc1AGGSqhCn8h1oxWSMyAhk1eJtM5rMz0faoWQ6Yyq+HRgL+4pU/CkqxgQV61wqqTHi8Xu/r0z1ifKAcgwI7Dux5IA1brNdYWC0EiUkOlqMaRyIgpkOFxQRDln4KDwlfWGoNBiDokRbVZO0iLkCd1wfLaNVtFGVMbqHnZj1euNsZEwCyqyttEvSHZP0At8Plm9K0uiRNO0plA22LkrTO5ulOWZJWpQ7KF4khp8sX42lvTBeyjI4lyX5kdC4HPHc0LjKlY+HGPt8pqaeDt0BiNCJjDCYAuHZge2tfjIvSXsEcoSlT5YMiXG3D8pri20WHOZc2UTj6mVi8FJkqXEBM7vPzJ3ofv7EQOoFZwOLs4rsR8TWtVUUtJLTVb4VjF6XXbiJvGl2frgIf2V21uJq8PSycADvL7EGp+y0ahwOnRko5GP8hGUCZp9NL4oic+NP0VuGwdpZ/8r03OBq9B5G5P4soeT2UMGmVR9srLxkfhuMlVOrzlcCxto9/gnZV9EeBB+hWs0XN/sPOUxegm3Y0d6QW8zHg+RauEJuqGQrSzHB4VfucGHoR84UuWDhm4v/zRB5CbnAvRo5QMarybu7L7Pm6OMjDpKXIDPNwSjpeBPQ3NeABsd78xElef7RnB9RxjOaUgJweLIONm6nNHeUFtr4D+T8SfsXVJz22UKSLOXRowhuMY33tSlC+LRXHEJ2fCtwJjj5A5bC+ysMthCvQLxPVUv7iyPxI6s7Iv5NFWDo0HcRMuauaoog9E0FjSZ4iq39JZ30cxEIn9KKxbDpLafNl9gHp5C341+zxn+pahjEgKPHfvUvV8B4R/+pgOsooLOb60ug3QpcSQLWSAJ6UVtvJpOp87lPTbyJJh6m9KCXsldSgz1SA4Gi2aVcfhE52WwpGx8OfSg9aAVoPZgnAXzry+N7K49L9dA5FXhPTTifk8Q7DQjtNnawSuDXnCDcT/zvtUbgk71fb7Wugx/DFMqb0IEE7imWKZYz+ZEAOwCWzJobcXVTA2IuP60QsZge5uL/Rt+0yBygOiKMgGpznYczgIhaaWhDuUeFcpFkJk+2S6iu0ZUELEPhKi+8ee3etJqBsXAHerjmzavneuPdXfthQnd712wLnyMngqevI1Rc5xuTxth81nJKpL6VscP/AA==",
+    "layout_style": "L08",
+    "visual_style": "V01",
+    "preview_png": "templates/05_检索增强与知识系统/T17_rag_online_offline.png"
+  },
+  {
+    "id": "T18",
+    "category": "05_检索增强与知识系统",
+    "title": "Graph-based retrieval and evidence path",
+    "description": "知识图谱、查询与子图证据分开展示，适合 GraphRAG 类结构。",
+    "slug": "graph_rag",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/05_检索增强与知识系统/T18_graph_rag.drawio",
+    "preview": "templates/05_检索增强与知识系统/T18_graph_rag.svg",
+    "spec": "templates/05_检索增强与知识系统/T18_graph_rag.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P124_F3_p04",
+      "P124_F1_p01",
+      "P176_F3_p05",
+      "P040_F2_p04",
+      "P050_F1_p02",
+      "P020_F1_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Vptb6s2FP41fGwEmAD52CTkTtombeqk3X2qnOAQr47NNaZJ9ut3DCaBQNvkrrDcqlXV4mMf2zzP4xeObaGZhRb7LbNc+5nIjApuobnlBs7Ihr9gJXwlYsqT0pyr9V2oM9DCQpFl31tott2vKSNQdCMyVRRzcZqOYooTibfZiBMFprMGXNcf2boNV9eDZqY0lOJ4S8oiXyRON3dLnJEY7JIoSckz1l3FXFvIM42he7rpFKtN2QiNS+c/nPBY+XZfVPWriIn2jvdlEQe5dukUH0pLaBtDIqt6nJPhgf5jeuZUxXLoQdYoqIRgiqZN40pwTlaqYcNSil2z2FqwZqspTkjL8LDCrG39k8YAwdl76YyfCE02pumgytjiqrAxZBsci13NVAAnhVAVhDPCWA1f42e5ixcKHPsmCVcX+iiqtJIKsWCWkxqVhZdrf5cmMnWoEFNkD52ZbhRIHs0deMSMJlqTjKx1DohUUUD43pi3NI6183S3oYo8pHila9pBN8C2FlwZVbh+lTaNOSY9E0zIonHkevALY2d6HA/QnRfRcur6JWIL73rQ72k0kxxN2tFU44Vl0ujZHZfJXU0cLjI0bGrC8MZn1MCDYaebqSxfdpP1hXAi6UpTEVOFl8XMkCmZr1Qu9fOdfocYp0rLUMQ5gwF0ZC9OipQS+h1ELnUOOBYEw9tuRDy6ntIaS47XZiVAoT1BA7ISdLFid7DiXssKf4zFKmtxMhMyzbMWcFLkPCaxAa1L3zVMYY5nNdAib2FHIdiBWvFEajk+CpE/fUX82r7AW8o0HPeSArlNjvxjtdWk5owKG3SuXInCPtnyx80xFHbQFXSw5YdXswXKlaDvFmERh8F1KOqaFtMcw0qvnK7PtKCXMC78RD+ZCoq8d2U3mi/8bnaDaBL9wOwiZzh6n5IWsz9zsWN6miv2FLCWvStvi8XCmQddvN1H4cyb9c8b7HQUprAEmA6mgnJFZPQMpGla7I4ldimUEtuz5txT1VOTPx/3KYxxaJ+tnW1hHDd+dWE46Hxf85YytpRTEMej3ZJHSw3gCJtJ0kk1/LxKdU0nF6FWCfbaERU0cQva48nvQM3/TtCcDwHapAka7Et6Bc39EKA54yZqyO8XNfQhUPOboHXtPt8TNO9DgOaczWrBpCfUSG0hqEPE43sdIIAUF5xcB0mxv3gLEGgOPrBWpHNJUlgmRHVMvJfCWG5Zn5vduBIV52ZQcV5GxR0alY7hdHtaQUOjgm4GlVe0Mjgq3o+Aijc0KuObQcW9IVT8m0EF3QQq/PGbdb6T+T0nWQ/Blg8bSkOoGWzxJmbN6CHYkuXLFl8P+dIEWepHBe/JXRQFC6+Lu3ASOJMBAi69cReOz+IhPQbKEsJb3EXmJOcuqQhqRT8xz3ZEfg7GCz9pHHsoRsklkS1YIKqzMiHVRiSCYxadrNMmj6cyvwiRGuPfRKmDwRfnSjS5rS1gSyZWT6VpQVlVoE2yF7ih18FTYLXDkwwvCZvi1VOp0K7vWLKn6mtRgW1Sf0HKHo2LrgBDX4ukXSVPuResotX3UW0JrR8A1dfPxlHDMOsnuSRQ96mBPjTQOFZqyuC6YMh/VID7qYD/SQHV9rpJvtkiDcT+JdHTT/b7YP9bP+QXrgAmrnsVB3xZrebftMGqRZ+DUfMjYOx6o/ZNoDfdkDNpucFD2Z+TIo8vdplIL4lWf4q0D5Eev9eaMjWfAsPMUYxAc3FLAg+C6RL3lr6SJ3dYxlZ1/6w4za5uXNhrJnYj+D/H2YYYD5zvKaNYHo4+sBhTrjf4lSF7oqllLqhpAO2M6PsAxY1A+F/QlX3nRaf6xSYntCfjMz0MedHJH3cc0B2vAda/MN46Qofk6S5iOc5PNzorY3WH9FSouJiKon8B",
+    "layout_style": "L05",
+    "visual_style": "V05",
+    "preview_png": "templates/05_检索增强与知识系统/T18_graph_rag.png"
+  },
+  {
+    "id": "T19",
+    "category": "05_检索增强与知识系统",
+    "title": "Hybrid retrieval and routing",
+    "description": "决策节点、双检索分支与汇合，适合混合检索或自适应路径选择。",
+    "slug": "hybrid_retrieval",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/05_检索增强与知识系统/T19_hybrid_retrieval.drawio",
+    "preview": "templates/05_检索增强与知识系统/T19_hybrid_retrieval.svg",
+    "spec": "templates/05_检索增强与知识系统/T19_hybrid_retrieval.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P124_F1_p01",
+      "P176_F3_p05",
+      "P124_F3_p04",
+      "P040_F2_p04",
+      "P050_F1_p02",
+      "P020_F1_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7VrZbuM2FP0aPY6hXfKjF2nmoQO0TYFOnwa0yEhsKNGlqNjp1/eSomxtM3U6cdIADoLYPLzc7jm83GJ5G8tLjyWzXPuRiJryyvK2lhs5Cxv+AkqqjGNa5S3cyPsPscrwUstLLHtleZvyeE8ZAdOC11KbuWi/X2CKcoHKelERCdCoAdcNF7Zqw1X1eBtjDVYVKklr8ulpJygGSBApKHlEqpeo0ghvpOqUrhdstP1vzvJUX3n8KNC++MwxUaXwsTVxPNduC+GnFoltA+Siq8c5A3f0b9MZpzNrKCb1wFByziTdD8GMVxXJ5ABDQvDD0Oyes2Gre5STCXCXITZFf6dYFuNxqYxPhOaFaTrqMkrUGRugLhDmhx6kHSc4l50LN4Sxnn9NOctNv2Fw6psglbywjKRSiUfrA7GG9KjUpVz7UhnU8qlzkiRHaH9dSBC2t3XgK2I0V8pj5F7lgBQlBaeuDFxSjFXh9aGgktztUaZqOoCEALvnlTRCcMMubRpzTHrDGRe6cc/14RdmyPqkeujONx3k9CVLeAljfFLjMzLJT5AqaKrx4zZpJOwGbfLQ04PrGc8XPS34wYgN+GIImSenbnbz/HwkFRE0U/EBU4l2ev7XUjSZbIT6/kGNAaO9VMrjuGEwZzrWCM51SnI1Bt4IlQMFNbEw2oLjxfMp7bHk+FNWIi+2l94rshLNsWLPsOI+l5Xq618TQn5pSNedntNgflSYYOOwOW33/AlRnPUclvipncSAA638gfRyQi/2wvV3hK/wFJWUKVesBAVih/yEp2q7GOYsNAada9ea+JpMhcGAqVPs7FMVzTAVxs9mSkUoIiZ0/apgtYhOGCt4uWvqZ7OVpqmzjebYWiXxxt+8Y7a8LpR1dDkzMyuYoWs5Xnz+nS5Mqnoa7bYt2i1AHZ8vNtGSbRrOT7QoWSbvmLowGFLnLK8302BIYoa7OwPfyPtR8vzgimESVQ8T6j4TkRNdz1rzdzZ6KfKSJEr9OfLiZeQs33PQXI6D5hXXOFjLpgucmW24PQrp3dttd3IRdY5zCXdB8ALcEXtC3IQltVvvTjtcwOY85xViyRldD3k82/zE+d6AfxIpn4x/UQMb/wG3pMIrdTSG5I7x7KGFUso6gynJfuTG/gxP0YhL8P6aoR1ha5Q95Lqnw10T/KjmjlR+0RXYJvUHpOxFoLsCDH3RSbtLnnNbfyknfV8E4FM46WSkmzRmCy8RxDg53S1eqhlBGJL0cdj45fw7E/5rUqJKqqPdTQevoYP+AWEohtNe9Ae0oIuCT1G/1J7TSta9mn9WwDkABWGwGEWg0F6MN9MXFIM9w6QYfGn7cxboaWCXadadaJYBUZm6PbhJ9m0le96Dv1vN+vE1NOvd1tk3EmvvRD9aa81p4rWVGkeXhMkLinnBNZTq35T6RkrtX2D8X6U6Fx3fTKrBTapvtQM43cQMhWpuAl7n8MJITtR70vjCjzNlsbLU46o4IIGt7iURVEoEyqR6hIZcxg8L+NyiuiCmBGqOlFGk+9yWkQLRSr8xGqB+oHvtI0Waupiqibqk0m+78Kn5qv/j+1X/vcqJ7WUwEsRrvl+FQWhNbh1OD7r9awdvZmr3mYPk+VW5nejnt/kO7P4B4Gyk/6vAS/4B",
+    "layout_style": "L11",
+    "visual_style": "V01",
+    "preview_png": "templates/05_检索增强与知识系统/T19_hybrid_retrieval.png"
+  },
+  {
+    "id": "T20",
+    "category": "06_多模态与跨模态融合",
+    "title": "Dual encoder and cross-modal alignment",
+    "description": "两种模态各自编码，右侧显示对齐目标；适合 CLIP 类机制。",
+    "slug": "dual_encoder",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/06_多模态与跨模态融合/T20_dual_encoder.drawio",
+    "preview": "templates/06_多模态与跨模态融合/T20_dual_encoder.svg",
+    "spec": "templates/06_多模态与跨模态融合/T20_dual_encoder.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P153_F3_p03",
+      "P183_F2_p05",
+      "P153_F2_p03",
+      "P051_F1_p04",
+      "P063_F5_p06",
+      "P033_F1_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7ZpZb+M2EIB/jR5j6Jb86EPaFtgCBbJot08FLTESN5RoUJTt9Nd3SFG2rmwTb2J3EQdBIg6Hh+YbHkPRcFaGEx8KatjmDvOKsNJw1oYdWDMT/oIUlwlLSZk14lo83IUyw4kNJzLMheGsisMDoRhUc1YJpWaj7XaWEpRxVFSzEgsQDRqwbX9myjZsWY+z0tqgVaICNyrrGtG2B5jDEypT+JtwVlV3BUtVLqIkKwtc6jZI2pT9Yp/qLg6fONrmv0EtskR6aFQsp9EByVMjCU0tyHhbj3US3JN/dMesVq0mKa56ioIxKsi2L0xYWeJE9GSIc7bvqz0w2m91izI8EtwniI6lf5JU5MP3khm/YJLluumgzShQq6wFVY5Stu+IlOE4Y6I14QpT2rGvLmfY8TMKx75xyeZlZQQR0pGUryBa4w5KVco2z3GJSjy1BhP4AH1Z5gIc3llb8Kh04ZniB5kDLioIGHihxQVJU1l4uc+JwPdblMia9uBOIHtgpdBOYfttWjdm6fSKUcZV447twi+MnOVxNEB3njWW1XVfzAos+JN8N+0y2VEkC+pq3LBJane2vSa57/iG7WgKeccvXG9ABh40nGlQVb2ZZvUJl5iTRCJKiUAbNS9UgteJqLl8vpPvkKKtkF7I0prC+Gkp4jRTKcHkO7Ba8YWCCiq8bc7S2euRdihZ7phK4ITm3LkglWCKijlBxX4tlcwc8fiDVI35NhyVST6yXrUnBUUl7luwEoi3NnM8EHBWlylOdTZMZwIRAK3TW0ZKgXm0AzNJQ5hKh1K0rchGtSQlsEjQjt3jRbyM16oxzh5xJ2e1WrtrmZOiKj822sXojTH6YRCEi3fFaPYwWt6YY9jKuhgtbzjv/SdHa8TxMyqzWq4GN5JvTtI1341k+TcpRix/LZCa5wYA+2Sm1psO1wGCyI3NKJxC4Duh4y+/sxhJeYwKQqU1FpzAbNFH5B+rbfcY1kzJoHPNvjB8KazMPIOW06c1MeysYGL29MPXsxqvZ4pVd8PxptCidexPQwuiefRTQ7MuR233PLVig1MZvLztaIvj2FoHU+AWUbhyVz8zON/yLgVOHMSI3BfYzX3MqfGchWwwNfrm+7GaCMvkxvtjz4xnMbMuB208M7bQPvbEeA634cT4jtzY5tsI3Oq5Ew6fyiB3AwPQz4Te0nNUCbKTKyBUhZPm+S05B5EXuVOcl34wDyY29VfhfA5myzT7nB1nvAIeD0x+CDQeh+sjSvJIpD1SYlzkLGMlotFJOgjoTjqfGdtq4TcsxJO2L6oF67PFZbqQZ5GQ3FCWPDaimNBTDDmchN3ADt0JTsGAJVh/SdEG0yVKHjPV0/5sAT+yuQMRX1UFpk79BSlz5qmuAKGvKmm2yVNuYy9ppO87AdiU1TzBxz2jjsogOs6wOErxaxyGY4rUyOo283L44xj/Bv9C8PEk/N0F4ds3+FeCfww6+vTFJYe+c6N/LfqTQ19ccui7N/jXmvd3U/D1ZvsH6KuiYE3ULaVO0qtOzb9LwWmfObe8WT8QtF13NjxffkExx5+PisFD05+TSx5f7GVe6t289FpT1P/bS9352N2u5aUUZ1h+OB546j2jUmNhyBsVfI94arTXB9TXLQQBMStlLmX7Gfxf669TsgSqD4QSpGzblIFompQy8mwF1SPZKpLStZZSgGWorS50wH/lVdWZH6q7H6at0Jx7A7e95Idq3/ON0RHH8RZHN/R1JtB2yUHydJWkAX26kNMK2xtAJyV1rciJ/gU=",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/06_多模态与跨模态融合/T20_dual_encoder.png"
+  },
+  {
+    "id": "T21",
+    "category": "06_多模态与跨模态融合",
+    "title": "Cross-modal attention fusion",
+    "description": "明确 Q 与 K/V 来自不同模态，便于展示交互模块创新。",
+    "slug": "cross_modal_fusion",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/06_多模态与跨模态融合/T21_cross_modal_fusion.drawio",
+    "preview": "templates/06_多模态与跨模态融合/T21_cross_modal_fusion.svg",
+    "spec": "templates/06_多模态与跨模态融合/T21_cross_modal_fusion.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P153_F3_p03",
+      "P183_F2_p05",
+      "P153_F2_p03",
+      "P051_F1_p04",
+      "P063_F5_p06",
+      "P033_F1_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zltc5s4EIB/DR/jAQkD+Wg7dm+m15l2cnPXfsrIIGPVMqJCxM79+lsJyQZDc06bl3bGmUyCVrt62WcXveDhmYcX+y33kH9PZcVE4eEbD8XByIe/IKVFKjJW5I24VqurRFfghYfnnj/x8Gy7XzFOQXUtKmXUECnLUcZILsm2GhVUgeikA4Sika/7QLodPLPaoFWQLW1UZlJU1dVWZEQPjyhFC6Xtkb+qTUOmVZY12n+h4NDadv9OknL9QWRUm2b7RiXAyG+MsodGkvhWkEvXTnAU3LJ/7VACp1azjFYdRSUEV6zsClNRFDRVHRmRUuy6aivBu72WJKc9wW1KeF/6D8vU+nReuuIPyvK17Tp2FVvilK2gWpNM7Foi4zgphHIunFHOW/61dh5afEfhMDYJnM60UUzp0DHRQXhNWyiNFfLPC4JKPTgXKbqH3qdrBUGNbwJ4JJzlOuo4XekaCEPFwKUTK96yLNPG092aKXpbklS3tIMAAtlKFMqGAYpc2XYW2PJMcCFN5xiF8AvZMT1EPAznu+7pBCwVW6rkg56kDZL8INKGtpkwaYo2gNG4Ke5a0YCw9fu6FQnh+IQFPFgcw2iqejlM5x0tqGSpfjdkTJGlyf1KyTpVtdTPV3oOGSmVjjuR1RwyBiRFZkxyU1JCz0HUUteAoaELs12LbPR0pC1KQdinEuPEv8avSCUeouIPUEFPpVLckR6QDzo5mNKDnBjXbmhR9ZwoRV1kNLMOHIr1ln/hjc5bDpyHC3+egBwwQ+utmggnOJo+kghaviBbxrVrJpIB6C6v6NCse6MFIyODwTXrTvKS5BK/m0/undVGFw+Qi5Ink1s+Rm56Ifdz5MLxy5H71k+6j1J8hRW+WYo+PTOz+c0iGmYWz6/nvzEzHL9eum3uH4f23kOzvy/gfgzcS2Zbqrd8PXbNRrC1AYy4XvqXsIOIcv306W7idojZYYvx/m6qMd9Nnxf0fB4vwiHQyXUcXM9+Y9Cx3wWNBzIURc8DWtSqh3lRV1RvFCUtJa1gKkQN7fIva+IgvcCPzsAXPAc+6vfY9Sjp3b47LQkJm/tcFITPj9Jpl+NR508hSiv8SpV6sP4lNWR1hy0k+0QfrKG45CLdNKIF406hDzmMURIOcIpPWIL3p5wsKZ+SdJObkbaaWZgf3d2eqc+mAd+WvkDJH43NUIDQZ1P0XfFY2/hLO+nxIACfwkkppS5v7G5EEZlT1d2jnBsvknJIrPtux+ezDy7s34j9coh9s9V5Jfbowv6N2H8bTPzDdukn+BtT8CdpW5WCFard8kctOC42EbI3uK3bqNBJWnd+/2uGB8zgoRnPMSgPEzsvTvElTt8oTt3J65eN0zD5heI0vMTpG8Vp66DZDVV7MHmdBZXTnOq78ZMguBVca+gz7UrIHZGZ576JQJhSSdw9xoqL3Qj+35BqTa0FqfeMM2LG3NgoSVihTyBOUG1YaZykqenbx4rqy3vzlQr+G2DVD97Ft+/eg8S/Hp9ExGvexUfjyOvdVBzundpHIDyQ221yUDx+H2sy/fiV0Qndh8yjkvk6iuf/AQ==",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/06_多模态与跨模态融合/T21_cross_modal_fusion.png"
+  },
+  {
+    "id": "T22",
+    "category": "06_多模态与跨模态融合",
+    "title": "Audio-visual temporal fusion",
+    "description": "时间对齐作为独立模块，适合音视频识别和事件理解。",
+    "slug": "audio_visual",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/06_多模态与跨模态融合/T22_audio_visual.drawio",
+    "preview": "templates/06_多模态与跨模态融合/T22_audio_visual.svg",
+    "spec": "templates/06_多模态与跨模态融合/T22_audio_visual.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P153_F3_p03",
+      "P183_F2_p05",
+      "P153_F2_p03",
+      "P051_F1_p04",
+      "P063_F5_p06",
+      "P033_F1_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zpdb6M4FIZ/DZeNABMgl0kKMxez0khdzXauVi44xFuDkTFJur9+j40JEJjZtNOmUylV1ODj4w/O89rYOBZaWyg+5Mxy7R0RFeWFhW4tN3BmNvwHKykSntIia8y13NyEKgPFFoose2mhdX7YUEbAdcsrqd1cXJazlOJM4LyaFUSC6aQB1/VntmrDVfWgtfEGrwLnpHFZ1inlNzta1Vj1T5K85EJfbmpdka6Vpo33nyplassPnwQut3/wlCj39NC4OMi1m0LpU2MJbWPIRFuP0xnu6L+mK07rVtOUVANHyTmTtBwaE14UJJEDGxaC74duG86GrZY4IyPDXYLZ2PoXTeX29L5UxmdCs61pOmgzctw6G0O1xSnf90w6cIJz2YZwTRjrxdeUs9z4Bw7HvglSyDPLSCqVdLQ6MKtJD6Uu5drniaCST22IJDlA66utBFGjWwcuMaOZUh0jG5UDMpQUQro05pymqSq82m+pJHclTlRNexAQ2Da8kEYGrt+mTWOOSa8540I3jlwPPjA6VkfFQ3d+GB6nL1jCcyLFkxKKEUl2NKmCphovbJJGwO68Se57anCRifu2pwRvfsICLgyOaTRV/TBN5xMpiKCJmhtSKvGDHvuVFHUia6Gub9Q9pLiUSnc8rRmMGLAUqS6S6ZTk6h54LVQOFNRE4W63PJ09H2mPkuONqQQotBfoglSCKSr2BBX3uVSKv3cjIN9gTlLh3MAEqoJ7Ej3B6yIlqYnclMh7gYWpnPUiF3mxHYVgB778kfRyfBQif/WTEaDsMc4pUzFZCgqEh6D8Y7XtVObMtA061zxwwrdE5s8HyJzFBLNgApkfPhsZHiHTs5pqDO/Ihov8Cu1F0Dz0dtB245nvW/sU0osiIl6ZWnQb+9PUgmgRfWBqyLvgWBtjawfbldovUXvLwdY8z0frwG6xpx1ydT+vSS+OY+c2mKK3jMK1t/7A9PyTqRI5b0cPVuLjUReb5bn9wHjy+LqDLoqC2JvCFi4CZ/GRsS3ml8PGazmi9lXAoj6RUxur65LkLGLzNyNG7BGuESS1v2r3p1zAdirjBWZRZ10NMXY+XzgvjfEfIuWTCS+uYas2QEuKdKleZUCyGdraFFPWOowZe4EbehOYghOUEPwVww+ErXDymOmeDmdr+FPNHai81xXYJvUdUvZsrrsCgO510m6TXW4TLxWkn2sAYgp704QcF4ONUWKRETlcIZ4rF0EYlnQ3bPh89s6V/Tuxx1Ps8SXZu1f27zXuyST8drX6C/x1UYgn7pcqOS1k1av5qzJ0z5r5wrwz797/uYvZ+C3r/xZD3rgYXDT96UR5vLHzdIquOn2vOep316nn/0Y69a46fS+ddvv8oVTbLeSFnqjzqwIGCjDMjQKcDvn9UBDfj4J4qQK6dwVDAZjN6GX4M5IRdRx1ooE7zpTH0lIns2KPRWq1x5AwTxGBzcbY3jC+n8H3La62xJTA9YEyinWfmzJSYFqoHWhrqB5pqWOkoK2UgajzMn0wDN+aV/XC46/+cZcT2ov5iSAuefzlz31rtAU+ngb398BoYnLvk4NkdyTdTPXdwX5rbH870DnpHySg6D8=",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/06_多模态与跨模态融合/T22_audio_visual.png"
+  },
+  {
+    "id": "T23",
+    "category": "07_强化学习与智能体",
+    "title": "Actor-critic interaction and learning",
+    "description": "实线交互环与虚线训练支路分开，适合强化学习系统总览。",
+    "slug": "actor_critic",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/07_强化学习与智能体/T23_actor_critic.drawio",
+    "preview": "templates/07_强化学习与智能体/T23_actor_critic.svg",
+    "spec": "templates/07_强化学习与智能体/T23_actor_critic.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P116_F2_p03",
+      "P178_F2_p04",
+      "P149_F2_p03",
+      "P070_F3_p04",
+      "P116_F1_p03",
+      "P138_F2_p04"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zlbc6M2FMc/DY/xAMIGP9oO7D6000s67fapIyMZq5ERI0Rs99P3CMSd3Y2TrDPZTSaToKP7+f2RjpCFNhaKTgduufYDlTkTqYVuLdd3Zjb8BStNY0FYmlTmQu1uAp2BIguFlr2y0OZw2jFOoehe5Kos5uIsmxGGE4kP+SylCkyDDlx3MbN1H65uB21MaSiV4gOtiqxiJeRNLJliMWSwVFGJY6WbcG2cEvjLKZapHl3ZASNVxT9c1DR8OH2QONv/LAjVkySnqoiDXLuqRM6VJbCNIZF1O05ruGP/mVE5dbGCEZr3CiohuGJZ3xiLNKWx6tmwlOLYL7YTvN9rhhM6MtzFmI+tfzGi9sN56YyPlCV707VfZxxwXdgY8j0m4tgxlY6TQqjahRvKece/pp7lRp8p0IxN0lQ9so5iSquoFArmBe2gLGu59sV6yNW59paiJxjIeq9A6ujWgUfMWaK1yOlO54A4oVnMV8Z8YIToyuvjnil6l+FYt3QELYFtJ1JlFOEu6rTpzDHpjeBClp0j14NfeGfWzXsAw/msp5yudqk4UCXPeoJGL0lj0hVNM15QJY2W3XmVPHaE4SKDYN8RhTcfYIEHQ2aaUl5sp0F9oCmVJRdKmMLbckXIlSxiVUj9fKPnQHCmtAQFKTi8PDU2SpIypYSegyikzoGKWHcNs90LMrscaYeS442p+Ciwl+iKVPwpKvYEFfdSKuk/NH0YIQnTByZFetBzGDpPiiIllBjHTWm841dY33nHcaEX2WEAdsAr7mknZ4ECtFh/4QXQ9ggfGNcuWUkGgPucFk2z9aLmzEobDK7ahYJvSSywe8SQM0bm1rYusUVwMTGxzUfEftnmVD5gs6SVWy+VL8wuvI0W0+z8cBm+YXae24fX7NTd982feN2eAA/rrWiEb1VZ7YxZboAtfwOEly+LLwz9yJvCFyx9Z7l5w/h8dD18dQwx4LepQ4s/gV/FzoQev1WGDX5poFEUObf+FNBVGGy87wmot/h2i+m22I1o/k4zjs8NQik4F8V4J4ToN9OP8ZkzwCjR5QydCEXzKYZ+FCyXE6HHm2E4XFOnGL7MS0ntEcBcYUUbfqK7Nw4Y6vixjr+FhHAxESnmYWtd99/RtsxPQmTG+C9V6mz8jgsIRXvMaUpW+tQGyS0X8X1lihivC4w3VM93A2+Cnz9gDFTWHG8pX+P4PilH2l8h4Ed3d2LqU9mAbVJ/Q8qezcuhALlPZdKuk21u5S/tpC+LA3wKsXdMR0GlwjKhahC5PFZKknKg9kCHKgR34m6tTMCJrtvyr9rQahHN/dm8H555y9n4XPnVaq7njarBQzWeVqzNxB6nX2ek33eZXkemTSTdl2kToz1DqJcsYO5IAPXHiR9ZBgZ8IwO7L4N5Xwb2M2TQicn7QjDL2LXXq8DpLzvO6GPLqIqztL9S5fnrFBrJVEmc5uxdqq++sZoo9s1urN5yXO35gvXeN9ZXkmlzqurLtD09X2lnnY8U0H7nt3OWpPo78Y8siUs22Uo+BOf7Zu5P1Uf3M8qrxl6cJlRfJAxUcie4LrGy9PWaPGJJmtNk//Jox8VxBv9vjVd0DVycGGdYtl8QYJ9kRnSVIb9nWeknTXGtDVSfV8vbPfhfAsyfeHHR/YrgBPZyPlDINS8uFvOFNTr1N1d63WM/mlj+u+Qg2d4rVptBeztbG+u74LZQecGMwv8B",
+    "layout_style": "L07",
+    "visual_style": "V01",
+    "preview_png": "templates/07_强化学习与智能体/T23_actor_critic.png"
+  },
+  {
+    "id": "T24",
+    "category": "07_强化学习与智能体",
+    "title": "Multi-agent centralized training",
+    "description": "多智能体并行结构；集中模块是训练时使用的可选结构，按 CTDE 方法修改。",
+    "slug": "multi_agent_ctde",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/07_强化学习与智能体/T24_multi_agent_ctde.drawio",
+    "preview": "templates/07_强化学习与智能体/T24_multi_agent_ctde.svg",
+    "spec": "templates/07_强化学习与智能体/T24_multi_agent_ctde.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P138_F2_p04",
+      "P076_F1_p05",
+      "P149_F2_p03",
+      "P070_F3_p04",
+      "P116_F1_p03",
+      "P116_F2_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Vptb+I4EP41fCxy4rzxESjs6bR7OqkrXffTySRu8NaJkeMUer/+xo4DCUlbaKEvEqtqicczfpnn8XiceICnAzzfZHzgogcqCybyAb4euKEzRPA/SGkei4TlaSUu1d1VpCvwfIBnAzQe4Gm2uWOcgupSFMqouWS1GiaMpJJkxTCnCkR7HbhuMES6D1e3g6dWG7RyktFK5UfJFbsiKc2hARTDjySc/UcTKMEjy/WwTMssqSx+ut62xWzzTZLV8odIqJ5dsqlUHOyiyih5rCQRsoJU1u04O8ENdGiFtVrJElq0FJUQMNRVWxiLPKexasmIlGLdVrsTvN3rCmbcEdzEhHel/7BELffnpSv+oCxd2q5DP6oqMlIrW81iSRKxboiM46QQqnbhlHLe8K+1G7jzJxS2Y5MatMNsFFOaPoYhhJe0AaWxctHhRCjUY+0mRTcwgslSAbnxtQOPYJNq9nF6p2uAjoqBW8dWnLEk0caT9ZIperMisW5pDSQC2Z3IlaWCG9Rl25ljy1PBhTSdY9eDP1glky3zYThPushpkpaKjCr5qMliiZJuRdrQNuNZUC2JXb8qrhuMcLH1/bLBBs/fwwMeLCT98BTloh+hbzSnksU6RiRMkYWJAYWSZaxKqZ+v9BwSstKgZSIpOawakOSJMUlNSQk9B1FKXQOGRHcNs12KZHg8pA2UHK+LSogjNMLviErYhwrqQcU9FpX8X5o/dCC5WcL4jXvzByZFnpkVs+dFKco8oYn1YB/ZGw6G0M4bHpx5czSLQA44i3vaqAlwhIPJMytBy+ckY1z7ZiwZIN0GLNg2W4c1Z2hkMLhqA4rOCV2IWtDhevE0sNsGsyZ0QXQ0dMTpIDe2wQ1qAq6pvIAVEaT66buIzapYCc7ix9PCOZuFc68PzmgUOqPpF4bT89t4OkEXTyc8EZ7uk3i6FzzPg2ff+jwZnvhJPP+64HkePH10PjxtxtgBdVrLUSyZMqlMlXBmbENlF+mf21wTiZyfFur5fO5ch31Qj2fR1PvKUEfBAVvriaDmoig6OP8pmFm8YvEbDmTsgZ4WuXDmz3oX6SQIR5ACfmHkRnuLtGcTdR3/BMhR1EGtA5I+M9RnLiHhiJCKnPDZTjppw7jT+S7Eygp/U6UerXtJCcePFrQ0T8b6iA7FBRfxfSWaM14rdPNeL3QjrwemcA9KcP6EkwXlExLfp2ak7eUP/3R3G6ZuTQPIln5BCQ19MxQA6NYUUV3c1Vb+0k56ngPgUzhvxbReMtuDhCIypaqdpB5KGEk5MStrj2vgTdK0WumlWDRa/tuuTcs4HNq3QrtoEXi1pPEO4UUzZ9Q1g4dqPDtKbid2GEu7ifuFpR/LUveNLD0mRnXT/Av6H4s+/tIxysfniFHdwwskuTrxEbKbsl74+ixfE1Ist3N/LXnr1z1t7jYOJe9N4NA7ZLc8wKyP928nsHch8CcjsHs+Ah+z//oXYnwyYuBPH9n69tgPi2zBJYFs0dYS1dLW2fH0ts3iX1sWv5aprVeAbbrWr4zeKYiFHQ6QWOlrERcmNAIYejGAnTYbsweM945XHt7Lwzofgjsm+9+1jrbAQc/H5jcGtuhC6uPD2ylJ3bsRfxJSB+jFDdh/q8UZSM1pSvVdlT1i3wiuNcYDfXVLrolMBvVnIxgglTXx0R0X6yH8XttMS1uQcsM4IwaEymZ3f8kKinu2MpBrDk60gOrLNObmGPwa+hWvvBvTvAvjRGjk7/H7Pe/GBCN7zmtdjum7YYF7ErEmclDc3VmrgN7d/KuF9QXDnZK5tYhn/wM=",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/07_强化学习与智能体/T24_multi_agent_ctde.png"
+  },
+  {
+    "id": "T25",
+    "category": "07_强化学习与智能体",
+    "title": "Tool-using agent loop",
+    "description": "规划、执行、观测和记忆构成闭环，最后输出与工具交互分开。",
+    "slug": "tool_agent_loop",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/07_强化学习与智能体/T25_tool_agent_loop.drawio",
+    "preview": "templates/07_强化学习与智能体/T25_tool_agent_loop.svg",
+    "spec": "templates/07_强化学习与智能体/T25_tool_agent_loop.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P116_F2_p03",
+      "P178_F2_p04",
+      "P149_F2_p03",
+      "P070_F3_p04",
+      "P116_F1_p03",
+      "P138_F2_p04"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zpbb6M4FMc/DY+NzJ08JinMPuxqR+pKM/u0csAh3hiMjGnS/fR7DIZAoJ2mk2bUmVRVi4/v5/f3FQx7ZdjRIWOGhR6JKCnPDfvesHxzhuAvWEke84TmaWOu5OYuUBF2ZNihgRaGvcoOG8oIJN3yUtbJLFwUs4TiVOCsnOVEgumkAsvyZkjVYaly7JVODalynJEmyV+cs7uqVJVbCKckh3IQ47xoiqOJTma5XTHZ4ZPAxfYPnhDVpeTQJDFtCzWZkqfGEiBtSEVbjnk0PND/dBvMNllFE1IOEkponqTF0BjzPCexHNiwEHw/TLbhbFhrAf0bGR5izMbWLzSR29N+qYjfCE23umq/jchwm1gbyi1O+L5nqh0nOJetC1eEsZ5/dT7Dip5J0LVNKESvyyOpVJqpZYFZRXoo61wW+gb9Uj61vpHkANUutxJkbN+b8IgZTZXOGNmoGBCepODLhTZnNElU5uV+SyV5KHCsStqDcsC24bnU/C2vDevKTB1eccZFXbltOfAL42HZaRya86xfzL5SCc+IFE+qe1odaWdSGXUxTtAEtXIbtVto35OBZWuHb3sScNwTCPCgOUwzKav1NJZPJCeCxmo2SKjE63q0l1JUsayEer5TfUhwoRBlPKkYDBWw5EmdJa1Dkqs+8EqoGMiIVdXQ2y1PZucj7VEynTEV3w7Q3L4iFX+KCpqgYp1LJf9H4nI3Hiq1EYpZNrNO7bFTNwpe5QlJtAun1N7zMMzirOfC0IlQGIAdQPMd6cV4dmB7yxeGgrJHOKNMOWchKKAeEvO6YtvJzJzVNmhcs9YE78muhaXZ2e0k34fnT7DzgrPZFQznI3afwQgj6rK4wtCPnClcwdw356sPjMv2hrzM4P14wcw0HmqwEqmJ7EDiSvILY3PC+8ibHmV+OA8/MDYfXQ+b2ouVI3DhQRKR1wtNL0GPHOyFCvUYPzEKCIV9Nr/IjOzIneLnR8F8PrE0fRh+JnLQ1QDy9Rjfn+uSiEcs1ZnhtrK9acw53sS+5ELIMpKNkH3hYtfs2CGWt4277IiLIvPen6K3CIOV8zMtdO9JD+flvt2C9ABGtJkv+9G3YXf2VPl+5AgaMRtRUkeu9sjKBZywUg5Uw6N1OeR4TPO7Ol83xn+JlE/avxj2PUO2JE8W6loDgmvG411jiihrE4whO74VOBOc/BOW4P0lw2vCljjepXVLh8MfflR1Byq/1gUgHfobQmjm1k0BQl/rIGqDx9jGX8pJL4sAfArH1Zh0m4zuHCaxSIls7e0e/7WiEYTBovZITvUGDsX9XAWnuSx7JX9Wht50gdzZUHa248zGVy/fzGaZ42zw0LTnqMquY68TqjkSqmw20jFWCW+avYZmj+fPoWb1Oec7JHvOnGXd5qwfxL87zw7xd8ehKwnAfm4uEKSs2Pji6pdSA3pJDeZFV7DjKXioB338uvYKNnf92XDLO7UUvSKbM5+/wwrm3KatHyTU7jpgKFN95LzSpOWO8FdFgiWwfP7G/RfTgzvQAzIGy5jb10Mjj7fqobtruPjO+xxBeCNBbGhOy+1NBc+qYHJWSHC57fp+8Z1td3Nx7dXMQyf3pebpu75RFtNyvz+Piy6+9DGSEvX29kTuD5ypFAtDfcEg9lgkRvu6HppIBOw268tatGF8P4P/95q0yoGrA2UU1yCaPFJgGD/1dWFjKHe0qNkrZaoXmyVRr5frDyjgfy3K8o1vi/tX82aA5u6J6q/5tthz9VQyeF1sTdwP2RNo++QgePx0owF9/ACmNbYf1xwT1V/s2OH/",
+    "layout_style": "L07",
+    "visual_style": "V01",
+    "preview_png": "templates/07_强化学习与智能体/T25_tool_agent_loop.png"
+  },
+  {
+    "id": "T26",
+    "category": "07_强化学习与智能体",
+    "title": "Coordinator and specialist agents",
+    "description": "中心分派、多路协作与结果汇合，适合 LLM 多智能体方法图。",
+    "slug": "agent_orchestration",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/07_强化学习与智能体/T26_agent_orchestration.drawio",
+    "preview": "templates/07_强化学习与智能体/T26_agent_orchestration.svg",
+    "spec": "templates/07_强化学习与智能体/T26_agent_orchestration.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P138_F2_p04",
+      "P076_F1_p05",
+      "P149_F2_p03",
+      "P070_F3_p04",
+      "P116_F1_p03",
+      "P116_F2_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zpbj+I2FMc/DY+Lkjg3HoFJtg+ttOpU7fap8sQmcceJI8dZoJ++x4kDCcnuQneAjsRoBPjYx5fz+/uSywytZyje5XzmWF+orJgoZuhp5gT23IJPsNIiEYQVaWuu1eZDqDNQPEPRzFrO0DrfbRinUDQTlWqKObgs54ThVOK8mhdUgemkAcfx55Zuw9H1oLUpDaUKnNO2yFoICU1jJSTYcUHgsyppwjBn0BKYUlqoqq2ckdbpN8c/VJrvPkpcZr8IQvUAya4tYiPHap3IvrWEljGksqvHPhqe2T+mR3ZXrGaEVoOCSgiuWDk0JqIoaKIGNiyl2A6LbQQftlrCyEaG5wTzsfUPRlR2Oi6d8RNlaWaaDrqMHHeFjaHKMBHbnqkJnBRCdSFcU8578TV+Myf+SoFD3yTAOdNHMaUV1IgE85r2UDZejnWRFiq17yKl6A46scoUSBw92fATHFKtQU43OgdEqRhEdmnMOSNEO6+2GVP0ucSJrmkLOgLbRhTKqAH6ZtKmMduk14JDH3XjyHHhH+bK6qB/6M5Xo2T3dUtFTpXc64EZraQHk3Y01bhhmzQ6drw2ue2JwkEm/FlPEK53ggR+GCrThKr6ZRrSR1pQyRK9UhCm8EuzElRK1omqpf79QY+B4FJDygWpOUycjiAlaZNSQo9B1A1bcMS6aRhtJsj8cqQ9SrY7phKg0FqgG1IJpqhYE1ScS6kUfylcvY6YfJICOOSjyElRF4QSE7UpgfeCCos670UtcmMrCsEObMUr7eX4KET+6hvq1/YY54zreCwlTNkTSP6h2m41s+eNDTrXbj3hNXH53gAX6iZMn1cwgcsPL8aV6GVsxGuwuL0lsygKYneKWbgI7MX6HTNDrnUzaFt7ROxXWlEsk6zbeN54qkVPsT891YJoEb1jbP7JXLP9K2JzJiZac5R9QPshaFeda2gE7Xc4X2wYlQ9sP4bNs66HLacyHZ8Nn/eFymilw6FrW7XjZJv9myKM49h+CqYQLqNw7b7nXc62vO9vc47lvQFDao3wjSjp43p3uSMknM5TUWAeHa2rIcdjmZ+FKI3xb6rU3sQX13DyH7ClBVnqC2RIvnCRvLammPGuwHieuoETuhOcghOWEP0Vxy+Ur3DymjY9HaoI/nRzO6Y+NxVYJvUnpKy513QFCH1uklaXPOa28dJB+rYIIKZwqZPQbvIcz/AKwzRSo8PiuaqRlGPFvgybP18B42POQwG3UUDvsmAoge1Fq8YE/8YV4on7XqVg5l6JqfmTNhyXHS8M5idbvu/Ox3dxvutmL8Zu8KPtz1GUh4Gdp9Pxue6h03vr1LnhOjU+Ij7435s/etfrlIeusU65D53eSafdHZuhSA8XKbfW6cJ1ztgYz3CbkveP69R76PReOnWupdNL9lP/wf9e/NH/fJ2a2hjvtU5xmtKCjLT6LLgusZzp5+hyi/UBxTw0hl5SiROlXzqAXC62c/h+wlVGjQeud4wz3MS29VESs6K9SdwaqldWNiy1uPQtrIrq21nNY3z4bnRV/cenlP2nknZoLbwT4d7yKaXvmXVg8JjSmbg/iCbQ9slB8vgCQQv6+BpGZ+xe+DgWat4iQdG/",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/07_强化学习与智能体/T26_agent_orchestration.png"
+  },
+  {
+    "id": "T27",
+    "category": "08_训练策略与自监督",
+    "title": "Two-view contrastive learning",
+    "description": "双视图增强、共享编码与对比目标，适合 SimCLR 类训练机制。",
+    "slug": "contrastive_views",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/08_训练策略与自监督/T27_contrastive_views.drawio",
+    "preview": "templates/08_训练策略与自监督/T27_contrastive_views.svg",
+    "spec": "templates/08_训练策略与自监督/T27_contrastive_views.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P077_F2_p04",
+      "P179_F2_p03",
+      "P182_F2_p05",
+      "P043_F2_p05",
+      "P008_F2_p02",
+      "P053_F2_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zpdb6M4FIZ/DZeNjCFALpOUzF7sSCN1V9u5WrnggqcGI2OadH/9HhuTQGBm0mnabrWpogYff5/n9VeM460db7MruIPRI5U1E6XjXTs4dGcI/oOVlolIWZm15kbdX0U6wts4XuygpeOti9094xSS5qJWJhkmVTVLGckkKepZSRWYjirAOJghXQfW5XhrmxpSlaSgbZI/tuLqkdEtGBNRKklqxR51RZwSWeo2mWJZapPr9triit0nSar8s0ip7lq6a5O4HkZtpvSptUTIGjLZleMeDDfsH9sWt0vWsJTWg4RKCK5YNTRCg0uaqIGNSCm2w2T3gg9rrUhGR4abhPCx9S+Wqvy4XzriN8qy3FYddhEF6RJbQ52TVGx7JuM4KYTqXLimnPf8a/M5ePOdBPu2SVqqE/MoprR2jDwIb2gPpcmF0YkqqNVT5yNFd1D9Klcga+/ahUfCWaZ1x+m9jgEhKgY+XVpzwdJUZ15tc6boTUUSXdIWFAS2e6jU6gAHXdhW5trwWnAhTeUe9uED42O11zw057v+cfuKpaKgSj5ppViVZHuTzmiL8aM2aBWM521w25MD9qzj854U/PkRDHiwPKbZ1M3dNJ5PtKSSJXp2SJkid2b010o2iWqkfr7SfUhJpbTwRNpwGDJgKVOTJTMhJXQfRCN1DGQkumrobS7S2fOR9ii5/phK6EVo4b0hlXCKCpqggp9Lpfx7NwLyZ8nJHeVU+7cmRdUx63lQiqZMaWq9NyX0nnNhQuc978X+BsUR2IGxeKC9mMCLvGD1g1Gg7RtSMK79spQMKA9hBftiu/nMnRkbNK5ddqLXxNZxstg8H425hRPYgujZ2B7dEbdlkxXQfMPNznHumcnF15tgmlwYL+IPTM4L0HAeRK+IDp+CDl/Q/Ro6f2q2PBM6Oh51sd7SUmnKWenuSPEN9mrgxrPyi+Nw40/xixahu1h/YH5BNJw1p4befsf8Un7joXfhd2Z+U+PvXPy4qOsRwfVgIy/uND7zfEZ+mzCex5P8VkG4gB5/XH4u8ocT6NS2BaP5GQBSNII3oqR39N2JSEjYwGeiJDw+WFdDjoc0vwtRWeM3qtST9S9p4HAwYEvLdKlPzxC84yJ5aE0bxrsE40XSD3HkT3AKj1iC91dm97wiyUNmWtpXkfnT1e2YujUFIBv6CiE0m5umAKFbE0Rd8BDb+ks76cciAJ/CaSih3cix23xFZEbVcBN5ql4k5cQMrCOpgS9JP1clWKnqXslftKG3YCM8O9ooh/5sfLj/aTZQ6igbPLTtOQhy37HTNDpe4i8afU+N4g+t0TlavIJGx9uYi0bfRqPduXsoUvrSifQ5i6h3gf9e8PEk/JfOUM+B71/gvxN8OjnyuxPJWy9QiyA8YTd0Qrapde3lC9T8ItP3kunkHPXfkenUhujdZBqMZFrn4OBUH37NQbf+f8vWCtXK1j3o9Hao4q97Faekzvd9P+9U+5brLKcZ1ReMR+q4EVynWDr6sl1uiUyd7mYZ9EslSZR+JwFiudjO4PvaukPnIM2OcUZMm9s8ShLWXjpbQ/3AKuMgjU//GllT/ZuWueuHb0Ou/sULzf4FphuhxfxIGm95oRnM7cgb3GjiiR8JvYlB3ycHwcNbBu0UcHhXozN274McEpmXTLz4Xw==",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/08_训练策略与自监督/T27_contrastive_views.png"
+  },
+  {
+    "id": "T28",
+    "category": "08_训练策略与自监督",
+    "title": "Teacher-student distillation",
+    "description": "冻结与可训练参数用颜色区别，目标和特征路径分开。",
+    "slug": "teacher_student",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/08_训练策略与自监督/T28_teacher_student.drawio",
+    "preview": "templates/08_训练策略与自监督/T28_teacher_student.svg",
+    "spec": "templates/08_训练策略与自监督/T28_teacher_student.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P077_F2_p04",
+      "P179_F2_p03",
+      "P182_F2_p05",
+      "P043_F2_p05",
+      "P008_F2_p02",
+      "P053_F2_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7VrJbuM4EP0aHSNosyQfvannMA0MkAGm5zSgRVpihxYNioqd/vopStSuJE7HSToNB0YsFqtIqt6r4mbDXRludNozw7Huicgpzwx3bTiBbVrwH6QkizmmWVKJC7m7CVWFGxnuxrAWhrvan3aUEVBNeS5LNQcdDiamKBFon5sZkSAadOA4vmmpPhzVjrvS2qCVoT2pVP4mKE6JuMllgUkGjViY5pIyhqRqpmyTYq3rhE1b+9MXgQ7pV46Jei98qlRs17EqI/xQSUJLCxJRt2O3glv6Qw/ErtUKikneU5ScM0kPfWHMs4zEsidDQvBjX23HWb/XA0rISHAbIzaW/kOxTIfvpSr+IDRJdddBXbFHtbIW5CnC/NgRlY4TnMvahSvCWMe/2s5wokcUmrEJBdV5NpJKRZySG4gVpANlaeVY51Aglw+1gyQ5Qd/LVAKh3bUNj4jRRDGOkZ2qAQpKCg5daPGeYqyMl8eUSnJ7QLFq6Qj0AdmOZ1KTwPHrsu7M1uUVZ1yUnbuOBx+IjGXDdhjOo86xu3QlfE+keFA00RRJGpEy1M14YVXU9HVmVfHY4YLjaq+nHR54swES8KDBmAYmL7bT2HwhGRE0VnkBU4m2ZdznUhSxLIR6vlHvgNFBQbXnuGAQLyDJcGmSlCXJ1TvwQqgaMESqa3jblGPz5ZB2ULK9MSqBG1pz9x1RCaZQsSZQcV6KSvbfaRwsAtFMpWdwGtofasg6DhS8yDDB2nlTPO/4FjI56zhv40XWJgQ5QMzvSKfGd0PXXz4RBEoeoT1lyi0LQQHkPlZ+02ydy2yzlMHgqvkmfEvUapg0am4dN13YggnU/PDFqMkqiY2xq+UWTJFHLu4Mx2eK0luQ+Yl6igT/QbImHW6+Li6Kb2RHbjSbwjeIwvl8Ipw+Db6e1QfYDscANxP7KwFuZqcBwLfNrPUowGX8Vnn0knG72QSRN4VrOA/s+eo3wtWbvR2uY0TbkN0RpKa8/LLxGEX2OpjCbbEJV95nxi3wno/HSyXc/IlIvOL2Otym4u1SuDGej6Fb9xb8Ft9+h60Vvb9swoyCzWwzmTCXfjAPZp8YQNvyrWeXOk6dVV+FILFG6I1QUpuAehPFBaz5E54htmmlyz6Orc6fnB+08DuR8kH7FxWwn+hhSzK8ULttKG4Zj+8qUURZrTBezXqBE3oTOAUDLMH7S4a2hC1RfJeUI+2nAfhT3Z2o/FY2YOnSv1CyzFk5FEDoW1m06mJbW/lLOelpEoBPYQMVkzp09M5AIpEQObHwPJc0gqhIuydDvoFDUdfqwGkm807LfylByzrXmZkD2vmeOT4ReNbMscdm8FCNp2Vl82LnEdW+EvVXImpnAf1pieqFb0FU50rUDyJqb9c+yKuvJOpLplT3SoAPIkBvVz/IV+9IAG9EgFwCauqOAmHaDPDKh3P5gFGeNu/+09lhihb1/uW957B5GJj9XdrUqukMs6mp7/Vz2Oyawj4qhf3aLJ1aMn0USxlJiLqlGh4ccaY0FurkiIsjEtioD+NhlESgWJ9L7Bg/mvC91tlFWaDiRBlFpW8rG9le11SC/I4eSiQVtZZKQNQ1WnlbDN8lq/KfvBXrHufboTWfDWj7nrdi/sw3RsdGzRVx99TBnYC2ixwU23vqCuj2tr8W1j8naJXK3yi4m/8B",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/08_训练策略与自监督/T28_teacher_student.png"
+  },
+  {
+    "id": "T29",
+    "category": "08_训练策略与自监督",
+    "title": "Masked autoencoder mechanism",
+    "description": "编码器仅处理可见 token，掩码 token 在解码端注入。",
+    "slug": "masked_autoencoder",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/08_训练策略与自监督/T29_masked_autoencoder.drawio",
+    "preview": "templates/08_训练策略与自监督/T29_masked_autoencoder.svg",
+    "spec": "templates/08_训练策略与自监督/T29_masked_autoencoder.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P077_F2_p04",
+      "P179_F2_p03",
+      "P182_F2_p05",
+      "P043_F2_p05",
+      "P008_F2_p02",
+      "P053_F2_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Vltc6M2EP41fIwHEOblo+3AtTPNTKfptHefbhSQQReBPELETn99V0IYMFzqXBK36SSTSdBqVxL7PLusJAttLJQcSma59gMRNeWVha4tN3AWNvwFKalSntEqb8WN3F6FqgMlFoote2WhTXnYUkZAteC11Gou3u0WGcW5wGW9qIgE0ckErusvbDWHq8ZBG6MNWhUuSatyg+t7koEIN5LrdRABrZKkBa5oXbaj0qzV/t2NjqOVh08C74obsFBvlh1aFQe5dmuUPbaS0DaCXHTjOL3glv5lluJ0ag3NSD1SlJwzSXdjYcqriqRyJMNC8P1YbcvZeNYdzslEcJtiNpX+STNZnL6X6viJ0LwwUwddR4k7ZSOoC5zx/UCkHSc4l50LN4SxgX+NneUm31E4rk2QSp5pI6lU1NHswKwhAyi1lWufR4JaPnYukuQAs68LCaRG1w48YkZzxTpGtqoHaCgpuHRlxCXNMmW83hdUktsdTtVIeyAQyLa8koYGrt+1zWSOaW8440JPjlwPfiE61kfGw3K+6x5nSFjCSyLFo3pTQ5L8KFKGZhgvbJuGwO6ybe4HbHCR8XsxYIK3PMECHgwc89DUzd08Op9IRQRNVW7IqMR3OvZrKZpUNkI9X6l3yPBOKpx41jCIGJBUmTbJdUty9Q68UVhiMMRMgyoLni2eD+kAJcebohKg0I7QBVEJ5lCxZ1Bxn4tK9ZWWKkecgvJzK4UXkWmhPHziQsGbKiOZcd8c0wfehXzOBu6LvcSOQ5ADyPyeDHp8FCJ//UQYKHmCS8qUY1aCAsxjtPzjsF0+cxZaBotrvzrhW+IW2CPcUJfnh8AFM7j54bNxKyGRTWC70UK7xuWOqdd9TdiSJHGugznYVnG48TbvGDaELocbfHMmsP1Bawp570qCA6quSFLfpdeMujgOEm8OvjAKnOg9w+e7Y/jcGfiOxcML4TMQzced7nzdZJk4CUqWc7AFSRhFM1+ndwub579d1GVkGnW/ESir20JDbSOgiidvEHZefJ34c/j5KIij+B3jF52RNV3vdfBjvK5no45kV7pGgR5+9w32SPSBvG4ABvEyns2baz+IguX/CMCl+1YAEnsC3gQkVcp3WyEuoHLPeYVZ3EvXYxh7nV843xnhNyLlo3Gv2uGNoSVVtlK7ZmjeMZ7et6KEsk5hGqRe4IbeDEzBCZTg/DXDd4StcXqf65WOayf4UdMdqPysB7BN6wu07MVSLwUA+qybdtfse1t/KSc9zQHwKWyDUtJFzqC+l1jkRJ4WkOeSRhCGdXQN5zqfAc6EAQ9t1fNBhMsQod8wjHlgCtIX0ECbgj/x0GrHaSXrwci/KkGffJa+Oa/rvx+e10kGJzz/aObOmMFDu56em8cXO4+u7kfC+pd4etwgjWlqKrhL0zQMl2fw7QyzOXa/nKZoQlNa1VApqNOvJ/ckH+R9E/IOtof/DfpO0qUXnUPfs5Lzy+nrfWTZEVENNQ1RnZ6Zn8e8/XLk7Y8S9bghHtO022ddpihkJCfqGP+EA7ecKY2VpW60xB6LzOqub4ClROBuw75lfL+A/9e4LoixwM2BMor1mlsbKTCt9GmoEdT3dKd9pEBbKwFRZ936Qg3+a7zqH7w2GB7QOKEdLU8IcclrA3/pW5MDldmDMDQT2kPkoNlf5bWB3l+IdsLuzrVX0he5KP4b",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/08_训练策略与自监督/T29_masked_autoencoder.png"
+  },
+  {
+    "id": "T30",
+    "category": "08_训练策略与自监督",
+    "title": "Training and inference separation",
+    "description": "上下泳道拆分训练更新与推理前向，适合整篇方法总览。",
+    "slug": "train_inference_lanes",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/08_训练策略与自监督/T30_train_inference_lanes.drawio",
+    "preview": "templates/08_训练策略与自监督/T30_train_inference_lanes.svg",
+    "spec": "templates/08_训练策略与自监督/T30_train_inference_lanes.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P008_F2_p02",
+      "P053_F2_p03",
+      "P069_F1_p04",
+      "P077_F1_p01",
+      "P077_F2_p04",
+      "P023_F3_p05"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7VpZb+M2EP41elyDuuVHn9sCPRZIgW6fCtqkZW5oUaCo2Omv75CirDNbJ00cLGLDsMXhPd/H4Qwpx184/vp04I6HHqgsmMgcf+l4sTtB8AtSmm0FYVlaiUu1+5ToDH/t+CsHzRx/cTjtGKdQdC8KZYp5OM8nhOFU4kMxyagCUa8Dz4smSPfh6Xb8hS0NpTJ8oFWRPyRmme7aQzgj8MuyHZUwIN1ZQXMssdLtmcYZsZX8ptHD6bPE+f5XQaieIDlVRVzfQ1Ul8lhJEmQFqazbcRvBHfvHjsiti5WM0KJTUAnBFcu7wq3IMrpVHRmWUhy7xXaCd3vNcUoHgrst5kPpn4yofX9eOuMnytK97TquMw64LmwFxR4TcWyJjOKkEKpW4YJy3tKvred46ycKnMcGSKkL6yimNIMMSTAvaQtKU8tDz+JCoR5rTSl6gkHM9woo7i9deMScpZqDnO50DpBSMdDszIoPjBBdeX7cM0XvcrzVLR2BRyDbiUxZNnhRnbaduTa9EFxI07nvBfCFtTI/8x+G86SW3DZvqThQJR/1dC1X0rNIV7TNBEmVtDz2wip5bJHC86369y1CBGEPEniwqIwjVJSbcZA+04xKttWWgjCFN8YSFEqWW1VK/fxJz4HgXGn6CVJyWDg1iJSkJqWEnoMopc6Bilh3DbPdCzJ5PqQtlNxgiErsJ2jqXxGVeAwVNIKK91xUUjRcNOeF0lNbcWQHjjPaVV2hsKyV5YcgkKLMCCU2GwyYgvaotOlcsExRuXoA/WgNIFOGc5wXbGN60hLYD3hL4evZer5ems6kuKetnMViGSx1DsHF/txpG79wiF+UxHEye1P8UAc/NxgD0B0B0I2ejaA7QPDnxrLdIHwlCAP0dhBmfyu95r6zEhHBCg/Q7MI0tt20QO7hsQrWaJWM4RH5iR/Nv7MXafkaHxjXqplJBra2i1d0brb2LdyJkcHgKkcwuRS5FL0AOr8LXYiGyMUjwEXJs3E7VI5hD7e7PcyAVLtVnf1asK1W8ToYgy2Zxu508UPDFl8NNy6KYgDb75tv4GqzB2ragomiMod1N7Si/wfAdbwKV6MAzqN4Go+Yuh8HwDi8GoCKFmoA4G/0aPz6vFQf0la+ZJvr2cpoZJd7Jci2In8cQFZH1jr8gsFBfO94Edc++AZc+SjVTy13xljUD2lQX4RtfDVwRTlcjl9gE2Tb0aD6thovs6Bvhhgdxn0DkHRsXZ9NCAmhdCoyzFeNtBcnNGV+ESK3wm9UqUerXlxCmN6BlmZkpk+zILnhYntfidaMN6FJH+Mg9pJgBKa4ByXofs7xhvI53t6nZqTtbdh8dHcnpr6aBpBN/QUpNAnNUACfryaJ6mSTW+lLK+lJDlhRIUq5peetq/H1Ie5KqRo4k5eSRlKOjb/S7uxyCgwDxxsFrkOBVlzQpUDtl16JAd6AAanEhOnBP+n8fihKWBKcKYG6lAi7lED9Q4yX8qMJT17fQpiqoF7crmWOdNrM+6IFzb7kItTdmNzab2wdyffqBNPwP6rAQzWQhq3nGV1GYH9A4LYjeWNuzVz3Wsx90rLV3v+VLFtw29vey705R+bvSoDwRoB3IkAT53cJYEPE6+DPaUr1BWH/ZFZwXWLm6CtzecSSOPX9sLnTwDZcRTsujhP4X1qjqGvg8sQ4w2bMVR3VHNBXguKe5UZHGjR9glhQfWphbuzh3+BVvPBCsn0B6SZoGvYIcc0LySiMnEFger6mb0emY5t+GzlINu8KVC5A88ZFLazf7WgKmRdG/NW/",
+    "layout_style": "L08",
+    "visual_style": "V01",
+    "preview_png": "templates/08_训练策略与自监督/T30_train_inference_lanes.png"
+  },
+  {
+    "id": "T31",
+    "category": "09_三维视觉与神经渲染",
+    "title": "Neural radiance field rendering",
+    "description": "射线采样、位置编码与体渲染作为不同语义模块。",
+    "slug": "nerf_rendering",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/09_三维视觉与神经渲染/T31_nerf_rendering.drawio",
+    "preview": "templates/09_三维视觉与神经渲染/T31_nerf_rendering.svg",
+    "spec": "templates/09_三维视觉与神经渲染/T31_nerf_rendering.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P102_F3_p04",
+      "P151_F2_p03",
+      "P054_F2_p03",
+      "P024_F1_p03",
+      "P119_F3_p04",
+      "P152_F1_p02"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zldc5s4FIZ/DZf1ALIBX9oY2ot2J7PZ2U2vOjLIWI1AjBC13V+/R0JgMCSbZFN3MpNMJraOjj44zyvpoFgotFB8zJnl2j+IqCgvLLSxXN+Z2fAXrKRIeEqLrDHXcvchUBUotlBk2SsLhflxRxkB1z2vpHZzcVnOUoozgfNqVhAJposBXNeb2WoMV/WDQuMNXgXOSePyB6kFVjMTGKqLRI2xo4SlykSKlAg1L901TZsmfyGn6zI/fhS43H/hKVGdpMfGxUGu3TRKT40lsI0hE20/ztlwS3+a+TitW01TUg0cJedM0nJoTHhRkEQObFgIfhi67TgbjlrijIwMtwlmY+s/NJX7y+dSFZ8IzfZmaL+tyHHrbAzVHqf80DPpwAnOZRvCkDDWi69pZ7nxAw7d3ACQfGIbSaXSj5YIZjXpodStXPsZSqjkqY2TJEeYwnovQd5o48BXzGim9MfITtWAICWFuK6MOadpqhqvD3sqyW2JE9XTAVQEth0vpNGC67VlM5hjyiFnXOjBkTuHX1gn6077MJ0HYzRQLeE5keKk1GKUknUm1dB0Mw+aolGxu2iKh54kXGSCv+/JYb64AAJfDJNpPlW9nUb0kRQQ+UTtEimVeKt3gUqKOpG1UN8/qGdIcSmV+HhaM1g2YClS3STTJcnVM/BaqBpoqDnD0+55Ons+0h4lZz6m4qPAXqIrUvGnqNgTVNznUim+CXwaIQlh9xRYr5TTKHqC17BWUhO5KZH3AgubOutFLprHdhSAHfjye9Kr8VCAvPUjK0DZY5xTpmKyEhQID0F5XbftfubMtA0m1xw9wa9E5i0GyFC7z/eZ+RPIvODZyCqclxML6daYbVWyS15RCQclrA6PKVFvYW14mdQxCI6WG8L8w5+Wu4QPdY5RAceMOllfF3i0ib1p4H60jN4wcNRui48Qd53FqxCH/GmE+8YA7qdXr4kujmNn40+hW0VBOA/fMDrvCehea7HmrByh+3OcgHz5fDNeqImOrRpurVYoKYD4K2/IUeTH8ynIwdJ3lm8ZcrD87x25OzD/J+QmfRxx/puzOifD9PKS8Q096jcLw/r9sH0J28UvY0vsEdURJJWEtkk8F5BzZrzALDpb10OMZ5/PnJfG+J1IeTLhxTXkswO0oJ+VeumD4pbx5L4xxZS1DmPGc98N5hOY/AuUEPw1w1vC1ji5z/RMh6cA/KjhjlTe6Q5sU/oKJXu20FMBQHe6aLfFc20TLxWkxzUAMYUEPiGjzFRikRE5zn6eKhpBGJb0x3D4pyvAeVfAb1JAP9EdisAkRFdSgPuugN+kgC7xHeI3SdWV8KN3/AP8BrjB75x53w3V8LVTw0vxd8nzEP853bqOAhjJiLpuunzh5kx5rFQaz8UBi9Rq7xppIYnA5n3a3jF+mMHnBld7Ylrg+kgZxXrOTRspMC10jmgM1T0tdZQUNvUGUBGVTOrbX/jUxKoXXm/1r7OcwF4uLiRxzestb+GNsjenu/Ltp2/te9tD5KB4vnfWdb3b+9bY/pfg7KT/9YCifwE=",
+    "layout_style": "L01",
+    "visual_style": "V01",
+    "preview_png": "templates/09_三维视觉与神经渲染/T31_nerf_rendering.png"
+  },
+  {
+    "id": "T32",
+    "category": "09_三维视觉与神经渲染",
+    "title": "Gaussian splatting optimization loop",
+    "description": "表示、可微渲染和密度控制分支，适合 3D Gaussian Splatting 类方法。",
+    "slug": "gaussian_splatting",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/09_三维视觉与神经渲染/T32_gaussian_splatting.drawio",
+    "preview": "templates/09_三维视觉与神经渲染/T32_gaussian_splatting.svg",
+    "spec": "templates/09_三维视觉与神经渲染/T32_gaussian_splatting.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P044_F2_p05",
+      "P151_F2_p03",
+      "P054_F2_p03",
+      "P024_F1_p03",
+      "P119_F3_p04",
+      "P152_F1_p02"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7VrbbuM2EP0aP8bQXfajL3JaoIsWyALdPi1oi5a5oUWBomJnv74zEnXXJnbW6yCtgyARhzO8zDkcckSN7MXIXh33fGQZT1SmTMQjezmyfHNswF+Q0ngjQhZHhThT27sJVtirkR2MjNnIXuyPW8YpqO5EqnI1iyTJOGQkkmSfjmOqQNTpwLK8sYF9WNiOvdDaoBWTPS1U7kmWpozEIEwTTpTCYViGSBTbs+9EYVuWwYVIivZZWNh9tq2q3f3xXpJk90mEFOcYHgsV07aMwih8LiQTQwsiWbZj1oIH9l0PyizVMhbStKWohOCKJW3hRsQx3aiWjEgpDm21reDtXhMS0Z7gYUN4X/o3C9WuOy+s+I2yaKe79suKPSmVtSDdkVAcGqLccVIIVbpwQTlv+FfbjazVDxSqsUkaqxNtFFNIopwnhGe0AWVuZRnn0iFVz6WzFD3COOY7BUS3lyY8Es4iZCKnW6wBaioGzp1p8Z6FIRrPDzum6ENCNtjSAagEsq2IlSaE5ZVl3ZmpywvBhcw7ty0HfmHFzKtVAMP5oaPMJnWp2FMln5Eymi5RJUJD3YwzKYqaypZbFA8NXli2RmDX4ITjdlCBBw3MMEhpth7G6Z7GVLINxouQKbLO40GqZLZRmcTnO5xDSBKFDBRhxmHtgCQOc5MoLymBcxCZxBowJNg1zHYnwvH5kDZQMp0+Kr49Mab2FVHxh1AxBlCxzkUl/vrEKMSTLiifMghHd1iHynuSe7njRimyOKShduEQ2xsehjjPGy4MnJURTEAOQItH2qjx7IntzV9YCihfkT3j6JyZZAB1GzGvaraMbuY4l8Hgit1o8iux89z2ijIHwPMHsPMmZ2PHYqZ60D1sP6ESVIFrquB2UeyC5cobxs4PpsEHxs52jauBF+Ge1EMP/zS3q0TCDqXYE64/j2NwWkOM8yJ8SkTKCnQX+WnhiYBHYwBRl9H/lwR+tVqZS38I+FkwWTiLDwy8576+ai33MsBLkvZX7ZJttxTnwIodsIt1fmwBEzSG7fJXLOsg8FfOELqTqW9OPzK6pmG8vq4vBa8iMqJ9gD9rsVFsqre99LR43F6WztBJ6ELxmIuBcPw7Hn0wU1h/g0wMwvBlA6ofuMHgkpt7/hTm+nGR883rIaeTg25EpXHKts9VDpjILB4IrH8WOSAt5kxgJlRe+qz7nz0v9QLrEMyXCazU6CHcQwmzwTKbFhKSv0jEhAe1dN7Gsdb5A1P/QviNKvWs/UsySCxb2NI4nOErGCiuudg8FqIV46VCH2THtybOAE5+B0vw/pyTNeVzsnmM8pG2D1/wg90dmfqSN2Do0j9QMsZuPhRA6EteNMpiXVv4C530MgnAp5BJb2i5vhopot7cOvnHqayRFA4xGESbfZ3OAPPGgHdiQJ1otglQ5TBXYoB1Y8A7MaCRrbYpUGYzV2KAfWNAiwHGSwwwL8mAOm1tE6A8N/8EAXJTcChpWiWCxarZ8l8oqM8eU8cad5J2ZzruXxa8auYafTN4KMZTs7Ka2GlEdW5EfadQ1UzAL07Vc2KVe6PAO1GgzuXbBKgyxSsxwOsxoMoxQZwlIVH9Nwr/K06cv3+FJN1Vc38rQRqvDC5/on3bduaesi+dYDa0C/70dsZpRPHCtXvXJDhqzEb4FYI8EBlWr1tglFSSjb5a33JxGMP/pQYPLUh2ZJwRWb+iUZJAppFfzReC9JElOZxItjkKKL6oyT+CgP85z9I3XvA2L3TNiTF1O0S+5gWv5+pI0brhtQbem9gD0DaRg2L9+UUBdP0RSyksv5iplfLPcOzgXw==",
+    "layout_style": "L07",
+    "visual_style": "V01",
+    "preview_png": "templates/09_三维视觉与神经渲染/T32_gaussian_splatting.png"
+  },
+  {
+    "id": "T33",
+    "category": "09_三维视觉与神经渲染",
+    "title": "Point-set encoder with global-local fusion",
+    "description": "无序点集的共享变换、对称池化与局部特征回传。",
+    "slug": "point_cloud",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/09_三维视觉与神经渲染/T33_point_cloud.drawio",
+    "preview": "templates/09_三维视觉与神经渲染/T33_point_cloud.svg",
+    "spec": "templates/09_三维视觉与神经渲染/T33_point_cloud.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P119_F3_p04",
+      "P066_F7_p13",
+      "P151_F2_p03",
+      "P054_F2_p03",
+      "P024_F1_p03",
+      "P152_F1_p02"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7ZlRb6M4EIB/TR4bASZAHpMU9h52Tyv1pNt7OjnBAV8NRsZs0vv1N2NMAoHutXtdpNW1qlo8zNjj+cZmMAuyW5DkXIiF53xlquayXJD7hRe6Swf+gpSVB5nyMmvFjT7eRXiDJAsSL5zNguyK85ELBqq5rLVR82hVLVNOM0WLelkyDaKbATwvWDo4hof9kJ3VBq2SFqxV+Sx5qe9qNG/dYAquTlzn8C8Tck/FnZAHis4fG9O1GYenrf1vhFz6L84fFK3yT9AJqqfnVsUlntMapU+tJHKsIFNdP+5V8MD/ts65nVrDU1YPFLWUQvNqKDzIsmQHPZBRpeRpqHaUYjhqRTM2EjzApMfS33kKobmZF974hfEst0OH3Y2CdspWUOc0laeeyAROSam7EO6YEL34WruFlzyjcPFNsVK/0EZzjclk8oWKhvVQGivP+d60qPVTFzTNzuDPNteQ+OTehUsqeIaZKdgR70Cqag5dbKy44GmKxttTzjV7qOgBezpBSoHsKEttE8MLurYdzLXtnRRSmcGJ58MvrKDtZVWAO88GzO2nMJMF0+oJU8emTXYRoaHtxo/apk1pb9U2T7388Iglkfdyw1/d0IELC2gaVt3sp3l9YCVT/ICEUq7p3uwPtVbNQTcKr+9wDimtEGIh00bAGgJJmRqTzLS0xDnIBvFSMDREYba5TJevR9qj5PpjKiGJnDWZkUo4RcWZoOK9lkr5pzMCYhYNbkNCNhDjQGBI9hDZIMOrX42bnkNGcVWyKVOW2phOpX8v5PAgEL2Yxn7ixBHIgbx8ZL07AYlIsP3G2kB5QgsuMFobxYH9EGFw6bbb9tylkYFz7eMq+pEwg9UAJunA9WmGEzCD6NUw3RHMhxy8x5VSWaqfPn5+nunujZnG90kwzTSM1/FPzPSyJGeA6o2hPhXoktk0K6ggcMIjpu4PYZokiXsfTjHdxNHO3/3ETP1oPqZk/Bg01YjpBabo9KoS9vx69d54wcZxmPhTcKN16K5/ZrjBej64/viRytRdtwFXsB/zg56qNd8foJPs1s5c7Ni4GhpBwpKzK9mlggozkyUV8VW6HWK86nyUsrLCv5jWTza8tIHqdYCWlekG3/eguYeN4LEVJVx0CmPGfuhF/gSm8AYlBH8r6J6JLT08ZsbT4e4OPzjcmesvpgPHtv6AlrNcGVcA0BfTdLrm9W4bLwzSt3MAYgrl+oHd1KGaqozpQT3z0mxRTFDNvw7HfTn6ce30jn4e9O4Uem9G9OMK6x39POi9KfRkRvTjQuwd/TzoyRR6f0b04zKtK9GOjOLZU/3/TgUL/5IKzjAVVsNUwLsprfPL3N/0afBftwRjCnGlfSuDu+713J182bqTBM6g7vTc2+O1kUkY/ZsJXLR+XJP0MqEX5a1gGcOzz9szASlQY4PpK9WJqnTRnYKDh0xR+8rhHIU8LeH/vYWFFrQ5c8GpiWlroxXlpTlXsIL6kVcGHyYXvqHWDA9nzXcJfF/FvKq/86y1f7bqRs56dZO4c561Bqtg/HJx+RjRf7vojsWf23Ggef0i0oK+flfqhN3HrKuS+UJG4n8A",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/09_三维视觉与神经渲染/T33_point_cloud.png"
+  },
+  {
+    "id": "T34",
+    "category": "10_计算机系统与数据流程",
+    "title": "Distributed worker and storage architecture",
+    "description": "分发、并行执行和共享存储，适合分布式计算系统架构。",
+    "slug": "distributed_workers",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/10_计算机系统与数据流程/T34_distributed_workers.drawio",
+    "preview": "templates/10_计算机系统与数据流程/T34_distributed_workers.svg",
+    "spec": "templates/10_计算机系统与数据流程/T34_distributed_workers.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P129_F2_p03",
+      "P045_F2_p04",
+      "P078_F3_p04",
+      "P078_F4_p04",
+      "P110_F5_p05",
+      "P111_F7_p07"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zpbc6M2FMc/jR/XIxAG8ugb24e202k6s9unHRkUUCMjKkTs9NP3SAibW7a2d+zsTp3JJOjofn5/3UATvJzgaL/lExe9UFkykU/wauIGzhTBX7DSPBYJy9PaXKmnD6GOwNEErydoPsHL7f6JcQpJM1Eqk8wlRTFNGEkl2ZbTnCow9SpwXX+KdB2uLgcvbWpIlZMtrZOsWKkk21SKJmDfCflMJTyQXAdLJSRJdbVExhlTNFaVpHVFLKkL+AN7hwq2+4+SFNkvIqG6s8m+TuJgF9WZktfaEiJrSGVTjnM0PLJ/bOucJlnFElp2EiohuGJF1xiLPIdGdmxESrHrJnsSvFtroXvZNzzGhA+tn1iisn6/dMRPlKWZrTpoIrakSWwNZUYSsWuZjOOkEKpx4ZJy3vKvzTdxozcSHNomaa5OzKOY4pbjC+EVbaE0uVx0sS5K9dp4TdE9NGiRKZA+XjnwSDhLtTY5fdIxIFbFwMtza96yJNGZFztd6GNBYl3SDjQFtieRK6sM12/CtjLHhpeCC2kqx64HvzCGFodxAc1502NOW8NUbKmSr7p7VjfpwaQz2mK8sA5aTbuzOrhrCcTFFkXWEoc36+GBB0tonFZZbcaBfaQ5lSzWM0jCFNmYGQK4VZYH+qD7kJBCaSmKpOIwiBqINElNSAndB1EZvJCR6Kqht5lIpucjbVFyvCGVAIfoAd+QSjBGBY1Qcc+lkqIBj6XYFjBi9ETEq1LpEdPzX7ljW05y2vVhqYhsvIZnYJCiyhOa2GiY1RRhgNqGC8FyKHz9Ao7SrkAmDeekKNnG1KQtsGDwluejebSIVqYyKZ5pK2a5XHkrHZOQMjtU2gY5G4L0wyAI59cEOQtRh6TTLAYtlNgZG1/+uSjzLzFnurEDoMZcDjB2+YzNVi26PRBrL0LrcAyEj0PsL74ylWl7RLaMa5fMJYOh2gXlH4ptlilnamzQuHp/EV4TWdAlhp2RwReMEPPDs4EBATWcEH+nf1e01LOdiR+Ov28Dt15F/ji4YP2w/oHBYTy7GbmdM8D2qdleOP9HYCm6gFhvqHlX5OW+zcu987qMl4uuCAy/DezXO7AL1zL/esD0cWq4lj1m0IXOaau/l8xIoR/jV84AocRn84uiyFkFY/zm63DpLb8TfpesaA662ZJGhweBASt92GoOq0LC2SoVOeHro7W35T+m+VmIwhr/okq9Wv+SCs5tHbY0T+b6VQcEN1zEz7UpYvx4yugPUi9wQ2+EU9BjCd5fcLKhfEHi59S0tKsi+NHV7Zn6bApANvQnhNB0ZpoChD6bIGqCx9jaX9pJXxcB+BQOqjFtRk572w5nqJSqwf7wVN1IyoliL90GnK6B4abmroHbaKB1EuhKYHfWvDHC32QFf5J2LnP4Llsl/6YNrWNrEEx7M4/3MB2+kfvPbE44zAYPdXuOojx07DSdDjdzd52+t07dG85Tw73hnf9788c/9Dw1Q9eYp7y7Tt9Jp837ma5ID2eUW+v0wT1lYTwh25i8v12ns7tO30un7rV0es566t/5vxd//J3PU2ML43vNU5ymVH/17b9jElynmE/0nQi5IzKZNBcAzCdGEit9mQRiudhN4f/KfiLUOUi1Z5wR49s6j5KE5frlTmMon1lhWGpxLbSB1rcGtFZdZHRVXviVuf1V2QnRw6wn3Ft+ZfZndh7ofGZ2R94u4RG0bXIQPF4GqUEfr9Q0xuYizzGRuR2E1/8C",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/10_计算机系统与数据流程/T34_distributed_workers.png"
+  },
+  {
+    "id": "T35",
+    "category": "10_计算机系统与数据流程",
+    "title": "Stateful stream-processing flow",
+    "description": "事件流与状态更新分开，适合流式系统和在线数据处理。",
+    "slug": "stream_processing",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/10_计算机系统与数据流程/T35_stream_processing.drawio",
+    "preview": "templates/10_计算机系统与数据流程/T35_stream_processing.svg",
+    "spec": "templates/10_计算机系统与数据流程/T35_stream_processing.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P114_F2_p02",
+      "P147_F1_p03",
+      "P078_F2_p04",
+      "P111_F4_p04",
+      "P129_F2_p03",
+      "P045_F2_p04"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7ZhRb6M4EIB/DY+NwCZAHpM07D3cvlxO2r2nkwMO8cXByJgmuV9/MwYSCHTVrm6RKrWqWjyesc18Y3sYh64dGl9O0iHuC9elULlDnx0SejMX/oKU54lKRZ7V4srsnyLsoLFDN467dOj6dNkLyUH1oEpj1QgrilkqWKbZqZzl3IDoYQJCgpmLcxAch64bbdDK2YnXKlvDDN9XuLbSaM5OT4VWCS9LXA5x91Kd64FFWhv8See3AU+XL5oVh68q5ThAeqlVPErc2ii91pLIbQSZbsfx7oKt+LdZjdeqVSLlZU/RKCWNKPrCROU5T0xPxrRW577aXsn+rAXL+ECwTZgcSr+J1Bwe3ws7fuMiOzRTh23HibXKjaA8sBRceBdZx2mlTOvCNZey49/GziHxKwq3tWmemzfaGGEwemyAMFnxDkprRdw3x0Fprq2XDL/AAlYHA6FNnz14ZFJkGHuS77EHgtEI8OqyEZ9EmqLx6nwQhm8LluBIZ4ghkO1VbppIIEHbbibzmvZaSaXt5JT48At7ZHWLe1jOqx7yujHL1YkbfcVYaeIku4nQsBnGj+pmE8NkXjfPnYAgtHH9oRMM/vwBBzw0RMbplNVuHNAXnnMtEjwhUmHYzp4AgKdKTKXx+QnfIWWFwdBTaSVh04AkT61JZltG4TuoSmMPGDKcGt72oNLZ+5F2KHn+kEpII3dBJ6QSjlFxR6iQ91LJ/3YHQDYvuHbwGLgzQe8+uE+rKk952rhuLMo7noUTXXZct/FjdxOBHACrI+/0BDSiweoHWwDlMTsJiU5ZagGI+6SC27DtcebNrAwWV9870a9kFsx7zGjLpwstHGEWRO9m5g2YfYVDDI974u7QAXoADY7oAh+TqxRAT9N3o4vj2HsOx9AtN9HaX39gdLcNNgE7MmC3tVcRyFTBNTPgPRJIPIZ2+JTh0zdghncTTLSyXOEe+3/35WYTxv4Y3GgReouPDNePpoNLB3D/4GUl7Wkq8uOv2JVeTOP5GLgwjhaLkdvrw4ALFtOB84e7kuuXOi2U7DpyoH7egqPQFu5U0PgwcxlAwvSwTa+VhmwwUzmTm7t01cd41/ldqaIR/sONuTbuZRVkmj20PE+X+DEGzZ1UybEWxUK2CkPGfkgifwRT+IASnL+SbMfliiXHzK60fx/DD053Eea7HcBtWn9By53N7VIA0HfbdNvmvbf2FzrpxzHQ5oIPOaNhOuOml5S8NVo0l8yIl/68b0c/TIA+0U+D3htDTyZEP8yfPtFPg56MoacToh9mV5/op0FPx9D706GXPONY73nM0ZREjaWD1U99Zjp12lKfyA18TCUGy8R1ZW8G/59ZeeCNBasuQgpm11zbGM1EXud8taA8isK6B3nZDy+On9i2+GoTQ0BV/mR9qZupe5G7mD/EwpT1pWAeDJO0W8W1m6W1pcDXyEHzXva1fZ3ieStsS/R3JVv3p5v/AA==",
+    "layout_style": "L01",
+    "visual_style": "V01",
+    "preview_png": "templates/10_计算机系统与数据流程/T35_stream_processing.png"
+  },
+  {
+    "id": "T36",
+    "category": "10_计算机系统与数据流程",
+    "title": "Query planning and execution architecture",
+    "description": "查询编译、优化器和执行器是主要链路；元数据是模块输入，不绘制统计图。",
+    "slug": "query_optimizer",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/10_计算机系统与数据流程/T36_query_optimizer.drawio",
+    "preview": "templates/10_计算机系统与数据流程/T36_query_optimizer.svg",
+    "spec": "templates/10_计算机系统与数据流程/T36_query_optimizer.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P078_F3_p04",
+      "P110_F5_p05",
+      "P113_F3_p04",
+      "P114_F3_p05",
+      "P055_F1_p05",
+      "P110_F2_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zndc6M2EMD/Gj+eR3wY8KM/4O6hN9NOOtPrU0dGMqiRJSpEbPev7woEBkNySZpLJjfJZBK0Wn2wv12xkmbeZuYlpwOfueiOqpJJMfO2Mzd05gj+gpSKVBImskZc6f2nyFR4ycyLZ2g18zaH055xCqq5LHWt5uKimBOGM4UP5VxQDaKrAVw3mCMzhmv68TZWG7QEPtBG5beKqjNICo6FMFNwERbEzOlE00qbrkCi0pxpmupK0WYYRprmv3tB1/3h9FnhIv8qCTWvSk6NiuO5qGlEzo0kQlaQqbYf5yK4Yf/auTmtWsUILQeKWkquWTEUplIImORAhpWSx6HaXvLhqAXO6Ehwk2I+lv7BiM6v38tUfKEsy+3QYVtxwK2yFZQ5JvLYE9WGU1Lq1oQbynnPvrbdzE3uUejmpqjQj2yjmeaW4x3mFe2hrFu56JleUepzazNNTzCdda7B7b2tA4+Ys8z4Jad7UwOOqhnYeGXFB0aIabw+mk5vCpyano7gUSDbS6GtX7hBW7aDOba8kVyqenDP9eEX4mfdxQRM5157OX0PpvJAdf3u2HpN1olMQ9uNHzVF69Huoikee+7hehZE3nMNf3EFBx4sn2lWZbWbxvWZCqpYapgQpvGuXh1KrSrLA30y70BwoY0jSlJxCKEOI8nqkpbmHWSlTA00xGZoeNtckvnTkfYoOf6YSuhFaOm9IpVwigqaoOI+lYr4658REBszV0ZTshKEEmuwKd/u2RPWeN4zWOwnKI5ADljlLe3VBF7kBesHHN/IE3xg3JhipRiAHfIJum7bJc2Z1zKYXPMlin4kqWAxINUtpX1U4QSpIHoyKZhqOQ6fXxspdAQvibjMzFpkV7wXhhhvk2AaYhgv43cMsaP2AMXuc/Q/KcpCjxhuTC7UfrIErVRNEDTZAQykXhZjHIeJP4UxWobOcvOOMQb+94Nx8mP2DIwmfxjHYn4ubfj18ouPGHwMPAc5jwhC52XowfB4HIVYY1g/u7W01FizEnI7SDACbvKCHYRikJmnr9ABwaYTxERRmeiVgo+/mpAnF+YxPXMG1JX3ZORJkjjbcAr5Ko42/s8UrwtnnOe8VLw2sK6IbxuCpZbK7Jx+ADwn8ZLFFLwwiZbLidzy3cAbxeskvReJV4pG5EaszEag3UhJBXl/JgXm8UW6Hq67F51fpCys8G+q9dnaF1ewpxiwpYKszCYcijsu09tGlDDeKowXZT90I3+CU3jFEqy/5nhH+Rqnt1k90+ESAD9muBPT3+oOkC39CSU0X9RTAULf6iJqi5faxl7GSA87AdgUNlEpbcPG7g40VhnVo0T0sS6jKIel9G449uPxOx/43wh/b8sxdAGbxb6SA7gfDvBGDtDtVob42+z3lfh7H/wH/C3xjj8a8l/0+Te+8lz+l0T5LePf/+D/RvwvafNbLgCcZtQc9145wY3kRmM1M1ch6ogV6Q5RmNBU4dQe8O+5PM7h/xaXObUtcHVinOF6zk0brTCzdwSNoLxlRW0kQ63eEVJz0lbfxMD/Glj5zOPl/lbAidByceURr3m8HCyCUebuTJ53tZux+8hB8XIHVNf1btJaYXt7d1GqrwS9+D8=",
+    "layout_style": "L04",
+    "visual_style": "V01",
+    "preview_png": "templates/10_计算机系统与数据流程/T36_query_optimizer.png"
+  },
+  {
+    "id": "T37",
+    "category": "11_因果与AI科学机制",
+    "title": "Causal mechanism and intervention DAG",
+    "description": "因果方向、混杂与中介分开；干预边按实际假设修改。",
+    "slug": "causal_dag",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/11_因果与AI科学机制/T37_causal_dag.drawio",
+    "preview": "templates/11_因果与AI科学机制/T37_causal_dag.svg",
+    "spec": "templates/11_因果与AI科学机制/T37_causal_dag.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P010_F1_p03",
+      "P106_F1_p02",
+      "P142_F2_p03",
+      "P142_F5_p08",
+      "P056_F1_p04",
+      "P079_F1_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zltb6s2FMc/DS9vBBgCvEzS0E1atUndtN5XVy52wKvBkTFNsk+/YzAEAr236U1bVWtVtfj4+IHz+/sJW2hloXifc8u1H6ksmSgsdGW5gTOz4S9YaZEIwoq0MVdq8yXUGSi20NqyFxZa5fsN4xRcM1Gq2s3F2+2MMJxKnJezgiownTTguvOZrdtwdT1oZbzBq8A5bVxWuCqx7llOkwwXrNTZuCDwlxWKykdaKF2fa18trpsmGGmK/omCrup8fy3xNrsRhOrKyL5xcZBrN4XIobGEtjGksq3HORpu2b+mX07rVjFCy4GjEoIrth0aE1EUNFEDG5ZS7IZuG8GHrW5xSkeG2wTzsfVvRlR2+l464xfK0sw0HczDJiPHrbPxLDNMxK5nqgMnhVBtCFeU8158TTnLjZ9w6PomAdIzyyimtI5qqWBe0R7KupRrv0ARpTq08VJ0D11ZZgrkjq4ceMScpVqPnG50DghUMYjvwphzRoguvNxlTNHbLU50TTtQE9g2olBGE+68TZvGHJNeCS5k3ThyPfiFcbPsxgJ058lYOX31UpFTJQ/6VY1i0s6kC5pqPEPXqNn1m+SuJw0XGQhZTxaefwIGHgybaU5ldT+N6poWVLJEzxqEKXxfzwqlklWiKqmfv+h3IHirNEJBKg7DpwVISVqnlNDvICqpc6Cg4a0yQWbnI+1RcrwxlQCFdoTekEowRcWeoOKeS6X4Vo2ArESxEVVBqA7mX6PoQQUwVz0l8F5QYYLnvajFToxiH+zAVjzQfjzjMIom4typX9tjnDOu47GQDOgOIc27ats5zZnVNuhcswyFr4nLR/6AlzO3x8D8CV7B+bz247lOUqxy/QKufXcxXGsvttfhFK45CtF8+YFxdZOXwYWiifF1IVz5CNcNTHNYCT24bi43uOLYuQqmaC3W4cpbfWBafvh2tA4jWr9XKoFOgfHr5YbWeh3E3hSsMAqc6CPDijz7zWARMaL163A/pz1CmBKjETpZL3DE8DlzrAVrfz2JbzkPosD/wPi6TYXB5wfjhWxyO9geEp6Nj9ojeOPxBZu7dnMsJOzlUlFgvj5al0OMR5/fhNga4z9UqYMJL65gnzhASwuy0IcqSN5zkTw0ppjx1mG8+nmBG3oTmIITlBD8Jcf3lC9x8pDWPR1O2PCjm9szdQc2fa5tUl/rlF93BQDd1bXbbfKY28RLB+n7GoCYwsY4oSc7PoVlStVgW/FctUjKsWKP9FRoEErcL7UVcMAqezX/oQ29be7cnw0F50TB7HQmeEYxGF+jYvDQ9Oeox+7FnidR51OiA4k635Oo/eoSPbyHREOnU9Y5Eh0Xex2Jup8SfSeJ7qckmv+kRM9ZQNEn+ndCn7/G7HQOem+EnjCpPxbD22w29cP/WQmGvVFCb+90NxTGMfeik8C7rFPd9/t25z7x5fykiGM7/g/K/PwC5Y+kOvzm/qnT44z1Y50SXGbdu79UtO25+bIHgDPmL05Tqr/enwjjVnDtsbD0rZbcYUms9gqn1gxOzLF+w8VuBv+vTDR0CVztGWe47nNTRknMCn1mbg3lA9vW8dH0ltpA9Xed+lIN/tfgyhfeFvS/ZjuhHfknynjT2wLbrA+D6wJ34tSOJsZ7nxwkj9d5zeg/Xoq2xvYS9uhU3+yi9X8=",
+    "layout_style": "L05",
+    "visual_style": "V05",
+    "preview_png": "templates/11_因果与AI科学机制/T37_causal_dag.png"
+  },
+  {
+    "id": "T38",
+    "category": "11_因果与AI科学机制",
+    "title": "Recurrent circuit with structural constraints",
+    "description": "功能输入、循环状态与结构约束的机制示意。",
+    "slug": "recurrent_circuit",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/11_因果与AI科学机制/T38_recurrent_circuit.drawio",
+    "preview": "templates/11_因果与AI科学机制/T38_recurrent_circuit.svg",
+    "spec": "templates/11_因果与AI科学机制/T38_recurrent_circuit.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P104_F2_p03b",
+      "P181_F1_p02",
+      "P107_F1_p02",
+      "P108_F2_p03",
+      "P130_F3_p05",
+      "P130_F4_p06"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zlbj5s4FMc/TR4bcQswj7lA92FXWm1W2ulT5WCHeMdgZMwk00+/x8bcmencmqqrqUYNPvjY5vz+tg9m4W4XbnzJ2MKx7okoKc8X7m7hBPbSgv/BSvKEY5qntbmSx0+huuHGCzdaWOuFu80uR8oIVD3xUupqDiqKJaYoFSgrlzmRYBp14Dj+0lJ9OKodd2tqQ60cZaSu8hdJKiFIDu5WQkVSUXV1pvIEP6UUVSIrgdTQE55DGdFclnVXFNdN/O2GbRfZ5bNAxekPjonywZe6iu06Vu2EH2pLaBlDKpp27M6wp9/M+OymWkUxKQcVJedM0mJohFHmJJEDGxKCn4fVjpwNey1QSiaGfYLY1PoPxRCd0XOpG78Rmp5M10FzI0NNZWMoTwjzc8+kAyc4l00It4SxXnyN38KJH6nQjk1zfJ6PpFLpSUsGsYr0UGovx3qDMkr50MRNkgsMaXOSIH93Z8MlYjRV+mTkqO6AYCWFOK+NOaMYK+fN+UQl2RcoUS2dQVVgO/JcGm04flM2ndmmvOWMC92563jwB/No084NGM6jMbP7KiY8I1I8KPUY5aStSTmaZrywLhpVO6u6eO5JxHENjFNPHt5qBAguDKN5XmV1mEf2meRE0EStIphKdNCrRINHXX9Sz4BRoehlHFcMphFYcqxdUl2SXD0Dr4S6A44aKzztiePly5H2KNnelErghtaNe0UqwRwVa4aK81Iq+ddS0mzCZA/GilVlO5doXlRyEkjBqxwTbII4p/dejGH9Z70gRl5sRSHYATW/I707vhu6/uaJyaDsMcooU+FZCwqwh8z8ttlmqbOX2gaDq3ep8EfSC60BPbfZAvr4ghl6fvhieiLPJ/Bm1z2fKWEfYH74qbraSyT1dvz1nbFGURB7c1jDm8C+2f7CWD3v+1zbGfhWrgThGbCw8b77NIx2sT8/DYPoJvqFeYX29eahROXdNBnRRutATuieQvg+ls9XcVv9QG5d5jfdAwskqc4j6i3wTIV6+MlKOm7inQDHcWzvgjnA6yjcev+nhXQO8PsspMSaYJ1AUilkk4JzARljynPEos66GWLs6vzOeWGM/xIpH0x4UQXZ6AAtyfFavcJB8cB4clebYsqaCtNJ7AVO6M1gCkYoIfgbhg6EbVByl+qRDkUE/1R3FypvdQOWKX2BkrVc6aEAoFtdtJpid7eOlwrS0xqAmEL6nZBpXimRSIkcZSzPlYwgDKbh/bDz5/O3P/j/JP5tZjrCbxKbK/F3PvgP+Bvihr/dAb8dyuFLK4dX828z2KEAmkzpSgJwJwIQJK0YEvQbNMvzDzn0l4On5FCLBaPy1D77a7UxTpl+5g7hzQike38u69fkD408qpErbBlv1oN2hXCivlfBm/Ne0/KfXAuyyVIDezXIUp3V9Ez6Oy52MD6Pm7h4o5edV7i43nhgcFE/bTcF2rA9a1YwkpJ8egCx50zVWC/U9wdxRgL3DgglESipl1TryPh5Cb87s1ooD1RdKKNIk6t99BKg36mMobyjhRaKUu5GGYg6o9KfP+BXi7Z85Xlu//zWDq2b1WhWXPM811/5kxceu/3m0X/jcWfQ9slBsfvwUoPuPl81xuazWVdJf4tzo/8A",
+    "layout_style": "L07",
+    "visual_style": "V01",
+    "preview_png": "templates/11_因果与AI科学机制/T38_recurrent_circuit.png"
+  },
+  {
+    "id": "T39",
+    "category": "11_因果与AI科学机制",
+    "title": "Representation-to-structure mechanism",
+    "description": "多类型表示到结构生成的通用 AI 科学框架；不是 AlphaFold 的精确复刻。",
+    "slug": "ai_science_structure",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/11_因果与AI科学机制/T39_ai_science_structure.drawio",
+    "preview": "templates/11_因果与AI科学机制/T39_ai_science_structure.svg",
+    "spec": "templates/11_因果与AI科学机制/T39_ai_science_structure.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P142_F3_p04",
+      "P068_F2_p06",
+      "P130_F3_p05",
+      "P130_F4_p06",
+      "P104_F2_p03a",
+      "P104_F2_p03b"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zltb9s2EMc/jV/GkERZll/ajt0N2ICiGbDuVcGIZ4kLRaoUVTv79DtK1JPlds7aJt2QwIjF0/FB9/uLPNIzsp2R/SkXs8D7BLrkSs7I7SxY+nMP/6MVZKIYl2ljrszhJrY3yH5GdjNvPSPb/HTgAtA1U6Wp3QJaFHPGaappXs4lGDSddRAE0dyzfQS2HbJ13uglaQ6NyzsoNJQgDTVY7caom9LoKjGVtr3lkGRU8jJvGuesqfQbWXWN5qc3mhbZr4qBfUB2alx8EnhNJfbYWGLPGVLdtuP3hjv+lxuR37pVnEE5cjRKCcOLsTFRUkJiRjaqtTqO3Q5KjHstaAoTw11CxdT6O2cmO38ue+Mn4Gnmul62N3LaOjtDmVGmjgNTHTitlGlDuAUhBvF19WbB/jMO3dg0kruyjuHGKqgWCRUVDFDWtQLvSVoozWMbKQMnHMQmMyhxcuvjJRU8tRoUcLB3UJSGY2TXzpxzxmzlzTHjBu4KmtiWjqgjtB2UNE4NQdSWXWe+K2+VULrunAQhfvBd2XT6x+F8Nkr+ULegcjD60erFaSXtTLaiayaMm6LTcbBoiseBKALiwp8NBBEuzpDghaNymVBZ3V+G9AYkaJ7YmYJxQ+/rmWDI5sY+A6OFsZwUqwS+OGiRrK6S1iWj7DOoSts7WJGKGqrJFJs/HemAkh9OqSxJ7K3IM1JZXqLiXaASPJWK/FDCxwmSO/hY4bQN3cuDD8ONHTWXRWXKSUS1qiQD5qJ5SfiDYONkLwbR3IV7bxejHZmrBxjciUhMos0X3gpr39OcCxunteZIfQwv6pptZzl/XttwcM2SFH9PjEtvhNFfeROOF1+uKH4yxoJyPeH4Fo1HXlqOejT9fVOA+/3ev11eArjexdtw+/8BGC6+H0Cc8OTDhOC7M2yec4uEnafuEXmU2qufpQGNE1/jVBWMGvjGr+lut9yHlyjHq6W/+i9TDoMx5i4LGmJuF7yvxJyCnE63g8Uutauhg30O+Rak4qUNSDsvazhwCbl9+lfW173R8fOxbpKY6aysMdFJDLBxnvO6pF7Dz/euAeh9C4DgTdBNKNn8s83flcZ0M1WSil1v3Yw59j6/KFU4459gzKOLL60wlR2xBcnWdseHxXuhkofGtOeidZhCDpdBHF7gtDxjidHfCHoPYkOTh7Qe6Xhdxz/b3Ymb93UDniv9gSVvvqiHgoTe10WvLfZ3m3jZIH1ZBBhTzN0TmCSlhuoUzGSNvFY0GgTOpZ/gXG8YUDqsVSgum7TWtfzWGnrVkcgdNfQbpSCcT3el/1iNLKbV8KIZT6/K7sGuE6r/KtQXEmqfdv+wSg3jH0ipwatSX0ipg/3FWKouI/0KoT5lTSWvAnghAXQ7jzH+Pkl9HgUIwIGwiQrulLAe65k9zNZHqlm3yeGjve1BqOMcv29pmYGrQasTF5zWY27qGE25HO6Uygde1FGy2DbWAHa7VZ+l43dNrPyXR4XDo0E/9laLM0k851FhtIgm6bDfHaAP82FyYXYfksNif4rfzPX9byGtsf3VpXeqf8ohu78B",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/11_因果与AI科学机制/T39_ai_science_structure.png"
+  },
+  {
+    "id": "T40",
+    "category": "12_通用方法与总体框架",
+    "title": "Contribution-first method overview",
+    "description": "中间突出创新模块，适合论文 Figure 1 / method overview。",
+    "slug": "contribution_overview",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/12_通用方法与总体框架/T40_contribution_overview.drawio",
+    "preview": "templates/12_通用方法与总体框架/T40_contribution_overview.svg",
+    "spec": "templates/12_通用方法与总体框架/T40_contribution_overview.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P090_F2_p13",
+      "P117_F1_p12",
+      "P109_F1_p02",
+      "P074_F1_p03",
+      "P090_F1_p12",
+      "P090_F3_p14"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7VlZb9s4EP41eoyhyzoefaktsMUWyALbPhW0RMvcUKJAUbGzv36HFHWrrd1c7SJBkIjDGR7zfUMOScPZGE50zqhhm/eYl4TlhrM1bN9amPAXpDiPWULytBZX4nATyAonMpydYa4MZ5OdD4RiUD2yUig1GxXFIiEo5SgrFzkWIBp1YNvewpR92LIdZ6O1QStHGa5VNiwXnOwrAUY3B8KhddvMsDiyBD4YNHdP8KlumyS1zV9u12Z2fsdRcfzIEiznl5xrFcuxzdooeaglgakFKW/asTrBLflXD8hq1CqS4HKgKBijghRDYczyHMdiIEOcs9NQ7cDosNcCpXgiuI0RnUr/Jok4juclK95jkh51135TkaFGWQvKI0rYqSdSjuOMicaFG0xpz7/azrCjbyi0Y+M4FxfaCCIkgRRHEK1wD0plZZvXUKEUD42jBD7DGNZHAQR3thZ8IkpSyUCKD7IGDAUBx660OCNJIo3XpyMR+LZAsWzpBDQC2QEGoclge01Zd2bp8oZRxlXnju3CL0TKumU/DOebTrL6tMUM5sYfJF00VdJWJA11M25QFzWN7WVdPPU4YTva+8ceH9zlCBH40KDMA1RW+3mM3uEccxLLdSIhAu3VOlAKXsWi4vL7Rs4hQYXCiyUVhbgBSZ4ok1SVBJNzYBWXNWCIaAvu4npIeyhZ7hQV3wnM0HlBVPw5VMwZVOxrUUnNCR4fdUiMnFaeSEZRjoeOKwXijaucJQg4q/IEJ7oaVi+BCOCrywUjucB8dw/ekfM3lQ6lqCjJXvUkJbAX0J67o1W0jraqM87ucK9ms9m6W1mToPLYdtpHbzlFzwt8P1g9J3qOaw7gs9wpfu16Ogyqa/HLv5K8qMQERMMOkGGHIPxQ1+tFsOAM/JxN0B3CNrdy9UAf4bNzI3MXzOHjOYHjrb+zrEl5hDJCpadWnEDYDvHz2mabXcpaKBkMrs4ogudE0lsOgHSalbAHpD0HpBdcjeMeldO1cQ1CCvFTIxfjspSTfkrwIityouUceH4UhOHM6vcq4KXmT6C3HKLnTaPwqcDLIX2gc0G4r4PwE2cFK3HS7mCG7VG50+xhw/JS+fWl3rziXpbytFG62/mROwd0EPpWuPkfAd0msX2kmzX4kUgfqpkwjTDSuYrc3uAQ8uToRVFkbf059Fa7YOP+1ui54+0yeL5AZfN7ZVyH6Z+VaDfTt83xR7hZZjAEbm57tMKnAA5P09QJSvIo0BylGIccNmU5ortOOspNO50/GCu08B8sxIP2L6rgVDHAFufJSp69obinLL6rRRGhXTo8Btn17cCdwckfYQneX1O0x3SN4rtUjXQY/vAjuzsT8Vk1YOrSF5k0L5ZqKIDQZ1U0m2JXW/tLOun7JACfwk4U45n8EnL9FItxwnIpazimsC7e4zHhwKOob6XOCGWv5U9SMMiuFyPeee5iekHwQzNYeCZm8FGPp6NlO7HLmGq9MfVXY2qbnf22VHXD8Bmoar9R9ZWo2h32hkxtssuXJqoX+othDj23OF5gNsfvxxPVeSPqKxG1d7D9NZjqW5esjReYPQ9T3TemvhJTu4P5kKj6xPcInl5xTqE4xfJdYsSBW0alxsqQD3X8hHhiNBey6j4cxfWFgXmg7LSA/1t9ny0tUHUmlCA15tpGcERydRGoBeUdKZSPJGhrKcDyMkK9E8J/hVf5k+8g/RtBKzDD5YgQL/kO4i09Y3LAnL0acGZCu48cFLsXyjrQu3feRtg8KHdK6pXa2f0H",
+    "layout_style": "L02",
+    "visual_style": "V01",
+    "preview_png": "templates/12_通用方法与总体框架/T40_contribution_overview.png"
+  },
+  {
+    "id": "T41",
+    "category": "12_通用方法与总体框架",
+    "title": "Iterative algorithm with decision branch",
+    "description": "终止条件、迭代更新与返回分支清楚标记，适合算法流程图。",
+    "slug": "algorithm_iteration",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/12_通用方法与总体框架/T41_algorithm_iteration.drawio",
+    "preview": "templates/12_通用方法与总体框架/T41_algorithm_iteration.svg",
+    "spec": "templates/12_通用方法与总体框架/T41_algorithm_iteration.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P074_F1_p03",
+      "P109_F1_p02",
+      "P090_F1_p12",
+      "P090_F2_p13",
+      "P090_F3_p14",
+      "P117_F1_p12"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7VnbbuM2EP0aPa6hqyU/2o60XaAtiqZFk6eClmiJDS0KFBU7/foOKequpHHgeLG7WQRrcThDUnMOhzOi4WwNJzodqGGbj5iXhOWGc2PYvrUw4X+Q4jxmCcnTWlyJ/adAdjiR4YSGuTac7eG0JxSDasZKodRsVBSLhKCUo0O5yLEA0WgC214uTDmHLcdxtlobtHJ0wLXKF4E5EuRRjo1oyjgRmdQ4wi/8JDgmajzb3HGUx1k9C0lq6z9cqx39cPrMUZH9whIs3zQ51SqWY5u1UfJUSwJTC1LejGN1glvyr16a1ahVJMHlQFEwRgUphsKY5TmOxUCGOGfHodqe0eGsBUrxRHAbIzqV/kUScMvovWTHT5ikmZ7abzoOqFHWgjJDCTv2RMpxnDHRuHCLKe35V9sZdvSMQrs2jnPxShtBhKSSYguiFe5Bqaxs822kKMVT4zKBT7CaTSaA9M6NBY+IklSykuK97AGaCgIuXmvxgSSJNN4cMyLwbYFiOdIRCAWyPcuFpoW9bNp6Mku3t4wyriZ3bBf+YPds2h0By3nWXQMCY3bAgj/J19akSVuRNNTDuEHd1IS2vbp57LHDdjQOWY8ZrjfCBh40PPNQldVuHq3POMecxDJ2JESgnYoNpeBVLCounz/Jd0hQISQPWVJR2EEgyRNlkqqWYPIdWMVlDxgiOTW8bcaSxfmQ9lCy3CkqvhOYK+eKqPhzqJgzqNjnopL/XQrExQSU207acxzYQqR6jts9f0KEpz2HhW5khgHIAVb2gHs9SydwlpsXiC/lEToQKl2x5gSAHeKzbIdtIpq1UDJYXH0OBe+JlNXA0Gygpt3Hyp+BahmcDRXJyRSpLyAEr0hvSKyQwBPYOKvyBCcam3OhC2+i5Tx0frgKv2Ho3CtCF2c4fphgt2U5vFcqoYmmqGXssKvKsxGLosi68ecQW4fB1t1+w4j53hAxazUTGJfeFLHVOJP4f8SwPF9GeP2O4UiSuQKrRFF9xMdXxUfverusKpI2/vVg+1OLdUrI8Z7kF46SYehH7hyAwcq3Vt/TnnOD98MPP8q8bYReKJ9r/GLI3iFXlOn6xxH3liPu/cDD5gS4aXiEZL0pdhiH3DxlOaJhJ90MYex0fmas0MJ/sBBP2r2ogrx/AC1E7bWsk6G5owyOXCWKCG0Uphi7vh24MzD5IyjB+RuKdphuUPyQqpUOT134J6c7EXGnBjB16x5a5sJTSwGA7lTTbJpdb+0v6aSXOQA+hUInxs2u6WXw8JRiMc4XX0sajmldKvfnej0DrA8GfCUGdIXBkABt1nklBtgTBtzL6vyDBNcgQa/EGLJAZ7JX4oAz4cCv7MemgAZdU8DqML8bMuK+ZcTFKdAlxldigftxFow48EIYsC4ZBvo10CgO6Oz6ShTwJhTI5XdX0Kg/yc9k8T8YJV4MCxekRFdWXT49UKbgUdS3KhjJRdkb+Tcp6MoSx/MGZYk3+T4zMfFHlcwbTKAamnK4XnrH6NYHryI5xencd6JbRqXG2pBXdPyIeNJ+fIAVAvvjmv7mnrLjAn5vUJlhbYGqE6EEKRhqG8ERZHhQLTaC8oEUCnjJxI0UYHW/pYhtm4qE5RvvPfr3HFZgrrwRy69577H0lsakXG2vBfv1qjMDbR85aHZ3kzXQ3Q1vI2wulTsldVPthP8B",
+    "layout_style": "L07",
+    "visual_style": "V01",
+    "preview_png": "templates/12_通用方法与总体框架/T41_algorithm_iteration.png"
+  },
+  {
+    "id": "T42",
+    "category": "12_通用方法与总体框架",
+    "title": "Overview with module zoom-in",
+    "description": "上方总图与下方模块细节形成两级叙事，适合方法模块解释。",
+    "slug": "overview_zoom",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/12_通用方法与总体框架/T42_overview_zoom.drawio",
+    "preview": "templates/12_通用方法与总体框架/T42_overview_zoom.svg",
+    "spec": "templates/12_通用方法与总体框架/T42_overview_zoom.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P109_F1_p02",
+      "P074_F1_p03",
+      "P090_F1_p12",
+      "P090_F2_p13",
+      "P090_F3_p14",
+      "P117_F1_p12"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7ZnZbuM2FIafxpcxtEu+9CLNFOigBVKg06uCNmmZDSUKFBXb8/Q9pDbKUhInzbgtJoNgZB5u0vl+LoecueuZm5wyNnOsRyJKyvOZu5k5oT234H+wknzHMc3T2lzJ/V2kMtxk5sYzazlz19lpTxmBogdeSl3MQUUxxxSlAmXlPCcSTBcdOE4wt1QfjmrHXTeloVSOMlIX+QUqPFJyBOORygM8Mo4r3dU3zrM7mtftUlyX/81zuvay0yeBisMXjon6Nnyqi9iuY9WV8Lm2RFZjSEXbjt0b7um35mXstlhFMSkHBSXnTNJiaNzxPCc7ObAhIfhxWGzP2bDXAqVkZLjfITa2/k4xeOXiu1TGZ0LTQ9N12GZkqC3cGMoDwvxomLTjBOeydeGaMGb4t6k3c5InCnTvJkgur6wjqVREtT4Qq4iBUtdyrGtlUMpz6yRJTtD/6iBB2O7Ghp+I0VQpj5G9yoEmJQWnLhtzRjFWlVfHA5XkvkA71dIRJAS2Pc9lIwQnaNNNZ3aTXnPGhe7cdTz4gxGy6lQPr/Okg2xTsoRnRIqzkkojk7QzqYpNM15UJxsJO36dPBp6cNzG8wdDC55/QQN+NECm4ZTVdprPJ5ITQXdqfsBUoq2mUUpR7WQl1O879Q0YFbLDVSpLjnWVVKckV9/AK6FyoCJSXcPXHjievx6pQcn2xlRCN7IW7g2phFNUrAkqzmuppNaIx5d2RGAiEWUj75VHmjGUk6EHS4lE6zPXB4PgVY4JbrJhCoPGAHSTLjjNJRHxI7hJOcLSZRhDRUm3uidlgcWAGX5Plskq2ejOBH8gRs56vfE2Kgej8tB1amL0xxiDKAyj5ffE6LY8zu2gsUYgI3uCox28FmT+55amI5b351IStRLybuK7oDnENDVlGZAveMReYsXRFI/Ajdxg9cx8puwJyihTnlkKCuN1yCvomm2XJnuubfBy9RYi+p7kQms4LUbjETg5LQbRq7m1K9AFus/QKFMNE2wsU+9JL47DxJuiFy1Ce7H+H9PzvGvw+e+Cj1eyqOQIXz/yjPyPcffiuFv4L5ObmjHfQA4AFfYI3E9qXcr1/kEVgMfyneHFmySYhhfGi/g/Ai+13kDPH8ILx6udHb4fO+cKdqsPdtfuVWzrlvDcK+CtP+BdO/CCG408Mo4XRpBUTNbGtFxACJZywBr31ovYoC/zM+dFY/yLSHlu3IsqCO8GaEmOl+oABJJbxncPtSmhrA9HLhl7oRN5E5jCC5Tg+xVDW8JWaPeQ6jc1QxD9T3V3ovKrbsBqUn9Aypr7+lWAz1edtNpkn1v7Sznp+ZUTfArx7I60o6bb30OklRI53j5eqxlBGJL0cdj99QoYL5kfCriNAswgYCiCfpN5IxGM196nzs9+KC1Yz2nBntLC4MDi/YXR7XH/gS50VXAwMmvpA5zSaPlXZTBCsIU/H24oXHvRWowj3Ber+b43qgY/6vfpxdp92HX6HW8/fmzh3m4SM6KusVSdG05h3ocE/kUJOE9JwL2dBBhJibpFuDy64UyVgLDf2nNxRALP2vsjfWiNdlJdPUIu48c5PDfNHK5qoOpEGUX6nes6UiCaqyCgNZQPtNBuUtxWykDUcbu+0YOnRla+8dbCvKWwI2vhX2jilrcWgR+Mo5DuGs8MQ9yJCd4kB8n+LrGe7vsb2dbYXvv2hfRdshv/DQ==",
+    "layout_style": "L04",
+    "visual_style": "V01",
+    "preview_png": "templates/12_通用方法与总体框架/T42_overview_zoom.png"
+  },
+  {
+    "id": "T43",
+    "category": "01_视觉网络与编码解码",
+    "title": "Feature tensors and convolution stages",
+    "description": "可编辑立体特征图图元展示空间分辨率下降和通道变化，不要求读者只靠方框理解张量。",
+    "slug": "feature_tensor_cubes",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/01_视觉网络与编码解码/T43_feature_tensor_cubes.drawio",
+    "preview": "templates/01_视觉网络与编码解码/T43_feature_tensor_cubes.svg",
+    "spec": "templates/01_视觉网络与编码解码/T43_feature_tensor_cubes.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P167_F5_p13",
+      "P027_F1_p03",
+      "P120_F8_p06",
+      "P120_F13_p12",
+      "P143_F2_p03",
+      "P143_F3_p04"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zldj9o4FIZ/DZdFiR2ScDkwpF1p92oqtXu1MrEJXpw4cpyB2V+/x44TAsm0gDRUlRiNwD4+/jrPa8cxE7yc4OSQiwnyXpmquCwm+HmCIn/qwSdYWZFKyousMdd68yk2BTiZ4NXEe5rgZX7YcMHAdSsrbd0QKcsp5SRTJK+mBdNgOusAoXDqmT6QaQcvnTd4FSRnjUvCiK6VaVmzopKqghQpKHymsniVotamNeRVmmSsavrgtKn7NcBd2/nhsyLl9i9JmZknPTQuPkZeU4m+NZbYc4ZMte34R8ML/88NzG/dak6h476jllJoXp4aYbgFS/WJjSgl96duGylOey1hXgPDS0rE0PqNU709n5cp+MJ4tnVdR21BTlpnZ6i2hMp9z2QDp6TUbQiXTIhefF29CUrecejGplihL6yjuTZCslohomY9lLYW8m6RRKXf2oBpdoCxLLYaBI+ffUgSwTOjSME2pgQkqjkE+MmZc06pqbzYb7lmLyVJTUt7kBPYNrLQThQobPOuM9/ll1JIZTvHKIB/WDmLbjXAcN4Nlt+XL5M50+rNTNZJJutMpqJrJoibrJMzmjXZfU8bCDsK254ugtkZGUg4OOOgqno9zuozK5jiqdk3KNdkbfeFSqs6ddg+mTlQUmqjQklrwY4IGbXMYA2ZOchamRKoSEzXMNutpNPrkfYo+cGQSoRjb47vSCUao+KNUEHXUin+4fmAyB9FWZtg89xsJigUJiZrCG2YmdQXO07kfXPfeBBg2BpKk0zrtVkIlQtl9M6i6IGAx4LoRXoVJN4qNk1oJXesVxLiGIeLH6wYY09IzoWJ4ZPioIhTsGHXbLsR+lNrg8E1D6/4IxGHsxPEuMXZZzybDRF3xisYb/wB4+OumAODMcYJOnLu0suPZL16TsJx1tFqvvqNWeN2B21hoxHY4RjswQPwAtjoFthBD3abRg/aN61s72xpBxfSnt8AG98CO+7BbtPBR8JeraIkGIMdzyN/vvyNYcfx2dKeXbiPR9fDlrUe0P5Kqp1tmdABPyXrgjLqmDyevG0zvn8jszC+khnzBsCW8NLRvZtAFOB10Gy1A3jmZNu+GUgFB9lMFkSsjtbFKd6jz59Sls74L9P6zYWd1HBIPkHOCvpkXikhuxYy3TWmhIvWYcg+iFAcjOCLzhADlIUgayYWJN1ldqS9ZhL7Z7o7cP3dNuC53N+Q86YzOxQA991mvTZ7LG3iZYL0Y21ATOGtIGXnx11NVMb06QHpUh0pJojmr6c9X66J4WHsoYlfqon2eHymCXRHTQzPbA9N/FpNoFFN4DtqYni0e8C/E3w8Bt8dv+5DX7CMFXSggBcpjMfTxFz9qj1RtNsjeKGZIqm7zdwIuZ/C9zOptszVIPWBC07smJs6WhFemCNXt9HseGkjZJAtjIGZbcfePMO3pVXdeKPWv0HzY28+O5PDPW/Uwlk4PPJ11839Mx/+yTkdssc7b1vW++WgNbY/VRyd7O8fePU/",
+    "layout_style": "L01",
+    "visual_style": "V03",
+    "preview_png": "templates/01_视觉网络与编码解码/T43_feature_tensor_cubes.png"
+  },
+  {
+    "id": "T44",
+    "category": "01_视觉网络与编码解码",
+    "title": "Neural network as neuron-node layers",
+    "description": "每个神经元与连接都可编辑，适合小型全连接网络、神经网络机制解释。",
+    "slug": "neuron_layers",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/01_视觉网络与编码解码/T44_neuron_layers.drawio",
+    "preview": "templates/01_视觉网络与编码解码/T44_neuron_layers.svg",
+    "spec": "templates/01_视觉网络与编码解码/T44_neuron_layers.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P167_F5_p13",
+      "P143_F2_p03",
+      "P143_F3_p04",
+      "P167_F2_p04",
+      "P167_F3_p05",
+      "P167_F6_p14"
+    ],
+    "edit_url": "https://app.diagrams.net/#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",
+    "layout_style": "L01",
+    "visual_style": "V05",
+    "preview_png": "templates/01_视觉网络与编码解码/T44_neuron_layers.png"
+  },
+  {
+    "id": "T45",
+    "category": "02_Transformer与注意力",
+    "title": "Recurrent computation unrolled in time",
+    "description": "按时间步展开循环神经网络，同色模块表示参数共享，横向箭头表示状态传递。",
+    "slug": "rnn_unrolled",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/02_Transformer与注意力/T45_rnn_unrolled.drawio",
+    "preview": "templates/02_Transformer与注意力/T45_rnn_unrolled.svg",
+    "spec": "templates/02_Transformer与注意力/T45_rnn_unrolled.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P017_F3_p04",
+      "P132_F1_p04",
+      "P001_F2_p03",
+      "P037_F2_p06",
+      "P037_F3_p07",
+      "P057_F1_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7ZtRb6M4EMc/DY+NjE0IeWzSZO+kO510Pel2nyoXHPDW4MiYJrlPf7YxKcS0SrMNlXapqjYej7GZ38wfSo2Hlh5a73PmQfBMREl54aE7D878CVA/lZUUMU9okdbmSm5uIt2B1h5aeeDWQ8t8v6GMKNeMl9K4QbzdThKKU4HzclIQqUwnE0AYToCeA+rjoKX1Vl4Fzknt8jeJKyFIoYaDmOfbSmKpx0NQFYIzRhL1keq2pGqMmYMm9dh/gunx2Pn+i8Db7E+eEH2eyb528REE9aDkUFsiYA2paI7jvxju6X92YX7jVtGElB1HyTmTdNs1xrwoSCw7NiwE33XdNpx1Z93ilDiG+xgz1/ovTWR2el664zdC08xOPWs6ctw4W0OZ4YTvWiYTOMG5bEK4JIy14mvHeXD9isNxbQbgeWMklcxyfMasIi2UZhQEl6REKQ9NwCTZq7UsMqkSHt356iNmNNUZychG96gUlVQF+Naac5okevBil1FJ7rc41kfaqXRStg0vpE0KGDZtO5lv20vOuDCTIxiob1U5i2M1qOW8Giy/nb6E50SKg04bmzLp0aQH2sMEUd206QyndXPXyg2ILIWslRfB9ISM+mDh9IMqq8d+Vl9IQQSNtW4kVOJHowulFFUsK6E/3+hzSPBWA8x5UjFVP8pSJGZIalqS63PgldA9aiDWU6uzzXgyeT/SFiU/cKnMUATmaEAqsz4qoIcKfC+V4mEPHCK/F6pI9GIegBM7wasiIYmNW1+Kt8KqRJ614rYK1mAVKbuiy59IqydEEQoXb+S/tq9xTpmOyK2gim8XU3g8bCNr/sTY1OLqS1F0TWB+o++WmB/1IJv1EAujdxPLXGIdjTP+IdOJ/KjqIUxNsmuWwHiDjQcjw3apF/Nwo054/rGgV6vZOugDHc1n/nz5E4FGAXBAHy/2Pwj64IL+q5J1bR7G2rwU2RS4yD6qNvf+G2rqj8TOvPyBAdXUJXaOmvonauo3agpGMb2Y81XF1OXcEtOxNC9EdlUxhW+IKRyJnUcsnA8opi6xc8QUnogpbMR0vDO9nPNVxdTl3BLTsTQvRHZVMUVviCkaiZ1HbB4NKKYusXPEFJ2IKWrEFI5iejHnq4qpy7klpmNpXojsemJK3OcyDiT9YLp5sM+FzHjKC8xWL9ZFF+OLzx+cb63xO5HyYMOLK8m7aEmR3Or/CKnmI+PxU21aU9Y4uIyDGYyCHkyzE5Qq+AuGHwlb4PgpNSttHWZtvvR0eyq/KhuYTG3rmzkcMEtRgFqduvnNNMExC3SQ3s4BFVNeiZgcr2I29BKLlMijUoL35IsgDEv63J35fPju35Ej/GHgZ73wD0PCd+97R/gDVb7fBz9715XiB+G71+kR/kCV3wv/MCT8wIFfSizd/QK/VAZY5jYDWsi/HpG3MmD64do/aPlPx/L/LO2HvfDhgPDDEf5naX8v/MOQ8Gej9n+q9vff+g2ZAdFY/p+l/agXPhoQ/nyE/1na3wv/MCR8333YN4r/kOLff+83YAowkhK92fgkC+450x63nt6FL3ZYJF6z5ZwWkggc223mG8Z3E/X7DpcZsSNwtaeMYrPmeowUmBb6MXljKJ/o1gRIE1toA9G7oc1LAOq3gVVeuLm5vZnZj8B8epINQ25uDqf23rqzuxn2PKhv9qG/Rk41X14/MH2tlzgaY/PWyIuTeRUFrf4H",
+    "layout_style": "L07",
+    "visual_style": "V01",
+    "preview_png": "templates/02_Transformer与注意力/T45_rnn_unrolled.png"
+  },
+  {
+    "id": "T46",
+    "category": "02_Transformer与注意力",
+    "title": "Patch image and editable token strip",
+    "description": "每个 token 为独立图元，C 表示 CLS token；可替换为 mask、时间或模态 token。",
+    "slug": "patch_token_strip",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/02_Transformer与注意力/T46_patch_token_strip.drawio",
+    "preview": "templates/02_Transformer与注意力/T46_patch_token_strip.svg",
+    "spec": "templates/02_Transformer与注意力/T46_patch_token_strip.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P093_F4_p05",
+      "P121_F2_p03",
+      "P093_F2_p02",
+      "P132_F1_p04",
+      "P001_F2_p03",
+      "P037_F2_p06"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Zpbj6M2FIB/DY8bAeaWx1xgW6mVVppK3T5VDjjgjsHUmE2mv762MQlgZjcZzaJulVE0wcfHt/OdYxs7FthZIDmXxHLtL4g1mFYW2Ftu6Kxs8V9IUZXSDFd5J2758UMkM0BigdiyNxbYlecjJkioFrThSs2Fdb3KMMwZLJtVhbgQTRpw3WBlyzZcWQ/YaW2hVcESdSqfIE8LIcElzGX9sMpkhzLM4UE1yOkzqsR3wxmuuzZw1pX9zQsudZfnjwzWxa80Q3Kc2blTcYBrd4Wyl04S2VqQs74e5yp4wv/ojjm9Wosz1IwUOaWE43osTGlVoZSPZJAxehqrHSkZt1rLcU8FTykkpvR3nPFiOi6Z8RPCeaGbDvuMEvbKWtAUMKOngUgZjlHKexPuECED++pylpu8onDpG0MVv7EMx1xyVb4CSYsGKFUp136LSzT8pTcYR2fRl23BhcODvSMeIcG59EiCjjJHuCjHwsAbLS5xlsnC21OBOXqqYSprOgl3ErIjrbh2Cjfo07oxR6d3lFCmGgeuJz4icraXaBDdedVYztB9ES0RZy9ywNpl8otIFtTVeFGX1O7s+l3yNPANF2gKxcAvPH9CRjxoOPOgmvYwz+ojqhDD6ZiJYNGmvGXy+YMcQwZrLr2QZi0R8XPFmKsUp3IMtGUyRxSEsmkx2oJmq/uRDig5nkklBJG9BgtSCeeo2DNU3Hup5LbBIy4PKMtQNowM9HcrJnVkWLI54ZLACo2t2XDIevsBXwgYbStZY5ctpjYOsYCu0zXFFUcs/iJMJo1iKx1CYN3gg2pJSsSCQQYMkk2yTfaqMSZ6OcjZ7fbeXuZksCkujQ6R+ibSIArDaPM9kQLgTyLNNqCCwDeZOuG9UKs/cZkbXH/W818t50MZNFOWBazlY9oeJM9GGyt8ZSYb8J6gib3EjqM5NAGIQLD9yjQn5QksMZFG2jAswniMLrhU269ezkrJROe6HUf0PSEGE4aRydCZZejfz1AEnLmuMVg1R8pKxPp9lnyakByH253w4jhMvDl40Tp01rsfGF4Y2CN6YGaxc8EMvSC6Gx5tuQHvExMLXMrldvZdif1/w82xI/+byJxwZiF8A7LaXAp37woqSRJnH86B2sTRzvuvhFZuv4HUZHGb2bAAx6QUTrf3N1ByDErOO4dTvE+C+XAK43X8I1MKF6PkGpTcB6VbZz1nMUzAwAQemG7F5C+GyTMweQ9Mt2JaL4bJNzD5D0w3YlpwBxEYmIIHplsxLbeFCA1M4QPTrdvxhbYQyHxnqvVxO1LHiHKwU2jyzLY/86aMFzSnFSTxVTo5L7zq/EJprYV/Ic5ftLlhy+kYNaqyjbwsEckDoelzJ0owuR5RTpl7oRt5M9jCCVrBYkvgAZEtTJ9z1dPxO574k82dMf+sKrB16g+Rsle+6org9Vkl7T55ze3sJY30qk/0bzy0ZSnqA+Zy5schyxG/xNFd/sMQgRx/GTd9uzuYL2cP+svQ708vxvD1GeJC9M2Xvgf9ZehfzorH+PUp5DL4CcqRvJObuMATJVJjY8nLanaCLLP6m1l17QP1iah9JPS0Et97fW0jS8D2jAmGqs9dGc4grtSqogXNs7y0lbcahTKg3SB1y6tcwLUVruaNd4DDOz8nstf+xB+WvAMM/MBYw53LBflwFQffWMVF8npLr/IGv3Xohf2PK65K6hcbIP4X",
+    "layout_style": "L06",
+    "visual_style": "V01",
+    "preview_png": "templates/02_Transformer与注意力/T46_patch_token_strip.png"
+  },
+  {
+    "id": "T47",
+    "category": "03_图神经网络与关系推理",
+    "title": "Temporal graph and node-state evolution",
+    "description": "三个时间切片均为可编辑节点—边图，虚线连接表示跨时间状态变化。",
+    "slug": "temporal_graph",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/03_图神经网络与关系推理/T47_temporal_graph.drawio",
+    "preview": "templates/03_图神经网络与关系推理/T47_temporal_graph.svg",
+    "spec": "templates/03_图神经网络与关系推理/T47_temporal_graph.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P158_F1_p04",
+      "P060_F2_p03",
+      "P099_F1_p04",
+      "P100_F1_p04",
+      "P174_F2_p03",
+      "P072_F1_p03"
+    ],
+    "edit_url": "https://app.diagrams.net/#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",
+    "layout_style": "L05",
+    "visual_style": "V05",
+    "preview_png": "templates/03_图神经网络与关系推理/T47_temporal_graph.png"
+  },
+  {
+    "id": "T48",
+    "category": "06_多模态与跨模态融合",
+    "title": "Token-level cross-modal interactions",
+    "description": "上下 token 对应边展示模态对齐和交互机制，可改为稀疏或全连接交互。",
+    "slug": "modality_token_alignment",
+    "tips": [
+      "替换模块名称、输入输出和张量维度。",
+      "保留主要信息流方向，新增分支放在空白区域。",
+      "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+    ],
+    "drawio": "templates/06_多模态与跨模态融合/T48_modality_token_alignment.drawio",
+    "preview": "templates/06_多模态与跨模态融合/T48_modality_token_alignment.svg",
+    "spec": "templates/06_多模态与跨模态融合/T48_modality_token_alignment.json",
+    "editable_template": true,
+    "provenance": "原创通用结构模板；主题相关论文提供布局参考，并非逐图复刻",
+    "preview_renderer": "SVG generated from shared JSON geometry; not a draw.io native export",
+    "related_figures": [
+      "P137_F2_p03",
+      "P183_F3_p06",
+      "P139_F2_p04",
+      "P148_F2_p04",
+      "P153_F3_p03",
+      "P153_F4_p04"
+    ],
+    "edit_url": "https://app.diagrams.net/#R7Ztdc5s4FIZ/jS/jAQkDvowdu3vRndmZ7Oy2VzsyyKCNQB4hbGd//UpC2HwltZtAnQydTmMdJCHO876yiKoJXE7g+pjQCbD2mGeEpRP4MAGePbXkvzKK04CFJI2KcC62d766ANcTuJpY9xO4TI5bQrGsGrNM6GoA7XbTkKCIoySbpljIUOMGALhTS90DqH7g0tSWtVKU4KLKn+wJp3cU77EaXsBZlt0lLESqRFKBOQqE7C8reiehaeX4p16T4xeOdvHvLNRdhMeiig2BVTQKn4uIb5lAxMt+7HPgkfxnhmSX1XIS4qxWUTBGBdnVgwFLUxyIWgxxzg71altG63fdoQi3Ao8Bou3o3yQUcfO51IXfMIlic2uvvJCgsrIJZDEK2aES0onjjIkyhUtMaSW/pt0ErF+ocBobx6m4sI0gQklIqwTRHFdQ6lbAuk4MmXguUyXwUY5iEQspcvhgy4+IkkipkOKtuiJlKYhM7b0JJyQMVePFISYCP+5QoHo6SCHJ2JalwsgBuGXZ3Mw25SWjjOubQ+DIv9Iti5MD5HBeTJNdFS5mCRb8WQnGiCU6hVRD002hdmAZIYNZUTxUVAGgyX9cUYQzazCRHwyWbkRZvumm9AWnmJNAzRUhEWij54JM8DwQOVef79QzhGgnlP5YmFPpHBlJQ90k0iXB1DOwnKsrsqHmKp82ZuH0eqQVSrbTpuJB35rDAal4XVSsDirgWirpPyRRc0UTyl8kK3IolG/arpC236mPQb5RUs9MsrwXZF9JtZzsaSWXK2dtrXzVheDyVpUrLvShu3jFEyq+RgmhKkv3nMjx1tG5p27LSc6e6pgcXPGV5PcJ0Z3VrVVOY1WKJdkqRNtuznc/pqgl3YT4FaVRrum+hJGzPA1xaNCM5LrJOW4XuQ77uf7V4PaveG+DgqcNS/E7Y1s9rN1ubN5qvvrA2GDJ5FXHvQ830eZWsdtI7m3k+nRcgnnHF95jLB9BrSi2uX7J6GfKXK28tdNF0J979nz5gQnOZ/U5E8L2mgXM3mnOtFr47NFpl361/XiOBPMOTNevLEXfmNbrtf3gdWG6X/lL5yPbqYmpa0J8J0x7u4UJjG66EJPfeH3u0U19Y/rMbmpg6tNNoIUJjm66DJMH3MHc1DemT+ymJqY+3QRbmJzRTRdicp3B3NQ3ps/spgamPt3ktDDNRjddhsm3wGBu6hvTJ3ZTE1NvbsLtl9sWI7U5VW7uMS5iFrEU0dU5uqhTPNf5ytjOBP/FQjyb7KJcsDpZnIb3aj9YFjeUBU9FaE1oWaHtRMcDvtNByWuQlLlfULTBdIGCp0iPtK4h+Ufd7kjEN92BZUrfZcmazvRQJJ9vumiVxfPVIl8qSa9LQOaU5TzApT8qO1YC8QiL0/yGr1EMxxQJsq/f/HL+7dexkf8w/M97XXX8Ykj87feHEf8w+Pfd3rcGhN9e7o7wh/J+p/OHhN9enY3wB3K+0wX/tJ/3Bv66qcwnqrbaMZKKrNLzHypQWWvO4bSxmTID0+ZC8oJm0J2XkaoMi/GcRXl6sMt0Oht1+qsmqVvXqTO/IZ26o05rOjXKNDq1z8L8Vpft95NsQ5TFp2f/6cnV+uXfrN6ohJtQgt2phKt+HfNGJfijEm5CCaBTCWBAJcxHJdyEEmCnEuCASrDH37jehhQ6V7fFmncYKVAcYXX6o6GGR0ZVjfuJOhDFD4iHk/L0T+WEj7pK2WEqfz6YdKgWKD8SSpAec9FGcERStWVRBrInstMJUvgWKoDV//XV57HkT00u+8nTJtXTJbZvzWcNaQx52sSdmSV57bhJud9V3TWBHW8DVXKyeD4JVrwbnM/TlcHy6N65kj4PCFf/Aw==",
+    "layout_style": "L06",
+    "visual_style": "V01",
+    "preview_png": "templates/06_多模态与跨模态融合/T48_modality_token_alignment.png"
+  }
+]

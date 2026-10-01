@@ -1,0 +1,21 @@
+{
+  "title": "GastCoCo: Graph Storage and Coroutine-Based Prefetch Co-Design for Dynamic Graph Processing",
+  "venue": "PVLDB",
+  "year": 2024,
+  "source_url": "https://www.vldb.org/pvldb/vol17/p4827-li.pdf",
+  "pdf_url": "https://vldb.org/pvldb/vol17/p4827-li.pdf",
+  "source_kind": "official_journal",
+  "category": "10_计算机系统与数据流程",
+  "id": "P113",
+  "download_status": "ok",
+  "original_pdf_url": "https://www.vldb.org/pvldb/vol17/p4827-li.pdf",
+  "pages": 13,
+  "pdf_first_page_excerpt": "GastCoCo: Graph Storage and Coroutine-Based Prefetch\nCo-Design for Dynamic Graph Processing\nHongfu Li∗\nNortheastern Univ., China\nlihongfu@stumail.neu.edu.cn\nQian Tao∗\nTongyi Lab, Alibaba Group\nqian.tao@alibaba-inc.com\nSong Yu\nNortheastern Univ., China\nyusong@stumail.neu.edu.cn\nShufeng Gong\nNortheastern Univ., China\ngongsf@mail.neu.edu.cn\nYanfeng Zhang\nNortheastern Univ., China\nzhangyf@mail.neu.edu.cn\nFeng Yao\nNortheastern Univ., China\nyaofeng@stumail.neu.edu.cn\nWenyuan Yu\nTongyi Lab, Alibaba Group\nwenyuan.ywy@alibaba-inc.com\nGe Yu\nNortheastern Univ., China\nyuge@mail.neu.edu.cn\nJingren Zhou\nTon",
+  "local_pdf": "references/03_图神经网络与关系推理/P113/paper.pdf",
+  "sha256": "3637022949582ded6a0975cb4b659ca989dbd9be11ed231e33a94fa5c16776b2",
+  "bytes": 1507444,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

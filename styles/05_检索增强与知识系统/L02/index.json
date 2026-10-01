@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P050_F1_p02",
+    "title": "ReMAP: Neural Model Reprogramming with Network Inversion and Retrieval-Augmented Mapping for Adaptive Motion Forecasting",
+    "category": "05_检索增强与知识系统",
+    "layout_style": "L02",
+    "visual_style": "V02",
+    "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/2cdf71a65e95bf1874212f6e604c64db-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/2cdf71a65e95bf1874212f6e604c64db-Paper-Conference.pdf",
+    "figure_number": "1",
+    "pdf_page": 2,
+    "caption": "Figure 1: Simplified architecture of the proposed ReMAP. The corrupt inputs Xamp from the individuals with mobility challenges are mapped to clean inputs Xcorr computed from able-bodied individuals, and the corrected inputs are used to produce the desired motion variables for the individuals with mobility challenges ˆyamp using a frozen foundation module pretrained for able- bodied subjects.",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "05",
+    "kind": "paper_reference",
+    "year": 2024,
+    "venue": "NeurIPS",
+    "image": "references/05_检索增强与知识系统/P050/figures/P050_F1_p02.png",
+    "description": "网络架构图",
+    "source_kind": "official_proceedings",
+    "copy_note": "原论文集/出版商公开版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "0ee807e7177db7212d31c28117f3d9072faefb5f74a514d0b312808e616c4e3d"
+  }
+]

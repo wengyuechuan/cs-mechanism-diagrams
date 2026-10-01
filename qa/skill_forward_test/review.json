@@ -1,0 +1,64 @@
+{
+  "scope": "Offline forward-use evaluation: retrieval, visual inspection, brief and prompt preparation, rejection tests. No imagegen call.",
+  "selected_reference": {
+    "id": "T17",
+    "absolute_png": "C:/Users/wengy/Documents/ChatGPT/论文阅读/绘图模板库/agent-skill/cs-mechanism-imagegen/assets/images/05/L08/T17.png",
+    "kind": "original_blueprint",
+    "layout": "L08",
+    "visual": "V01",
+    "source": "Original generic structural blueprint; MIT",
+    "viewed_with": "tools.view_image",
+    "observation": "Two dashed swimlane containers, low-saturation rectangular process blocks, thin slate arrows, white background. Vector-index RAG labels differ from the requested graph RAG; use only its layout and style."
+  },
+  "checks": {
+    "brief_content": {
+      "status": "pass",
+      "observation": "Nine requested nodes and exact labels; four offline and five online."
+    },
+    "brief_topology": {
+      "status": "pass",
+      "observation": "Eight exhaustive directed edges; G -> R is the sole cross-lane read edge; no A -> G edge."
+    },
+    "prompt_topology": {
+      "status": "pass",
+      "observation": "Prompt lists all eight edges, forbids A -> G, and specifies a single target arrowhead at Subgraph retrieval."
+    },
+    "prompt_style_layout": {
+      "status": "pass",
+      "observation": "L08 labelled stage swimlanes, V01 flat muted palette, white background, no shadows or gradients; lane membership and gutter routing supplied."
+    },
+    "reference_visual_fit": {
+      "status": "pass",
+      "observation": "T17 has the requested swimlane and low-saturation visual grammar. Prompt explicitly excludes its original algorithm, title and footer."
+    },
+    "required_zero_result_test": {
+      "status": "pass",
+      "evidence": "03-search-empty-combination.evidence.json",
+      "observation": "Known valid taxonomy IDs retrieval/L03/V03 returned matches=0 and results=[]."
+    },
+    "required_forbidden_edge_test": {
+      "status": "pass",
+      "evidence": "05-prompt-forbidden-edge.evidence.json",
+      "observation": "A -> G write edge conflicts with non_edges; exit code 2; no rejected output files created."
+    },
+    "generated_image_content_topology_text": {
+      "status": "unverified",
+      "observation": "No image was generated under the offline test restriction."
+    },
+    "generated_image_layout_style_print_readability": {
+      "status": "unverified",
+      "observation": "No generated image exists; reference inspection does not validate the eventual output."
+    },
+    "files": {
+      "status": "pass",
+      "observation": "Brief, prompt, references, evidence and tool-call plan saved. Final diagram PNG intentionally absent."
+    }
+  },
+  "actual_defects_encountered": [],
+  "limits": [
+    "No critical skill defect encountered in this requested workflow and the two specified negative tests.",
+    "Reference T17 contains seven vector-RAG nodes and a title/footer; it is not the requested mechanism. The generated prompt correctly instructs replacing its method and suppressing these decorations.",
+    "Imagegen rendering fidelity, arrow direction, exact text and final print quality remain unverified."
+  ],
+  "harness_note": "Initial outer test runner stdout used Windows console encoding and displayed Chinese paths incorrectly in the command output. Evidence files contain correct UTF-8 paths; runner now explicitly sets UTF-8 stdout. This was a test-harness issue, not a skill error."
+}

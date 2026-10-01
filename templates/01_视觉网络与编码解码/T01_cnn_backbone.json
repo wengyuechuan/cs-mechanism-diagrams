@@ -1,0 +1,97 @@
+{
+  "id": "T01",
+  "category": "01_视觉网络与编码解码",
+  "slug": "cnn_backbone",
+  "title": "CNN backbone and prediction head",
+  "description": "卷积网络的主干—特征—任务头结构，适合分类与特征提取总览。",
+  "nodes": [
+    {
+      "id": "0",
+      "label": "Image\nB x 3 x H x W",
+      "x": 65,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "1",
+      "label": "Conv stem\nB x C x H/4 x W/4",
+      "x": 275,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "2",
+      "label": "Residual stages\nC -> 2C -> 4C",
+      "x": 485,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "3",
+      "label": "Global pooling\nB x 4C",
+      "x": 695,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "4",
+      "label": "Prediction head\nB x K",
+      "x": 905,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Deep Residual Learning for Image Recognition",
+  "venue": "CVPR",
+  "year": 2016,
+  "source_url": "https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf",
+  "source_kind": "official_or_author_public_copy",
+  "id": "P092",
+  "category": "01_视觉网络与编码解码",
+  "pages": 9,
+  "pdf_first_page_excerpt": "Deep Residual Learning for Image Recognition\nKaiming He\nXiangyu Zhang\nShaoqing Ren\nJian Sun\nMicrosoft Research\n{kahe, v-xiangz, v-shren, jiansun}@microsoft.com\nAbstract\nDeeper neural networks are more difﬁcult to train. We\npresent a residual learning framework to ease the training\nof networks that are substantially deeper than those used\npreviously. We explicitly reformulate the layers as learn-\ning residual functions with reference to the layer inputs, in-\nstead of learning unreferenced functions. We provide com-\nprehensive empirical evidence showing that these residual\nnetworks are easier to",
+  "local_pdf": "references/12_通用方法与总体框架/P092/paper.pdf",
+  "sha256": "51b5de45eb0b558b19c3affe49503cff50cb170a32de602983d6e2ec286942a7",
+  "bytes": 603123,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

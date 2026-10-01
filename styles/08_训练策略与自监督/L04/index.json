@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P008_F3_p04",
+    "title": "VoCo: A Simple-yet-Effective Volume Contrastive Learning Framework for 3D Medical Image Analysis",
+    "category": "08_训练策略与自监督",
+    "layout_style": "L04",
+    "visual_style": "V03",
+    "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wu_VoCo_A_Simple-yet-Effective_Volume_Contrastive_Learning_Framework_for_3D_Medical_CVPR_2024_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_VoCo_A_Simple-yet-Effective_Volume_Contrastive_Learning_Framework_for_3D_Medical_CVPR_2024_paper.pdf",
+    "figure_number": "3",
+    "pdf_page": 4,
+    "caption": "Figure 3. The overall framework of VoCo. VoCo contains a prediction branch and a regularization branch. The prediction branch is responsible for predicting contextual positions between different sub-volumes. The regularization branch is employed to enforce the feature discrepancy between different bases, which aims to learn more discriminative class assignments.",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "08",
+    "kind": "paper_reference",
+    "year": 2024,
+    "venue": "CVPR",
+    "image": "references/08_训练策略与自监督/P008/figures/P008_F3_p04.png",
+    "description": "机制示意与总体框架",
+    "source_kind": "official_proceedings",
+    "copy_note": "原论文集/出版商公开版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "41a2191ab5e14667d74fa2ef5b1084d3812af88cc4e56f99c5b9d3b1c812b93f"
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "id": "T17",
+  "category": "05_检索增强与知识系统",
+  "slug": "rag_online_offline",
+  "title": "RAG offline index and online answering",
+  "description": "离线索引和在线问答分轨，便于论文方法总览。",
+  "nodes": [
+    {
+      "id": "docs",
+      "label": "Documents",
+      "x": 70,
+      "y": 190,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "chunk",
+      "label": "Chunk + embed",
+      "x": 330,
+      "y": 190,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "index",
+      "label": "Vector index",
+      "x": 620,
+      "y": 190,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "database"
+    },
+    {
+      "id": "q",
+      "label": "User query",
+      "x": 70,
+      "y": 465,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "ret",
+      "label": "Retrieve top-k",
+      "x": 620,
+      "y": 465,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "ctx",
+      "label": "Context assembly",
+      "x": 890,
+      "y": 465,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "ans",
+      "label": "LLM answer",
+      "x": 1130,
+      "y": 465,
+      "w": 150,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs",
+      "target": "chunk",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "chunk",
+      "target": "index",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "q",
+      "target": "ret",
+      "label": "query embedding",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "index",
+      "target": "ret",
+      "label": "nearest neighbors",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "ret",
+      "target": "ctx",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "ctx",
+      "target": "ans",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [
+    {
+      "title": "Offline indexing",
+      "x": 40,
+      "y": 135,
+      "w": 1225,
+      "h": 165
+    },
+    {
+      "title": "Online inference",
+      "x": 40,
+      "y": 390,
+      "w": 1225,
+      "h": 185
+    }
+  ],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

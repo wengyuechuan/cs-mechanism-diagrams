@@ -1,0 +1,20 @@
+{
+  "title": "Joint Diffusion Models in Continual Learning",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Skiers_Joint_Diffusion_Models_in_Continual_Learning_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Skiers_Joint_Diffusion_Models_in_Continual_Learning_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P146",
+  "category": "04_生成模型与扩散机制",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Joint Diffusion Models in Continual Learning\nPaweł Skier´s\nWarsaw University of Technology\npawel.skiers.stud@pw.edu.pl\nKamil Deja\nResearch Institute IDEAS\nWarsaw University of Technology\nkamil.deja@pw.edu.pl\nAbstract\nIn this work, we introduce JDCL – a new method for con-\ntinual learning with generative rehearsal based on joint dif-\nfusion models. Neural networks suffer from catastrophic\nforgetting defined as an abrupt loss in the model’s perfor-\nmance when retrained with additional data coming from\na different distribution. Generative-replay-based continual\nlearning methods try to mitigate th",
+  "local_pdf": "references/04_生成模型与扩散机制/P146/paper.pdf",
+  "sha256": "a4c8ec0c2340f6b0c3a6bb41e476caa9fe2e78539cf1a8c27ad754dd85f56eaf",
+  "bytes": 1211050,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

@@ -1,0 +1,8 @@
+# Dependency versions used to build and verify this collection.
+# The portable skill's scripts/library.py uses only the Python standard library.
+requests==2.34.2
+beautifulsoup4==4.15.0
+PyMuPDF==1.28.2
+Pillow==12.3.0
+resvg_py==0.5.0
+PyYAML==6.0.3

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "C:\\Users\\wengy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\agent-skill\\cs-mechanism-imagegen\\scripts\\library.py",
+    "search",
+    "--topic",
+    "retrieval",
+    "--layout",
+    "L03",
+    "--visual",
+    "V03",
+    "--limit",
+    "4"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"matches\": 0,\n  \"filter_policy\": \"strict; no silent fallback\",\n  \"results\": []\n}\n",
+  "stderr": ""
+}

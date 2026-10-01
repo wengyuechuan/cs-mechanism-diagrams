@@ -1,0 +1,20 @@
+{
+  "title": "A Triple-View Framework for Fine-Grained Emotion Classification with Clustering-Guided Contrastive Learning",
+  "venue": "ACL",
+  "year": 2025,
+  "source_url": "https://aclanthology.org/2025.acl-long.247/",
+  "pdf_url": "https://aclanthology.org/2025.acl-long.247.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P179",
+  "category": "08_训练策略与自监督",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 15,
+  "pdf_first_page_excerpt": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 4970–4984\nJuly 27 - August 1, 2025 ©2025 Association for Computational Linguistics\nA Triple-View Framework for Fine-Grained Emotion Classification with\nClustering-Guided Contrastive Learning\nJunqing Gong\nBinhan Yang\nWei Shen*\nDISSec, TMCC, TBI Center, College of Computer Science,\nNankai University, Tianjin, China\n{gongjq, yangbinhan}@mail.nankai.edu.cn, shenwei@nankai.edu.cn\nAbstract\nFine-grained emotion classification (FEC) aims\nto analyze speakers’ utterances and distinguish",
+  "local_pdf": "references/08_训练策略与自监督/P179/paper.pdf",
+  "sha256": "dda1d894cbd022d3d3753330d87f849f07fdbd9a9267599eebb8c5e9fb59e61b",
+  "bytes": 979074,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

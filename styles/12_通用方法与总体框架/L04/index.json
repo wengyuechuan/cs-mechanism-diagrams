@@ -1,0 +1,19 @@
+[
+  {
+    "id": "T42",
+    "title": "Overview with module zoom-in",
+    "category": "12_通用方法与总体框架",
+    "layout_style": "L04",
+    "visual_style": "V01",
+    "description": "上方总图与下方模块细节形成两级叙事，适合方法模块解释。",
+    "topic": "12",
+    "kind": "original_blueprint",
+    "year": 2026,
+    "venue": "原创结构蓝图",
+    "image": "templates/12_通用方法与总体框架/T42_overview_zoom.png",
+    "rights": "MIT; original generic structure, not an exact paper reproduction",
+    "source_url": null,
+    "keywords": "替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。",
+    "image_sha256": "2f6cd57ccd3e208c4b4a8389cbedf0ee5a501d98b669a31feb6c9271484ffc89"
+  }
+]

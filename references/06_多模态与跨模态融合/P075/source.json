@@ -1,0 +1,19 @@
+{
+  "title": "Tuning Large Multimodal Models for Videos using Reinforcement Learning from AI Feedback",
+  "venue": "ACL",
+  "year": 2024,
+  "source_url": "https://aclanthology.org/2024.acl-long.52/",
+  "pdf_url": "https://aclanthology.org/2024.acl-long.52.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P075",
+  "category": "06_多模态与跨模态融合",
+  "pages": 18,
+  "pdf_first_page_excerpt": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 923–940\nAugust 11-16, 2024 ©2024 Association for Computational Linguistics\nTuning Large Multimodal Models for Videos using Reinforcement Learning\nfrom AI Feedback\nDaechul Ahn1,3 Yura Choi1,3 Youngjae Yu1 Dongyeop Kang2 Jonghyun Choi3\n1Yonsei University 2University of Minnesota 3Seoul National University\n{dcahn,yoorachoi,yjy}@yonsei.ac.kr dongyeop@umn.edu jonghyunchoi@snu.ac.kr\nAbstract\nRecent advancements in large language models\nhave influenced the development of video large\n",
+  "local_pdf": "references/06_多模态与跨模态融合/P075/paper.pdf",
+  "sha256": "80775cd46fe07e47792986add1d41613e2b8f13f9d8927db30f9ab143acab4ed",
+  "bytes": 8467264,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

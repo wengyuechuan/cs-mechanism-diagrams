@@ -1,0 +1,114 @@
+{
+  "id": "T18",
+  "category": "05_检索增强与知识系统",
+  "slug": "graph_rag",
+  "title": "Graph-based retrieval and evidence path",
+  "description": "知识图谱、查询与子图证据分开展示，适合 GraphRAG 类结构。",
+  "nodes": [
+    {
+      "id": "docs",
+      "label": "Corpus",
+      "x": 65,
+      "y": 285,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "extract",
+      "label": "Entity + relation\nextraction",
+      "x": 315,
+      "y": 285,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "kg",
+      "label": "Knowledge graph",
+      "x": 580,
+      "y": 255,
+      "w": 210,
+      "h": 130,
+      "kind": "latent",
+      "shape": "graph"
+    },
+    {
+      "id": "q",
+      "label": "Question",
+      "x": 335,
+      "y": 490,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "sub",
+      "label": "Subgraph retrieval",
+      "x": 850,
+      "y": 285,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "gen",
+      "label": "Evidence-grounded\nanswer",
+      "x": 1100,
+      "y": 285,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs",
+      "target": "extract",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "extract",
+      "target": "kg",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "kg",
+      "target": "sub",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "q",
+      "target": "sub",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "sub",
+      "target": "gen",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Open-Det: An Efficient Learning Framework for Open-Ended Detection",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/cao25h.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/cao25h/cao25h.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P167",
+  "category": "01_视觉网络与编码解码",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 21,
+  "pdf_first_page_excerpt": "Open-Det: An Efficient Learning Framework for Open-Ended Detection\nGuiping Cao 1 2 Tao Wang 1 2 Wenjian Huang 1 Xiangyuan Lan 2 3 Jianguo Zhang 1 2 4 Dongmei Jiang 2\nAbstract\nOpen-Ended object Detection (OED) is a novel\nand challenging task that detects objects and gen-\nerates their category names in a free-form manner,\nwithout requiring additional vocabularies during\ninference. However, the existing OED models,\nsuch as GenerateU, require large-scale datasets\nfor training, suffer from slow convergence, and\nexhibit limited performance. To address these is-\nsues, we present a novel and efficient",
+  "local_pdf": "references/01_视觉网络与编码解码/P167/paper.pdf",
+  "sha256": "a9f0c839d2c6e0046e7ca9c8118c92dff9079d6098deb00095bdabe5794d096a",
+  "bytes": 6342419,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

@@ -1,0 +1,121 @@
+{
+  "id": "T28",
+  "category": "08_训练策略与自监督",
+  "slug": "teacher_student",
+  "title": "Teacher-student distillation",
+  "description": "冻结与可训练参数用颜色区别，目标和特征路径分开。",
+  "nodes": [
+    {
+      "id": "x",
+      "label": "Training sample",
+      "x": 75,
+      "y": 330,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "teacher",
+      "label": "Teacher network\nFrozen / EMA",
+      "x": 405,
+      "y": 180,
+      "w": 210,
+      "h": 68,
+      "kind": "neutral",
+      "shape": "box"
+    },
+    {
+      "id": "student",
+      "label": "Student network\nTrainable",
+      "x": 405,
+      "y": 450,
+      "w": 210,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "t",
+      "label": "Teacher features",
+      "x": 745,
+      "y": 180,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "s",
+      "label": "Student features",
+      "x": 745,
+      "y": 450,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "loss",
+      "label": "Distillation objective",
+      "x": 1060,
+      "y": 330,
+      "w": 205,
+      "h": 68,
+      "kind": "loss",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "x",
+      "target": "teacher",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "x",
+      "target": "student",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "teacher",
+      "target": "t",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "student",
+      "target": "s",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "t",
+      "target": "loss",
+      "label": "stop gradient",
+      "style": "dashed",
+      "via": []
+    },
+    {
+      "source": "s",
+      "target": "loss",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

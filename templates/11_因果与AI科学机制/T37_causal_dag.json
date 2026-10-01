@@ -1,0 +1,120 @@
+{
+  "id": "T37",
+  "category": "11_因果与AI科学机制",
+  "slug": "causal_dag",
+  "title": "Causal mechanism and intervention DAG",
+  "description": "因果方向、混杂与中介分开；干预边按实际假设修改。",
+  "nodes": [
+    {
+      "id": "u",
+      "label": "Confounder U",
+      "x": 535,
+      "y": 160,
+      "w": 150,
+      "h": 75,
+      "kind": "neutral",
+      "shape": "ellipse"
+    },
+    {
+      "id": "x",
+      "label": "Treatment X",
+      "x": 245,
+      "y": 395,
+      "w": 150,
+      "h": 75,
+      "kind": "input",
+      "shape": "ellipse"
+    },
+    {
+      "id": "m",
+      "label": "Mediator M",
+      "x": 585,
+      "y": 395,
+      "w": 150,
+      "h": 75,
+      "kind": "latent",
+      "shape": "ellipse"
+    },
+    {
+      "id": "y",
+      "label": "Outcome Y",
+      "x": 940,
+      "y": 395,
+      "w": 150,
+      "h": 75,
+      "kind": "attention",
+      "shape": "ellipse"
+    },
+    {
+      "id": "do",
+      "label": "Intervention do(X)",
+      "x": 200,
+      "y": 570,
+      "w": 230,
+      "h": 68,
+      "kind": "loss",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "u",
+      "target": "x",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "u",
+      "target": "y",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "x",
+      "target": "m",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "m",
+      "target": "y",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "x",
+      "target": "y",
+      "label": "direct effect",
+      "style": "solid",
+      "via": [
+        [
+          320,
+          520
+        ],
+        [
+          1015,
+          520
+        ]
+      ]
+    },
+    {
+      "source": "do",
+      "target": "x",
+      "label": "intervention",
+      "style": "dashed",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 768
+}

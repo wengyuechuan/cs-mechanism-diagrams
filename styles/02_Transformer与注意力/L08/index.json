@@ -1,0 +1,19 @@
+[
+  {
+    "id": "T05",
+    "title": "Transformer encoder-decoder overview",
+    "category": "02_Transformer与注意力",
+    "layout_style": "L08",
+    "visual_style": "V01",
+    "description": "上下双通路展示源端编码、目标端自回归与跨注意力。",
+    "topic": "02",
+    "kind": "original_blueprint",
+    "year": 2026,
+    "venue": "原创结构蓝图",
+    "image": "templates/02_Transformer与注意力/T05_transformer_encoder_decoder.png",
+    "rights": "MIT; original generic structure, not an exact paper reproduction",
+    "source_url": null,
+    "keywords": "替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。",
+    "image_sha256": "2b4ce57612839cc298e97d7ac8ef4545de96ceb9c8c7e445ef8a28905e434f99"
+  }
+]

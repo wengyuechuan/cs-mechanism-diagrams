@@ -1,0 +1,19 @@
+{
+  "title": "Enhancing Diffusion Models with Text-Encoder Reinforcement Learning",
+  "venue": "ECCV",
+  "year": 2024,
+  "source_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3625_ECCV_2024_paper.php",
+  "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03625.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P042",
+  "category": "04_生成模型与扩散机制",
+  "pages": 18,
+  "pdf_first_page_excerpt": "Enhancing Diffusion Models with Text-Encoder\nReinforcement Learning\nChaofeng Chen1⋆, Annan Wang1⋆, Haoning Wu1 , Liang Liao1 ,\nWenxiu Sun3 , Qiong Yan3 , and Weisi Lin2 \f\n1 S-Lab, Nanyang Technological University\n2 CCDS, Nanyang Technological University\n3 Sensetime Research\nchaofeng.chen@ntu.edu.sg c190190@e.ntu.edu.sg wslin@ntu.edu.sg\nhttps://github.com/chaofengc/TexForce\n(a) SDv1.4\n(b) TexForce (SDv1.4)\n(c) SDv1.4 (d) TexForce\nFig. 1: By refining the text encoder through reinforcement learning, the proposed\nTexForce with Stable Diffusion v1.4 can generate images that align better with human\n",
+  "local_pdf": "references/04_生成模型与扩散机制/P042/paper.pdf",
+  "sha256": "654a11212a7c4aa40108bd7755b3c0d465423f2e89e1676060ea73e80dc9a0f2",
+  "bytes": 8982719,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

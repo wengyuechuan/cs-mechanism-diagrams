@@ -1,0 +1,19 @@
+{
+  "title": "LLM4SGG: Large Language Models for Weakly Supervised Scene Graph Generation",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Kim_LLM4SGG_Large_Language_Models_for_Weakly_Supervised_Scene_Graph_Generation_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_LLM4SGG_Large_Language_Models_for_Weakly_Supervised_Scene_Graph_Generation_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P013",
+  "category": "03_图神经网络与关系推理",
+  "pages": 11,
+  "pdf_first_page_excerpt": "LLM4SGG: Large Language Models for Weakly Supervised\nScene Graph Generation\nKibum Kim1\nKanghoon Yoon1\nJaehyeong Jeon1 Yeonjun In1 Jinyoung Moon2\nDonghyun Kim3\nChanyoung Park1*\n1KAIST\n2ETRI\n3Korea University\n{kb.kim,ykhoon08,wogud405,yeonjun.in,cy.park}@kaist.ac.kr jymoon@etri.re.kr, d_kim@korea.ac.kr\nAbstract\nWeakly-Supervised Scene Graph Generation (WSSGG)\nresearch has recently emerged as an alternative to the fully-\nsupervised approach that heavily relies on costly annota-\ntions. In this regard, studies on WSSGG have utilized im-\nage captions to obtain unlocalized triplets while primarily\nfo",
+  "local_pdf": "references/03_图神经网络与关系推理/P013/paper.pdf",
+  "sha256": "231f1c57901af5e0455a4f99a126a0082dfd4b20fddbc2f8f3ea5d961af50d3f",
+  "bytes": 2163167,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

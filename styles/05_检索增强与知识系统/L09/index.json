@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P176_F3_p05",
+    "title": "CART : A Generative Cross-Modal Retrieval Framework With Coarse-To-Fine Semantic Modeling",
+    "category": "05_检索增强与知识系统",
+    "layout_style": "L09",
+    "visual_style": "V01",
+    "source_url": "https://aclanthology.org/2025.acl-long.735/",
+    "pdf_url": "https://aclanthology.org/2025.acl-long.735.pdf",
+    "figure_number": "3",
+    "pdf_page": 5,
+    "caption": "Figure 3: The architecture of the CART.",
+    "crop_note": "机制图形裁剪；图注见元数据",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": "v2-2025-expansion",
+    "topic": "05",
+    "kind": "paper_reference",
+    "year": 2025,
+    "venue": "ACL",
+    "image": "references/04_生成模型与扩散机制/P176/figures/P176_F3_p05.png",
+    "description": "网络架构图",
+    "source_kind": "official_proceedings",
+    "copy_note": "官方会议公开论文版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "1725d9443aff5c1fd6837d63d2ba652d5727107bd843d49462a2cf37f7b747a9"
+  }
+]

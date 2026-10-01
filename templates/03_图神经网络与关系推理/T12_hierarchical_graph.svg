@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="Hierarchical graph pooling">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T12 / Hierarchical graph pooling</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 310,385.0 L 425,374.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 595,374.0 L 760,385.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="657.5" y="358.5" width="40" height="19" rx="3" fill="white"/>
+<text x="677.5" y="372.5" text-anchor="middle" font-size="12" fill="#516173">pool</text>
+<path d="M 970,385.0 L 1080,384.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="100" y="310" width="210" height="150" rx="10" fill="#E4F0E8" stroke="#63836B"/>
+<line x1="145" y1="345" x2="205" y2="332" stroke="#63836B" stroke-width="1.5"/>
+<line x1="205" y1="332" x2="265" y2="354" stroke="#63836B" stroke-width="1.5"/>
+<line x1="145" y1="345" x2="175" y2="393" stroke="#63836B" stroke-width="1.5"/>
+<line x1="205" y1="332" x2="175" y2="393" stroke="#63836B" stroke-width="1.5"/>
+<line x1="205" y1="332" x2="245" y2="397" stroke="#63836B" stroke-width="1.5"/>
+<line x1="265" y1="354" x2="245" y2="397" stroke="#63836B" stroke-width="1.5"/>
+<line x1="175" y1="393" x2="245" y2="397" stroke="#63836B" stroke-width="1.5"/>
+<circle cx="145" cy="345" r="8" fill="white" stroke="#63836B" stroke-width="2"/>
+<circle cx="205" cy="332" r="8" fill="white" stroke="#63836B" stroke-width="2"/>
+<circle cx="265" cy="354" r="8" fill="white" stroke="#63836B" stroke-width="2"/>
+<circle cx="175" cy="393" r="8" fill="white" stroke="#63836B" stroke-width="2"/>
+<circle cx="245" cy="397" r="8" fill="white" stroke="#63836B" stroke-width="2"/>
+<text x="205.0" y="431.0" text-anchor="middle" font-size="16" font-weight="600">Fine graph</text>
+<text x="205.0" y="451.0" text-anchor="middle" font-size="16" font-weight="400">Node embeddings</text>
+<rect x="425" y="340" width="170" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="510.0" y="369.0" text-anchor="middle" font-size="16" font-weight="600">Learned assignment</text>
+<text x="510.0" y="389.0" text-anchor="middle" font-size="16" font-weight="400">S: N x K</text>
+<rect x="760" y="310" width="210" height="150" rx="10" fill="#FFF1D7" stroke="#AE8C4C"/>
+<line x1="805" y1="345" x2="865" y2="332" stroke="#AE8C4C" stroke-width="1.5"/>
+<line x1="865" y1="332" x2="925" y2="354" stroke="#AE8C4C" stroke-width="1.5"/>
+<line x1="805" y1="345" x2="835" y2="393" stroke="#AE8C4C" stroke-width="1.5"/>
+<line x1="865" y1="332" x2="835" y2="393" stroke="#AE8C4C" stroke-width="1.5"/>
+<line x1="865" y1="332" x2="905" y2="397" stroke="#AE8C4C" stroke-width="1.5"/>
+<line x1="925" y1="354" x2="905" y2="397" stroke="#AE8C4C" stroke-width="1.5"/>
+<line x1="835" y1="393" x2="905" y2="397" stroke="#AE8C4C" stroke-width="1.5"/>
+<circle cx="805" cy="345" r="8" fill="white" stroke="#AE8C4C" stroke-width="2"/>
+<circle cx="865" cy="332" r="8" fill="white" stroke="#AE8C4C" stroke-width="2"/>
+<circle cx="925" cy="354" r="8" fill="white" stroke="#AE8C4C" stroke-width="2"/>
+<circle cx="835" cy="393" r="8" fill="white" stroke="#AE8C4C" stroke-width="2"/>
+<circle cx="905" cy="397" r="8" fill="white" stroke="#AE8C4C" stroke-width="2"/>
+<text x="865.0" y="431.0" text-anchor="middle" font-size="16" font-weight="600">Coarsened graph</text>
+<text x="865.0" y="451.0" text-anchor="middle" font-size="16" font-weight="400">K supernodes</text>
+<rect x="1080" y="350" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1165.0" y="389.0" text-anchor="middle" font-size="16" font-weight="600">Graph readout</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

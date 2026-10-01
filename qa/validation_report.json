@@ -1,0 +1,10 @@
+{
+  "source_papers": 184,
+  "mechanism_references": 223,
+  "editable_templates": 48,
+  "categories": 12,
+  "errors": [],
+  "warnings": [],
+  "validation": "file integrity, PDF pages/hashes, image decodability, SVG/XML parsing, editable cells/edges, geometry bounds and duplicate IDs",
+  "native_drawio_export_verified": false
+}

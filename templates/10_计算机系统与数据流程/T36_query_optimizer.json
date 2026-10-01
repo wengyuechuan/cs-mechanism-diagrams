@@ -1,0 +1,114 @@
+{
+  "id": "T36",
+  "category": "10_计算机系统与数据流程",
+  "slug": "query_optimizer",
+  "title": "Query planning and execution architecture",
+  "description": "查询编译、优化器和执行器是主要链路；元数据是模块输入，不绘制统计图。",
+  "nodes": [
+    {
+      "id": "q",
+      "label": "Query",
+      "x": 65,
+      "y": 320,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "parse",
+      "label": "Parse + logical plan",
+      "x": 320,
+      "y": 320,
+      "w": 220,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "opt",
+      "label": "Cost / neural optimizer",
+      "x": 645,
+      "y": 320,
+      "w": 230,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "exec",
+      "label": "Physical execution",
+      "x": 1010,
+      "y": 320,
+      "w": 210,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "meta",
+      "label": "Catalog + statistics\nMetadata input only",
+      "x": 645,
+      "y": 515,
+      "w": 230,
+      "h": 68,
+      "kind": "latent",
+      "shape": "database"
+    },
+    {
+      "id": "data",
+      "label": "Data storage",
+      "x": 1010,
+      "y": 515,
+      "w": 210,
+      "h": 68,
+      "kind": "neutral",
+      "shape": "database"
+    }
+  ],
+  "edges": [
+    {
+      "source": "q",
+      "target": "parse",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "parse",
+      "target": "opt",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "opt",
+      "target": "exec",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "meta",
+      "target": "opt",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "data",
+      "target": "exec",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

@@ -1,0 +1,1213 @@
+[
+  {
+    "id": "P001_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P002_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P002_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P002_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P002_F4_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P002_F5_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P004_F5_p08",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P005_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P006_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P006_F3_p08",
+    "decision": "exclude",
+    "reason": "正文引用被误识别为图注"
+  },
+  {
+    "id": "P007_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P007_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P008_F1_p01",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P008_F2_p02",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P008_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P009_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P010_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P010_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P011_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P012_F1_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P013_F1_p02",
+    "decision": "include",
+    "cropped_subpanels": true,
+    "full_width_fix": false
+  },
+  {
+    "id": "P013_F2_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P014_F1_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P014_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P015_F1_p01",
+    "decision": "exclude",
+    "reason": "纯输入样例，不是机制图"
+  },
+  {
+    "id": "P015_F2_p02",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P015_F3_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P017_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P017_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P019_F4_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P020_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P021_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P021_F4_p05",
+    "decision": "exclude",
+    "reason": "任务与评价矩阵，不是网络机制"
+  },
+  {
+    "id": "P022_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P022_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P023_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P023_F3_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P024_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P024_F2_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P026_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P026_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P026_F4_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P026_F5_p09",
+    "decision": "exclude",
+    "reason": "结果可视化样例"
+  },
+  {
+    "id": "P027_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P029_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P030_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P030_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P031_F2_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P032_F1_p01",
+    "decision": "exclude",
+    "reason": "数据域样例"
+  },
+  {
+    "id": "P033_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P033_F2_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P034_F4_p06",
+    "decision": "include",
+    "cropped_subpanels": true,
+    "full_width_fix": false
+  },
+  {
+    "id": "P036_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P037_F2_p06",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P037_F3_p07",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P038_F2_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P038_F4_p12",
+    "decision": "exclude",
+    "reason": "定性配准结果"
+  },
+  {
+    "id": "P039_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P040_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P040_F3_p08",
+    "decision": "exclude",
+    "reason": "图像数据生成示例，机制表达不足"
+  },
+  {
+    "id": "P041_F2_p06",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P041_F3_p07",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P042_F1_p01",
+    "decision": "exclude",
+    "reason": "生成结果对比"
+  },
+  {
+    "id": "P042_F2_p02",
+    "decision": "exclude",
+    "reason": "图像分布示意与结果样例"
+  },
+  {
+    "id": "P042_F3_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P042_F4_p07",
+    "decision": "exclude",
+    "reason": "生成结果比较"
+  },
+  {
+    "id": "P043_F1_p02",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P043_F2_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P044_F2_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P044_F3_p07",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P045_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P050_F1_p02",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P050_F2_p02",
+    "decision": "exclude",
+    "reason": "坐标数值曲线"
+  },
+  {
+    "id": "P050_F3_p08",
+    "decision": "exclude",
+    "reason": "训练性能曲线"
+  },
+  {
+    "id": "P051_F1_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P053_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P053_F3_p09",
+    "decision": "exclude",
+    "reason": "定性注意力结果"
+  },
+  {
+    "id": "P054_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P054_F4_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P055_F1_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P056_F1_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P057_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P058_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P060_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P060_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P063_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P063_F5_p06",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P065_F6_p16",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P066_F1_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P066_F6_p12",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P066_F7_p13",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P068_F2_p06",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P069_F1_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P070_F2_p02",
+    "decision": "exclude",
+    "reason": "注意力统计热图"
+  },
+  {
+    "id": "P070_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P071_F1_p01",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P071_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P071_F5_p08",
+    "decision": "exclude",
+    "reason": "统计柱状图"
+  },
+  {
+    "id": "P071_F7_p15",
+    "decision": "exclude",
+    "reason": "统计柱状图"
+  },
+  {
+    "id": "P072_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P072_F4_p13",
+    "decision": "exclude",
+    "reason": "正文引用被误识别为图注"
+  },
+  {
+    "id": "P072_F4_p13",
+    "decision": "deduplicate"
+  },
+  {
+    "id": "P074_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P075_F2_p02",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P076_F1_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P077_F1_p01",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P077_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P078_F1_p01",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P078_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P078_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P078_F4_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P079_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P080_F5_p05",
+    "decision": "exclude",
+    "reason": "统计热图"
+  },
+  {
+    "id": "P080_F7_p07",
+    "decision": "exclude",
+    "reason": "注意力结果热图"
+  },
+  {
+    "id": "P080_F8_p07",
+    "decision": "exclude",
+    "reason": "注意力结果热图"
+  },
+  {
+    "id": "P080_F11_p14",
+    "decision": "exclude",
+    "reason": "统计热图"
+  },
+  {
+    "id": "P080_F13_p17",
+    "decision": "exclude",
+    "reason": "统计热图"
+  },
+  {
+    "id": "P080_F14_p18",
+    "decision": "exclude",
+    "reason": "统计热图"
+  },
+  {
+    "id": "P082_F1_p05",
+    "decision": "exclude",
+    "reason": "散点图与统计分布"
+  },
+  {
+    "id": "P089_F3_p08",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P090_F1_p12",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P090_F2_p13",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P090_F3_p14",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P091_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P092_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P093_F2_p02",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P093_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P093_F4_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P094_F1_p01",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P095_F4_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P096_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P096_F8_p07",
+    "decision": "exclude",
+    "reason": "消融结果与生成样例"
+  },
+  {
+    "id": "P097_F2_p02",
+    "decision": "exclude",
+    "reason": "统计曲线与结果示例"
+  },
+  {
+    "id": "P097_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P098_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P098_F5_p07",
+    "decision": "exclude",
+    "reason": "性能散点图"
+  },
+  {
+    "id": "P099_F1_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P100_F1_p04",
+    "decision": "include",
+    "cropped_subpanels": true,
+    "full_width_fix": false
+  },
+  {
+    "id": "P102_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P103_F10_p11",
+    "decision": "exclude",
+    "reason": "渲染结果对比"
+  },
+  {
+    "id": "P104_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": true,
+    "full_width_fix": false
+  },
+  {
+    "id": "P105_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P106_F1_p02",
+    "decision": "include",
+    "cropped_subpanels": true,
+    "full_width_fix": false
+  },
+  {
+    "id": "P106_F3_p04",
+    "decision": "exclude",
+    "reason": "机制与统计结果混排，本批不收"
+  },
+  {
+    "id": "P106_F6_p08",
+    "decision": "exclude",
+    "reason": "参数数值结果"
+  },
+  {
+    "id": "P107_F1_p02",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P108_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P108_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P108_F3_p04",
+    "decision": "exclude",
+    "reason": "统计结果曲线"
+  },
+  {
+    "id": "P108_F6_p07",
+    "decision": "exclude",
+    "reason": "ROC曲线与柱状图"
+  },
+  {
+    "id": "P109_F1_p02",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P110_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P110_F5_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P111_F4_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P111_F7_p07",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P112_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P112_F3_p07",
+    "decision": "exclude",
+    "reason": "统计热图与散点结果"
+  },
+  {
+    "id": "P113_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P114_F2_p02",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P114_F3_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P115_F2_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P115_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": true
+  },
+  {
+    "id": "P115_F10_p09",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P116_F1_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P116_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P117_F1_p12",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P118_F1_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P118_F2_p11",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P118_F3_p14",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P119_F2_p04",
+    "decision": "exclude",
+    "reason": "论文时间线，不是机制图"
+  },
+  {
+    "id": "P119_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P119_F4_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P119_F5_p06",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P119_F6_p09",
+    "decision": "exclude",
+    "reason": "检测结果样例"
+  },
+  {
+    "id": "P119_F7_p10",
+    "decision": "exclude",
+    "reason": "论文时间线"
+  },
+  {
+    "id": "P119_F10_p16",
+    "decision": "exclude",
+    "reason": "论文时间线"
+  },
+  {
+    "id": "P119_F11_p16",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P119_F12_p17",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P120_F3_p02",
+    "decision": "exclude",
+    "reason": "统计性能曲线"
+  },
+  {
+    "id": "P120_F4_p03",
+    "decision": "exclude",
+    "reason": "论文时间线"
+  },
+  {
+    "id": "P120_F8_p06",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P120_F12_p11",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P120_F13_p12",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P120_F14_p13",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P120_F17_p18",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P121_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P121_F3_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P122_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P122_F2_p03",
+    "decision": "deduplicate"
+  },
+  {
+    "id": "P122_F3_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P122_F6_p08",
+    "decision": "exclude",
+    "reason": "生成结果对比"
+  },
+  {
+    "id": "P123_F1_p01",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P123_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P124_F1_p01",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P124_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P125_F1_p01",
+    "decision": "exclude",
+    "reason": "问答样例与统计曲线混排"
+  },
+  {
+    "id": "P127_F1_p01",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P127_F2_p03",
+    "decision": "exclude",
+    "reason": "问答输出样例"
+  },
+  {
+    "id": "P127_F3_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P127_F4_p05",
+    "decision": "exclude",
+    "reason": "嵌入散点图"
+  },
+  {
+    "id": "P127_F6_p08",
+    "decision": "exclude",
+    "reason": "检测结果示例"
+  },
+  {
+    "id": "P128_F4_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P128_F5_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P129_F2_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P129_F3_p03",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P129_F4_p04",
+    "decision": "exclude",
+    "reason": "数据集样例"
+  },
+  {
+    "id": "P130_F1_p01",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P130_F3_p05",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P130_F4_p06",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  },
+  {
+    "id": "P132_F1_p04",
+    "decision": "include",
+    "cropped_subpanels": false,
+    "full_width_fix": false
+  }
+]

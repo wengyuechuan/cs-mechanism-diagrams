@@ -1,0 +1,113 @@
+{
+  "id": "T02",
+  "category": "01_视觉网络与编码解码",
+  "slug": "residual_block",
+  "title": "Residual block with identity path",
+  "description": "实线主路径与上方残差旁路分开，突出模块新增计算。",
+  "nodes": [
+    {
+      "id": "x",
+      "label": "Input feature x",
+      "x": 70,
+      "y": 315,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "c1",
+      "label": "Conv + Norm",
+      "x": 330,
+      "y": 315,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "c2",
+      "label": "Activation + Conv",
+      "x": 570,
+      "y": 315,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "sum",
+      "label": "+",
+      "x": 835,
+      "y": 319,
+      "w": 60,
+      "h": 60,
+      "kind": "latent",
+      "shape": "ellipse"
+    },
+    {
+      "id": "out",
+      "label": "Output: x + F(x)",
+      "x": 1010,
+      "y": 315,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "x",
+      "target": "c1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "c1",
+      "target": "c2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "c2",
+      "target": "sum",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "sum",
+      "target": "out",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "x",
+      "target": "sum",
+      "label": "identity",
+      "style": "dashed",
+      "via": [
+        [
+          155,
+          230
+        ],
+        [
+          865,
+          230
+        ]
+      ]
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

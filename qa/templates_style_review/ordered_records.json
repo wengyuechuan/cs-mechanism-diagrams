@@ -1,0 +1,242 @@
+[
+  {
+    "number": 1,
+    "id": "T01",
+    "title": "CNN backbone and prediction head"
+  },
+  {
+    "number": 2,
+    "id": "T02",
+    "title": "Residual block with identity path"
+  },
+  {
+    "number": 3,
+    "id": "T03",
+    "title": "U-shaped encoder-decoder"
+  },
+  {
+    "number": 4,
+    "id": "T04",
+    "title": "Feature pyramid and lateral fusion"
+  },
+  {
+    "number": 5,
+    "id": "T05",
+    "title": "Transformer encoder-decoder overview"
+  },
+  {
+    "number": 6,
+    "id": "T06",
+    "title": "Q-K-V attention mechanism"
+  },
+  {
+    "number": 7,
+    "id": "T07",
+    "title": "Vision Transformer token pipeline"
+  },
+  {
+    "number": 8,
+    "id": "T08",
+    "title": "State-space block with gating"
+  },
+  {
+    "number": 9,
+    "id": "T09",
+    "title": "Neighborhood message passing"
+  },
+  {
+    "number": 10,
+    "id": "T10",
+    "title": "Graph attention and multi-head aggregation"
+  },
+  {
+    "number": 11,
+    "id": "T11",
+    "title": "Heterogeneous graph relations"
+  },
+  {
+    "number": 12,
+    "id": "T12",
+    "title": "Hierarchical graph pooling"
+  },
+  {
+    "number": 13,
+    "id": "T13",
+    "title": "Forward noising and reverse denoising"
+  },
+  {
+    "number": 14,
+    "id": "T14",
+    "title": "Latent diffusion with conditioning"
+  },
+  {
+    "number": 15,
+    "id": "T15",
+    "title": "Adversarial generator-discriminator loop"
+  },
+  {
+    "number": 16,
+    "id": "T16",
+    "title": "Variational latent reparameterization"
+  },
+  {
+    "number": 17,
+    "id": "T17",
+    "title": "RAG offline index and online answering"
+  },
+  {
+    "number": 18,
+    "id": "T18",
+    "title": "Graph-based retrieval and evidence path"
+  },
+  {
+    "number": 19,
+    "id": "T19",
+    "title": "Hybrid retrieval and routing"
+  },
+  {
+    "number": 20,
+    "id": "T20",
+    "title": "Dual encoder and cross-modal alignment"
+  },
+  {
+    "number": 21,
+    "id": "T21",
+    "title": "Cross-modal attention fusion"
+  },
+  {
+    "number": 22,
+    "id": "T22",
+    "title": "Audio-visual temporal fusion"
+  },
+  {
+    "number": 23,
+    "id": "T23",
+    "title": "Actor-critic interaction and learning"
+  },
+  {
+    "number": 24,
+    "id": "T24",
+    "title": "Multi-agent centralized training"
+  },
+  {
+    "number": 25,
+    "id": "T25",
+    "title": "Tool-using agent loop"
+  },
+  {
+    "number": 26,
+    "id": "T26",
+    "title": "Coordinator and specialist agents"
+  },
+  {
+    "number": 27,
+    "id": "T27",
+    "title": "Two-view contrastive learning"
+  },
+  {
+    "number": 28,
+    "id": "T28",
+    "title": "Teacher-student distillation"
+  },
+  {
+    "number": 29,
+    "id": "T29",
+    "title": "Masked autoencoder mechanism"
+  },
+  {
+    "number": 30,
+    "id": "T30",
+    "title": "Training and inference separation"
+  },
+  {
+    "number": 31,
+    "id": "T31",
+    "title": "Neural radiance field rendering"
+  },
+  {
+    "number": 32,
+    "id": "T32",
+    "title": "Gaussian splatting optimization loop"
+  },
+  {
+    "number": 33,
+    "id": "T33",
+    "title": "Point-set encoder with global-local fusion"
+  },
+  {
+    "number": 34,
+    "id": "T34",
+    "title": "Distributed worker and storage architecture"
+  },
+  {
+    "number": 35,
+    "id": "T35",
+    "title": "Stateful stream-processing flow"
+  },
+  {
+    "number": 36,
+    "id": "T36",
+    "title": "Query planning and execution architecture"
+  },
+  {
+    "number": 37,
+    "id": "T37",
+    "title": "Causal mechanism and intervention DAG"
+  },
+  {
+    "number": 38,
+    "id": "T38",
+    "title": "Recurrent circuit with structural constraints"
+  },
+  {
+    "number": 39,
+    "id": "T39",
+    "title": "Representation-to-structure mechanism"
+  },
+  {
+    "number": 40,
+    "id": "T40",
+    "title": "Contribution-first method overview"
+  },
+  {
+    "number": 41,
+    "id": "T41",
+    "title": "Iterative algorithm with decision branch"
+  },
+  {
+    "number": 42,
+    "id": "T42",
+    "title": "Overview with module zoom-in"
+  },
+  {
+    "number": 43,
+    "id": "T43",
+    "title": "Feature tensors and convolution stages"
+  },
+  {
+    "number": 44,
+    "id": "T44",
+    "title": "Neural network as neuron-node layers"
+  },
+  {
+    "number": 45,
+    "id": "T45",
+    "title": "Recurrent computation unrolled in time"
+  },
+  {
+    "number": 46,
+    "id": "T46",
+    "title": "Patch image and editable token strip"
+  },
+  {
+    "number": 47,
+    "id": "T47",
+    "title": "Temporal graph and node-state evolution"
+  },
+  {
+    "number": 48,
+    "id": "T48",
+    "title": "Token-level cross-modal interactions"
+  }
+]

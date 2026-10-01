@@ -1,0 +1,20 @@
+{
+  "title": "ModalTune: Fine-Tuning Slide-Level Foundation Models with Multi-Modal Information for Multi-task Learning in Digital Pathology",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Ramanathan_ModalTune_Fine-Tuning_Slide-Level_Foundation_Models_with_Multi-Modal_Information_for_Multi-task_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Ramanathan_ModalTune_Fine-Tuning_Slide-Level_Foundation_Models_with_Multi-Modal_Information_for_Multi-task_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P148",
+  "category": "06_多模态与跨模态融合",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 12,
+  "pdf_first_page_excerpt": "ModalTune: Fine-Tuning Slide-Level Foundation Models with Multi-Modal\nInformation for Multi-task Learning in Digital Pathology\nVishwesh Ramanathan1,2* Tony Xu1,2* Pushpak Pati4\nFaruk Ahmed3\nMaged Goubran1,2\nAnne L. Martel1,2\n1Sunnybrook Research Institute, Canada\n2University of Toronto, Canada\n3Google Research, USA\n4Independent Researcher\nAbstract\nPrediction tasks in digital pathology are challenging due\nto the massive size of whole-slide images (WSIs) and the\nweak nature of training signals. Advances in computing,\ndata availability, and self-supervised learning (SSL) have\npaved the way for sl",
+  "local_pdf": "references/06_多模态与跨模态融合/P148/paper.pdf",
+  "sha256": "86ddd6df4c86bfba65d7c5d4a11d8fc2ac742b63b2d3f1e6e570a656c1dc51cc",
+  "bytes": 1645909,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

@@ -1,0 +1,121 @@
+{
+  "id": "T38",
+  "category": "11_因果与AI科学机制",
+  "slug": "recurrent_circuit",
+  "title": "Recurrent circuit with structural constraints",
+  "description": "功能输入、循环状态与结构约束的机制示意。",
+  "nodes": [
+    {
+      "id": "stim",
+      "label": "Stimulus / input",
+      "x": 80,
+      "y": 310,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "rnn",
+      "label": "Recurrent circuit\nState h_t",
+      "x": 440,
+      "y": 310,
+      "w": 225,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "read",
+      "label": "Readout",
+      "x": 810,
+      "y": 310,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "task",
+      "label": "Task behavior",
+      "x": 810,
+      "y": 510,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "constraint",
+      "label": "Spatial / wiring\nconstraint",
+      "x": 440,
+      "y": 510,
+      "w": 225,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "stim",
+      "target": "rnn",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "rnn",
+      "target": "read",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "read",
+      "target": "task",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "constraint",
+      "target": "rnn",
+      "label": "regularization",
+      "style": "dashed",
+      "via": []
+    },
+    {
+      "source": "rnn",
+      "target": "rnn",
+      "label": "recurrent state",
+      "style": "solid",
+      "via": [
+        [
+          715,
+          250
+        ],
+        [
+          715,
+          175
+        ],
+        [
+          410,
+          175
+        ],
+        [
+          410,
+          340
+        ]
+      ]
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

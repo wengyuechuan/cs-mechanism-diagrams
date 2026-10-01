@@ -1,0 +1,19 @@
+{
+  "title": "Spectral State Space Model for Rotation-Invariant Visual Representation Learning",
+  "venue": "CVPR",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Dastani_Spectral_State_Space_Model_for_Rotation-Invariant_Visual_Representation_Learning_CVPR_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Dastani_Spectral_State_Space_Model_for_Rotation-Invariant_Visual_Representation_Learning_CVPR_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P121",
+  "download_status": "ok",
+  "category": "02_Transformer与注意力",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Spectral State Space Model for\nRotation-Invariant Visual Representation Learning\nSahar Dastani1,2*\nAli Bahri1\nMoslem Yazdanpanah1\nMehrdad Noori1\nDavid Osowiechi1\nGustavo Adolfo Vargas Hakim1\nFarzad Beizaee1\nMilad Cheraghalikhani1\nArnab Kumar Mondal3†\nHerve Lombaert2,4\nChristian Desrosiers1\n1LIVIA, ILLS, ÉTS Montréal, Canada, 2Mila - Quebec AI Institute,\n3Apple, 4Polytechnique Montreal\nAbstract\nState Space Models (SSMs) have recently emerged as an\nalternative to Vision Transformers (ViTs) due to their unique\nability of modeling global relationships with linear com-\nplexity. SSMs are specificall",
+  "local_pdf": "references/02_Transformer与注意力/P121/paper.pdf",
+  "sha256": "00fe5509746bb8cf444dfd0c893669a9bc80226e1de4d4c84e31074cd336d8f8",
+  "bytes": 3286092,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "S3R-GS: Streamlining the Pipeline for Large-Scale Street Scene Reconstruction",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zheng_S3R-GS_Streamlining_the_Pipeline_for_Large-Scale_Street_Scene_Reconstruction_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zheng_S3R-GS_Streamlining_the_Pipeline_for_Large-Scale_Street_Scene_Reconstruction_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P152",
+  "category": "09_三维视觉与神经渲染",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "S3R-GS: Streamlining the Pipeline for Large-Scale Street Scene Reconstruction\nGuangting Zheng1*, Jiajun Deng2*, Xiaomeng Chu1, Yu Yuan1, Houqiang Li1, Yanyong Zhang1\n1University of Science and Technology of China 2The University of Adelaide\n{zgt,cxmeng,yyhappier}@mail.ustc.edu.com,jiajun.deng@adelaide.edu.au,\n{lihq,yanyongz}@ustc.edu.cn\nAbstract\nRecently, 3D Gaussian Splatting (3DGS) has reshaped\nthe field of photorealistic 3D reconstruction, achieving im-\npressive rendering quality and speed. However, when ap-\nplied to large-scale street scenes, existing methods suffer\nfrom rapidly escalating",
+  "local_pdf": "references/10_计算机系统与数据流程/P152/paper.pdf",
+  "sha256": "2bae69dfa0ae05f3d222f4b394b16cf308ebb05cfadedc311d94588108673e18",
+  "bytes": 13652384,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

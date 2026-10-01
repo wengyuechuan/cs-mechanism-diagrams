@@ -1,0 +1,19 @@
+{
+  "title": "CO-Net: Learning Multiple Point Cloud Tasks at Once with A Cohesive Network",
+  "venue": "ICCV",
+  "year": 2023,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Xie_CO-Net_Learning_Multiple_Point_Cloud_Tasks_at_Once_with_A_ICCV_2023_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Xie_CO-Net_Learning_Multiple_Point_Cloud_Tasks_at_Once_with_A_ICCV_2023_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P024",
+  "category": "09_三维视觉与神经渲染",
+  "pages": 11,
+  "pdf_first_page_excerpt": "CO-Net: Learning Multiple Point Cloud Tasks at Once with A Cohesive Network\nTao Xie1, Ke Wang1,*, Siyi Lu2, Yukun Zhang3, Kun Dai1, Xiaoyu Li1,\nJie Xu1, Li Wang4, Lijun Zhao1,5,*, Xinyu Zhang4,*, Ruifeng Li1,*\n1Harbin Institute of Technology\n2China Coal Science and Technology Intelligent Storage Technology Co., Ltd.\n3Beijing Institute of Technology 4Tsinghua University\n5Harbin Institute of Technology, Zhengzhou Research Institute\n{xietao1997, wangke, jeff xu, zhaolj, lrf100}@hit.edu.cn\n{20s108237, 19S108222, 22S108236}@stu.hit.edu.cn\n3220220839@bit.edu.cn\n{wangli thu, xyzhang}@tsinghua.edu.cn\n",
+  "local_pdf": "references/09_三维视觉与神经渲染/P024/paper.pdf",
+  "sha256": "5c382df91276b557415252d83c31ceb294fe174fb16f56a0d31b042cb4f89509",
+  "bytes": 788872,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "A Generative Adaptive Replay Continual Learning Model for Temporal Knowledge Graph Reasoning",
+  "venue": "ACL",
+  "year": 2025,
+  "source_url": "https://aclanthology.org/2025.acl-long.537/",
+  "pdf_url": "https://aclanthology.org/2025.acl-long.537.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P184",
+  "category": "03_图神经网络与关系推理",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 14,
+  "pdf_first_page_excerpt": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 10964–10977\nJuly 27 - August 1, 2025 ©2025 Association for Computational Linguistics\nA Generative Adaptive Replay Continual Learning Model for\nTemporal Knowledge Graph Reasoning\nZhiyu Zhang1,3, Wei Chen2*, Youfang Lin1,3, Huaiyu Wan1,3\n1School of Computer and Information Technology, Beijing Jiaotong University, Beijing, China\n2Guilin University of Electronic Technology,\nSchool of Computer Science and Information Security, Guangxi, China\n3Beijing Key Laboratory of Traffic Data ",
+  "local_pdf": "references/03_图神经网络与关系推理/P184/paper.pdf",
+  "sha256": "0026ef6320f45907d100dba4ce835d3c703850002b93809027a62c723ecb400b",
+  "bytes": 2111346,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

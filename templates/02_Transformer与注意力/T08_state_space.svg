@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="720" viewBox="0 0 1320 720" role="img" aria-label="State-space block with gating">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 Z" fill="#647284"/></marker></defs>
+<rect width="1320" height="720" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#243247">
+<text x="48" y="52" font-size="27" font-weight="700">T08 / State-space block with gating</text>
+<text x="48" y="84" font-size="14" fill="#738093">EDITABLE MECHANISM BLUEPRINT / Generic structure; adapt to your method</text>
+<path d="M 235,344.0 L 285,344.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 455,344.0 L 490.0,344.0 L 490.0,244.0 L 525,244.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 695,244.0 L 765,244.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 455,344.0 L 490.0,344.0 L 490.0,469.0 L 525,469.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 1010,244.0 L 1042.5,244.0 L 1042.5,350.0 L 1075,350.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 695,469.0 L 885.0,469.0 L 885.0,350.0 L 1075,350.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<path d="M 1135,350.0 L 1102.5,350.0 L 1102.5,534.0 L 1070,534.0" fill="none" stroke="#647284" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="65" y="310" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="150.0" y="349.0" text-anchor="middle" font-size="16" font-weight="600">Token sequence</text>
+<rect x="285" y="310" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="370.0" y="349.0" text-anchor="middle" font-size="16" font-weight="600">Input projection</text>
+<rect x="525" y="210" width="170" height="68" rx="8" fill="#E4EDF6" stroke="#637E9E" stroke-width="1.6"/>
+<text x="610.0" y="249.0" text-anchor="middle" font-size="16" font-weight="600">Local convolution</text>
+<rect x="765" y="210" width="245" height="68" rx="8" fill="#EEE7F4" stroke="#89719C" stroke-width="1.6"/>
+<text x="887.5" y="239.0" text-anchor="middle" font-size="16" font-weight="600">Selective state space</text>
+<text x="887.5" y="259.0" text-anchor="middle" font-size="16" font-weight="400">s_t = A_t s_(t-1) + B_t x_t</text>
+<rect x="525" y="435" width="170" height="68" rx="8" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="610.0" y="474.0" text-anchor="middle" font-size="16" font-weight="600">Gating branch</text>
+<ellipse cx="1105.0" cy="350.0" rx="30.0" ry="30.0" fill="#FFF1D7" stroke="#AE8C4C" stroke-width="1.6"/>
+<text x="1105.0" y="355.0" text-anchor="middle" font-size="16" font-weight="600">x</text>
+<rect x="1070" y="500" width="170" height="68" rx="8" fill="#E4F0E8" stroke="#63836B" stroke-width="1.6"/>
+<text x="1155.0" y="539.0" text-anchor="middle" font-size="16" font-weight="600">Output projection</text>
+<line x1="48" y1="637" x2="1272" y2="637" stroke="#DCE2E9"/>
+<text x="48" y="667" font-size="13" fill="#718095">Solid: forward / interaction flow     Dashed: auxiliary / training / skip path (see labels)</text>
+<text x="48" y="692" font-size="12" fill="#8994A2">Original template. Source papers are topic references, not an exact algorithm specification.</text>
+</g></svg>

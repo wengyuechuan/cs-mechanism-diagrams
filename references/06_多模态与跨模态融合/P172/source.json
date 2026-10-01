@@ -1,0 +1,20 @@
+{
+  "title": "FOCoOp: Enhancing Out-of-Distribution Robustness in Federated Prompt Learning for Vision-Language Models",
+  "venue": "ICML",
+  "year": 2025,
+  "source_url": "https://proceedings.mlr.press/v267/liao25e.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/liao25e/liao25e.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P172",
+  "category": "06_多模态与跨模态融合",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 27,
+  "pdf_first_page_excerpt": "FOCoOp: Enhancing Out-of-Distribution Robustness in Federated Prompt\nLearning for Vision-Language Models\nXinting Liao * 1 Weiming Liu * 1 Jiaming Qian 1 Pengyang Zhou 1 Jiahe Xu 1 Wenjie Wang 2 Chaochao Chen 1\nXiaolin Zheng 1 Tat-Seng Chua 3\nAbstract\nFederated prompt learning (FPL) for vision-\nlanguage models is a powerful approach to collab-\noratively adapt models across distributed clients\nwhile preserving data privacy. However, exist-\ning FPL approaches suffer from a trade-off be-\ntween performance and robustness, particularly\nin out-of-distribution (OOD) shifts, limiting their\nreliability ",
+  "local_pdf": "references/06_多模态与跨模态融合/P172/paper.pdf",
+  "sha256": "28ba0263b0d53bd3e10cf6c26ec97fc9716d18383d37b64bb7bdde53fabb2abf",
+  "bytes": 929921,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

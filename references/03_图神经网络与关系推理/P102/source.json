@@ -1,0 +1,20 @@
+{
+  "title": "Instant Neural Graphics Primitives with a Multiresolution Hash Encoding",
+  "venue": "ACM TOG / SIGGRAPH",
+  "year": 2022,
+  "source_url": "https://nvlabs.github.io/instant-ngp/",
+  "pdf_url": "https://nvlabs.github.io/instant-ngp/assets/mueller2022instant.pdf",
+  "source_kind": "official_or_author_public_copy",
+  "id": "P102",
+  "category": "09_三维视觉与神经渲染",
+  "pages": 15,
+  "pdf_first_page_excerpt": "Instant Neural Graphics Primitives with a Multiresolution Hash Encoding\nTHOMAS MÜLLER, NVIDIA, Switzerland\nALEX EVANS, NVIDIA, United Kingdom\nCHRISTOPH SCHIED, NVIDIA, USA\nALEXANDER KELLER, NVIDIA, Germany\nhttps://nvlabs.github.io/instant-ngp\nTrained for 1 second\n15 seconds\n1 second\n15 seconds\n60 seconds\nreference\nGigapixel image\nSDF\nNRC\nNeRF\nFig. 1. We demonstrate instant training of neural graphics primitives on a single GPU for multiple tasks. In Gigapixel image we represent a gigapixel image by\na neural network. SDF learns a signed distance function in 3D space whose zero level-set represe",
+  "local_pdf": "references/03_图神经网络与关系推理/P102/paper.pdf",
+  "sha256": "b3631fa8f707fe81d7dd4dfb6f8d35cf1bbd13ffd7fb1f457495c837ab00d93a",
+  "bytes": 17686120,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

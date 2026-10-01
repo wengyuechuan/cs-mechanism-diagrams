@@ -1,0 +1,20 @@
+{
+  "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+  "venue": "ICLR",
+  "year": 2021,
+  "source_url": "https://openreview.net/forum?id=YicbFdNTTy",
+  "pdf_url": "https://arxiv.org/pdf/2010.11929",
+  "source_kind": "author_preprint_of_verified_conference_paper",
+  "id": "P098",
+  "category": "02_Transformer与注意力",
+  "download_status": "ok",
+  "original_pdf_url": "https://openreview.net/pdf?id=YicbFdNTTy",
+  "copy_note": "OpenReview returned HTTP 403; downloaded the publicly available arXiv author version.",
+  "pages": 22,
+  "pdf_first_page_excerpt": "Published as a conference paper at ICLR 2021\nAN IMAGE IS WORTH 16X16 WORDS:\nTRANSFORMERS FOR IMAGE RECOGNITION AT SCALE\nAlexey Dosovitskiy∗,†, Lucas Beyer∗, Alexander Kolesnikov∗, Dirk Weissenborn∗,\nXiaohua Zhai∗, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer,\nGeorg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby∗,†\n∗equal technical contribution, †equal advising\nGoogle Research, Brain Team\n{adosovitskiy, neilhoulsby}@google.com\nABSTRACT\nWhile the Transformer architecture has become the de-facto standard for natural\nlanguage processing tasks, its applications to computer vision ",
+  "local_pdf": "references/02_Transformer与注意力/P098/paper.pdf",
+  "sha256": "8ce7b83971a14508ca711a27c875c9b6914c4f6767cf3150fb1ca6c07aa056d6",
+  "bytes": 3743814,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

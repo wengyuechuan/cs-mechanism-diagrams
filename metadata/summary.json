@@ -1,0 +1,39 @@
+{
+  "collected_date": "2026-10-01",
+  "source_papers": 184,
+  "papers_with_mechanism_examples": 141,
+  "mechanism_examples": 223,
+  "editable_templates": 48,
+  "categories": 12,
+  "venues": {
+    "CVPR": 39,
+    "ICCV": 39,
+    "ECCV": 10,
+    "NeurIPS": 13,
+    "ICML": 28,
+    "ACL": 24,
+    "JMLR": 11,
+    "ICLR": 4,
+    "ACM TOG / SIGGRAPH": 2,
+    "Nature": 2,
+    "Nature Machine Intelligence": 4,
+    "PVLDB": 6,
+    "IEEE TPAMI": 1,
+    "IJCV": 1
+  },
+  "figure_categories": {
+    "02_Transformer与注意力": 25,
+    "03_图神经网络与关系推理": 32,
+    "06_多模态与跨模态融合": 26,
+    "07_强化学习与智能体": 12,
+    "08_训练策略与自监督": 18,
+    "11_因果与AI科学机制": 22,
+    "01_视觉网络与编码解码": 15,
+    "04_生成模型与扩散机制": 22,
+    "05_检索增强与知识系统": 6,
+    "09_三维视觉与神经渲染": 18,
+    "10_计算机系统与数据流程": 18,
+    "12_通用方法与总体框架": 9
+  },
+  "pending_downloads": 0
+}

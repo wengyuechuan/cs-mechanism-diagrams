@@ -1,0 +1,19 @@
+{
+  "title": "VasTSD: Learning 3D Vascular Tree-state Space Diffusion Model for Angiography Synthesis",
+  "venue": "CVPR",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VasTSD_Learning_3D_Vascular_Tree-state_Space_Diffusion_Model_for_Angiography_CVPR_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_VasTSD_Learning_3D_Vascular_Tree-state_Space_Diffusion_Model_for_Angiography_CVPR_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P122",
+  "download_status": "ok",
+  "category": "02_Transformer与注意力",
+  "pages": 10,
+  "pdf_first_page_excerpt": "VasTSD: Learning 3D Vascular Tree-state Space Diffusion Model for\nAngiography Synthesis\nZhifeng Wang1∗Renjiao Yi1∗Xin Wen1,2 Chenyang Zhu1† Kai Xu1†\n1National University of Defense Technology\n2Xiangjiang Laboratory\nAbstract\nAngiography imaging is a medical imaging technique that\nenhances the visibility of blood vessels within the body by\nusing contrast agents. Angiographic images can effectively\nassist in the diagnosis of vascular diseases. However, con-\ntrast agents may bring extra radiation exposure which is\nharmful to patients with health risks.\nTo mitigate these\nconcerns, in this paper, we",
+  "local_pdf": "references/02_Transformer与注意力/P122/paper.pdf",
+  "sha256": "ab5c3fa72fef828cf064288db4a863df6e13cd3d974ec9c8a2626a9a8b802354",
+  "bytes": 2928094,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

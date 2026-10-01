@@ -1,0 +1,138 @@
+{
+  "id": "T32",
+  "category": "09_三维视觉与神经渲染",
+  "slug": "gaussian_splatting",
+  "title": "Gaussian splatting optimization loop",
+  "description": "表示、可微渲染和密度控制分支，适合 3D Gaussian Splatting 类方法。",
+  "nodes": [
+    {
+      "id": "views",
+      "label": "Multi-view images",
+      "x": 65,
+      "y": 215,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "init",
+      "label": "SfM initialization",
+      "x": 350,
+      "y": 215,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "gauss",
+      "label": "3D Gaussian primitives\nposition, covariance, color",
+      "x": 655,
+      "y": 215,
+      "w": 250,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "rast",
+      "label": "Differentiable\nsplat rasterization",
+      "x": 1000,
+      "y": 215,
+      "w": 250,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "target",
+      "label": "Target view",
+      "x": 355,
+      "y": 475,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "loss",
+      "label": "Image objective",
+      "x": 715,
+      "y": 475,
+      "w": 170,
+      "h": 68,
+      "kind": "loss",
+      "shape": "box"
+    },
+    {
+      "id": "adapt",
+      "label": "Densify / prune\nOptimize parameters",
+      "x": 1000,
+      "y": 475,
+      "w": 250,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "views",
+      "target": "init",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "init",
+      "target": "gauss",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "gauss",
+      "target": "rast",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "rast",
+      "target": "loss",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "target",
+      "target": "loss",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "loss",
+      "target": "adapt",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "adapt",
+      "target": "gauss",
+      "label": "parameter update",
+      "style": "dashed",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

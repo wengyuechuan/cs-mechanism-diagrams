@@ -1,0 +1,20 @@
+{
+  "title": "DecLog: Decentralized Logging in Non-Volatile Memory for Time Series Database Systems",
+  "venue": "PVLDB",
+  "year": 2024,
+  "source_url": "https://www.vldb.org/pvldb/vol17/p1-zheng.pdf",
+  "pdf_url": "https://vldb.org/pvldb/vol17/p1-zheng.pdf",
+  "source_kind": "official_journal",
+  "category": "10_计算机系统与数据流程",
+  "id": "P111",
+  "download_status": "ok",
+  "original_pdf_url": "https://www.vldb.org/pvldb/vol17/p1-zheng.pdf",
+  "pages": 14,
+  "pdf_first_page_excerpt": "DecLog: Decentralized Logging in Non-Volatile Memory for Time\nSeries Database Systems\nBolong Zheng\nHuazhong University of Science and\nTechnology\nYongyong Gao\nHuazhong University of Science and\nTechnology\nJingyi Wan\nHuazhong University of Science and\nTechnology\nLingsen Yan\nHuazhong University of Science and\nTechnology\nLong Hu\nHuazhong University of Science and\nTechnology\nBo Liu\nTongji Hospital, Huazhong University\nof Science and Technology\nYunjun Gao\nZhejiang University\nXiaofang Zhou\nHKUST\nChristian S. Jensen\nAalborg University\nABSTRACT\nGrowing demands for the efficient processing of extreme-sc",
+  "local_pdf": "references/10_计算机系统与数据流程/P111/paper.pdf",
+  "sha256": "867fdafd306816fa64ff20963e0883c9438b01f594f6d9383efaf33fcf534f27",
+  "bytes": 1831597,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

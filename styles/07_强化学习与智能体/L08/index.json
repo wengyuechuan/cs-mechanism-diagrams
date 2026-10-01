@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P149_F1_p01",
+    "title": "Disentangled World Models: Learning to Transfer Semantic Knowledge from Distracting Videos for Reinforcement Learning",
+    "category": "07_强化学习与智能体",
+    "layout_style": "L08",
+    "visual_style": "V04",
+    "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_Disentangled_World_Models_Learning_to_Transfer_Semantic_Knowledge_from_Distracting_ICCV_2025_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_Disentangled_World_Models_Learning_to_Transfer_Semantic_Knowledge_from_Distracting_ICCV_2025_paper.pdf",
+    "figure_number": "1",
+    "pdf_page": 1,
+    "caption": "Figure 1. Overview of our proposed framework. The key idea is to leverage distracting videos for semantic knowledge transfer, enabling the downstream agent to improve sample efficiency on unseen tasks.",
+    "crop_note": "机制图形裁剪；图注见元数据",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": "v2-2025-expansion",
+    "topic": "07",
+    "kind": "paper_reference",
+    "year": 2025,
+    "venue": "ICCV",
+    "image": "references/07_强化学习与智能体/P149/figures/P149_F1_p01.png",
+    "description": "机制示意与总体框架",
+    "source_kind": "official_proceedings",
+    "copy_note": "官方会议公开论文版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "5a6578dfd100377a8da011c69ec77a807b0cab9568f6896fe273f34b672d00a5"
+  }
+]

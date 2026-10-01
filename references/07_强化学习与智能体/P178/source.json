@@ -1,0 +1,20 @@
+{
+  "title": "FACT - AUDIT : An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models",
+  "venue": "ACL",
+  "year": 2025,
+  "source_url": "https://aclanthology.org/2025.acl-long.17/",
+  "pdf_url": "https://aclanthology.org/2025.acl-long.17.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P178",
+  "category": "07_强化学习与智能体",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 22,
+  "pdf_first_page_excerpt": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 360–381\nJuly 27 - August 1, 2025 ©2025 Association for Computational Linguistics\nFACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic\nFact-Checking Evaluation of Large Language Models\nHongzhan Lin1,2, Yang Deng3, Yuxuan Gu4,2, Wenxuan Zhang5,\nJing Ma1,*, See-Kiong Ng2, Tat-Seng Chua2\n1Hong Kong Baptist University, 2National University of Singapore,\n3Singapore Management University, 4Harbin Institute of Technology,\n5Singapore University of Technology and Design\n{cshzlin,ma",
+  "local_pdf": "references/07_强化学习与智能体/P178/paper.pdf",
+  "sha256": "85ae040036b87e3927093768f8a105a8e08ca95efde77ee02f759a0032cb4295",
+  "bytes": 10723653,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

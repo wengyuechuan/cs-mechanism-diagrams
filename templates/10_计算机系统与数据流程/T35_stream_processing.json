@@ -1,0 +1,97 @@
+{
+  "id": "T35",
+  "category": "10_计算机系统与数据流程",
+  "slug": "stream_processing",
+  "title": "Stateful stream-processing flow",
+  "description": "事件流与状态更新分开，适合流式系统和在线数据处理。",
+  "nodes": [
+    {
+      "id": "0",
+      "label": "Event sources",
+      "x": 65,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "1",
+      "label": "Message broker",
+      "x": 275,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "database"
+    },
+    {
+      "id": "2",
+      "label": "Stream operator\nWindow + state",
+      "x": 485,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "3",
+      "label": "Result sink",
+      "x": 695,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "neutral",
+      "shape": "database"
+    },
+    {
+      "id": "4",
+      "label": "Serving layer",
+      "x": 905,
+      "y": 300,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

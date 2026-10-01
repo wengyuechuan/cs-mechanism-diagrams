@@ -1,0 +1,19 @@
+{
+  "title": "A Study on the Distribution of Social Biases in Self-Supervised Learning Visual Models",
+  "venue": "CVPR",
+  "year": 2022,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Sirotkin_A_Study_on_the_Distribution_of_Social_Biases_in_Self-Supervised_CVPR_2022_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Sirotkin_A_Study_on_the_Distribution_of_Social_Biases_in_Self-Supervised_CVPR_2022_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P035",
+  "category": "08_训练策略与自监督",
+  "pages": 10,
+  "pdf_first_page_excerpt": "A study on the distribution of social biases\nin self-supervised learning visual models\nKirill Sirotkin, Pablo Carballeira, Marcos Escudero-Vi˜nolo\nVideo Processing and Understanding Lab, Univ. Aut´onoma de Madrid, 28049, Madrid, Spain\n{kirill.sirotkin, pablo.carballeira, marcos.escudero}@uam.es\nAbstract\nDeep neural networks are efficient at learning the data\ndistribution if it is sufficiently sampled. However, they can\nbe strongly biased by non-relevant factors implicitly incor-\nporated in the training data.\nThese include operational\nbiases, such as ineffective or uneven data sampling, but\nals",
+  "local_pdf": "references/08_训练策略与自监督/P035/paper.pdf",
+  "sha256": "066c309b25087b9039793455d8274646f9fcb6dd3f99a4ec0d93cd4dc3e15105",
+  "bytes": 1884237,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

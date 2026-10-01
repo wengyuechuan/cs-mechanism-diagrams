@@ -1,0 +1,19 @@
+{
+  "title": "Convolutional Prompting meets Language Models for Continual Learning",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Roy_Convolutional_Prompting_meets_Language_Models_for_Continual_Learning_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Roy_Convolutional_Prompting_meets_Language_Models_for_Continual_Learning_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P011",
+  "category": "01_视觉网络与编码解码",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Convolutional Prompting meets Language Models for Continual Learning\nAnurag Roy1\nRiddhiman Moulick1\nVinay K. Verma2* Saptarshi Ghosh1\nAbir Das1\n1IIT Kharagpur, 2IML Amazon India\n{anurag_roy@,riddhimanmoulick@kgpian.,saptarshi@cse.,abir@cse.}iitkgp.ac.in, vinayugc@gmail.com\nAbstract\nContinual Learning (CL) enables machine learning mod-\nels to learn from continuously shifting new training data\nin absence of data from old tasks. Recently, pretrained vi-\nsion transformers combined with prompt tuning have shown\npromise for overcoming catastrophic forgetting in CL. These\napproaches rely on a pool of",
+  "local_pdf": "references/01_视觉网络与编码解码/P011/paper.pdf",
+  "sha256": "667eaed60bd9902257d7901ee9b8334b7d852627c4767407a1c9e875637bb9d2",
+  "bytes": 835224,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

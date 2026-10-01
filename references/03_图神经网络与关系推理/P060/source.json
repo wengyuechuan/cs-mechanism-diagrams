@@ -1,0 +1,19 @@
+{
+  "title": "Enhancing Size Generalization in Graph Neural Networks through Disentangled Representation Learning",
+  "venue": "ICML",
+  "year": 2024,
+  "source_url": "https://proceedings.mlr.press/v235/huang24ac.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/huang24ac/huang24ac.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P060",
+  "category": "03_图神经网络与关系推理",
+  "pages": 17,
+  "pdf_first_page_excerpt": "Enhancing Size Generalization in Graph Neural Networks through Disentangled\nRepresentation Learning\nZheng Huang 1 Qihui Yang 2 Dawei Zhou 3 Yujun Yan 1\nAbstract\nAlthough most graph neural networks (GNNs)\ncan operate on graphs of any size, their classifica-\ntion performance often declines on graphs larger\nthan those encountered during training. Existing\nmethods insufficiently address the removal of size\ninformation from graph representations, resulting\nin sub-optimal performance and reliance on back-\nbone models. In response, we propose DISGEN,\na novel and model-agnostic framework designed\nto d",
+  "local_pdf": "references/03_图神经网络与关系推理/P060/paper.pdf",
+  "sha256": "f1846bf733c103346f5a9f543c7421439203de72f0dd06d8cdb8c6895c4b611e",
+  "bytes": 1434799,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Clustering for Protein Representation Learning",
+  "venue": "CVPR",
+  "year": 2024,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Quan_Clustering_for_Protein_Representation_Learning_CVPR_2024_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Quan_Clustering_for_Protein_Representation_Learning_CVPR_2024_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P010",
+  "category": "11_因果与AI科学机制",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Clustering for Protein Representation Learning\nRuijie Quan, Wenguan Wang*, Fan Ma, Hehe Fan, Yi Yang\nReLER, CCAI, Zhejiang University\nhttps://github.com/QUANRJ/ClusteringPRL\nAbstract\nProtein representation learning is a challenging task that\naims to capture the structure and function of proteins from\ntheir amino acid sequences. Previous methods largely ig-\nnored the fact that not all amino acids are equally important\nfor protein folding and activity. In this article, we propose\na neural clustering framework that can automatically dis-\ncover the critical components of a protein by considering\nb",
+  "local_pdf": "references/11_因果与AI科学机制/P010/paper.pdf",
+  "sha256": "1f14da1542524371a97643d1f23fa6dfbd8047da06841d9bb036a1a91ddb5ad2",
+  "bytes": 3742317,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

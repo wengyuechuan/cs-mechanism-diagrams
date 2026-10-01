@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P026_F4_p05",
+    "title": "A Dynamic Dual-Processing Object Detection Framework Inspired by the Brain's Recognition Mechanism",
+    "category": "11_因果与AI科学机制",
+    "layout_style": "L06",
+    "visual_style": "V03",
+    "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_A_Dynamic_Dual-Processing_Object_Detection_Framework_Inspired_by_the_Brains_ICCV_2023_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_A_Dynamic_Dual-Processing_Object_Detection_Framework_Inspired_by_the_Brains_ICCV_2023_paper.pdf",
+    "figure_number": "4",
+    "pdf_page": 5,
+    "caption": "Figure 4: Working mechanism of the selective mask in Dynamic Dual Decoder. Only part of regions of anchors or queries will be activated complementarily based on the argmax of sampled value from parameterized Gumbel- softmax distribution.",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "11",
+    "kind": "paper_reference",
+    "year": 2023,
+    "venue": "ICCV",
+    "image": "references/11_因果与AI科学机制/P026/figures/P026_F4_p05.png",
+    "description": "网络架构图",
+    "source_kind": "official_proceedings",
+    "copy_note": "原论文集/出版商公开版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "30698e5dd02eb0d1cee5fca1453aeb3f83489c4d91ffe0289e217728fa26a7d9"
+  }
+]

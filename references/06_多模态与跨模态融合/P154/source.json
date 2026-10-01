@@ -1,0 +1,20 @@
+{
+  "title": "SAUCE: Selective Concept Unlearning in Vision-Language Models with Sparse Autoencoders",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Geng_SAUCE_Selective_Concept_Unlearning_in_Vision-Language_Models_with_Sparse_Autoencoders_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Geng_SAUCE_Selective_Concept_Unlearning_in_Vision-Language_Models_with_Sparse_Autoencoders_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P154",
+  "category": "06_多模态与跨模态融合",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "SAUCE: Selective Concept Unlearning in Vision-Language Models\nwith Sparse Autoencoders\nJiahui Geng1, Qing Li1*\n1 Mohamed bin Zayed University of Artificial Intelligence\n{Jiahui.Geng, Qing.Li}@mbzuai.ac.ae\nAbstract\nUnlearning methods for vision-language models (VLMs)\nhave primarily adapted techniques from large language\nmodels (LLMs), relying on weight updates that demand ex-\ntensive annotated forget sets. Moreover, these methods per-\nform unlearning at a coarse granularity, often leading to\nexcessive forgetting and reduced model utility. To address\nthis issue, we introduce SAUCE, a novel metho",
+  "local_pdf": "references/06_多模态与跨模态融合/P154/paper.pdf",
+  "sha256": "4e86356c5f63c2de19d9de8901cadea1158c85e890ed45d9593bdbada6c475af",
+  "bytes": 4120504,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

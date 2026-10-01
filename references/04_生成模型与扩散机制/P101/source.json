@@ -1,0 +1,20 @@
+{
+  "title": "Denoising Diffusion Implicit Models",
+  "venue": "ICLR",
+  "year": 2021,
+  "source_url": "https://openreview.net/forum?id=St1giarCHLP",
+  "pdf_url": "https://arxiv.org/pdf/2010.02502",
+  "source_kind": "author_preprint_of_verified_conference_paper",
+  "id": "P101",
+  "category": "04_生成模型与扩散机制",
+  "download_status": "ok",
+  "original_pdf_url": "https://openreview.net/pdf?id=St1giarCHLP",
+  "copy_note": "OpenReview returned HTTP 403; downloaded the publicly available arXiv author version.",
+  "pages": 22,
+  "pdf_first_page_excerpt": "Published as a conference paper at ICLR 2021\nDENOISING DIFFUSION IMPLICIT MODELS\nJiaming Song, Chenlin Meng & Stefano Ermon\nStanford University\n{tsong,chenlin,ermon}@cs.stanford.edu\nABSTRACT\nDenoising diffusion probabilistic models (DDPMs) have achieved high qual-\nity image generation without adversarial training, yet they require simulating a\nMarkov chain for many steps in order to produce a sample. To accelerate sam-\npling, we present denoising diffusion implicit models (DDIMs), a more efﬁcient\nclass of iterative implicit probabilistic models with the same training procedure as\nDDPMs. In DDP",
+  "local_pdf": "references/04_生成模型与扩散机制/P101/paper.pdf",
+  "sha256": "07cb8796d7c100bf7c02bc575f16aab72c32630a8f85abd54ad45dc4f63e80fb",
+  "bytes": 10857218,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

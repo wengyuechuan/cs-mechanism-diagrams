@@ -1,0 +1,19 @@
+{
+  "title": "FedPerfix: Towards Partial Model Personalization of Vision Transformers in Federated Learning",
+  "venue": "ICCV",
+  "year": 2023,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Sun_FedPerfix_Towards_Partial_Model_Personalization_of_Vision_Transformers_in_Federated_ICCV_2023_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Sun_FedPerfix_Towards_Partial_Model_Personalization_of_Vision_Transformers_in_Federated_ICCV_2023_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P028",
+  "category": "02_Transformer与注意力",
+  "pages": 11,
+  "pdf_first_page_excerpt": "FedPerfix: Towards Partial Model Personalization of Vision Transformers in\nFederated Learning\nGuangyu Sun1, Matias Mendieta1, Jun Luo2, Shandong Wu3, Chen Chen1\n1Center for Research in Computer Vision, University of Central Florida, USA\n2Intelligent Systems Program, University of Pittsburgh, USA\n3Department of Radiology, Biomedical Informatics,\nand Bioengineering, University of Pittsburgh, USA\n{guangyu.sun, matias.mendieta}@ucf.edu; jul117@pitt.edu;\nwus3@upmc.edu; chen.chen@crcv.ucf.edu\nAbstract\nPersonalized Federated Learning (PFL) represents a\npromising solution for decentralized learning in",
+  "local_pdf": "references/02_Transformer与注意力/P028/paper.pdf",
+  "sha256": "0c016ee526a1243e79c6673075926e769d24de43364a58843ffcf3dfee4eaddb",
+  "bytes": 596568,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

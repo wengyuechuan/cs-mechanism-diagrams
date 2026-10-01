@@ -1,0 +1,19 @@
+{
+  "title": "Disentangled3D: Learning a 3D Generative Model With Disentangled Geometry and Appearance From Monocular Images",
+  "venue": "CVPR",
+  "year": 2022,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Tewari_Disentangled3D_Learning_a_3D_Generative_Model_With_Disentangled_Geometry_and_CVPR_2022_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Tewari_Disentangled3D_Learning_a_3D_Generative_Model_With_Disentangled_Geometry_and_CVPR_2022_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P036",
+  "category": "04_生成模型与扩散机制",
+  "pages": 10,
+  "pdf_first_page_excerpt": "Disentangled3D: Learning a 3D Generative Model with Disentangled Geometry\nand Appearance from Monocular Images\nAyush Tewari1,2 Mallikarjun B R1 Xingang Pan1 Ohad Fried3\nManeesh Agrawala4 Christian Theobalt1\n1Max Planck Insitute for Informatics\n2MIT\n3Interdisciplinary Center, Herzliya\n4Stanford University\nFigure 1. Our model can disentangle geometry, appearance, and pose in synthesized images. This figure visualizes results on FFHQ [15]\n(first 5 columns) and Cats [42] (last 5 columns). Each row shows images rendered with the same pose and geometry, but with different\nappearances. Each column sh",
+  "local_pdf": "references/04_生成模型与扩散机制/P036/paper.pdf",
+  "sha256": "215bcf393536bd68bba391af5c42fed1f182e947a1a07b481967b1f0f6ed8efd",
+  "bytes": 7626442,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

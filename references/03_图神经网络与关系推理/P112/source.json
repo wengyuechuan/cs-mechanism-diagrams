@@ -1,0 +1,20 @@
+{
+  "title": "FedGTA: Topology-aware Averaging for Federated Graph Learning",
+  "venue": "PVLDB",
+  "year": 2024,
+  "source_url": "https://www.vldb.org/pvldb/vol17/p41-li.pdf",
+  "pdf_url": "https://vldb.org/pvldb/vol17/p41-li.pdf",
+  "source_kind": "official_journal",
+  "category": "03_图神经网络与关系推理",
+  "id": "P112",
+  "download_status": "ok",
+  "original_pdf_url": "https://www.vldb.org/pvldb/vol17/p41-li.pdf",
+  "pages": 10,
+  "pdf_first_page_excerpt": "FedGTA: Topology-aware Averaging for Federated Graph\nLearning\nXunkai Li\nBeijing Institute of Technology\ncs.xunkai.li@gmail.com\nZhengyu Wu\nBeijing Institute of Technology\nJeremywzy96@outlook.com\nWentao Zhang\nMila - Québec AI Institute\nHEC Montréal\nwentao.zhang@mila.quebec\nYinlin Zhu\nSun Yat-sen University\nylzhuawesome@163.com\nRong-Hua Li\nBeijing Institute of Technology\nlironghuabit@126.com\nGuoren Wang\nBeijing Institute of Technology\nwanggrbit@126.com\nABSTRACT\nFederated Graph Learning (FGL) is a distributed machine learn-\ning paradigm that enables collaborative training on large-scale\nsubgraphs ",
+  "local_pdf": "references/03_图神经网络与关系推理/P112/paper.pdf",
+  "sha256": "2d136cfd23fde2ab3c97b9898d1bc8f825edb37a37ad373c343a21003bbf1bd8",
+  "bytes": 2576912,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

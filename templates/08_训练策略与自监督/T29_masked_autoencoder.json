@@ -1,0 +1,114 @@
+{
+  "id": "T29",
+  "category": "08_训练策略与自监督",
+  "slug": "masked_autoencoder",
+  "title": "Masked autoencoder mechanism",
+  "description": "编码器仅处理可见 token，掩码 token 在解码端注入。",
+  "nodes": [
+    {
+      "id": "image",
+      "label": "Image patches",
+      "x": 70,
+      "y": 310,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "mask",
+      "label": "Mask sampling",
+      "x": 330,
+      "y": 310,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "enc",
+      "label": "Visible-token encoder",
+      "x": 620,
+      "y": 210,
+      "w": 220,
+      "h": 68,
+      "kind": "attention",
+      "shape": "box"
+    },
+    {
+      "id": "token",
+      "label": "Mask tokens",
+      "x": 620,
+      "y": 460,
+      "w": 170,
+      "h": 68,
+      "kind": "neutral",
+      "shape": "box"
+    },
+    {
+      "id": "dec",
+      "label": "Reconstruction decoder",
+      "x": 930,
+      "y": 310,
+      "w": 240,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "loss",
+      "label": "Masked-patch objective",
+      "x": 930,
+      "y": 520,
+      "w": 240,
+      "h": 68,
+      "kind": "loss",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "image",
+      "target": "mask",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "mask",
+      "target": "enc",
+      "label": "visible",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "enc",
+      "target": "dec",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "token",
+      "target": "dec",
+      "label": "insert mask tokens",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "dec",
+      "target": "loss",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

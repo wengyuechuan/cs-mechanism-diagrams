@@ -1,0 +1,20 @@
+{
+  "title": "HGAP: Boosting Permutation Invariant and Permutation Equivariant in Multi-Agent Reinforcement Learning via Graph Attention Network",
+  "venue": "ICML",
+  "year": 2024,
+  "source_url": "https://proceedings.mlr.press/v235/lin24m.html",
+  "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/lin24m/lin24m.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P070",
+  "category": "07_强化学习与智能体",
+  "pages": 22,
+  "pdf_first_page_excerpt": "HGAP: Boosting Permutation Invariant and Permutation Equivariant in\nMulti-Agent Reinforcement Learning via Graph Attention Network\nBor Jiun Lin 1 Chun-Yi Lee 1\nAbstract\nGraph representation has gained widespread ap-\nplication across various machine learning do-\nmains, attributed to its ability to discern corre-\nlations among input nodes. In the realm of Multi-\nagent Reinforcement Learning (MARL), agents\nare tasked with observing other entities within\ntheir environment to determine their behavior.\nConventional MARL methodologies often suffer\nfrom training difficulties if Permutation Invariant\n(",
+  "local_pdf": "references/02_Transformer与注意力/P070/paper.pdf",
+  "sha256": "d98d2de90e723fb56df57a2c3c5cdd422f20bd321e6f34f11e69a3f381538701",
+  "bytes": 9406644,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

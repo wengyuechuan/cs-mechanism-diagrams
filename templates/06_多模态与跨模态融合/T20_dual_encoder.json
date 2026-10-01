@@ -1,0 +1,146 @@
+{
+  "id": "T20",
+  "category": "06_多模态与跨模态融合",
+  "slug": "dual_encoder",
+  "title": "Dual encoder and cross-modal alignment",
+  "description": "两种模态各自编码，右侧显示对齐目标；适合 CLIP 类机制。",
+  "nodes": [
+    {
+      "id": "im",
+      "label": "Images",
+      "x": 70,
+      "y": 210,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "ie",
+      "label": "Image encoder",
+      "x": 350,
+      "y": 210,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "iv",
+      "label": "Image embeddings",
+      "x": 655,
+      "y": 210,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "txt",
+      "label": "Texts",
+      "x": 70,
+      "y": 465,
+      "w": 170,
+      "h": 68,
+      "kind": "input",
+      "shape": "box"
+    },
+    {
+      "id": "te",
+      "label": "Text encoder",
+      "x": 350,
+      "y": 465,
+      "w": 170,
+      "h": 68,
+      "kind": "module",
+      "shape": "box"
+    },
+    {
+      "id": "tv",
+      "label": "Text embeddings",
+      "x": 655,
+      "y": 465,
+      "w": 170,
+      "h": 68,
+      "kind": "latent",
+      "shape": "box"
+    },
+    {
+      "id": "obj",
+      "label": "Cross-modal alignment\ncontrastive objective",
+      "x": 1005,
+      "y": 335,
+      "w": 245,
+      "h": 68,
+      "kind": "loss",
+      "shape": "box"
+    }
+  ],
+  "edges": [
+    {
+      "source": "im",
+      "target": "ie",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "ie",
+      "target": "iv",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "txt",
+      "target": "te",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "te",
+      "target": "tv",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "iv",
+      "target": "obj",
+      "label": "",
+      "style": "solid",
+      "via": []
+    },
+    {
+      "source": "tv",
+      "target": "obj",
+      "label": "",
+      "style": "solid",
+      "via": []
+    }
+  ],
+  "groups": [
+    {
+      "title": "Visual branch",
+      "x": 40,
+      "y": 155,
+      "w": 855,
+      "h": 150
+    },
+    {
+      "title": "Language branch",
+      "x": 40,
+      "y": 405,
+      "w": 855,
+      "h": 150
+    }
+  ],
+  "tips": [
+    "替换模块名称、输入输出和张量维度。",
+    "保留主要信息流方向，新增分支放在空白区域。",
+    "虚线仅表示辅助联系；按真实方法修改箭头语义。"
+  ],
+  "width": 1320,
+  "height": 720
+}

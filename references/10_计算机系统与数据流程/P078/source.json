@@ -1,0 +1,19 @@
+{
+  "title": "S tream V oice: Streamable Context-Aware Language Modeling for Real-time Zero-Shot Voice Conversion",
+  "venue": "ACL",
+  "year": 2024,
+  "source_url": "https://aclanthology.org/2024.acl-long.396/",
+  "pdf_url": "https://aclanthology.org/2024.acl-long.396.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P078",
+  "category": "10_计算机系统与数据流程",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 7328–7338\nAugust 11-16, 2024 ©2024 Association for Computational Linguistics\nStreamVoice: Streamable Context-Aware Language Modeling for Real-time\nZero-Shot Voice Conversion\nZhichao Wang1, Yuanzhe Chen2, Xinsheng Wang1, Lei Xie1*, Yuping Wang2\n1Audio, Speech and Language Processing Group (ASLP@NPU)\nSchool of Computer Science, Northwestern Polytechnical University, Xi’an, China\n2Douyin Vision Co., Ltd.\nAbstract\nRecent language model (LM) advancements\nhave showcased impressive z",
+  "local_pdf": "references/10_计算机系统与数据流程/P078/paper.pdf",
+  "sha256": "632e77b807b6c710d912459004dcf2eb475e8b3519487b0b5c7c398b5ec45ed3",
+  "bytes": 1189684,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

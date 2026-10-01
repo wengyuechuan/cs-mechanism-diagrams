@@ -1,0 +1,20 @@
+{
+  "title": "Leveraging Large Language Models for Learning Complex Legal Concepts through Storytelling",
+  "venue": "ACL",
+  "year": 2024,
+  "source_url": "https://aclanthology.org/2024.acl-long.388/",
+  "pdf_url": "https://aclanthology.org/2024.acl-long.388.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P074",
+  "category": "12_通用方法与总体框架",
+  "pages": 26,
+  "pdf_first_page_excerpt": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 7194–7219\nAugust 11-16, 2024 ©2024 Association for Computational Linguistics\nLeveraging Large Language Models for Learning Complex Legal Concepts\nthrough Storytelling\nHang Jiang†∅, Xiajie Zhang†, Robert Mahari†♢, Daniel Kessler†∅, Eric Ma2,\nTal August∞, Irene Li¬⊣, Alex ‘Sandy’ Pentland†, Yoon Kim†, Deb Roy†∅, Jad Kabbara†∅\n†Massachusetts Institute of Technology, ∅MIT Center for Constructive Communication\n♢Harvard Law School, 2University of Virginia School of Law\n∞Allen Instit",
+  "local_pdf": "references/05_检索增强与知识系统/P074/paper.pdf",
+  "sha256": "4dcc82d33ebc3476622fd867a15fb6fa4eb3b6e9e67295ec3f73097109024eec",
+  "bytes": 2519055,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

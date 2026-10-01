@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P124_F3_p04",
+    "title": "Learning Compatible Multi-Prize Subnetworks for Asymmetric Retrieval",
+    "category": "05_检索增强与知识系统",
+    "layout_style": "L07",
+    "visual_style": "V05",
+    "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Sun_Learning_Compatible_Multi-Prize_Subnetworks_for_Asymmetric_Retrieval_CVPR_2025_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Sun_Learning_Compatible_Multi-Prize_Subnetworks_for_Asymmetric_Retrieval_CVPR_2025_paper.pdf",
+    "figure_number": "3",
+    "pdf_page": 4,
+    "caption": "Figure 3. Overall pipeline for constructing and optimizing a Prunable Network (PrunNet). Each connection in PrunNet is characterized by a weight wl",
+    "crop_note": "仅裁出机制图形；图注见索引",
+    "style_review": "人工按缩略图检查主布局与视觉表达；不是会议官方风格标准",
+    "batch": null,
+    "topic": "05",
+    "kind": "paper_reference",
+    "year": 2025,
+    "venue": "CVPR",
+    "image": "references/05_检索增强与知识系统/P124/figures/P124_F3_p04.png",
+    "description": "方法流程图",
+    "source_kind": "official_proceedings",
+    "copy_note": "原论文集/出版商公开版本",
+    "rights": "Original authors/publisher; check source license",
+    "image_sha256": "3bbafbd85d297109367f0ee1efc11a49f8267e6945f11a56f23f9c25cc9a6d7c"
+  }
+]

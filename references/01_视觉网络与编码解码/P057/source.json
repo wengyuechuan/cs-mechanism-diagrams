@@ -1,0 +1,20 @@
+{
+  "title": "You Only Cache Once: Decoder-Decoder Architectures for Language Models",
+  "venue": "NeurIPS",
+  "year": 2024,
+  "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/0df38cd13520747e1e64e5b123a78ef8-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/0df38cd13520747e1e64e5b123a78ef8-Paper-Conference.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P057",
+  "category": "02_Transformer与注意力",
+  "pages": 23,
+  "pdf_first_page_excerpt": "You Only Cache Once:\nDecoder-Decoder Architectures for Language Models\nYutao Sun∗‡†\nLi Dong∗†\nYi Zhu† Shaohan Huang†\nWenhui Wang† Shuming Ma† Quanlu Zhang† Jianyong Wang‡ Furu Wei†⋄\n‡ Tsinghua University\n† Microsoft Research\nhttps://aka.ms/GeneralAI\nAbstract\nWe introduce a decoder-decoder architecture, YOCO, for large language models,\nwhich only caches key-value pairs once. It consists of two components, i.e., a cross-\ndecoder stacked upon a self-decoder. The self-decoder efficiently encodes global\nkey-value (KV) caches that are reused by the cross-decoder via cross-attention.\nThe overall mode",
+  "local_pdf": "references/01_视觉网络与编码解码/P057/paper.pdf",
+  "sha256": "c3d372e316d0ae8568ce0cac0f7f620ce618c166e8a8ff19993a404ac0bc83a5",
+  "bytes": 786906,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本",
+  "topic_review_note": "按论文主要方法主题人工修正自动关键词标签；原下载路径保留"
+}

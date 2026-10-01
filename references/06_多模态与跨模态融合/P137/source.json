@@ -1,0 +1,20 @@
+{
+  "title": "Multi-Modal Multi-Task Unified Embedding Model (M3T-UEM): A Task-Adaptive Representation Learning Framework",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Sharma_Multi-Modal_Multi-Task_Unified_Embedding_Model_M3T-UEM_A_Task-Adaptive_Representation_Learning_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Sharma_Multi-Modal_Multi-Task_Unified_Embedding_Model_M3T-UEM_A_Task-Adaptive_Representation_Learning_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P137",
+  "category": "06_多模态与跨模态融合",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 11,
+  "pdf_first_page_excerpt": "Multi-Modal Multi-Task Uniﬁed Embedding Model (M3T-UEM): A\nTask-Adaptive Representation Learning Framework\nRohan Sharma1, 2\nChangyou Chen*1, 2\nFeng-Ju Chang*1\nSeongjun Yun*1\nXiaohu Xie*1\nRui Meng1\nDehong Xu1, 3\nAlejandro Mottini1\nQingjun Cui1\n1Amazon\n2University at Buffalo\n3 University of California, Los Angeles\n(a) The M3T-UEM Framework\n(b) Performance Comparison\nFigure 1. M3T-UEM advances the LMM-based retriever with the designated task-speciﬁc instructions (see Supplementary 8, Table 10), a\nmultiple-token summarization mechanism (see Fig. 2), and the task-aware contrastive loss (section 3.2",
+  "local_pdf": "references/06_多模态与跨模态融合/P137/paper.pdf",
+  "sha256": "4fa1ef56671dd320fc28469aa41ac85b7c7d97d01a63575cc0bd8cd29ded5375",
+  "bytes": 2319765,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

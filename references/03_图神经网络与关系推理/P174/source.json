@@ -1,0 +1,20 @@
+{
+  "title": "Taming Language Models for Text-attributed Graph Learning with Decoupled Aggregation",
+  "venue": "ACL",
+  "year": 2025,
+  "source_url": "https://aclanthology.org/2025.acl-long.173/",
+  "pdf_url": "https://aclanthology.org/2025.acl-long.173.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P174",
+  "category": "03_图神经网络与关系推理",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 12,
+  "pdf_first_page_excerpt": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 3463–3474\nJuly 27 - August 1, 2025 ©2025 Association for Computational Linguistics\nTaming Language Models for Text-attributed Graph Learning with\nDecoupled Aggregation\nChuang Zhou1, Zhu Wang1, Shengyuan Chen1,*, Jiahe Du1,\nQiyuan Zheng1, Zhaozhuo Xu2, Xiao Huang1\n1The Hong Kong Polytechnic University, China; 2Stevens Institute of Technology, USA\n1{chuang-qqzj.zhou, juliazhu.wang, shengyuan.chen, jiahe.du, qiyuan.zheng}\n@connect.polyu.hk; xiaohuang@comp.polyu.edu.hk; 2zxu79@ste",
+  "local_pdf": "references/03_图神经网络与关系推理/P174/paper.pdf",
+  "sha256": "2677aed325c4dcd23f5b18019f3c1cdae851de30a01dbb8a4d0137f83974e711",
+  "bytes": 619573,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Spatially embedded recurrent neural networks reveal widespread links between structural and functional neuroscience findings",
+  "venue": "Nature Machine Intelligence",
+  "year": 2023,
+  "source_url": "https://www.nature.com/articles/s42256-023-00748-9",
+  "pdf_url": "https://www.nature.com/articles/s42256-023-00748-9.pdf",
+  "source_kind": "official_open_access_journal",
+  "id": "P106",
+  "category": "11_因果与AI科学机制",
+  "pages": 16,
+  "pdf_first_page_excerpt": "Nature Machine Intelligence | Volume 5 | December 2023 | 1369–1381\n1369\nnature machine intelligence\nhttps://doi.org/10.1038/s42256-023-00748-9\nArticle\nSpatially embedded recurrent neural \nnetworks reveal widespread links between \nstructural and functional neuroscience \nfindings\nJascha Achterberg \n  1,5 \n, Danyal Akarca \n  1,5 \n, D. J. Strouse2, John Duncan1,3,6 & \nDuncan E. Astle \n  1,4,6\nBrain networks exist within the confines of resource limitations. As a result, a \nbrain network must overcome the metabolic costs of growing and sustaining \nthe network within its physical space, while simult",
+  "local_pdf": "references/11_因果与AI科学机制/P106/paper.pdf",
+  "sha256": "46294d5a060a341e7fc3d12348440c929987b7c5618677ee23288f61c33d7ef3",
+  "bytes": 3519328,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

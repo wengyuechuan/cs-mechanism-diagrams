@@ -1,0 +1,19 @@
+{
+  "title": "OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving",
+  "venue": "ECCV",
+  "year": 2024,
+  "source_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2024_ECCV_2024_paper.php",
+  "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02024.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P044",
+  "category": "09_三维视觉与神经渲染",
+  "pages": 18,
+  "pdf_first_page_excerpt": "OccWorld: Learning a 3D Occupancy\nWorld Model for Autonomous Driving\nWenzhao Zheng1,2∗, Weiliang Chen1∗,\nYuanhui Huang1, Borui Zhang1, Yueqi Duan1, and Jiwen Lu1†\n1Tsinghua University\n2UC Berkeley\nhttps://wzzheng.net/OccWorld\nwenzhao.zheng@outlook.com;\n{chen-wl20,huangyh22,zhang-br21}@mails.tsinghua.edu.cn;\n{duanyueqi,lujiwen}@tsinghua.edu.cn\nGT\nOccWorld\nAB7XicbVBNSwMxEJ2tX7V+VT16CRbB07IrVr0IRS8eK9gPaJeSTbNtbDZkqxQlv4HLx4U8er/8ea/MW3oK0PBh7vzTAzL0w408bz\nvp3Cyura+kZxs7S1vbO7V94/aGqZKkIbRHKp2iHWlDNBG4YZTtuJojgOW2Fo9up3qiSjMpHsw4oUGMB4JFjGBjpa59tyq7pUrnuv\nNgJaJn5MK5Kj3yl/dviRpTIUhHGvd8b3EBlWhFOJ6",
+  "local_pdf": "references/09_三维视觉与神经渲染/P044/paper.pdf",
+  "sha256": "fcdf98a88bd98211486c28f6b8e2c920f222a1a8c1275903d57bb8ebf176216b",
+  "bytes": 8906930,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}

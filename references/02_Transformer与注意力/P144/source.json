@@ -1,0 +1,20 @@
+{
+  "title": "STDDNet: Harnessing Mamba for Video Polyp Segmentation via Spatial-aligned Temporal Modeling and Discriminative Dynamic Representation Learning",
+  "venue": "ICCV",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_STDDNet_Harnessing_Mamba_for_Video_Polyp_Segmentation_via_Spatial-aligned_Temporal_ICCV_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_STDDNet_Harnessing_Mamba_for_Video_Polyp_Segmentation_via_Spatial-aligned_Temporal_ICCV_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P144",
+  "category": "02_Transformer与注意力",
+  "copy_note": "官方会议公开论文版本",
+  "batch": "v2-2025-expansion",
+  "pages": 10,
+  "pdf_first_page_excerpt": "STDDNet: Harnessing Mamba for Video Polyp Segmentation via Spatial-aligned\nTemporal Modeling and Discriminative Dynamic Representation Learning\nGuilian Chen1\nHuisi Wu1*\nJing Qin2\n1 College of Computer Science and Software Engineering, Shenzhen University\n2 Centre for Smart Health, School of Nursing, The Hong Kong Polytechnic University\n2450101015@mails.szu.edu.cn, hswu@szu.edu.cn\nAbstract\nAutomated segmentation of polyps from colonoscopy videos\nis of great clinical significance as it can assist clinicians\nin making accurate diagnoses and precise interventions.\nHowever, video polyp segmentation",
+  "local_pdf": "references/02_Transformer与注意力/P144/paper.pdf",
+  "sha256": "9034da0ca93bc43953f4b2174714c8ec518bf08a03542e00346aa47daf5f7df9",
+  "bytes": 3804666,
+  "download_status": "ok",
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish."
+}

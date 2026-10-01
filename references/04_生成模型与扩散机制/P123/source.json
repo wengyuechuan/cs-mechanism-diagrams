@@ -1,0 +1,19 @@
+{
+  "title": "DKDM: Data-Free Knowledge Distillation for Diffusion Models with Any Architecture",
+  "venue": "CVPR",
+  "year": 2025,
+  "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xiang_DKDM_Data-Free_Knowledge_Distillation_for_Diffusion_Models_with_Any_Architecture_CVPR_2025_paper.html",
+  "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Xiang_DKDM_Data-Free_Knowledge_Distillation_for_Diffusion_Models_with_Any_Architecture_CVPR_2025_paper.pdf",
+  "source_kind": "official_proceedings",
+  "id": "P123",
+  "download_status": "ok",
+  "category": "04_生成模型与扩散机制",
+  "pages": 11,
+  "pdf_first_page_excerpt": "DKDM: Data-Free Knowledge Distillation for Diffusion Models with Any\nArchitecture\nQianlong Xiang1, Miao Zhang1,†, Yuzhang Shang2, Jianlong Wu1, Yan Yan3, Liqiang Nie1,†\n1Harbin Institute of Technology (Shenzhen) 2Illinois Institute of Technology 3University of Illinois Chicago\nhttps://github.com/qianlong0502/DKDM\nAbstract\nDiffusion models (DMs) have demonstrated exceptional\ngenerative capabilities across various domains, including\nimage, video, and so on. A key factor contributing to their\neffectiveness is the high quantity and quality of data used\nduring training. However, mainstream DMs now ",
+  "local_pdf": "references/04_生成模型与扩散机制/P123/paper.pdf",
+  "sha256": "969aa3de09e461bfb1ecebc3f45c913e9a20d13ab11dcef6c8f59cca32027867",
+  "bytes": 2793685,
+  "collected_date": "2026-10-01",
+  "license": "See original source; publicly accessible does not imply permission to republish.",
+  "copy_note": "原论文集/出版商公开版本"
+}
