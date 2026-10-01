@@ -2,7 +2,7 @@
 
 Selected reference: **T17**, L08 stage swimlanes + V01 flat muted, original generic structural blueprint (MIT).
 
-Reference PNG: `C:/Users/wengy/Documents/ChatGPT/论文阅读/绘图模板库/agent-skill/cs-mechanism-imagegen/assets/images/05/L08/T17.png`
+Reference PNG: `${REPO_ROOT}/agent-skill/cs-mechanism-imagegen/assets/images/05/L08/T17.png`
 
 The requested mechanism has been prepared as **9 nodes / 8 arrows**. It has not been generated as an image.
 

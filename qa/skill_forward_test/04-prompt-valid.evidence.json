@@ -1,10 +1,10 @@
 {
   "command": [
-    "C:\\Users\\wengy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
-    "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\agent-skill\\cs-mechanism-imagegen\\scripts\\library.py",
+    "${USER_HOME}/.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "${REPO_ROOT}\\agent-skill\\cs-mechanism-imagegen\\scripts\\library.py",
     "prompt",
     "--brief",
-    "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\qa\\skill_forward_test\\graph-rag.request.brief.json",
+    "${REPO_ROOT}\\qa\\skill_forward_test\\graph-rag.request.brief.json",
     "--refs",
     "T17",
     "--layout",
@@ -12,9 +12,9 @@
     "--visual",
     "V01",
     "--out",
-    "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\qa\\skill_forward_test\\graph-rag"
+    "${REPO_ROOT}\\qa\\skill_forward_test\\graph-rag"
   ],
   "exit_code": 0,
-  "stdout": "{\n  \"generated_prompt_files\": [\n    \"C:\\\\Users\\\\wengy\\\\Documents\\\\ChatGPT\\\\论文阅读\\\\绘图模板库\\\\qa\\\\skill_forward_test\\\\graph-rag.prompt.txt\",\n    \"C:\\\\Users\\\\wengy\\\\Documents\\\\ChatGPT\\\\论文阅读\\\\绘图模板库\\\\qa\\\\skill_forward_test\\\\graph-rag.brief.json\",\n    \"C:\\\\Users\\\\wengy\\\\Documents\\\\ChatGPT\\\\论文阅读\\\\绘图模板库\\\\qa\\\\skill_forward_test\\\\graph-rag.references.json\"\n  ],\n  \"nodes\": 9,\n  \"edges\": 8,\n  \"reference_images\": [\n    \"C:\\\\Users\\\\wengy\\\\Documents\\\\ChatGPT\\\\论文阅读\\\\绘图模板库\\\\agent-skill\\\\cs-mechanism-imagegen\\\\assets\\\\images\\\\05\\\\L08\\\\T17.png\"\n  ],\n  \"image_generation_called\": false\n}\n",
+  "stdout": "{\n  \"generated_prompt_files\": [\n    \"${REPO_ROOT}\\\\qa\\\\skill_forward_test\\\\graph-rag.prompt.txt\",\n    \"${REPO_ROOT}\\\\qa\\\\skill_forward_test\\\\graph-rag.brief.json\",\n    \"${REPO_ROOT}\\\\qa\\\\skill_forward_test\\\\graph-rag.references.json\"\n  ],\n  \"nodes\": 9,\n  \"edges\": 8,\n  \"reference_images\": [\n    \"${REPO_ROOT}\\\\agent-skill\\\\cs-mechanism-imagegen\\\\assets\\\\images\\\\05\\\\L08\\\\T17.png\"\n  ],\n  \"image_generation_called\": false\n}\n",
   "stderr": ""
 }

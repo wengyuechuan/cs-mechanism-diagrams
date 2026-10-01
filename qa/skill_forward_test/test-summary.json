@@ -17,14 +17,14 @@
   "valid_prompt": {
     "status": "pass",
     "generated_prompt_files": [
-      "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\qa\\skill_forward_test\\graph-rag.prompt.txt",
-      "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\qa\\skill_forward_test\\graph-rag.brief.json",
-      "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\qa\\skill_forward_test\\graph-rag.references.json"
+      "${REPO_ROOT}\\qa\\skill_forward_test\\graph-rag.prompt.txt",
+      "${REPO_ROOT}\\qa\\skill_forward_test\\graph-rag.brief.json",
+      "${REPO_ROOT}\\qa\\skill_forward_test\\graph-rag.references.json"
     ],
     "nodes": 9,
     "edges": 8,
     "reference_images": [
-      "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\agent-skill\\cs-mechanism-imagegen\\assets\\images\\05\\L08\\T17.png"
+      "${REPO_ROOT}\\agent-skill\\cs-mechanism-imagegen\\assets\\images\\05\\L08\\T17.png"
     ],
     "image_generation_called": false
   },

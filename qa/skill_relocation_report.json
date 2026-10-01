@@ -1,5 +1,5 @@
 {
-  "extracted_location": "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\qa\\relocation_test\\cs-mechanism-imagegen",
+  "extracted_location": "${REPO_ROOT}\\qa\\relocation_test\\cs-mechanism-imagegen",
   "validation": {
     "images": 271,
     "topics": 12,

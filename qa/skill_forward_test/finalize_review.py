@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent
-REF = 'C:/Users/wengy/Documents/ChatGPT/论文阅读/绘图模板库/agent-skill/cs-mechanism-imagegen/assets/images/05/L08/T17.png'
+REF = str(Path(__file__).resolve().parents[2] / 'agent-skill/cs-mechanism-imagegen/assets/images/05/L08/T17.png')
 
 review = {
     'scope': 'Offline forward-use evaluation: retrieval, visual inspection, brief and prompt preparation, rejection tests. No imagegen call.',

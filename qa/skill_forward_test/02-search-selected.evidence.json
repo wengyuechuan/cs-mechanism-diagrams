@@ -1,7 +1,7 @@
 {
   "command": [
-    "C:\\Users\\wengy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
-    "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\agent-skill\\cs-mechanism-imagegen\\scripts\\library.py",
+    "${USER_HOME}/.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "${REPO_ROOT}\\agent-skill\\cs-mechanism-imagegen\\scripts\\library.py",
     "search",
     "--topic",
     "retrieval",
@@ -13,6 +13,6 @@
     "4"
   ],
   "exit_code": 0,
-  "stdout": "{\n  \"matches\": 1,\n  \"filter_policy\": \"strict; no silent fallback\",\n  \"results\": [\n    {\n      \"id\": \"T17\",\n      \"title\": \"RAG offline index and online answering\",\n      \"category\": \"05_检索增强与知识系统\",\n      \"layout_style\": \"L08\",\n      \"visual_style\": \"V01\",\n      \"description\": \"离线索引和在线问答分轨，便于论文方法总览。\",\n      \"topic\": \"05\",\n      \"kind\": \"original_blueprint\",\n      \"year\": 2026,\n      \"venue\": \"原创结构蓝图\",\n      \"image\": \"assets/images/05/L08/T17.png\",\n      \"rights\": \"MIT; original generic structure, not an exact paper reproduction\",\n      \"source_url\": null,\n      \"keywords\": \"替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。\",\n      \"image_sha256\": \"ca625eeff76f73b40a4b55f6b1fb170c0fad026910bb1c643a98622ae7e99191\",\n      \"absolute_image\": \"C:\\\\Users\\\\wengy\\\\Documents\\\\ChatGPT\\\\论文阅读\\\\绘图模板库\\\\agent-skill\\\\cs-mechanism-imagegen\\\\assets\\\\images\\\\05\\\\L08\\\\T17.png\"\n    }\n  ]\n}\n",
+  "stdout": "{\n  \"matches\": 1,\n  \"filter_policy\": \"strict; no silent fallback\",\n  \"results\": [\n    {\n      \"id\": \"T17\",\n      \"title\": \"RAG offline index and online answering\",\n      \"category\": \"05_检索增强与知识系统\",\n      \"layout_style\": \"L08\",\n      \"visual_style\": \"V01\",\n      \"description\": \"离线索引和在线问答分轨，便于论文方法总览。\",\n      \"topic\": \"05\",\n      \"kind\": \"original_blueprint\",\n      \"year\": 2026,\n      \"venue\": \"原创结构蓝图\",\n      \"image\": \"assets/images/05/L08/T17.png\",\n      \"rights\": \"MIT; original generic structure, not an exact paper reproduction\",\n      \"source_url\": null,\n      \"keywords\": \"替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。\",\n      \"image_sha256\": \"ca625eeff76f73b40a4b55f6b1fb170c0fad026910bb1c643a98622ae7e99191\",\n      \"absolute_image\": \"${REPO_ROOT}\\\\agent-skill\\\\cs-mechanism-imagegen\\\\assets\\\\images\\\\05\\\\L08\\\\T17.png\"\n    }\n  ]\n}\n",
   "stderr": ""
 }

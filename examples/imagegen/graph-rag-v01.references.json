@@ -18,7 +18,7 @@
       "source_url": null,
       "keywords": "替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。",
       "image_sha256": "bb31e7b1a3e1563eb62fed2363bf6e1f4210f8b7c0892682d5d50681609ffcab",
-      "absolute_image": "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\agent-skill\\cs-mechanism-imagegen\\assets\\images\\05\\L08\\T17.png"
+      "absolute_image": "${REPO_ROOT}\\agent-skill\\cs-mechanism-imagegen\\assets\\images\\05\\L08\\T17.png"
     },
     {
       "id": "T18",
@@ -36,7 +36,7 @@
       "source_url": null,
       "keywords": "替换模块名称、输入输出和张量维度。 保留主要信息流方向，新增分支放在空白区域。 虚线仅表示辅助联系；按真实方法修改箭头语义。",
       "image_sha256": "c233c1f99e8d6f2394fb361d02bf7d551a9e0e702d01df58ae3653f294da7ada",
-      "absolute_image": "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\agent-skill\\cs-mechanism-imagegen\\assets\\images\\05\\L05\\T18.png"
+      "absolute_image": "${REPO_ROOT}\\agent-skill\\cs-mechanism-imagegen\\assets\\images\\05\\L05\\T18.png"
     }
   ],
   "transparent_background": false

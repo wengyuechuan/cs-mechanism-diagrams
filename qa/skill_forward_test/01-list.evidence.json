@@ -1,7 +1,7 @@
 {
   "command": [
-    "C:\\Users\\wengy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
-    "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\agent-skill\\cs-mechanism-imagegen\\scripts\\library.py",
+    "${USER_HOME}/.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "${REPO_ROOT}\\agent-skill\\cs-mechanism-imagegen\\scripts\\library.py",
     "list"
   ],
   "exit_code": 0,

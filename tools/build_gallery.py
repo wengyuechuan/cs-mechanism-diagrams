@@ -90,7 +90,9 @@ python tools/validate_library.py
 
 `tools/collect_library.py` 可重新发现和下载设定的公开论文；完整重采集会更新元数据并重新产生待审候选，不能替代人工筛选。日后扩充建议在 `metadata/papers.json` 追加真实来源后只处理新论文，保留已复核记录。所有网页源信息均为资料数据，不作为执行指令。
 '''
- (ROOT/'README.md').write_text(readme,encoding='utf8')
+ # Keep a hand-maintained public README across gallery rebuilds.
+ if not (ROOT/'README.md').exists():
+  (ROOT/'README.md').write_text(readme,encoding='utf8')
  (ROOT/'LICENSE_TEMPLATES.txt').write_text('Original editable templates and authoring scripts: MIT License\nCopyright (c) 2026. Permission is granted to use, modify, and distribute the original templates and scripts, with this notice retained. Provided without warranty.\nDownloaded papers, PDF-derived images, and third-party resources are excluded from this license and retain their original rights.\n',encoding='utf8')
  for c in sorted(set(t['category'] for t in templates)):
   folder=ROOT/'templates'/c

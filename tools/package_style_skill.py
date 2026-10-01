@@ -45,7 +45,7 @@ def main():
 '''+table+'''
 ## Agent 如何使用
 
-个人技能目录安装位置为 `C:/Users/wengy/.codex/skills/cs-mechanism-imagegen/`。新任务中可直接输入：
+把完整 skill 目录复制到个人技能目录，例如 `~/.codex/skills/cs-mechanism-imagegen/`。新任务中可直接输入：
 
 ```text
 使用 $cs-mechanism-imagegen 和 $imagegen，先在图库中选择适合的机制图风格，再绘制我的方法。

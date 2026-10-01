@@ -1,10 +1,10 @@
 {
   "command": [
-    "C:\\Users\\wengy\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
-    "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\agent-skill\\cs-mechanism-imagegen\\scripts\\library.py",
+    "${USER_HOME}/.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "${REPO_ROOT}\\agent-skill\\cs-mechanism-imagegen\\scripts\\library.py",
     "prompt",
     "--brief",
-    "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\qa\\skill_forward_test\\graph-rag.injected-forbidden.brief.json",
+    "${REPO_ROOT}\\qa\\skill_forward_test\\graph-rag.injected-forbidden.brief.json",
     "--refs",
     "T17",
     "--layout",
@@ -12,7 +12,7 @@
     "--visual",
     "V01",
     "--out",
-    "C:\\Users\\wengy\\Documents\\ChatGPT\\论文阅读\\绘图模板库\\qa\\skill_forward_test\\rejected"
+    "${REPO_ROOT}\\qa\\skill_forward_test\\rejected"
   ],
   "exit_code": 2,
   "stdout": "{\n  \"error\": \"Allowed edge conflicts with non_edges: ['A', 'G']\"\n}\n",

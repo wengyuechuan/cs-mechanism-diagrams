@@ -6,7 +6,7 @@ from pathlib import Path
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
-ROOT = Path('C:/Users/wengy/Documents/ChatGPT/论文阅读/绘图模板库/agent-skill/cs-mechanism-imagegen')
+ROOT = Path(__file__).resolve().parents[2] / 'agent-skill/cs-mechanism-imagegen'
 OUT = Path(__file__).resolve().parent
 LIBRARY = ROOT / 'scripts/library.py'
 
