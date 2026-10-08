@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-08",
+  "tool": "built-in imagegen",
+  "layout": "L08",
+  "visual": "V06",
+  "reference_ids": [
+    "TCF_acl2026-2026.acl-long.818"
+  ],
+  "reference_role": "stage headers and functional grouping only",
+  "initial_draft": {
+    "image": "topconf-graph-rag-v01.png",
+    "status": "rejected",
+    "issue": "Graph index read edge points to Evidence pack instead of Subgraph retrieval"
+  },
+  "final_image": "topconf-graph-rag-v02.png",
+  "targeted_repairs": 1,
+  "manual_visual_review": {
+    "system_nodes": 9,
+    "directed_system_edges": 8,
+    "labels": "pass",
+    "group_membership": "pass",
+    "exhaustive_edge_list": "pass",
+    "graph_index_to_subgraph_retrieval": "pass",
+    "forbidden_feedback_edges": "absent",
+    "small_icon_graph_edges": "undirected illustrative, not system flow"
+  },
+  "limitations": "Illustrative generic GraphRAG topology; not HiKEY reproduction, no full-paper algorithm validation or journal submission QA."
+}

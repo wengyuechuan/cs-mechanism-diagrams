@@ -158,6 +158,20 @@ Prompt 片段：
 Use a clear hierarchy with aligned levels and labelled parent-child or routing relations. Preserve multiple parents if the supplied structure is a DAG; do not force it into a tree.
 ```
 
+### L00 布局待复核
+
+上游标签尚不能确定本库布局。
+
+适合：先看图再选择正式布局。
+
+不适合：直接作为生成预设。
+
+Prompt 片段：
+
+```text
+Inspect reference before selecting a reviewed layout.
+```
+
 ## 视觉表达
 
 ### V01 扁平柔和色块
@@ -230,5 +244,17 @@ Prompt 片段：
 
 ```text
 Use a limited high-contrast palette for major branches, with a single accent highlighting the stated contribution. Keep the background white and text dark; avoid neon, glow and visual clutter.
+```
+
+### V00 视觉待复核
+
+尚未逐图核对颜色、线条和图元。
+
+建议配色：inspect reference
+
+Prompt 片段：
+
+```text
+Inspect reference before selecting a reviewed visual preset.
 ```
 

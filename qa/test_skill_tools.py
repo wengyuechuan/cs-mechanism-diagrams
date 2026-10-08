@@ -38,7 +38,7 @@ class SkillContracts(unittest.TestCase):
         results=self.lib.search(cat,'retrieval','L08','V01','',10,None)
         self.assertTrue(results)
         self.assertTrue(all(x['topic']=='05' and x['layout_style']=='L08' and x['visual_style']=='V01' for x in results))
-        self.assertEqual(self.lib.search(cat,'retrieval','L08','V06','',10,None),[])
+        self.assertEqual(self.lib.search(cat,'retrieval','L08','V06','nonexistent_reference_928471',10,None),[])
 
     def test_prompt_preserves_all_edges_and_reference_roles(self):
         cat=self.lib.read('catalog.json');refs=[x for x in cat if x['id'] in ['T17','T18']]

@@ -6,20 +6,23 @@
 
 [快速开始](#快速开始) · [风格分类](#风格分类) · [AI-绘图-skill](#ai-绘图-skill) · [贡献](CONTRIBUTING.md) · [许可与公开发布](#许可与公开发布)
 
-> **许可范围：** 原创代码、说明、分类体系和结构蓝图采用 MIT。论文参考图采用各自的许可，223 张参考图的逐图再分发核验尚未完成；当前完整参考版不能整体视为 MIT 授权。公开发布前请按 [第三方素材说明](THIRD_PARTY_NOTICES.md) 补齐许可或排除未核验图像。
+> **许可范围：** 原创代码、说明、分类体系和结构蓝图采用 MIT。论文参考图采用各自的许可，本库 223 张与上游 3,439 张论文参考图的逐图再分发核验尚未完成；当前完整参考版不能整体视为 MIT 授权。公开发布前请按 [第三方素材说明](THIRD_PARTY_NOTICES.md) 补齐许可或排除未核验图像。
 
 ## 项目内容
 
 | 内容 | 数量 | 说明 |
 |---|---:|---|
-| 真实 PNG 图例 | **271** | 223 张论文机制参考 + 48 张原创结构蓝图，图片哈希各不相同 |
+| 真实图片总数 | **3,710** | 原精选 271 张 PNG + Top-Conf 导入 3,439 张 JPEG，哈希各不相同 |
+| 导入精选 | **20 张** | 已人工看图标注布局与视觉；其余 3,419 张标为待复核候选 |
 | 原创可编辑模板 | **48 套** | 每套包含 `.drawio`、`.svg`、`.png` 与结构 `.json` |
 | 论文来源记录 | **184 篇** | 出处、公开版本地址、年份、PDF 页数与 SHA-256；完整 PDF 未纳入 Git |
 | 主题类别 | **12** | 覆盖视觉、Transformer、GNN、生成、检索、多模态、智能体、系统等 |
 | 布局风格 | **11** | 描述模块、分支、层级和阅读路径 |
 | 视觉表达 | **6** | 描述图元、线条、色彩与透视方式 |
 
-资料整理日期：2026-10-01。覆盖 CVPR、ICCV、ECCV、NeurIPS、ICML、ICLR、ACL、JMLR、TPAMI、IJCV、TOG/SIGGRAPH、PVLDB、Nature 与 Nature Machine Intelligence 的代表性论文。它是参考集合，未穷尽这些会议和期刊。最近一次扩充新增 52 篇 ICCV/ICML/ACL 2025 论文，筛选保留 61 张机制图。
+资料更新日期：2026-10-08。覆盖 CVPR、ICCV、ECCV、NeurIPS、ICML、ICLR、ACL、JMLR、TPAMI、IJCV、TOG/SIGGRAPH、PVLDB、Nature 与 Nature Machine Intelligence 的代表性论文。它是参考集合，未穷尽这些会议和期刊。最近一次扩充新增 52 篇 ICCV/ICML/ACL 2025 论文，筛选保留 61 张机制图。
+
+新增 [Top-Conf Figure Gallery](https://github.com/qwdwqfwq/topconf-paper-figure-gallery) 固定快照：完整拉取 3,449 条源索引，排除 10 张结果/混合结果参考，导入 3,439 张。上游图型、作者、论文链接和 commit 保留；候选主题由标题推断，未复核视觉标为 V00。详情见 [外部图库整合说明](外部图库整合说明.md)。
 
 适合模型架构、方法总览、消息传递、训练策略、检索流程与智能体工作流。统计曲线、柱状图、结果热图不属于本库模板范围。
 
@@ -31,6 +34,8 @@
 
 示例采用 **L08 分阶段泳道 + V01 扁平柔和色块**，包含 9 个系统节点和 8 条单向箭头。可查看 [方法定义](examples/imagegen/graph-rag-v01.brief.json)、[最终提示词](examples/imagegen/graph-rag-v01.final.prompt.txt) 和 [人工核对记录](examples/imagegen/graph-rag-v01.review.json)。这是一份演示方法，不代表所有 GraphRAG 系统的统一算法。
 
+新导入图库的真实试绘：[GraphRAG 第二版](examples/imagegen/topconf-graph-rag-v02.png)，采用 HiKEY 图的阶段标题与容器表达，机制来自本库 brief。首次箭头端点错误经一次定向修复；[核对记录](examples/imagegen/topconf-graph-rag-v02.review.json) 保留了问题和验收结果。
+
 ## 快速开始
 
 ### 浏览图库
@@ -39,7 +44,7 @@
 
 - **[风格图库.html](风格图库.html)**：按主题、布局、视觉表达、来源类型和关键词组合筛选。
 - **[index.html](index.html)**：浏览原创模板、论文机制参考和论文来源清单。
-- **[Skill 独立图库](agent-skill/cs-mechanism-imagegen/gallery.html)**：浏览随 skill 携带的 PNG 图例。
+- **[Skill 独立图库](agent-skill/cs-mechanism-imagegen/gallery.html)**：浏览随 skill 携带的 PNG/JPEG 图例。
 
 页面内嵌索引，不需要服务器、网络或 Python。GitHub 的文件页面展示 HTML 源码；下载到本地后打开才是交互图库。仓库未附带完整 PDF、整页预览和 ZIP，因此这些本地资料入口需要额外下载或构建。
 
@@ -83,11 +88,18 @@ test ! -e ~/.codex/skills/cs-mechanism-imagegen && cp -R agent-skill/cs-mechanis
 我的节点、连接、分组与精确标签如下：……
 ```
 
-工作流程：**检索 → 查看 PNG → 定义方法 brief → 校验结构 → 组合提示词 → imagegen → 查看并核对成图 → 保存交付记录**。
+工作流程：**检索 → 查看图片 → 定义方法 brief → 校验结构 → 组合提示词 → imagegen → 查看并核对成图 → 保存交付记录**。
 
 参考图决定表达方式，用户提供的方法决定结构。脚本会拒绝不存在的端点、重复节点/边、无效分组和明确禁止的连接；图像生成后仍需核对，脚本不能保证生成模型完全遵守提示。
 
 ### 命令行选图与提示词
+
+```powershell
+python agent-skill/cs-mechanism-imagegen/scripts/library.py search --source topconf --query HippoRAG --reviewed-only
+python agent-skill/cs-mechanism-imagegen/scripts/library.py search --source topconf --pattern pipeline --venue ACL --year 2026
+```
+
+`--source local` 仅选原精选；`--reviewed-only` 排除待复核候选。L00/V00 为待复核标记，不能直接用于生成。
 
 从仓库根目录进入 skill 目录：
 
@@ -124,12 +136,12 @@ python scripts/library.py verify
 
 主题涵盖视觉网络、Transformer/注意力、图神经网络、生成/扩散、检索/知识系统、多模态、强化学习/智能体、训练/自监督、三维视觉、计算机系统、因果/AI 科学机制和通用方法。
 
-这些标签是本库人工整理的表达方式，配色是绘制建议，不是会议官方规范。参见 [风格指南](风格分类指南.md) 与 [主题内风格索引](主题内风格索引.md)。
+正式风格标签是本库人工整理的表达方式；导入 pending 候选的主题和布局仍是自动建议，配色是绘制建议，不是会议官方规范。参见 [风格指南](风格分类指南.md) 与 [主题内风格索引](主题内风格索引.md)。
 
 ## 仓库结构
 
 ```text
-agent-skill/cs-mechanism-imagegen/   完整 skill、271 张 PNG 与相对路径索引
+agent-skill/cs-mechanism-imagegen/   完整 skill、3,710 张 PNG/JPEG 与相对路径索引
 templates/                         48 套原创可编辑模板
 references/                        论文机制裁剪图与来源元数据
 metadata/                          论文、图例、模板、风格和许可待核验索引
@@ -177,7 +189,7 @@ python tools/package_style_skill.py
 ## 许可与公开发布
 
 - **原创材料：** 代码、说明、分类体系和 `original_blueprint` 模板采用 [MIT License](LICENSE)。
-- **论文参考：** `paper_reference` PNG、PDF 裁剪 SVG 及其他论文素材保留原作者/出版商权利，排除在本项目 MIT 范围外。
+- **论文参考：** `paper_reference` PNG、`upstream_reference` JPEG、PDF 裁剪 SVG 及其他论文素材保留原作者/出版商权利，排除在本项目 MIT 范围外。
 - **核验记录：** [metadata/rights_review.json](metadata/rights_review.json) 标记当前逐图状态；[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 说明覆盖路径与核验方法。
 
 **公开 GitHub 发布前，需补齐相应图片的再分发许可、署名及修改说明，或从发布内容中排除未核验图片。** 已进入提交历史的素材，仅在后续提交删除或加入 `.gitignore` 不会从历史中消失；发布前也应核对所推送的历史内容。公开托管不会改变原素材的许可，逐图状态以核验索引为准。

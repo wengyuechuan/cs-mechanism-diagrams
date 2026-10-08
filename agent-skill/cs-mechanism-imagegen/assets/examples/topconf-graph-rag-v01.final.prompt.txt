@@ -1,0 +1,41 @@
+Use case: infographic-diagram
+Asset type: research-paper mechanism / architecture figure, raster output
+Primary request: A full-width research-paper mechanism figure showing offline graph indexing and online evidence-grounded answering.
+Canvas/backdrop: 2:1 landscape; white background; generous whitespace; crisp readable labels.
+Layout: Use labelled stage or responsibility swimlanes. Align chains within each lane and route cross-lane links through a clear gutter. Stage containers are grouping devices; cross-stage read/write directions must follow the brief.
+Style/medium: Use a limited high-contrast palette for major branches, with a single accent highlighting the stated contribution. Keep the background white and text dark; avoid neon, glow and visual clutter.
+Color palette: #4878B8 / #D9655B / #75A66D / #2F3542
+Input images:
+Image 1: style/layout reference (TCF_acl2026-2026.acl-long.818); borrow visual grammar only. Do not reproduce its algorithm, labels, title or footer.
+Scientific topology: EXACTLY 9 system nodes and 8 directed system arrows. The following edge list is exhaustive.
+Nodes (IDs identify endpoints; do not render IDs unless part of the label):
+- D: "Documents"; role=input; group=offline
+- C: "Document chunking"; role=process; group=offline
+- X: "Entity-relation extraction"; role=process; group=offline
+- G: "Graph index"; role=storage; group=offline; icon=small undirected node-link graph
+- Q: "Question"; role=input; group=online
+- L: "Entity linking"; role=process; group=online
+- R: "Subgraph retrieval"; role=process; group=online
+- E: "Evidence pack"; role=evidence; group=online; icon=small subgraph and source text strips
+- A: "Answer"; role=output; group=online
+Directed system edges:
+1. D -> C; kind=data; line=solid; no edge label
+2. C -> X; kind=data; line=solid; no edge label
+3. X -> G; kind=write; line=solid; no edge label
+4. Q -> L; kind=data; line=solid; no edge label
+5. L -> R; kind=data; line=solid; no edge label
+6. G -> R; kind=read; line=solid; exact label="read graph index"
+7. R -> E; kind=data; line=solid; no edge label
+8. E -> A; kind=data; line=solid; no edge label
+Group containers (boundaries represent membership, not data-flow links):
+- "Offline indexing": D, C, X, G
+- "Online answering": Q, L, R, E, A
+Forbidden system edges: A -> G; A -> X; E -> G
+Text (verbatim, no invented labels): ["Documents", "Document chunking", "Entity-relation extraction", "Graph index", "Question", "Entity linking", "Subgraph retrieval", "Evidence pack", "Answer", "Offline indexing", "Online answering", "read graph index"]
+No main title, footer, template ID, watermark or source-paper name inside the diagram.
+Scientific invariants: The online path only reads the graph index. There is no answer writeback or feedback loop.; Exactly nine system nodes and eight directed system arrows. Internal icon edges are undirected illustrations.
+Placement and routing: Top lane: D, C, X, G from left to right. Bottom lane: Q, L, R, E, A from left to right.; Route G to R through the open gutter between lanes; no crossing module or label.
+Avoid: extra retrieval branches; model-training blocks; unrequested title or footer
+Constraints: Give each system arrow one clear arrowhead at the target. No additional system nodes or links; illustrative graph icons may contain small undirected edges distinct from the system arrows. Keep typography flat, aligned and legible at research-paper print size. No invented statistical results.
+
+Adaptation: use the reference only for strong colored stage headers and clear functional containers. Our diagram has two horizontal swimlanes, not the reference three columns. Use a dark blue header for Offline indexing and a muted orange header for Online answering with light matching fills. Keep EXACTLY the topology above. Put Graph index directly above Subgraph retrieval so the read link routes cleanly downward through the central gutter; this read arrow is one-way. Put Entity-relation extraction label on two lines for readability. No DHP, MaxSim, LVLM, hierarchical routing, numerical score or reference-specific module may appear. No biological analogy.

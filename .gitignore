@@ -5,6 +5,7 @@
 # Dependencies, HTTP caches and temporary outputs.
 /tools/vendor/
 /tools/cache/
+/external-cache/
 **/__pycache__/
 *.py[cod]
 .venv/

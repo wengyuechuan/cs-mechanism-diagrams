@@ -1,0 +1,102 @@
+{
+  "captured_at": "2026-10-08T14:42:04.209935+00:00",
+  "scope": "Read-only pre-integration baseline; all outputs under qa/topconf_skill_test; no imagegen call",
+  "skill_root": "agent-skill/cs-mechanism-imagegen",
+  "current_catalog": {
+    "path": "agent-skill/cs-mechanism-imagegen/references/catalog.json",
+    "records": 271,
+    "sha256": "640eacbb9cea1f20f10503336193ec90c6a43209b995900e6d6a43802df58f22"
+  },
+  "current_library_script": {
+    "path": "agent-skill/cs-mechanism-imagegen/scripts/library.py",
+    "sha256": "034ff569f52619ca038868424f09a6a2a8f9b9f5506370a7e8d431a548ce9e1e"
+  },
+  "hipporag_search": {
+    "command": [
+      "python",
+      "agent-skill/cs-mechanism-imagegen/scripts/library.py",
+      "search",
+      "--query",
+      "HippoRAG"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"matches\": 0,\n  \"total_matches\": 0,\n  \"filter_policy\": \"strict; no silent fallback\",\n  \"results\": []\n}\n",
+    "stderr": "",
+    "parsed": {
+      "matches": 0,
+      "total_matches": 0,
+      "filter_policy": "strict; no silent fallback",
+      "results": []
+    },
+    "conclusion": "HippoRAG upstream figure is not retrievable before integration"
+  },
+  "upstream": {
+    "repository": "https://github.com/qwdwqfwq/topconf-paper-figure-gallery",
+    "local_path": "external-cache/topconf-paper-figure-gallery",
+    "commit": "1f49dc03cfbfe12a1b8846815d25d3ec5a8253da",
+    "data_file": "external-cache/topconf-paper-figure-gallery/data/figures.json",
+    "data_sha256": "13a8154c109418781881098e16c0250b3ac896fce47decb234dca191c1ad7eed",
+    "actual_record_count": 3449,
+    "readme_badge_count": 3452,
+    "count_note": "Use actual figures.json count 3449; README badge 3452 is stale for this commit"
+  },
+  "upstream_hipporag": [
+    {
+      "original_record": {
+        "id": "neurips2024-1022",
+        "venue": "neurips",
+        "year": 2024,
+        "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+        "authors": [
+          "Bernal J. Gutiérrez",
+          "Yiheng Shu",
+          "Yu Gu",
+          "Michihiro Yasunaga",
+          "Yu Su"
+        ],
+        "pattern": "teaser",
+        "image": "images/neurips/final/neurips2024-1022.jpg",
+        "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html",
+        "pdf_source": "https://proceedings.neurips.cc/paper_files/paper/2024/file/6ddc001d07ca4f319af96a3024f6dbd1-Paper-Conference.pdf",
+        "score": 55.47,
+        "w": 959,
+        "h": 527
+      },
+      "absolute_image": "external-cache/topconf-paper-figure-gallery/images/neurips/final/neurips2024-1022.jpg",
+      "image_exists": true,
+      "image_sha256": "f301a8a7b22a97db4b804e185cfcb43bb1a9fcddabdede897cda878b4d2524d8"
+    }
+  ],
+  "integration_requirements": {
+    "provenance": [
+      "Preserve upstream figure ID and original image path",
+      "Preserve paper title and complete authors list",
+      "Preserve paper URL and PDF-source URL separately",
+      "Preserve venue, year and original pattern",
+      "Record upstream repository and exact commit",
+      "Record imported image hash and any conversion/cropping notes"
+    ],
+    "review_status": [
+      "New layout/visual/topic tags must be marked pending review unless manually inspected",
+      "Retain original upstream pattern=teaser without equating it to mechanism",
+      "Do not infer mechanism suitability solely from title, venue, source pattern or automatic keyword classification",
+      "Separate imported paper references from original blueprints"
+    ],
+    "rights": [
+      "Upstream code MIT does not cover paper images",
+      "Retain original author/publisher attribution and original source links",
+      "Keep per-paper rights verification status explicit; gallery presence is not redistribution permission"
+    ],
+    "forward_test": [
+      "After integration, repeat HippoRAG query through the user-facing skill CLI",
+      "Inspect returned local image before selecting it as a visual reference",
+      "Check authors, paper/PDF links, commit and pending-review tags in the returned metadata",
+      "Prepare a topology-grounded prompt without treating the teaser as the requested algorithm"
+    ]
+  },
+  "actual_baseline_findings": [
+    "Existing skill HippoRAG query returns zero results",
+    "Upstream figures.json contains 3449 records, not README badge count 3452",
+    "Upstream HippoRAG record is tagged teaser; mechanism suitability remains unverified until visual inspection"
+  ]
+}

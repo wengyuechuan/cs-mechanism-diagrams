@@ -30,3 +30,7 @@
 初始本地 Git 提交已经包含论文图片。后续删除文件或加入 `.gitignore` 只影响后续版本，不会自动从提交历史移除。发布只含原创内容的版本时，应从审核过的文件建立独立干净发布历史，或在明确理解影响后整理历史；不要把未审核的旧历史一起推送。完整本地资料可另外保留。
 
 本说明记录项目的实际素材边界和待核验事项，不作出已完成所有论文版权审查的声明。
+
+## 2026-10-08 Top-Conf 扩充
+
+另导入 3,439 张 `upstream_reference` JPEG，来源、作者和固定版本见 [导入报告](metadata/topconf_import_report.json)，逐图权利状态见 [核验索引](metadata/topconf_rights_review.json)。原图放在 `agent-skill/cs-mechanism-imagegen/assets/imported/topconf/`；联系表和浏览器截图也可能包含其缩略图。保留的上游 [LICENSE](third_party/topconf-paper-figure-gallery/LICENSE)、[NOTICE](third_party/topconf-paper-figure-gallery/NOTICE.md) 和 [IMAGES_POLICY](third_party/topconf-paper-figure-gallery/IMAGES_POLICY.md) 明确区分代码许可与论文图片权利。图像不因上游或本库代码 MIT 而变为 MIT。

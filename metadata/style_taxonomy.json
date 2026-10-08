@@ -111,6 +111,16 @@
       "avoid_when": "把一般DAG误画成只能有单父节点的树。",
       "prompt_clause": "Use a clear hierarchy with aligned levels and labelled parent-child or routing relations. Preserve multiple parents if the supplied structure is a DAG; do not force it into a tree.",
       "suggested_aspect_ratio": "3:2"
+    },
+    {
+      "id": "L00",
+      "name": "布局待复核",
+      "slug": "unreviewed",
+      "definition": "上游标签尚不能确定本库布局。",
+      "use_when": "先看图再选择正式布局。",
+      "avoid_when": "直接作为生成预设。",
+      "prompt_clause": "Inspect reference before selecting a reviewed layout.",
+      "suggested_aspect_ratio": "2:1"
     }
   ],
   "visuals": [
@@ -161,6 +171,14 @@
       "definition": "较强色彩区分路径或新增模块；保持有限颜色。",
       "suggested_palette": "#4878B8 / #D9655B / #75A66D / #2F3542",
       "prompt_clause": "Use a limited high-contrast palette for major branches, with a single accent highlighting the stated contribution. Keep the background white and text dark; avoid neon, glow and visual clutter."
+    },
+    {
+      "id": "V00",
+      "name": "视觉待复核",
+      "slug": "unreviewed",
+      "definition": "尚未逐图核对颜色、线条和图元。",
+      "suggested_palette": "inspect reference",
+      "prompt_clause": "Inspect reference before selecting a reviewed visual preset."
     }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "layout_style": "L08",
+  "visual_style": "V06",
+  "reference_images": [
+    {
+      "id": "TCF_acl2026-2026.acl-long.818",
+      "title": "H i KEY : Hierarchical Multimodal Retrieval for Open-Domain Document Question Answering",
+      "authors": [
+        "Joongmin Shin",
+        "Gyuho Shim",
+        "Jeongbae Park",
+        "Jaehyung Seo",
+        "Heuiseok Lim"
+      ],
+      "venue": "ACL",
+      "year": 2026,
+      "topic": "05",
+      "category": "05_检索增强与知识系统",
+      "kind": "upstream_reference",
+      "source_collection": "topconf",
+      "source_url": "https://aclanthology.org/2026.acl-long.818/",
+      "pdf_url": "https://aclanthology.org/2026.acl-long.818.pdf",
+      "figure_number": "1 / teaser",
+      "pdf_page": null,
+      "layout_style": "L08",
+      "visual_style": "V06",
+      "upstream_pattern": "pipeline",
+      "description": "已复核机制/概念参考；保留上游原图与 pattern。",
+      "keywords": "Joongmin Shin Gyuho Shim Jeongbae Park Jaehyung Seo Heuiseok Lim pipeline",
+      "upstream_id": "acl2026-2026.acl-long.818",
+      "upstream_repository": "https://github.com/qwdwqfwq/topconf-paper-figure-gallery",
+      "upstream_commit": "1f49dc03cfbfe12a1b8846815d25d3ec5a8253da",
+      "upstream_image": "images/acl/final/acl2026-2026.acl-long.818.jpg",
+      "upstream_score": 75.04,
+      "upstream_tier": null,
+      "topic_review": "title-keyword suggestion; inspect figure before use",
+      "style_review_status": "reviewed",
+      "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+      "crop_note": "原样复制上游图像；未重新裁剪或重编码",
+      "rights": "Original paper authors/publisher; upstream MIT covers code only",
+      "redistribution_status": "unverified",
+      "copy_note": "Top-Conf Figure Gallery snapshot; source version provided by upstream",
+      "width": 1091,
+      "height": 458,
+      "image_sha256": "bde0fd07b2dc752001d1975a5a86739ffdf8c75170e7da69f6b6cf3eb4f3e130",
+      "mechanism_review_status": "accepted_reference",
+      "image": "assets/imported/topconf/acl2026-2026.acl-long.818.jpg",
+      "skill_image": "assets/imported/topconf/acl2026-2026.acl-long.818.jpg"
+    }
+  ],
+  "transparent_background": false,
+  "path_base": "image paths relative to agent-skill/cs-mechanism-imagegen"
+}

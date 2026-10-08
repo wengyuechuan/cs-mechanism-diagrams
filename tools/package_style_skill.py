@@ -8,19 +8,20 @@ SKILL=ROOT/'agent-skill/cs-mechanism-imagegen'
 def main():
     counts=json.loads((ROOT/'metadata/style_summary.json').read_text(encoding='utf8'))
     cat=json.loads((SKILL/'references/catalog.json').read_text(encoding='utf8'))
-    zip_path=ROOT/'cs-mechanism-imagegen_271图.zip'
+    zip_path=ROOT/f'cs-mechanism-imagegen_{len(cat)}图.zip'
     with zipfile.ZipFile(zip_path,'w',compression=zipfile.ZIP_DEFLATED) as z:
         for p in sorted(SKILL.rglob('*')):
             if p.is_file() and '__pycache__' not in p.parts and p.suffix!='.pyc':
                 z.write(p,Path(SKILL.name)/p.relative_to(SKILL))
     with zipfile.ZipFile(zip_path) as z:
         assert z.testzip() is None
-        image_count=sum(n.startswith(SKILL.name+'/assets/images/') and n.endswith('.png') for n in z.namelist())
-        assert image_count==271
-    table='| 主题 | 论文图 | 原创蓝图 | 合计 |\n|---|---:|---:|---:|\n'
+        image_count=sum(n.startswith((SKILL.name+'/assets/images/',SKILL.name+'/assets/imported/')) and n.lower().endswith(('.png','.jpg','.jpeg')) for n in z.namelist())
+        assert image_count==len(cat)
+    table='| 主题 | 本库论文图 | 上游参考 | 原创蓝图 | 合计 |\n|---|---:|---:|---:|---:|\n'
     for topic in sorted(set(x['category'] for x in cat)):
         subset=[x for x in cat if x['category']==topic];a=sum(x['kind']=='paper_reference' for x in subset)
-        table+=f'| {topic} | {a} | {len(subset)-a} | {len(subset)} |\n'
+        u=sum(x['kind']=='upstream_reference' for x in subset);b=sum(x['kind']=='original_blueprint' for x in subset)
+        table+=f'| {topic} | {a} | {u} | {b} | {len(subset)} |\n'
     text='''# 扩充图库与 AI 绘图 skill：交付说明
 
 本次已新增 52 篇正式会议公开论文：ICCV 2025 24 篇、ICML 2025 16 篇、ACL 2025 12 篇；从 83 张候选图中筛选保留 61 张机制参考。旧库排除 2 张数据/统计混合参考，最终为 **223 张论文机制图 + 48 张原创结构蓝图 = 271 张真实、哈希各不相同的 PNG**。另保留 184 篇原 PDF，不用 PDF 页数或索引条数充当图片数量。
@@ -75,10 +76,14 @@ python scripts/library.py verify
 
 原论文图保留原作者与出版商权利，skill 中明确区分论文参考和原创蓝图；原创 skill 文本、脚本、分类体系和蓝图提供 MIT 许可。
 '''
+    text=text.replace('cs-mechanism-imagegen_271图.zip',zip_path.name).replace('完整 skill、271 张 PNG','完整 skill、'+str(len(cat))+' 张 PNG/JPEG').replace('检索真实 PNG','检索真实 PNG/JPEG')
+    text=text.replace('# 扩充图库与 AI 绘图 skill：交付说明','# 扩充图库与 AI 绘图 skill：交付说明\n\n2026-10-08：新增 '+str(counts.get('upstream_references',0))+' 张 Top-Conf 参考，图库共 '+str(len(cat))+' 张。下述 271 张为原始精选库，导入批次见 [外部图库整合说明](外部图库整合说明.md)。')
     (ROOT/'扩充与Skill使用说明.md').write_text(text,encoding='utf8')
     report={**counts,'distinct_image_hashes':len(set(x['image_sha256'] for x in cat)),
             'zip_image_count':image_count,'zip_megabytes':round(zip_path.stat().st_size/1048576,2),
             'zip_integrity':'pass','imagegen_real_example':'examples/imagegen/graph-rag-v01.png',
+            'imagegen_upstream_example':'examples/imagegen/topconf-graph-rag-v02.png',
+            'upstream_import_report':'metadata/topconf_import_report.json',
             'browser_checks':['combined topic/layout/visual','reference detail','empty result'],
             'manual_review_scope':'thumbnail diagram type/style; example nodes, edges, labels; not full-paper algorithm review'}
     (ROOT/'qa/style_delivery_report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')

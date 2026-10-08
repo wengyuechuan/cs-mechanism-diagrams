@@ -1,0 +1,23 @@
+{
+  "managed_files_compared": 3740,
+  "installed_images": 3710,
+  "copy_errors": [],
+  "installed_verify": {
+    "images": 3710,
+    "topics": 12,
+    "layout_styles": 11,
+    "visual_styles": 6,
+    "review_markers": [
+      "L00",
+      "V00"
+    ],
+    "kinds": {
+      "paper_reference": 223,
+      "upstream_reference": 3439,
+      "original_blueprint": 48
+    },
+    "errors": []
+  },
+  "exit_code": 0,
+  "existing_local_modifications_before_copy": 0
+}

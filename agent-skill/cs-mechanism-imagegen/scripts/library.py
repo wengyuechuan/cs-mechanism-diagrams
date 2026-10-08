@@ -19,7 +19,7 @@ def topic_id(value):
         if value==k or value in aliases or value.startswith(k+'_'):return k
     raise ValueError('Unknown topic: '+value+'; use list to inspect topics')
 
-def search(catalog,topic=None,layout=None,visual=None,query='',limit=6,kind=None):
+def search(catalog,topic=None,layout=None,visual=None,query='',limit=6,kind=None,source=None,pattern=None,venue=None,year=None,reviewed_only=False):
     tid=topic_id(topic);words=query.casefold().split()
     matches=[]
     for x in catalog:
@@ -27,7 +27,12 @@ def search(catalog,topic=None,layout=None,visual=None,query='',limit=6,kind=None
         if layout and x['layout_style']!=layout:continue
         if visual and x['visual_style']!=visual:continue
         if kind and x['kind']!=kind:continue
-        hay=' '.join(str(x.get(k,'')) for k in ['id','title','description','category','caption','keywords']).casefold()
+        if source and x.get('source_collection','local')!=source:continue
+        if pattern and x.get('upstream_pattern')!=pattern:continue
+        if venue and x.get('venue','').casefold()!=venue.casefold():continue
+        if year and x.get('year')!=year:continue
+        if reviewed_only and x.get('style_review_status')=='pending':continue
+        hay=' '.join(str(x.get(k,'')) for k in ['id','title','description','category','caption','keywords','authors','venue','upstream_pattern']).casefold()
         if not all(w in hay for w in words):continue
         matches.append(x)
     # Editable structural blueprints are especially clear mechanism references.
@@ -79,7 +84,7 @@ def make_prompt(brief,refs,layout,visual):
     b=validate_brief(brief);tax=read('style-taxonomy.json')
     l=next((x for x in tax['layouts'] if x['id']==layout),None)
     v=next((x for x in tax['visuals'] if x['id']==visual),None)
-    if l is None or v is None:raise ValueError('Unknown layout or visual style')
+    if l is None or v is None or layout=='L00' or visual=='V00':raise ValueError('Choose a reviewed layout/visual preset; unknown markers are not generation presets')
     lines=['Use case: infographic-diagram',
            'Asset type: research-paper mechanism / architecture figure, raster output',
            'Primary request: '+b.get('intent',b.get('title','Draw the supplied method')),
@@ -110,6 +115,26 @@ def make_prompt(brief,refs,layout,visual):
     lines.append('Constraints: Give each system arrow one clear arrowhead at the target. No additional system nodes or links; illustrative graph icons may contain small undirected edges distinct from the system arrows. Keep typography flat, aligned and legible at research-paper print size. No invented statistical results.')
     return '\n'.join(lines)+'\n'
 
+def image_dimensions(data):
+    if data.startswith(b'\x89PNG\r\n\x1a\n') and len(data)>=24:return struct.unpack('>II',data[16:24])
+    if not data.startswith(b'\xff\xd8'):raise ValueError('Unsupported or malformed image')
+    pos=2
+    while pos<len(data):
+        if data[pos]!=255:raise ValueError('Invalid JPEG marker')
+        while pos<len(data) and data[pos]==255:pos+=1
+        if pos>=len(data):break
+        marker=data[pos];pos+=1
+        if marker in [0xD8,0x01] or 0xD0<=marker<=0xD7:continue
+        if marker in [0xD9,0xDA]:break
+        if pos+2>len(data):break
+        length=int.from_bytes(data[pos:pos+2],'big')
+        if length<2 or pos+length>len(data):raise ValueError('Truncated JPEG segment')
+        if marker in [0xC0,0xC1,0xC2,0xC3,0xC5,0xC6,0xC7,0xC9,0xCA,0xCB,0xCD,0xCE,0xCF]:
+            if length<8:raise ValueError('Invalid JPEG frame')
+            h,w=struct.unpack('>HH',data[pos+3:pos+7]);return w,h
+        pos+=length
+    raise ValueError('JPEG dimensions unavailable')
+
 def verify(catalog):
     errors=[];ids=set();tax=read('style-taxonomy.json');layouts={x['id'] for x in tax['layouts']};visuals={x['id'] for x in tax['visuals']}
     for x in catalog:
@@ -118,18 +143,18 @@ def verify(catalog):
         if x['layout_style'] not in layouts or x['visual_style'] not in visuals:errors.append('unknown style '+x['id'])
         try:
             p=safe_image(x);data=p.read_bytes()
-            if data[:8]!=b'\x89PNG\r\n\x1a\n':errors.append('not PNG '+x['id'])
             if hashlib.sha256(data).hexdigest()!=x['image_sha256']:errors.append('hash mismatch '+x['id'])
-            w,h=struct.unpack('>II',data[16:24])
+            w,h=image_dimensions(data)
             if min(w,h)<30:errors.append('image too small '+x['id'])
         except (OSError,ValueError,struct.error) as e:errors.append(x['id']+': '+str(e))
-    return {'images':len(catalog),'topics':len(set(x['topic'] for x in catalog)),'layout_styles':len(layouts),'visual_styles':len(visuals),'kinds':dict(Counter(x['kind'] for x in catalog)),'errors':errors}
+    return {'images':len(catalog),'topics':len(set(x['topic'] for x in catalog)),'layout_styles':len(layouts-{'L00'}),'visual_styles':len(visuals-{'V00'}),'review_markers':[x for x in ['L00','V00'] if x in layouts|visuals],'kinds':dict(Counter(x['kind'] for x in catalog)),'errors':errors}
 
 def main():
     if hasattr(sys.stdout,'reconfigure'):sys.stdout.reconfigure(encoding='utf8')
     p=argparse.ArgumentParser(description=__doc__);sub=p.add_subparsers(dest='command',required=True)
     sub.add_parser('list');sub.add_parser('verify')
-    q=sub.add_parser('search');q.add_argument('--topic');q.add_argument('--layout');q.add_argument('--visual');q.add_argument('--query',default='');q.add_argument('--limit',type=int,default=6);q.add_argument('--kind',choices=['paper_reference','original_blueprint'])
+    q=sub.add_parser('search');q.add_argument('--topic');q.add_argument('--layout');q.add_argument('--visual');q.add_argument('--query',default='');q.add_argument('--limit',type=int,default=6);q.add_argument('--kind',choices=['paper_reference','original_blueprint','upstream_reference'])
+    q.add_argument('--source',choices=['local','topconf']);q.add_argument('--pattern');q.add_argument('--venue');q.add_argument('--year',type=int);q.add_argument('--reviewed-only',action='store_true')
     a=sub.add_parser('prompt');a.add_argument('--brief',required=True,type=Path);a.add_argument('--refs',default='');a.add_argument('--layout',required=True);a.add_argument('--visual',required=True);a.add_argument('--out',required=True,type=Path);a.add_argument('--overwrite',action='store_true')
     args=p.parse_args()
     try:
@@ -143,14 +168,15 @@ def main():
             tax=read('style-taxonomy.json')
             if args.layout and args.layout not in {x['id'] for x in tax['layouts']}:raise ValueError('Unknown layout style')
             if args.visual and args.visual not in {x['id'] for x in tax['visuals']}:raise ValueError('Unknown visual style')
-            rows=search(catalog,args.topic,args.layout,args.visual,args.query,args.limit,args.kind)
-            emit({'matches':len(rows),'filter_policy':'strict; no silent fallback','results':[{**x,'absolute_image':str(safe_image(x))} for x in rows]})
+            all_rows=search(catalog,args.topic,args.layout,args.visual,args.query,len(catalog),args.kind,args.source,args.pattern,args.venue,args.year,args.reviewed_only)
+            rows=all_rows[:args.limit]
+            emit({'matches':len(rows),'total_matches':len(all_rows),'filter_policy':'strict; no silent fallback','results':[{**x,'absolute_image':str(safe_image(x))} for x in rows]})
         else:
             brief=validate_brief(json.loads(args.brief.read_text(encoding='utf-8-sig')));refs=[]
             for ident in filter(None,args.refs.split(',')):
                 x=next((x for x in catalog if x['id']==ident),None)
                 if x is None:raise ValueError('Unknown reference ID '+ident)
-                if not safe_image(x).is_file():raise ValueError('Reference PNG missing '+ident)
+                if not safe_image(x).is_file():raise ValueError('Reference image missing '+ident)
                 refs.append({**x,'absolute_image':str(safe_image(x))})
             prompt=make_prompt(brief,refs,args.layout,args.visual)
             files={'.prompt.txt':prompt,'.brief.json':json.dumps(brief,ensure_ascii=False,indent=2),'.references.json':json.dumps({'layout_style':args.layout,'visual_style':args.visual,'reference_images':refs,'transparent_background':brief.get('background')=='transparent'},ensure_ascii=False,indent=2)}

@@ -1,0 +1,192 @@
+{
+  "iclr2026-0347": {
+    "layout_style": "L06",
+    "visual_style": "V03",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "cvpr2026-Chen_F2Net_A_Frequency-Fused_Network_for_Ultra-High_Resolution_Remote_Sensing_Segmentation_CVPR_2026_paper": {
+    "layout_style": "L02",
+    "visual_style": "V03",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "acl2026-2026.acl-long.406": {
+    "exclude": true,
+    "review_note": "Local contact-sheet review: numerical result plots or mixed mechanism/result figure excluded (2026-10-08)."
+  },
+  "iclr2026-1500": {
+    "exclude": true,
+    "review_note": "Local contact-sheet review: numerical result plots or mixed mechanism/result figure excluded (2026-10-08)."
+  },
+  "iclr2026-0130": {
+    "layout_style": "L04",
+    "visual_style": "V05",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "icml2026-0336": {
+    "layout_style": "L08",
+    "visual_style": "V01",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "aaai2026-37070": {
+    "layout_style": "L07",
+    "visual_style": "V01",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "iclr2026-0725": {
+    "exclude": true,
+    "review_note": "Local contact-sheet review: numerical result plots or mixed mechanism/result figure excluded (2026-10-08)."
+  },
+  "icml2026-1714": {
+    "exclude": true,
+    "review_note": "Local contact-sheet review: numerical result plots or mixed mechanism/result figure excluded (2026-10-08)."
+  },
+  "acl2026-2026.acl-long.818": {
+    "layout_style": "L08",
+    "visual_style": "V06",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "icml2026-0056": {
+    "layout_style": "L04",
+    "visual_style": "V04",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "aaai2026-37613": {
+    "layout_style": "L07",
+    "visual_style": "V04",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "acl2026-2026.findings-acl.412": {
+    "layout_style": "L08",
+    "visual_style": "V04",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "icml2026-0235": {
+    "layout_style": "L01",
+    "visual_style": "V04",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "iclr2026-1474": {
+    "exclude": true,
+    "review_note": "Local contact-sheet review: numerical result plots or mixed mechanism/result figure excluded (2026-10-08)."
+  },
+  "icml2026-0082": {
+    "layout_style": "L09",
+    "visual_style": "V01",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "icml2026-0470": {
+    "layout_style": "L02",
+    "visual_style": "V03",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "iclr2026-1878": {
+    "layout_style": "L01",
+    "visual_style": "V03",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "acl2025-2025.findings-acl.952": {
+    "layout_style": "L06",
+    "visual_style": "V01",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "iclr2025-0141": {
+    "layout_style": "L09",
+    "visual_style": "V01",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "aaai2026-37058": {
+    "layout_style": "L04",
+    "visual_style": "V03",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "icml2026-0155": {
+    "exclude": true,
+    "review_note": "Local contact-sheet review: numerical result plots or mixed mechanism/result figure excluded (2026-10-08)."
+  },
+  "acl2026-2026.findings-acl.627": {
+    "layout_style": "L08",
+    "visual_style": "V04",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "icml2026-0323": {
+    "layout_style": "L04",
+    "visual_style": "V04",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。"
+  },
+  "neurips2024-1022": {
+    "layout_style": "L09",
+    "visual_style": "V04",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。",
+    "topic": "05",
+    "category": "05_检索增强与知识系统",
+    "topic_review": "local visual review"
+  },
+  "neurips2023-0565": {
+    "layout_style": "L08",
+    "visual_style": "V04",
+    "style_review_status": "reviewed",
+    "mechanism_review_status": "accepted_reference",
+    "style_review": "2026-10-08 本库人工查看联系表，复核主要布局和视觉表达；未审查完整论文算法。",
+    "description": "已复核机制/概念参考；保留上游原图与 pattern。",
+    "topic": "07",
+    "category": "07_强化学习与智能体",
+    "topic_review": "local visual review"
+  }
+}

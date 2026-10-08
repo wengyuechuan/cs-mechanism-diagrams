@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-08",
+  "gallery": "风格图库.html",
+  "checks": {
+    "all_records": 3710,
+    "topconf_source": 3439,
+    "reviewed_only": 20,
+    "HippoRAG_query": 1,
+    "reviewed_pipeline": 4,
+    "pending_pipeline": 391,
+    "reviewed_V00": "0, no silent fallback",
+    "provenance_detail": "authors, source, commit, original pattern preserved"
+  },
+  "screenshot": "qa/topconf_gallery_preview.png",
+  "input_control_recovery": "text input failed after modal; reload recovered selects; initial HippoRAG query/detail verified"
+}

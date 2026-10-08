@@ -1,0 +1,35 @@
+{
+  "tests": {
+    "root_unittest": {
+      "count": 13,
+      "passed": true
+    },
+    "independent_agent_behavior_checks": {
+      "count": 14,
+      "passed": true
+    }
+  },
+  "unique_images": 3710,
+  "imported_JPEG_complete_decode": 3439,
+  "original_library_integrity": "184 PDFs, 223 PNG/SVG references, 48 editable templates; zero errors/warnings",
+  "installed_skill_verify": {
+    "images": 3710,
+    "topics": 12,
+    "layout_styles": 11,
+    "visual_styles": 6,
+    "review_markers": [
+      "L00",
+      "V00"
+    ],
+    "kinds": {
+      "paper_reference": 223,
+      "upstream_reference": 3439,
+      "original_blueprint": 48
+    },
+    "errors": []
+  },
+  "browser_report": "qa/topconf_browser_report.json",
+  "generation_review": "examples/imagegen/topconf-graph-rag-v02.review.json",
+  "import_commit": "1f49dc03cfbfe12a1b8846815d25d3ec5a8253da",
+  "scope": "20 imported thumbnails visually classified; 3419 candidates pending, not full-paper expert review"
+}
